@@ -1,167 +1,1074 @@
 <!doctype html>
 <html lang="en">
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>LFC Classics (Pre-1945)</title>
-<meta name="description" content="Free, beginner-friendly classes that learn from public-domain masterworks before 1945.">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>LFC Classics (Pre-1945) — Reference-First Studio</title>
+<meta name="description" content="Free, beginner-friendly classes that learn from public-domain masterworks before 1945. Reference-first with brief demos.">
 <style>
-  body{font:16px/1.45 system-ui,Arial;margin:0;background:#f6f8fb;color:#111}
-  .wrap{max-width:1100px;margin:0 auto;padding:22px 16px 64px}
-  h1{margin:0 0 6px}
-  .subtitle{color:#445;opacity:.8}
-  .bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
-  input,select,label{padding:8px 10px;border:1px solid #d0d6e0;border-radius:8px;background:#fff}
-  label.chk{display:flex;align-items:center;gap:6px}
-  .status{margin:8px 0 10px;font-size:13px}
-  .ok{color:#0b6d45}
-  .err{color:#a40000}
-  .count{color:#445;margin:6px 0 2px}
-  .grid{display:grid;gap:12px;margin-top:10px}
-  @media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
-  .card{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:12px}
-  .meta{font-size:13px;color:#556}
-  .num{font-weight:700;color:#b36a00}
-  .badge{display:inline-block;font-size:12px;background:#eafff1;border:1px solid #bfe8cc;color:#0c6b3a;border-radius:999px;padding:2px 8px;margin-right:6px}
-  .tag{display:inline-block;font-size:12px;background:#eef2ff;border:1px solid #d7def7;color:#20346b;border-radius:999px;padding:2px 8px;margin:4px 6px 0 0}
-  .links a{margin-right:8px}
-  footer{margin-top:20px;color:#556;font-size:13px}
+  /* ============ THEME (Transparent page) ============ */
+  :root{
+    --ink:#111827;          /* text on light cards */
+    --bg:transparent;       /* transparent page background */
+    --card:rgba(255,255,255,.86);
+    --muted:#6b7280;
+    --line:#e5e7eb;
+    --brand:#2563eb;        /* blue */
+    --accent:#f59e0b;       /* amber */
+    --pill:#eef2ff;
+    --chip:#f3f4f6;
+  }
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
+  a{color:#0f6bdc;text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:1120px;margin:0 auto;padding:22px 16px 64px}
+  header{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;justify-content:space-between}
+  h1{margin:0;font-size:clamp(22px,2.6vw,30px)}
+  .subtitle{color:var(--muted);margin-top:4px}
+  .hero{margin-top:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+  .chip{background:var(--chip);color:#374151;border:1px solid var(--line);padding:6px 10px;border-radius:999px;font-size:12px}
+  .badge{background:#e6f0ff;color:#1e40af;border-color:#c7dcff}
+  /* Toolbar */
+  .toolbar{display:grid;gap:10px;margin-top:12px}
+  @media(min-width:900px){.toolbar{grid-template-columns:1.1fr .9fr .9fr .9fr .9fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px}
+  label.small{font-size:12px;color:var(--muted);display:block;margin-bottom:6px}
+  input,select,button{width:100%;border:1px solid var(--line);border-radius:10px;padding:10px;background:#fff;color:var(--ink)}
+  input::placeholder{color:#9ca3af}
+  .pillToggle{display:flex;align-items:center;gap:8px}
+  .pillToggle input{width:auto}
+  .btn{display:inline-block;text-align:center;border:1px solid var(--line);background:#fff;border-radius:10px;padding:10px 12px}
+  .btn:hover{background:#f9fafb}
+  /* List */
+  .count{margin-top:8px;color:var(--muted)}
+  .list{display:grid;gap:12px;margin-top:12px}
+  @media(min-width:720px){.list{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:1060px){.list{grid-template-columns:repeat(3,1fr)}}
+  .class{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px}
+  .class h3{margin:0;font-size:17px}
+  .meta{display:flex;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+  .num{font-weight:700;color:var(--accent)}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tag{font-size:12px;background:#fff;color:#374151;border:1px solid var(--line);border-radius:999px;padding:3px 8px}
+  .ok{background:#e8fff2;border-color:#baf0cf;color:#0e7a4b}
+  .warn{background:#fff8e6;border-color:#ffe0a3;color:#8a5a00}
+  .btnrow{display:flex;gap:8px;margin-top:2px}
+  /* Drawer */
+  dialog{width:min(920px,96vw);border:0;background:rgba(255,255,255,.98);color:var(--ink);border-radius:16px;padding:0;box-shadow:0 18px 60px rgba(0,0,0,.2)}
+  dialog::backdrop{background:rgba(0,0,0,.35)}
+  .dwHead{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}
+  .dwBody{padding:16px;display:grid;gap:14px}
+  .kgrid{display:grid;gap:12px}
+  @media(min-width:860px){.kgrid{grid-template-columns:1.2fr .8fr}}
+  .credits{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px}
+  .credit{background:#fafafa;border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-bottom:6px;font-size:13px}
+  .close{background:#fff}
+  .linkline{display:flex;flex-wrap:wrap;gap:8px}
+  footer{margin-top:22px;color:var(--muted);font-size:13px}
 </style>
+</head>
+<body>
 <div class="wrap">
-  <h1>LFC Classics (Pre-1945)</h1>
-  <div class="subtitle">Reference-first. Mini demos as bridges. Public-domain/open-access images only.</div>
+  <header>
+    <div>
+      <h1>LFC Classics (Pre-1945) — Reference-First Studio</h1>
+      <div class="subtitle">Free, beginner-friendly classes from global public-domain collections • Mini demos only • <span id="version"></span></div>
+    </div>
+    <div class="linkline">
+      <a class="btn" href="#contact">Contact</a>
+      <a class="btn" href="#about">About</a>
+    </div>
+  </header>
 
-  <!-- toolbar -->
-  <div class="bar">
-    <input id="q" placeholder="Search title / artist / tags…">
-    <select id="part"><option value="">All parts</option></select>
-    <select id="series"><option value="">All series</option></select>
-    <select id="level"><option value="">All levels</option></select>
-    <select id="section"><option value="">All sections</option></select>
-    <select id="age"><option value="">All ages</option><option>6-8</option><option>9-12</option><option>13-18</option><option>all</option></select>
-    <label class="chk"><input type="checkbox" id="pd"> PD/CC0 only</label>
+  <section class="hero">
+    <strong>How it works:</strong> Pick by Part/Series/Level/Section/Age or search by keywords. Each class has a number (e.g., <span class="num">LFC-001</span>) and links to a Video/PDF. Images are Public-Domain / Open-Access only.
+    <div class="chips">
+      <span class="chip badge">Public-Domain First (pre-1945 artists; CC0/Open Content)</span>
+      <span class="chip">Reference-first</span>
+      <span class="chip">Mini demos</span>
+      <span class="chip">Self-taught</span>
+    </div>
+  </section>
+
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <div class="card"><input id="q" type="search" placeholder="Search title, artist, movement, tags…"></div>
+    <div class="card"><label class="small" for="part">Part</label><select id="part"><option value="">All parts</option></select></div>
+    <div class="card"><label class="small" for="series">Series</label><select id="series"><option value="">All series</option></select></div>
+    <div class="card"><label class="small" for="level">Level</label><select id="level"><option value="">All levels</option></select></div>
+    <div class="card"><label class="small" for="section">Section</label><select id="section"><option value="">All sections</option></select></div>
+  </div>
+  <div class="toolbar">
+    <div class="card"><label class="small" for="age">Age</label>
+      <select id="age">
+        <option value="">All ages</option>
+        <option value="6-8">6–8</option>
+        <option value="9-12">9–12</option>
+        <option value="13-18">13–18</option>
+        <option value="all">All-Ages</option>
+      </select>
+    </div>
+    <div class="card"><label class="small" for="sort">Sort</label>
+      <select id="sort">
+        <option value="num">Number (LFC-001…)</option>
+        <option value="az">A → Z</option>
+        <option value="za">Z → A</option>
+      </select>
+    </div>
+    <div class="card pillToggle"><input type="checkbox" id="pdOnly"/><label for="pdOnly">Show PD/CC0 only</label></div>
+    <div class="card"><button id="reset" class="btn">Reset filters</button></div>
+    <div class="card"><a class="btn" href="mailto:studio@example.com?subject=LFC%20Placement">Unsure? Email us for a starting number</a></div>
   </div>
 
-  <div id="status" class="status">Loading…</div>
-  <div id="count" class="count"></div>
-  <div id="list" class="grid"></div>
+  <div class="count" id="count"></div>
+  <section class="list" id="list" aria-live="polite"></section>
 
-  <footer>
-    Contact: <a href="mailto:info@feiteamart.com">info@feiteamart.com</a> • Deep link: add #LFC-001 to the URL to open a class directly.
+  <footer id="about">
+    <p><strong>About LFC Classics:</strong> Every class begins with pre-1945 masterworks from open museum collections. The instructor adds short, targeted demos—just enough to bridge technique—then you create your own interpretation. Reference images here are PD/CC0 or Open-Access and credited on each class.</p>
+    <p id="contact"><strong>Contact:</strong> <a href="mailto:info@feiteamart.com">info@feiteamart.com</a> — Tell us your age/experience and we’ll reply with a starting <strong>LFC number</strong>.</p>
+    <p class="small">Legal note: Public-domain/open-access images only; modern works (post-1945) are link-outs without embedded media.</p>
   </footer>
 </div>
 
+<!-- Detail Drawer -->
+<dialog id="drawer">
+  <div class="dwHead">
+    <div>
+      <div class="meta"><span id="dwNum"></span></div>
+      <h3 id="dwTitle" style="margin:.35rem 0 0"></h3>
+    </div>
+    <button class="btn close" id="dwClose">Close</button>
+  </div>
+  <div class="dwBody kgrid">
+    <div>
+      <div class="meta" id="dwMeta"></div>
+      <div id="dwDesc" style="margin:.4rem 0"></div>
+      <div class="chips" id="dwChips"></div>
+      <div class="linkline" id="dwLinks" style="margin-top:8px"></div>
+    </div>
+    <div class="credits">
+      <div class="meta" style="margin-bottom:6px"><strong>Reference Pack (PD/CC0)</strong></div>
+      <div id="dwCredits"></div>
+    </div>
+  </div>
+</dialog>
+
 <script>
-const DATA_SOURCES = [
-  "./data/foundations.json",
-  "./data/fun-sketch.json"
-  // add more later
+/* =====================================================
+   LFC CLASSICS — DATA SCHEMA (edit this array only)
+   Fields per class:
+   id, title, part, series, level, section, ageMin, ageMax, tags[],
+   pd (true if references are CC0/PD/Open Content), desc,
+   artists[{name,death}], movements[], videoUrl, pdfUrl,
+   refs[{artist,work,year,museum,license,url}]
+   ===================================================== */
+
+const CLASSES = [
+/* -------- FOUNDATIONS / OBSERVATIONAL DRAWING -------- */
+{ id:"LFC-001",
+  title:"Materials & Mark-Making Lab",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["materials","graphite","charcoal","value scale","mark library"],
+  pd:true,
+  desc:"Know your tools (graphite/charcoal/erasers). Build a 9-step value scale and a mark library; pressure control and clean handling.",
+  artists:[{name:"Charles Bargue",death:1883}],
+  movements:["Academic"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Charles Bargue",work:"Cours de dessin (plates)",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Jean-Léon Gérôme",work:"Studio studies (as context)",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-002",
+  title:"Light & Basic Forms: Sphere • Cube • Cylinder",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["light logic","core/cast shadow","primitives","edges"],
+  pd:true,
+  desc:"Map highlight, halftone, core, reflected light, cast shadow on primitives; place edges (hard/soft/lost).",
+  artists:[{name:"Charles Bargue",death:1883}],
+  movements:["Academic"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Bargue",work:"Primitive solids (plates)",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-003",
+  title:"Planes & Polyhedra (Turning Form by Planes)",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["planes","facets","cross-contour","4–5 values"],
+  pd:true,
+  desc:"See/construct form via planes; render a faceted ‘low-poly’ object in 4–5 value steps (no heavy blending).",
+  artists:[{name:"Paul Cézanne",death:1906}],
+  movements:["Post-Impressionism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Paul Cézanne",work:"Still Life studies (plane logic)",year:"c.1880–1906",museum:"AIC / The Met",license:"CC0",url:"#"}
+  ]
+},
+{ id:"LFC-004",
+  title:"From Forms to Objects I — Simple Still Life (Line First)",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["envelope","block-in","negative shapes","overlap"],
+  pd:true,
+  desc:"Block-in with envelope, plumb lines, and negative shapes; clean line only (mug, apple, box).",
+  artists:[{name:"Jean-Baptiste-Siméon Chardin",death:1779}],
+  movements:["18th-c. French"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Chardin",work:"Still lifes (line clarity/composition)",year:"18th c.",museum:"The Met / NGA",license:"CC0/PD",url:"#"}
+  ]
+},
+{ id:"LFC-005",
+  title:"Measuring & Proportion Essentials",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["sight-size","comparative measure","angles","centerlines","ellipses"],
+  pd:true,
+  desc:"Use sight-size/comparative measures, angle checks, and centerlines; fix proportions before tone.",
+  artists:[{name:"Ingres",death:1867}],
+  movements:["Neoclassicism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"J.-A.-D. Ingres",work:"Measured portrait studies",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Dürer",work:"Instructional sheets (proportion)",year:"16th c.",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-006",
+  title:"Tonal Rendering & Edges (Finish the Simple Still Life)",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["value hierarchy","gradation","edge control","background value"],
+  pd:true,
+  desc:"Group values, graduate cleanly without smudge reliance; design hard/soft/lost edges; set a background value to pop forms.",
+  artists:[{name:"Rembrandt",death:1669}],
+  movements:["Baroque"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Rembrandt",work:"Drawings & etchings (edge/value design)",year:"17th c.",museum:"NGA / Rijksmuseum",license:"CC0/PD",url:"#"}
+  ]
+},
+{ id:"LFC-007",
+  title:"Perspective for Still Life: 1-Point & Ellipses",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["1-point","horizon/VP","ellipse degree/tilt","table contact"],
+  pd:true,
+  desc:"Keep boxes straight with horizon & VP; draw true ellipses (degree/tilt) so round objects sit on the table.",
+  artists:[{name:"Albrecht Dürer",death:1528}],
+  movements:["Renaissance (treatises)"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Dürer",work:"Underweysung der Messung (perspective/ellipse notes)",year:"1525",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-008",
+  title:"Surfaces & Textures: Ceramic • Metal • Glass • Fabric • Organic",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"All Levels",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["materials read","specular/diffuse","transparency","texture marks"],
+  pd:true,
+  desc:"Render material reads without over-polish: metal/glass highlights, cloth edge control, organic textures in tiles.",
+  artists:[{name:"Willem Kalf",death:1693},{name:"Jan Davidsz. de Heem",death:1684}],
+  movements:["Dutch Still Life"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Willem Kalf",work:"Metal/glass still lifes",year:"17th c.",museum:"Rijksmuseum",license:"CC0",url:"#"},
+    {artist:"J. D. de Heem",work:"Fruit/flower textures",year:"17th c.",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-009",
+  title:"Complex Still Life & Composition Design",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:9, ageMax:18,
+  tags:["thumbnails","notan","focal path","overlap/depth"],
+  pd:true,
+  desc:"Make 3 value thumbnails (notan) for 4–6 objects; choose one and take the drawing to 80% finish with clear focal path.",
+  artists:[{name:"Chardin",death:1779},{name:"Cézanne",death:1906}],
+  movements:["18th-c. French","Post-Impressionism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Chardin",work:"Still life compositions",year:"18th c.",museum:"The Met / NGA",license:"CC0/PD",url:"#"},
+    {artist:"Cézanne",work:"Still life value structure",year:"c.1880–1906",museum:"AIC / The Met",license:"CC0",url:"#"}
+  ]
+},
+{ id:"LFC-010",
+  title:"Found Still Life (Capstone) — Setup → Portfolio Piece",
+  part:"Foundations",
+  series:"Observational Drawing & Form",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:9, ageMax:18,
+  tags:["capstone","workflow","portfolio","process sheet"],
+  pd:true,
+  desc:"Select objects, arrange with clear light, block-in → measure → value group → edges → finish; present with a simple process strip.",
+  artists:[{name:"Chardin",death:1779},{name:"Cézanne",death:1906}],
+  movements:["18th-c. French","Post-Impressionism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Chardin",work:"Still life exemplars",year:"18th c.",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Cézanne",work:"Still life exemplars",year:"c.1880–1906",museum:"CC0 Collections",license:"CC0",url:"#"}
+  ]
+},
+
+/* ----------------------- FUN SKETCH (Light & Shadow)------------------ */
+{ id:"LFC-011",
+  title:"Shape → Thing Remix (Squares · Triangles · Circles)",
+  part:"Foundations",
+  series:"Fun Sketch (Light & Shadow)",
+  level:"All Levels",
+  section:"Graphic",
+  ageMin:6, ageMax:12,
+  tags:["simplify","2–3 values","cast shadow","playful"],
+  pd:true,
+  desc:"Turn everyday objects into square/triangle/circle constructions, then add one clear shadow shape. Quick, friendly value sense without heavy rules.",
+  artists:[{name:"Kazimir Malevich",death:1935},{name:"Theo van Doesburg",death:1931}],
+  movements:["Suprematism","De Stijl"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Kazimir Malevich",work:"Suprematist Composition (geometric forms)",year:"1915–1920s",museum:"Public Domain collections",license:"PD",url:"#"},
+    {artist:"Theo van Doesburg",work:"Composition studies",year:"1917–1931",museum:"Public Domain collections",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-012",
+  title:"Animal Minis (No-Pressure Edition)",
+  part:"Foundations",
+  series:"Fun Sketch (Light & Shadow)",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:6, ageMax:12,
+  tags:["gesture","big shapes","spot shadow","texture marks"],
+  pd:true,
+  desc:"Block animal bodies with beans/ovals, add 3–4 character features, then seat each with a spot shadow. Focus on gesture over details.",
+  artists:[{name:"Albrecht Dürer",death:1528},{name:"Katsushika Hokusai",death:1849}],
+  movements:["Renaissance","Ukiyo-e"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Albrecht Dürer",work:"Young Hare & animal studies",year:"c.1502",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Hokusai",work:"Hokusai Manga (animal sketches)",year:"1814+",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-013",
+  title:"Found Still Life POP (Flat Color + Shadow)",
+  part:"Foundations",
+  series:"Fun Sketch (Light & Shadow)",
+  level:"All Levels",
+  section:"Graphic",
+  ageMin:7, ageMax:18,
+  tags:["flat color","poster logic","shadow shape","edge control"],
+  pd:true,
+  desc:"Arrange 3–5 fun objects (toy/snack/desk item). Block flat local colors, then drop one darker pass on the shadow side + a simple cast shadow under each.",
+  artists:[{name:"Alphonse Mucha",death:1939},{name:"Leonetto Cappiello",death:1942}],
+  movements:["Art Nouveau","Belle Époque Posters"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Alphonse Mucha",work:"Poster works (flat color & contour)",year:"1890s–1900s",museum:"The Met / AIC Open Access",license:"CC0",url:"#"},
+    {artist:"Leonetto Cappiello",work:"Advertising posters",year:"1900s–1920s",museum:"Rijksmuseum / PD collections",license:"CC0/PD",url:"#"}
+  ]
+},
+{ id:"LFC-014",
+  title:"Cartoon Character with Light (Silhouette First)",
+  part:"Foundations",
+  series:"Fun Sketch (Light & Shadow)",
+  level:"All Levels",
+  section:"Graphic",
+  ageMin:7, ageMax:18,
+  tags:["silhouette","value spots","highlight","cast shadow"],
+  pd:true,
+  desc:"Design a clean silhouette for a favourite (or original) character, then place two value spots and one crisp cast shadow. Add a single highlight for pop.",
+  artists:[{name:"Winsor McCay",death:1934},{name:"George Herriman",death:1944}],
+  movements:["Early Comics / Cartooning"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Winsor McCay",work:"Little Nemo drawings",year:"1905–1914",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"George Herriman",work:"Krazy Kat strips (shape & light hints)",year:"1910s–1930s",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-015",
+  title:"Easy Landscapes (Graphic Bands & Simple Shadows)",
+  part:"Foundations",
+  series:"Fun Sketch (Light & Shadow)",
+  level:"Beginner",
+  section:"Painting",
+  ageMin:7, ageMax:18,
+  tags:["landscape bands","near–far values","ground shadows","graphic rhythm"],
+  pd:true,
+  desc:"Divide the page into sky–middle–ground bands, place bold shapes (tree/house/path), and add short ground shadows. Think far = lighter/softer.",
+  artists:[{name:"Utagawa Hiroshige",death:1858},{name:"Katsushika Hokusai",death:1849}],
+  movements:["Ukiyo-e"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Hiroshige",work:"One Hundred Famous Views of Edo (landscape bands)",year:"1856–1858",museum:"The Met Open Access",license:"CC0",url:"#"},
+    {artist:"Hokusai",work:"Thirty-six Views of Mount Fuji",year:"1830–1832",museum:"Public Domain collections",license:"PD",url:"#"}
+  ]
+},
+
+/* ----------------------- LEARN FROM MASTERS --------------------- */
+
+{ id:"LFC-016",
+  title:"Matisse Eyes: Bold Color, Clear Shapes",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"All Levels",
+  section:"Painting",
+  ageMin:9, ageMax:18,
+  tags:["flat color","contour","shape design","limited palette"],
+  pd:true,
+  desc:"See like Matisse—big shapes, bold local color, confident contour. Studio: still life or bust with flat color blocks + a few decisive lines.",
+  artists:[{name:"Henri Matisse",death:1954},{name:"Pierre Bonnard",death:1947}],
+  movements:["Fauvism","Post-Impressionism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Henri Matisse",work:"Icarus (Jazz)",year:"1947",museum:"Public Domain (prints)",license:"PD",url:"#"},
+    {artist:"Pierre Bonnard",work:"The Dining Room in the Country",year:"1913",museum:"Public Domain collections",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-017",
+  title:"Poster Power: Mucha & Cappiello",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"All Levels",
+  section:"Graphic",
+  ageMin:8, ageMax:18,
+  tags:["poster","flat color","lettering","contrast"],
+  pd:true,
+  desc:"Turn everyday objects into icons using poster logic—flat color, bold contour, and smart type placement. Studio: 4-panel colorways or one hero poster.",
+  artists:[{name:"Alphonse Mucha",death:1939},{name:"Leonetto Cappiello",death:1942}],
+  movements:["Art Nouveau","Belle Époque Posters"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Alphonse Mucha",work:"Job Cigarettes",year:"1896",museum:"The Met Open Access",license:"CC0",url:"#"},
+    {artist:"Leonetto Cappiello",work:"Bitter Campari",year:"1921",museum:"Rijksmuseum",license:"CC0",url:"#"}
+  ]
+},
+{ id:"LFC-018",
+  title:"Renaissance Space & Composition (Raphael · Leonardo · Michelangelo)",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"Beginner",
+  section:"History",
+  ageMin:10, ageMax:18,
+  tags:["1-point","horizon","triangular group","figure grouping"],
+  pd:true,
+  desc:"Classical space and grouping: horizon/vanishing lines + strong triangular compositions. Studio: 1-point modern hall or a triangular group portrait.",
+  artists:[{name:"Raphael",death:1520},{name:"Leonardo da Vinci",death:1519},{name:"Michelangelo",death:1564}],
+  movements:["High Renaissance"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Raphael",work:"The School of Athens",year:"1511",museum:"Vatican (PD images via museums)",license:"PD",url:"#"},
+    {artist:"Leonardo da Vinci",work:"The Last Supper (studies/diagrams)",year:"1490s",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-019",
+  title:"Bosch Worlds: Micro-Stories & Hybrids",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"All Levels",
+  section:"Drawing",
+  ageMin:9, ageMax:18,
+  tags:["narrative","triptych","hatching","vignettes"],
+  pd:true,
+  desc:"From Bosch’s teeming details to your own tiny allegories. Studio: a 3-panel mini-triptych—ordinary / dream / hybrid creature—using line + two values.",
+  artists:[{name:"Hieronymus Bosch",death:1516}],
+  movements:["Northern Renaissance"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Hieronymus Bosch",work:"The Garden of Earthly Delights (details)",year:"c.1490–1510",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-020",
+  title:"Architecture Dialogues: Behrens × Gaudí",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"All Levels",
+  section:"Design",
+  ageMin:9, ageMax:18,
+  tags:["2-point","façade rhythm","geometric vs organic","silhouette"],
+  pd:true,
+  desc:"Geometric clarity vs. organic flow. Studio: hybrid façade—Behrens-like base box + Gaudí-inspired skin/pattern; optional 2-point setup.",
+  artists:[{name:"Peter Behrens",death:1940},{name:"Antoni Gaudí",death:1926}],
+  movements:["Early Modernism","Catalan Modernisme"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Peter Behrens",work:"AEG Turbine Factory (drawings/photos PD)",year:"1909",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Antoni Gaudí",work:"Casa Batlló / Sagrada Família (historic docs)",year:"1900s",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-021",
+  title:"East Asia Focus: Song Landscapes & Ukiyo-e",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"All Levels",
+  section:"Painting",
+  ageMin:9, ageMax:18,
+  tags:["shan-shui","atmosphere","value bands","print design"],
+  pd:true,
+  desc:"Atmosphere and brush economy (Song shan-shui) and bold print design (ukiyo-e). Studio: ink-wash landscape or print-look poster with limited palette.",
+  artists:[{name:"Fan Kuan",death:1030},{name:"Ma Yuan",death:1225},{name:"Hokusai",death:1849},{name:"Hiroshige",death:1858}],
+  movements:["Song Landscape","Ukiyo-e"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Fan Kuan",work:"Travelers among Mountains and Streams",year:"c.1000",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Utagawa Hiroshige",work:"Sudden Shower over Shin-Ōhashi",year:"1857",museum:"The Met Open Access",license:"CC0",url:"#"}
+  ]
+},
+{ id:"LFC-022",
+  title:"Post-Impressionism Trio: Van Gogh · Gauguin · Cézanne",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"All Levels",
+  section:"Painting",
+  ageMin:9, ageMax:18,
+  tags:["brushwork","planes","color temperature","mark rhythm"],
+  pd:true,
+  desc:"One motif, three logics—Van Gogh’s stroke rhythm, Gauguin’s flat color, Cézanne’s planes. Studio: paint or draw the same subject in each mode.",
+  artists:[{name:"Vincent van Gogh",death:1890},{name:"Paul Gauguin",death:1903},{name:"Paul Cézanne",death:1906}],
+  movements:["Post-Impressionism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Vincent van Gogh",work:"Wheatfield with Crows",year:"1890",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Paul Cézanne",work:"Mont Sainte-Victoire",year:"1902–06",museum:"AIC / The Met",license:"CC0",url:"#"}
+  ]
+},
+{ id:"LFC-023",
+  title:"Paths to Abstraction: Malevich · Kandinsky · Mondrian",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"All Levels",
+  section:"Abstraction",
+  ageMin:9, ageMax:18,
+  tags:["reduction","geometry","composition","edge control"],
+  pd:true,
+  desc:"From reduction to pure design: abstract a reference photo into 6–10 shapes (Mondrian/Malevich logic) or a line/plane composition (Kandinsky).",
+  artists:[{name:"Kazimir Malevich",death:1935},{name:"Wassily Kandinsky",death:1944},{name:"Piet Mondrian",death:1944}],
+  movements:["Suprematism","Abstract Art","De Stijl"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Kazimir Malevich",work:"Suprematist Composition",year:"1910s",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Piet Mondrian",work:"Composition with Red, Blue, and Yellow",year:"1930",museum:"NGA / AIC",license:"CC0",url:"#"}
+  ]
+},
+{ id:"LFC-024",
+  title:"Bauhaus Basics: Klee & Moholy-Nagy",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"All Levels",
+  section:"Design",
+  ageMin:9, ageMax:18,
+  tags:["foundation course","color theory","grid & chance","collage"],
+  pd:true,
+  desc:"Bauhaus problem-solving with play: Klee’s color/shape grammar and Moholy-Nagy’s design experiments. Studio: 2-stage study (grayscale → color).",
+  artists:[{name:"Paul Klee",death:1940},{name:"László Moholy-Nagy",death:1946}],
+  movements:["Bauhaus","Modernism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Paul Klee",work:"Pedagogical Sketchbook (plates/diagrams)",year:"1925",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"L. Moholy-Nagy",work:"Photograms / composition studies",year:"1920s–30s",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-025",
+  title:"Surreal Roots: Redon & Piranesi (Convincing the Impossible)",
+  part:"Masters",
+  series:"Learn from Masters",
+  level:"All Levels",
+  section:"Drawing",
+  ageMin:9, ageMax:18,
+  tags:["surreal roots","juxtaposition","shadow logic","texture"],
+  pd:true,
+  desc:"Make the impossible feel real. Start with Redon’s dream imagery and Piranesi’s imagined spaces. Studio: collage three mismatched elements, then unify with shared light and one clear cast shadow.",
+  artists:[{name:"Odilon Redon",death:1916},{name:"Giovanni Battista Piranesi",death:1778}],
+  movements:["Symbolism","Etching / Capriccio"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Odilon Redon",work:"Noirs (lithographs & drawings)",year:"1880s–1890s",museum:"Public Domain collections",license:"PD",url:"#"},
+    {artist:"G. B. Piranesi",work:"Carceri d’Invenzione",year:"c.1745–1761",museum:"Getty / Public Domain",license:"Open Content/PD",url:"#"}
+  ]
+},
+
+/* -------------------- MATERIAL LANGUAGE -------------- */
+
+{ id:"LFC-026",
+  title:"Watercolor Voices: Landscape & Illustration (+ Wax Resist)",
+  part:"Materials",
+  series:"Material Language",
+  level:"Beginner",
+  section:"Painting",
+  ageMin:6, ageMax:18,
+  tags:["watercolor","washes","edges","wax resist","white of paper"],
+  pd:true,
+  desc:"Transparency, flow, and edges. Make one mini landscape plus one little illustration; keep the paper white as your light; add crayon-resist highlights.",
+  artists:[{name:"J. M. W. Turner",death:1851},{name:"John Constable",death:1837}],
+  movements:["Romanticism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"J. M. W. Turner",work:"The Blue Rigi (watercolour)",year:"1842",museum:"Tate (Public Domain)",license:"PD",url:"#"},
+    {artist:"John Constable",work:"Cloud studies (watercolour/sketch)",year:"c.1820s",museum:"Public Domain collections",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-027",
+  title:"Acrylic Paint: Flat vs Texture (+ Acrylic Markers)",
+  part:"Materials",
+  series:"Material Language",
+  level:"All Levels",
+  section:"Painting",
+  ageMin:8, ageMax:18,
+  tags:["acrylic","impasto","flat color","marker accents","poster look"],
+  pd:true,
+  desc:"Explore opacity and body—flat graphic areas contrasted with one textured impasto zone. Finish with crisp acrylic-marker lines.",
+  artists:[{name:"Alphonse Mucha",death:1939},{name:"Leonetto Cappiello",death:1942}],
+  movements:["Art Nouveau","Belle Époque Posters"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Alphonse Mucha",work:"Poster works (flat color & contour)",year:"1890s–1900s",museum:"The Met Open Access",license:"CC0",url:"#"},
+    {artist:"Leonetto Cappiello",work:"Bitter Campari",year:"1921",museum:"Rijksmuseum",license:"CC0",url:"#"}
+  ]
+},
+{ id:"LFC-028",
+  title:"Graphite Studio: Tone, Edges, Control",
+  part:"Materials",
+  series:"Material Language",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["graphite","value scale","edge control","still life"],
+  pd:true,
+  desc:"Pressure control and clean value hierarchy. Lamp-lit still life; group big lights/darks first, then turn edges (hard/soft/lost).",
+  artists:[{name:"Charles Bargue",death:1883},{name:"J.-A.-D. Ingres",death:1867}],
+  movements:["Academic","Neoclassicism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Charles Bargue",work:"Cours de dessin (plates)",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"J.-A.-D. Ingres",work:"Graphite portrait studies",year:"1800s",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-029",
+  title:"Ink & Wash: Fineliner + Watercolor",
+  part:"Materials",
+  series:"Material Language",
+  level:"All Levels",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["fineliner","wash","urban sketch","silhouette"],
+  pd:true,
+  desc:"Line authority with two gentle washes. Draw a clean silhouette (plants/street/desk), then drop shadow and mid-tone washes; keep the whites.",
+  artists:[{name:"Katsushika Hokusai",death:1849},{name:"Utagawa Hiroshige",death:1858}],
+  movements:["Ukiyo-e"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Hokusai",work:"Hokusai Manga (ink sketches)",year:"1814+",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Hiroshige",work:"Famous Views (line & flat tone)",year:"1850s",museum:"The Met Open Access",license:"CC0",url:"#"}
+  ]
+},
+{ id:"LFC-030",
+  title:"Oil Pastel Landscapes: Blend & Block",
+  part:"Materials",
+  series:"Material Language",
+  level:"All Levels",
+  section:"Painting",
+  ageMin:7, ageMax:18,
+  tags:["oil pastel","scumble","blend","color fields"],
+  pd:true,
+  desc:"Waxy opacity for bold color fields. Block local color, scumble a second hue, then press to blend; add dark accents last.",
+  artists:[{name:"Paul Signac",death:1935},{name:"Pierre Bonnard",death:1947}],
+  movements:["Neo-Impressionism","Post-Impressionism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Paul Signac",work:"Opus 217 (divisionist logic)",year:"1890",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Pierre Bonnard",work:"Color field interiors/landscapes",year:"c.1900–1930s",museum:"Public Domain collections",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-031",
+  title:"Gouache Glow: Opaque Layers, Clean Shapes",
+  part:"Materials",
+  series:"Material Language",
+  level:"All Levels",
+  section:"Painting",
+  ageMin:8, ageMax:18,
+  tags:["gouache","opaque","layering","flat shapes"],
+  pd:true,
+  desc:"Matte opacity and tidy edges. Monochrome under-block, then 4–6 flat color shapes with small modeling on top.",
+  artists:[{name:"Beatrix Potter",death:1943},{name:"Henri Matisse",death:1954}],
+  movements:["Illustration","Fauvism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Beatrix Potter",work:"Animal watercolors/gouache",year:"c.1890–1910",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"Henri Matisse",work:"Gouache cut-outs (color logic)",year:"1940s",museum:"Public Domain (prints/photos vary)",license:"PD",url:"#"}
+  ]
+},
+{ id:"LFC-032",
+  title:"Oil Painting Basics: Safer Start (Water-Mixable Oils)",
+  part:"Materials",
+  series:"Material Language",
+  level:"Beginner",
+  section:"Painting",
+  ageMin:12, ageMax:18,
+  tags:["oils","limited palette","values","brush economy"],
+  pd:true,
+  desc:"Slow blending and rich values with a simple Zorn-style palette. Thin block-in → darks → mids → lights; big brushes first, a few crisp accents last.",
+  artists:[{name:"Diego Velázquez",death:1660},{name:"Rembrandt van Rijn",death:1669},{name:"John Singer Sargent",death:1925}],
+  movements:["Baroque","Realism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Diego Velázquez",work:"Head studies (value & edges)",year:"17th c.",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"John Singer Sargent",work:"Portrait studies (brush economy)",year:"c.1880–1910",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+  {
+  id:"LFC-033",
+  title:"Paint Markers: Character & Layer Logic",
+  part:"Materials",
+  series:"Material Language",
+  level:"All Levels",
+  section:"Graphic",
+  ageMin:7, ageMax:18,
+  tags:["acrylic markers","flat color","cel shading","silhouette"],
+  pd:true,
+  desc:"Flat graphic fills with clean edges and simple shadow logic. Design a character sheet (front pose + prop) and a ground shadow.",
+  artists:[{name:"Winsor McCay",death:1934},{name:"George Herriman",death:1944}],
+  movements:["Early Comics / Cartooning"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Winsor McCay",work:"Little Nemo drawings",year:"1905–1914",museum:"Public Domain",license:"PD",url:"#"},
+    {artist:"George Herriman",work:"Krazy Kat strips (shape & light)",year:"1910s–1930s",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{
+  id:"LFC-034",
+  title:"Clay & Foil Forms: From Shape to Sculpture",
+  part:"Materials",
+  series:"Material Language",
+  level:"All Levels",
+  section:"Sculpture",
+  ageMin:6, ageMax:18,
+  tags:["air-dry clay","armature","foil wrap","additive/subtractive"],
+  pd:true,
+  desc:"Build volume additively (air-dry clay creature or relief badge) and a quick wire-and-foil figure. Paint finishes to unify.",
+  artists:[{name:"Folk & Classical casts",death:0}],
+  movements:["Folk / Academic"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Classical casts",work:"Educational plaster studies",year:"—",museum:"Public Domain",license:"PD",url:"#"}
+  ]
+},
+{
+  id:"LFC-035",
+  title:"Mixed Media & Collage: Meaning by Materials (Eco Build)",
+  part:"Materials",
+  series:"Material Language",
+  level:"All Levels",
+  section:"Collage",
+  ageMin:8, ageMax:18,
+  tags:["collage","assemblage","found materials","sustainability"],
+  pd:true,
+  desc:"How paper/fabric/print change the story. Make a collage panel or eco-assemblage using only reused materials; unify with selective line/paint.",
+  artists:[{name:"Kurt Schwitters",death:1948},{name:"El Lissitzky",death:1941}],
+  movements:["Dada/Constructivism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Kurt Schwitters",work:"Merz collages",year:"1919–1930s",museum:"Public Domain (Canada term)",license:"PD",url:"#"},
+    {artist:"El Lissitzky",work:"PROUN compositions / photomontage",year:"1919–1925",museum:"Public Domain collections",license:"PD",url:"#"}
+  ]
+},
+
+/* ---------------------- FIGURE / ANATOMY ------------- */
+{ id:"LFC-011", title:"Gesture & Silhouette (Masters’ Way)", part:"Figure/Anatomy", series:"Figures in Motion", level:"Beginner", section:"Drawing",
+  ageMin:9, ageMax:18, tags:["gesture","line of action","silhouette"], pd:true,
+  desc:"C/S curves; balance line; silhouette readability. Timed sets: 30s→2min.",
+  artists:[{name:"Edgar Degas",death:1917},{name:"Peter Paul Rubens",death:1640}], movements:["Impressionism","Baroque"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Degas",work:"Dancers, studies",year:"c.1870s",museum:"Public Domain",license:"PD",url:"#"}]
+},
+{ id:"LFC-012", title:"Bargue Features: Eyes, Nose, Mouth", part:"Figure/Anatomy", series:"Academic Portrait", level:"Beginner", section:"Drawing",
+  ageMin:12, ageMax:18, tags:["features","construction","values"], pd:true,
+  desc:"Spheres/lids; nose planes; mouth cushions. Limited values before blending.",
+  artists:[{name:"Charles Bargue",death:1883}], movements:["Academic"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Bargue",work:"Cours de dessin plates",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"}]
+},
+{ id:"LFC-013", title:"Planes Head (Asaro logic via casts)", part:"Figure/Anatomy", series:"Academic Portrait", level:"Intermediate", section:"Drawing",
+  ageMin:13, ageMax:18, tags:["planes","edges","head turns"], pd:true,
+  desc:"Planar mapping for light logic; tilt/pitch/yaw thumbnails.",
+  artists:[{name:"Classical casts",death:0}], movements:["Classical"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Michelangelo",work:"David (cast studies)",year:"1500s",museum:"Public Domain",license:"PD",url:"#"}]
+},
+
+/* ------------------------ ILLUSTRATION --------------- */
+{ id:"LFC-014", title:"Storyboard Basics (Pre-1945 Prints & Posters)", part:"Illustration/Comics", series:"Illustration Lab", level:"Beginner", section:"Graphic",
+  ageMin:9, ageMax:18, tags:["storyboard","beats","notan"], pd:true,
+  desc:"6–9 beats; value readability. Reference: narrative prints/posters.",
+  artists:[{name:"Hiroshige",death:1858},{name:"Mucha",death:1939}], movements:["Ukiyo-e","Art Nouveau"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Mucha",work:"Gismonda (poster)",year:"1894",museum:"Public Domain",license:"PD",url:"#"}]
+},
+{ id:"LFC-015", title:"Mixed-Media Page: Watercolor × Pen × Pastel", part:"Illustration/Comics", series:"Illustration Lab", level:"All Levels", section:"Painting",
+  ageMin:9, ageMax:18, tags:["mixed media","cel-shading","page layout"], pd:true,
+  desc:"Safe material order and cel-style shadows; page readability.",
+  artists:[{name:"Felix Vallotton",death:1925}], movements:["Nabis"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Vallotton",work:"Woodcuts (series)",year:"1890s",museum:"Public Domain",license:"PD",url:"#"}]
+},
+
+/* ------------------------ ARCHITECTURE --------------- */
+{ id:"LFC-016", title:"1-Point Interior: Calm Depth", part:"Architecture", series:"Architecture Foundation", level:"Beginner", section:"Design",
+  ageMin:9, ageMax:18, tags:["1-point","interior","horizon"], pd:true,
+  desc:"Eye level, vanishing point, box furniture; small value pass.",
+  artists:[{name:"Renaissance plates",death:0}], movements:["Renaissance"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Masaccio",work:"Trinity (perspective reference)",year:"1427",museum:"Public Domain",license:"PD",url:"#"}]
+},
+{ id:"LFC-017", title:"2-Point Street Corner (Piranesi Rhythm)", part:"Architecture", series:"Architecture Foundation", level:"Beginner", section:"Design",
+  ageMin:9, ageMax:18, tags:["2-point","façade","rhythm"], pd:true,
+  desc:"Corner shop; canopy; figure scale. Rhythm from classical plates.",
+  artists:[{name:"G. B. Piranesi",death:1778}], movements:["Neoclassical"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Piranesi",work:"Vedute di Roma (plate)",year:"18th c.",museum:"Getty",license:"Open Content",url:"#"}]
+},
+{ id:"LFC-018", title:"3-Point Tower: Dramatic Up-Shot", part:"Architecture", series:"Architecture Foundation", level:"All Levels", section:"Design",
+  ageMin:9, ageMax:18, tags:["3-point","skyscraper","shadow"], pd:true,
+  desc:"Third VP; window grid rhythm; bold cast shadow.",
+  artists:[{name:"Beaux-Arts plates",death:0}], movements:["Beaux-Arts"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Beaux-Arts",work:"École drawings",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"}]
+},
+
+/* ------------------------- LANDSCAPE ----------------- */
+{ id:"LFC-019", title:"Plein-Air Pencil → Watercolor Touch", part:"Landscape", series:"Landscape Lab", level:"Beginner", section:"Painting",
+  ageMin:8, ageMax:18, tags:["plein air","thumbnail","wash"], pd:true,
+  desc:"Scout view; 3 thumbnails; main sketch + optional wash.",
+  artists:[{name:"Camille Corot",death:1875}], movements:["Barbizon"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Corot",work:"Souvenir of Mortefontaine",year:"1864",museum:"The Met",license:"CC0",url:"#"}]
+},
+{ id:"LFC-020", title:"Photo → Value/Color Map", part:"Landscape", series:"Landscape Lab", level:"Beginner", section:"Painting",
+  ageMin:9, ageMax:18, tags:["value map","color keys","notan"], pd:true,
+  desc:"3-tone value + limited palette color blocks; readability first.",
+  artists:[{name:"Cézanne",death:1906}], movements:["Post-Impressionism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Cézanne",work:"Mont Sainte-Victoire",year:"1902–06",museum:"AIC",license:"CC0",url:"#"}]
+},
+
+/* ------------------------- PORTRAIT ------------------ */
+{ id:"LFC-021", title:"Skull Armature & Landmarks", part:"Portrait", series:"Academic Portrait", level:"Beginner", section:"Drawing",
+  ageMin:12, ageMax:18, tags:["skull","landmarks","proportion"], pd:true,
+  desc:"Cranial sphere + jaw wedge; thirds & fifths; 3 views.",
+  artists:[{name:"Anatomical plates",death:0}], movements:["Academic"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Bargue",work:"Skull plates",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"}]
+},
+{ id:"LFC-022", title:"Male Portrait (Graphite): Planes First", part:"Portrait", series:"Academic Portrait", level:"Intermediate", section:"Drawing",
+  ageMin:13, ageMax:18, tags:["planes","edges","likeness"], pd:true,
+  desc:"Block-in → measure → value groups; beard as mass, not hair.",
+  artists:[{name:"Ingres",death:1867},{name:"Velázquez",death:1660}], movements:["Neoclassicism","Baroque"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Ingres",work:"Portrait studies",year:"1800s",museum:"Public Domain",license:"PD",url:"#"}]
+},
+
+/* --------------------- CREATION PLAYGROUND ----------- */
+{ id:"LFC-023", title:"Foam Relief Print: Positive/Negative", part:"Playground", series:"Creation Playground", level:"All Levels", section:"Printmaking",
+  ageMin:7, ageMax:18, tags:["printmaking","pattern","repeat"], pd:true,
+  desc:"Soft foam plate; 4-tile repeat; registration basics.",
+  artists:[{name:"Dürer",death:1528}], movements:["Renaissance"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Albrecht Dürer",work:"Woodcuts (various)",year:"c.1500",museum:"Public Domain",license:"PD",url:"#"}]
+},
+{ id:"LFC-024", title:"Paper Cutting: Layered Shadow Box", part:"Playground", series:"Creation Playground", level:"All Levels", section:"Collage",
+  ageMin:7, ageMax:18, tags:["layers","silhouette","depth"], pd:true,
+  desc:"3–5 paper layers for depth; silhouette first, detail last.",
+  artists:[{name:"Chinese paper-cut",death:0}], movements:["Folk"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Folk",work:"Jianzhi (paper-cuts)",year:"—",museum:"Public Domain",license:"PD",url:"#"}]
+},
+{ id:"LFC-025", title:"Cardboard Engineering: Tabs & Joinery", part:"Playground", series:"Creation Playground", level:"All Levels", section:"Sculpture",
+  ageMin:7, ageMax:18, tags:["cardboard","structure","joinery"], pd:true,
+  desc:"Build a standing creature or small shade; safe joins.",
+  artists:[{name:"Arts & Crafts",death:0}], movements:["Design"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Pattern books",work:"Structural diagrams",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"}]
+},
+
+/* ------------------------- THEORY ------------------- */
+{ id:"LFC-026", title:"From Caves to Classics: Timeline Start", part:"Theory", series:"Art Movements & Ideas", level:"All Levels", section:"History",
+  ageMin:10, ageMax:18, tags:["timeline","iconography","context"], pd:true,
+  desc:"First marks to early civilizations; why images exist.",
+  artists:[{name:"Prehistory & Egypt",death:0}], movements:["Prehistory","Egypt"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Lascaux",work:"Cave paintings",year:"c.17,000 BCE",museum:"Public Domain",license:"PD",url:"#"}]
+},
+
+/* ======= ADD MORE CLASSES HERE (copy & edit) ======= */
+// Example skeleton to copy:
+/*
+{ id:"LFC-027", title:"TITLE", part:"Foundations", series:"Observational Drawing", level:"Beginner", section:"Drawing",
+  ageMin:9, ageMax:12, tags:["tag1","tag2"], pd:true,
+  desc:"One-line description.",
+  artists:[{name:"Artist Name",death:1900}], movements:["Movement"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[{artist:"Artist",work:"Work Title",year:"Year",museum:"Museum",license:"CC0",url:"https://source"}]
+},
+*/
 ];
 
-let CLASSES=[];
-const $=id=>document.getElementById(id);
-const el={q:$('#q'),part:$('#part'),series:$('#series'),level:$('#level'),section:$('#section'),age:$('#age'),pd:$('#pd'),list:$('#list'),count:$('#count'),status:$('#status')};
-const uniq=a=>[...new Set(a)].filter(Boolean).sort((x,y)=>x.localeCompare(y));
-const fill=(sel,vals)=>sel.insertAdjacentHTML('beforeend',vals.map(v=>`<option>${v}</option>`).join(''));
+/* ================== APP (filters + drawer) ================== */
+const VERSION="v1.0";
+const els = {
+  list:document.getElementById('list'), count:document.getElementById('count'),
+  q:document.getElementById('q'), part:document.getElementById('part'), series:document.getElementById('series'),
+  level:document.getElementById('level'), section:document.getElementById('section'), age:document.getElementById('age'),
+  sort:document.getElementById('sort'), pdOnly:document.getElementById('pdOnly'), reset:document.getElementById('reset')
+};
+document.getElementById('version').textContent = VERSION;
 
-// Load each source independently, don’t fail all if one 404s
-Promise.allSettled(DATA_SOURCES.map(src =>
-  fetch(src).then(r=>{
-    if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
-    return r.json();
-  }).then(data => ({src, ok:true, data}))
-)).then(results=>{
-  const oks = results.filter(r=>r.status==="fulfilled" && r.value.ok);
-  const errs = results.filter(r=>r.status==="rejected");
-  const partial = results.filter(r=>r.status==="fulfilled" && r.value && !r.value.ok);
-
-  // Merge good data
-  CLASSES = oks.flatMap(r=>r.value.data).sort((a,b)=>a.id.localeCompare(b.id));
-
-  // Status report
-  const lines=[];
-  if(oks.length) lines.push(`<span class="ok">Loaded ${CLASSES.length} classes from ${oks.length} file(s).</span>`);
-  errs.forEach(e=>{
-    const i = results.indexOf(e);
-    lines.push(`<div class="err">Failed: ${DATA_SOURCES[i]} — ${e.reason}</div>`);
-  });
-  if(!oks.length) {
-    lines.push(`<div class="err">No data files loaded. Showing 2 demo items so you can verify the UI.</div>`);
-    CLASSES = demoFallback();
-  }
-  el.status.innerHTML = lines.join("<br>");
-
-  // Build filters and render
-  fill(el.part,   uniq(CLASSES.map(c=>c.part)));
-  fill(el.series, uniq(CLASSES.map(c=>c.series)));
-  fill(el.level,  uniq(CLASSES.map(c=>c.level)));
-  fill(el.section,uniq(CLASSES.map(c=>c.section)));
-  [el.q,el.part,el.series,el.level,el.section,el.age,el.pd].forEach(x=>x.addEventListener('input',render));
-  render();
-
-  // Deep-link open (e.g., #LFC-001)
-  if(location.hash){
-    const target = document.querySelector(location.hash);
-    if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
-  }
-}).catch(err=>{
-  el.status.innerHTML = `<div class="err">Unexpected error: ${err.message}</div>`;
-  console.error(err);
-});
+function uniq(a){return [...new Set(a)].filter(Boolean).sort((x,y)=>x.localeCompare(y))}
+function fillSelect(sel,vals){ sel.insertAdjacentHTML('beforeend', vals.map(v=>`<option value="${v}">${v}</option>`).join('')) }
+fillSelect(els.part,   uniq(CLASSES.map(c=>c.part)));
+fillSelect(els.series, uniq(CLASSES.map(c=>c.series)));
+fillSelect(els.level,  uniq(CLASSES.map(c=>c.level)));
+fillSelect(els.section,uniq(CLASSES.map(c=>c.section)));
 
 function inAge(c,band){
-  if(!band||band==="all") return true;
+  if(!band) return true;
+  if(band==="all") return true;
   const [a,b]=band.split('-').map(Number);
   return c.ageMin<=b && c.ageMax>=a;
 }
 
 function render(){
-  const q=(el.q.value||"").toLowerCase();
-  const fp=el.part.value, fs=el.series.value, fl=el.level.value, fc=el.section.value, fa=el.age.value, fpd=el.pd.checked;
+  const q = els.q.value.trim().toLowerCase();
+  const f = {part:els.part.value, series:els.series.value, level:els.level.value, section:els.section.value, age:els.age.value, pd:els.pdOnly.checked};
   let rows = CLASSES.filter(c=>{
-    if(fp && c.part!==fp) return false;
-    if(fs && c.series!==fs) return false;
-    if(fl && c.level!==fl) return false;
-    if(fc && c.section!==fc) return false;
-    if(fa && !inAge(c,fa)) return false;
-    if(fpd && !c.pd) return false;
-    const hay=[c.id,c.title,c.part,c.series,c.level,c.section,c.desc,(c.tags||[]).join(' '),(c.movements||[]).join(' '),(c.artists||[]).map(a=>a.name).join(' ')].join(' ').toLowerCase();
-    return hay.includes(q);
+    if(f.part && c.part!==f.part) return false;
+    if(f.series && c.series!==f.series) return false;
+    if(f.level && c.level!==f.level) return false;
+    if(f.section && c.section!==f.section) return false;
+    if(f.pd && !c.pd) return false;
+    if(!inAge(c,f.age)) return false;
+    if(q){
+      const hay=[c.id,c.title,c.part,c.series,c.level,c.section,c.desc,(c.tags||[]).join(' '),(c.movements||[]).join(' '),(c.artists||[]).map(a=>a.name).join(' ')].join(' ').toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
   });
-  el.count.textContent = `${rows.length} shown • ${CLASSES.length} total`;
-  el.list.innerHTML = rows.map(card).join('');
-}
 
-function card(c){
-  const tags=(c.tags||[]).slice(0,5).map(t=>`<span class="tag">${t}</span>`).join('');
-  const badge=c.pd?`<span class="badge">PD/CC0</span>`:'';
+  // Sorting
+  const sorter = els.sort.value;
+  rows.sort((a,b)=>{
+    if(sorter==="num") return a.id.localeCompare(b.id);
+    if(sorter==="az")  return a.title.localeCompare(b.title);
+    if(sorter==="za")  return b.title.localeCompare(a.title);
+    return 0;
+  });
+
+  els.count.textContent = `${rows.length} class${rows.length===1?'':'es'} shown • ${CLASSES.length} total`;
+  els.list.innerHTML = rows.map(cardHTML).join('');
+  attachDetailHandlers(rows);
+}
+function cardHTML(c){
+  const ages = (c.ageMin&&c.ageMax)? `${c.ageMin}–${c.ageMax}` : "All-Ages";
+  const tags = (c.tags||[]).slice(0,4).map(t=>`<span class="tag">${t}</span>`).join('');
+  const badge = c.pd ? `<span class="tag ok">PD/CC0</span>` : `<span class="tag warn">Link-out only</span>`;
   return `
-  <article class="card" id="${c.id}">
-    <div class="meta"><span class="num">${c.id}</span> • ${c.part} • ${c.series} • ${c.level} • Age ${c.ageMin||'?'}–${c.ageMax||'?'} ${badge}</div>
+  <article class="class" data-id="${c.id}">
+    <div class="meta"><span class="num">${c.id}</span> • ${c.part} • ${c.series} • ${c.level} • Age ${ages}</div>
     <h3>${c.title}</h3>
     <div class="meta">${c.desc}</div>
-    <div>${tags}</div>
-    <div class="links" style="margin-top:6px">
-      ${c.videoUrl&&c.videoUrl!=="#" ? `<a href="${c.videoUrl}" target="_blank" rel="noopener">Video</a>`:''}
-      ${c.pdfUrl&&c.pdfUrl!=="#" ? `<a href="${c.pdfUrl}" target="_blank" rel="noopener">PDF</a>`:''}
+    <div class="tags">${badge}${tags}</div>
+    <div class="btnrow">
+      <a href="#" class="btn open" data-id="${c.id}">View details</a>
+      ${c.videoUrl && c.videoUrl!=="#" ? `<a class="btn" href="${c.videoUrl}" target="_blank" rel="noopener">Video</a>` : `<span class="btn" style="opacity:.6">Video (coming)</span>`}
+      ${c.pdfUrl && c.pdfUrl!=="#" ? `<a class="btn" href="${c.pdfUrl}" target="_blank" rel="noopener">PDF</a>` : `<span class="btn" style="opacity:.6">PDF (coming)</span>`}
     </div>
   </article>`;
 }
 
-function demoFallback(){
-  return [
-    {
-      "id":"LFC-001",
-      "title":"(DEMO) Materials & Mark-Making Lab",
-      "part":"Foundations","series":"Observational Drawing & Form","level":"Beginner","section":"Drawing",
-      "ageMin":8,"ageMax":18,"tags":["materials","graphite"],"pd":true,
-      "desc":"Demo item so you can verify the UI.","videoUrl":"#","pdfUrl":"#"
-    },
-    {
-      "id":"LFC-011",
-      "title":"(DEMO) Shape → Thing Remix",
-      "part":"Foundations","series":"Fun Sketch (Light & Shadow)","level":"All Levels","section":"Graphic",
-      "ageMin":6,"ageMax":12,"tags":["simplify"],"pd":true,
-      "desc":"Demo item #2.","videoUrl":"#","pdfUrl":"#"
-    }
-  ];
+/* Drawer */
+const drawer=document.getElementById('drawer');
+const dwNum=document.getElementById('dwNum'), dwTitle=document.getElementById('dwTitle'), dwMeta=document.getElementById('dwMeta'), dwDesc=document.getElementById('dwDesc'), dwChips=document.getElementById('dwChips'), dwLinks=document.getElementById('dwLinks'), dwCredits=document.getElementById('dwCredits');
+document.getElementById('dwClose').addEventListener('click',()=>drawer.close());
+drawer.addEventListener('click',e=>{ if(e.target===drawer) drawer.close(); });
+
+function openDrawer(c){
+  dwNum.textContent = `${c.id} • ${c.part} • ${c.series} • ${c.level}`;
+  dwTitle.textContent = c.title;
+  dwMeta.textContent = `Section: ${c.section} • Age ${ (c.ageMin&&c.ageMax)? `${c.ageMin}–${c.ageMax}`:"All-Ages"} • Movements: ${(c.movements||[]).join(', ')||'—'}`;
+  dwDesc.textContent = c.desc;
+  const chips = [];
+  chips.push(`<span class="chip">${c.section}</span>`);
+  chips.push(`<span class="chip">${(c.tags||[]).slice(0,6).join(' · ')}</span>`);
+  if(c.pd) chips.push(`<span class="chip badge">PD/CC0</span>`);
+  dwChips.innerHTML = chips.join(' ');
+
+  const links=[];
+  if(c.videoUrl && c.videoUrl!=="#") links.push(`<a class="btn" href="${c.videoUrl}" target="_blank" rel="noopener">Open Video</a>`);
+  if(c.pdfUrl && c.pdfUrl!=="#") links.push(`<a class="btn" href="${c.pdfUrl}" target="_blank" rel="noopener">Open PDF</a>`);
+  links.push(`<a class="btn" href="mailto:studio@example.com?subject=LFC%20${encodeURIComponent(c.id)}">Email about ${c.id}</a>`);
+  links.push(`<a class="btn" href="${location.origin}${location.pathname}#${c.id}" onclick="navigator.clipboard.writeText(this.href);return false;">Copy link</a>`);
+  dwLinks.innerHTML = links.join('');
+
+  dwCredits.innerHTML = (c.refs||[]).map(r=>`
+    <div class="credit">
+      <strong>${r.artist}</strong>, <em>${r.work}</em> (${r.year}). ${r.museum}. <span style="color:${(r.license||'').includes('CC0')||r.license==='PD' ? '#137a46' : '#8a5a00'}">${r.license||''}</span>.
+      ${r.url && r.url!=="#" ? ` <a href="${r.url}" target="_blank" rel="noopener">Source</a>` : ``}
+    </div>
+  `).join('') || `<div class="credit">Add CC0/PD references here.</div>`;
+
+  drawer.showModal();
 }
+
+function attachDetailHandlers(rows){
+  document.querySelectorAll('.open').forEach(a=>{
+    a.addEventListener('click',e=>{
+      e.preventDefault();
+      const id=a.getAttribute('data-id');
+      const c=rows.find(x=>x.id===id) || CLASSES.find(x=>x.id===id);
+      if(c) openDrawer(c);
+    });
+  });
+}
+
+/* Events */
+[els.q,els.part,els.series,els.level,els.section,els.age,els.sort,els.pdOnly].forEach(el=>el.addEventListener('input',render));
+els.reset.addEventListener('click',()=>{
+  els.q.value=""; els.part.value=""; els.series.value=""; els.level.value="";
+  els.section.value=""; els.age.value=""; els.sort.value="num"; els.pdOnly.checked=false; render();
+});
+
+/* Deep link open (#LFC-00X) */
+window.addEventListener('hashchange',()=>{const id=location.hash.replace('#','');const c=CLASSES.find(x=>x.id===id);if(c) openDrawer(c);});
+
+/* First render */
+render();
+const deep=location.hash.replace('#',''); if(deep){const c=CLASSES.find(x=>x.id===deep); if(c) openDrawer(c);}
 </script>
+</body>
+</html>

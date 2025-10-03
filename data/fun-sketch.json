@@ -1,0 +1,92 @@
+[
+  {
+    "id":"LFC-011",
+    "title":"Shape to Thing Remix (Squares, Triangles, Circles)",
+    "part":"Foundations",
+    "series":"Fun Sketch (Light & Shadow)",
+    "level":"All Levels",
+    "section":"Graphic",
+    "ageMin":6, "ageMax":12,
+    "tags":["simplify","2-3 values","cast shadow","playful"],
+    "pd":true,
+    "desc":"Turn everyday objects into square/triangle/circle constructions, then add one clear shadow shape.",
+    "artists":[{"name":"Kazimir Malevich","death":1935},{"name":"Theo van Doesburg","death":1931}],
+    "movements":["Suprematism","De Stijl"],
+    "videoUrl":"#","pdfUrl":"#",
+    "refs":[
+      {"artist":"Malevich","work":"Suprematist Composition","year":"1915-1920s","museum":"Public Domain","license":"PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-012",
+    "title":"Animal Minis (No-Pressure Edition)",
+    "part":"Foundations",
+    "series":"Fun Sketch (Light & Shadow)",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":6, "ageMax":12,
+    "tags":["gesture","big shapes","spot shadow","texture marks"],
+    "pd":true,
+    "desc":"Block animal bodies with beans/ovals, add features, then seat each with a spot shadow.",
+    "artists":[{"name":"Albrecht Dürer","death":1528},{"name":"Hokusai","death":1849}],
+    "movements":["Renaissance","Ukiyo-e"],
+    "videoUrl":"#","pdfUrl":"#",
+    "refs":[
+      {"artist":"Albrecht Dürer","work":"Young Hare & animal studies","year":"c.1502","museum":"Public Domain","license":"PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-013",
+    "title":"Found Still Life POP (Flat Color + Shadow)",
+    "part":"Foundations",
+    "series":"Fun Sketch (Light & Shadow)",
+    "level":"All Levels",
+    "section":"Graphic",
+    "ageMin":7, "ageMax":18,
+    "tags":["flat color","poster logic","shadow shape","edge control"],
+    "pd":true,
+    "desc":"Arrange 3–5 fun objects. Block flat local colors, then add one darker pass on the shadow side and a simple cast shadow.",
+    "artists":[{"name":"Alphonse Mucha","death":1939},{"name":"Leonetto Cappiello","death":1942}],
+    "movements":["Art Nouveau","Belle Époque Posters"],
+    "videoUrl":"#","pdfUrl":"#",
+    "refs":[
+      {"artist":"Mucha","work":"Poster works (flat color & contour)","year":"1890s-1900s","museum":"The Met","license":"CC0","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-014",
+    "title":"Cartoon Character with Light (Silhouette First)",
+    "part":"Foundations",
+    "series":"Fun Sketch (Light & Shadow)",
+    "level":"All Levels",
+    "section":"Graphic",
+    "ageMin":7, "ageMax":18,
+    "tags":["silhouette","value spots","highlight","cast shadow"],
+    "pd":true,
+    "desc":"Design a clean silhouette, place two value spots and one cast shadow. Add a single highlight for pop.",
+    "artists":[{"name":"Winsor McCay","death":1934},{"name":"George Herriman","death":1944}],
+    "movements":["Early Comics / Cartooning"],
+    "videoUrl":"#","pdfUrl":"#",
+    "refs":[
+      {"artist":"Winsor McCay","work":"Little Nemo drawings","year":"1905-1914","museum":"Public Domain","license":"PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-015",
+    "title":"Easy Landscapes (Graphic Bands & Simple Shadows)",
+    "part":"Foundations",
+    "series":"Fun Sketch (Light & Shadow)",
+    "level":"Beginner",
+    "section":"Painting",
+    "ageMin":7, "ageMax":18,
+    "tags":["landscape bands","near-far values","ground shadows","graphic rhythm"],
+    "pd":true,
+    "desc":"Divide the page into sky–middle–ground bands, place bold shapes and short ground shadows.",
+    "artists":[{"name":"Utagawa Hiroshige","death":1858},{"name":"Katsushika Hokusai","death":1849}],
+    "movements":["Ukiyo-e"],
+    "videoUrl":"#","pdfUrl":"#",
+    "refs":[
+      {"artist":"Hiroshige","work":"One Hundred Famous Views of Edo","year":"1856-1858","museum":"The Met","license":"CC0","url":"#"}
+    ]
+  }
+]

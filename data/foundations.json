@@ -1,0 +1,193 @@
+[
+  {
+    "id":"LFC-001",
+    "title":"Materials & Mark-Making Lab",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":8, "ageMax":18,
+    "tags":["materials","graphite","charcoal","value scale","mark library"],
+    "pd":true,
+    "desc":"Know your tools (graphite/charcoal/erasers). Build a 9-step value scale and a mark library; pressure control and clean handling.",
+    "artists":[{"name":"Charles Bargue","death":1883}],
+    "movements":["Academic"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Charles Bargue","work":"Cours de dessin (plates)","year":"19th c.","museum":"Public Domain","license":"PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-002",
+    "title":"Light & Basic Forms: Sphere • Cube • Cylinder",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":8, "ageMax":18,
+    "tags":["light logic","core/cast shadow","primitives","edges"],
+    "pd":true,
+    "desc":"Map highlight, halftone, core, reflected light, cast shadow on primitives; place edges (hard/soft/lost).",
+    "artists":[{"name":"Charles Bargue","death":1883}],
+    "movements":["Academic"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Bargue","work":"Primitive solids (plates)","year":"19th c.","museum":"Public Domain","license":"PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-003",
+    "title":"Planes & Polyhedra (Turning Form by Planes)",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":8, "ageMax":18,
+    "tags":["planes","facets","cross-contour","4-5 values"],
+    "pd":true,
+    "desc":"See/construct form via planes; render a faceted low-poly object in 4–5 value steps (no heavy blending).",
+    "artists":[{"name":"Paul Cézanne","death":1906}],
+    "movements":["Post-Impressionism"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Paul Cézanne","work":"Still Life studies (plane logic)","year":"1880-1906","museum":"AIC/Met","license":"CC0","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-004",
+    "title":"From Forms to Objects I — Simple Still Life (Line First)",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":8, "ageMax":18,
+    "tags":["envelope","block-in","negative shapes","overlap"],
+    "pd":true,
+    "desc":"Block-in with envelope, plumb lines, and negative shapes; clean line only (mug, apple, box).",
+    "artists":[{"name":"Jean-Baptiste-Siméon Chardin","death":1779}],
+    "movements":["18th-c. French"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Chardin","work":"Still lifes (line clarity/composition)","year":"18th c.","museum":"Met/NGA","license":"CC0/PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-005",
+    "title":"Measuring & Proportion Essentials",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":8, "ageMax":18,
+    "tags":["sight-size","comparative measure","angles","centerlines","ellipses"],
+    "pd":true,
+    "desc":"Use sight-size/comparative measures, angle checks, and centerlines; fix proportions before tone.",
+    "artists":[{"name":"Jean-Auguste-Dominique Ingres","death":1867},{"name":"Albrecht Dürer","death":1528}],
+    "movements":["Neoclassicism","Renaissance"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Ingres","work":"Measured portrait studies","year":"19th c.","museum":"Public Domain","license":"PD","url":"#"},
+      {"artist":"Dürer","work":"Instruction sheets (proportion)","year":"16th c.","museum":"Public Domain","license":"PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-006",
+    "title":"Tonal Rendering & Edges (Finish the Simple Still Life)",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":8, "ageMax":18,
+    "tags":["value hierarchy","gradation","edge control","background value"],
+    "pd":true,
+    "desc":"Group values, graduate cleanly without smudge reliance; design hard/soft/lost edges; set a background value to pop forms.",
+    "artists":[{"name":"Rembrandt van Rijn","death":1669}],
+    "movements":["Baroque"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Rembrandt","work":"Drawings & etchings (edge/value design)","year":"17th c.","museum":"NGA/Rijksmuseum","license":"CC0/PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-007",
+    "title":"Perspective for Still Life: 1-Point & Ellipses",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":8, "ageMax":18,
+    "tags":["1-point","horizon/VP","ellipse degree/tilt","table contact"],
+    "pd":true,
+    "desc":"Keep boxes straight with horizon & VP; draw true ellipses (degree/tilt) so round objects sit on the table.",
+    "artists":[{"name":"Albrecht Dürer","death":1528}],
+    "movements":["Renaissance (treatises)"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Dürer","work":"Underweysung der Messung (perspective/ellipse)","year":"1525","museum":"Public Domain","license":"PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-008",
+    "title":"Surfaces & Textures: Ceramic • Metal • Glass • Fabric • Organic",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"All Levels",
+    "section":"Drawing",
+    "ageMin":8, "ageMax":18,
+    "tags":["material read","specular/diffuse","transparency","texture marks"],
+    "pd":true,
+    "desc":"Render material reads without over-polish: metal/glass highlights, cloth edge control, organic textures in tiles.",
+    "artists":[{"name":"Willem Kalf","death":1693},{"name":"Jan Davidsz. de Heem","death":1684}],
+    "movements":["Dutch Still Life"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Willem Kalf","work":"Metal/glass still lifes","year":"17th c.","museum":"Rijksmuseum","license":"CC0","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-009",
+    "title":"Complex Still Life & Composition Design",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":9, "ageMax":18,
+    "tags":["thumbnails","notan","focal path","overlap/depth"],
+    "pd":true,
+    "desc":"Make 3 value thumbnails (notan) for 4–6 objects; choose one and take the drawing to 80% finish with clear focal path.",
+    "artists":[{"name":"Chardin","death":1779},{"name":"Paul Cézanne","death":1906}],
+    "movements":["18th-c. French","Post-Impressionism"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Chardin","work":"Still life compositions","year":"18th c.","museum":"Met/NGA","license":"CC0/PD","url":"#"}
+    ]
+  },
+  {
+    "id":"LFC-010",
+    "title":"Found Still Life (Capstone) — Setup to Portfolio Piece",
+    "part":"Foundations",
+    "series":"Observational Drawing & Form",
+    "level":"Beginner",
+    "section":"Drawing",
+    "ageMin":9, "ageMax":18,
+    "tags":["capstone","workflow","portfolio","process sheet"],
+    "pd":true,
+    "desc":"Select objects, arrange with clear light, block-in → measure → value groups → edges → finish; present with a simple process strip.",
+    "artists":[{"name":"Chardin","death":1779},{"name":"Paul Cézanne","death":1906}],
+    "movements":["18th-c. French","Post-Impressionism"],
+    "videoUrl":"#",
+    "pdfUrl":"#",
+    "refs":[
+      {"artist":"Chardin","work":"Still life exemplars","year":"18th c.","museum":"Public Domain","license":"PD","url":"#"}
+    ]
+  }
+]

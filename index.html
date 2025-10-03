@@ -11,6 +11,9 @@
   .bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
   input,select,label{padding:8px 10px;border:1px solid #d0d6e0;border-radius:8px;background:#fff}
   label.chk{display:flex;align-items:center;gap:6px}
+  .status{margin:8px 0 0;font-size:13px}
+  .status.ok{color:#0b6d45}
+  .status.err{color:#a40000}
   .count{color:#445;margin:6px 0 2px}
   .grid{display:grid;gap:12px;margin-top:10px}
   @media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
@@ -37,6 +40,7 @@
     <label class="chk"><input type="checkbox" id="pd"> PD/CC0 only</label>
   </div>
 
+  <div id="status" class="status">Loading data…</div>
   <div id="count" class="count"></div>
   <div id="list" class="grid"></div>
 
@@ -53,13 +57,23 @@ const DATA_SOURCES = [
 ];
 
 let CLASSES=[];
-const el={q:$('#q'),part:$('#part'),series:$('#series'),level:$('#level'),section:$('#section'),age:$('#age'),pd:$('#pd'),list:$('#list'),count:$('#count')};
-function $(id){return document.getElementById(id);}
+const $=id=>document.getElementById(id);
+const el={q:$('#q'),part:$('#part'),series:$('#series'),level:$('#level'),section:$('#section'),age:$('#age'),pd:$('#pd'),list:$('#list'),count:$('#count'),status:$('#status')};
 const uniq=a=>[...new Set(a)].filter(Boolean).sort((x,y)=>x.localeCompare(y));
 const fill=(sel,vals)=>sel.insertAdjacentHTML('beforeend',vals.map(v=>`<option>${v}</option>`).join(''));
 
-Promise.all(DATA_SOURCES.map(u=>fetch(u).then(r=>r.json()))).then(parts=>{
+Promise.all(DATA_SOURCES.map(u=>{
+  return fetch(u).then(r=>{
+    if(!r.ok) throw new Error(`Fetch failed: ${u} (${r.status})`);
+    return r.json();
+  }).then(j=>{
+    console.log("Loaded", u, j.length, "items");
+    return j;
+  });
+})).then(parts=>{
   CLASSES = parts.flat().sort((a,b)=>a.id.localeCompare(b.id));
+  if(!CLASSES.length){ el.status.className="status err"; el.status.textContent="No classes loaded — check JSON files."; return; }
+  el.status.className="status ok"; el.status.textContent="Loaded "+CLASSES.length+" classes.";
   fill(el.part,   uniq(CLASSES.map(c=>c.part)));
   fill(el.series, uniq(CLASSES.map(c=>c.series)));
   fill(el.level,  uniq(CLASSES.map(c=>c.level)));
@@ -67,8 +81,9 @@ Promise.all(DATA_SOURCES.map(u=>fetch(u).then(r=>r.json()))).then(parts=>{
   [el.q,el.part,el.series,el.level,el.section,el.age,el.pd].forEach(x=>x.addEventListener('input',render));
   render();
 }).catch(err=>{
-  el.list.innerHTML = "<div>Data load failed. Check file names and try again.</div>";
-  console.error(err);
+  console.error("DATA LOAD ERROR:", err);
+  el.status.className="status err";
+  el.status.textContent = "Data load failed: " + err.message;
 });
 
 function inAge(c,band){

@@ -11,9 +11,9 @@
   .bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
   input,select,label{padding:8px 10px;border:1px solid #d0d6e0;border-radius:8px;background:#fff}
   label.chk{display:flex;align-items:center;gap:6px}
-  .status{margin:8px 0 0;font-size:13px}
-  .status.ok{color:#0b6d45}
-  .status.err{color:#a40000}
+  .status{margin:8px 0 10px;font-size:13px}
+  .ok{color:#0b6d45}
+  .err{color:#a40000}
   .count{color:#445;margin:6px 0 2px}
   .grid{display:grid;gap:12px;margin-top:10px}
   @media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
@@ -40,7 +40,7 @@
     <label class="chk"><input type="checkbox" id="pd"> PD/CC0 only</label>
   </div>
 
-  <div id="status" class="status">Loading data…</div>
+  <div id="status" class="status">Loading…</div>
   <div id="count" class="count"></div>
   <div id="list" class="grid"></div>
 
@@ -53,7 +53,7 @@
 const DATA_SOURCES = [
   "./data/foundations.json",
   "./data/fun-sketch.json"
-  // add more later: "./data/masters.json", "./data/materials.json", ...
+  // add more later
 ];
 
 let CLASSES=[];
@@ -62,28 +62,49 @@ const el={q:$('#q'),part:$('#part'),series:$('#series'),level:$('#level'),sectio
 const uniq=a=>[...new Set(a)].filter(Boolean).sort((x,y)=>x.localeCompare(y));
 const fill=(sel,vals)=>sel.insertAdjacentHTML('beforeend',vals.map(v=>`<option>${v}</option>`).join(''));
 
-Promise.all(DATA_SOURCES.map(u=>{
-  return fetch(u).then(r=>{
-    if(!r.ok) throw new Error(`Fetch failed: ${u} (${r.status})`);
+// Load each source independently, don’t fail all if one 404s
+Promise.allSettled(DATA_SOURCES.map(src =>
+  fetch(src).then(r=>{
+    if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
     return r.json();
-  }).then(j=>{
-    console.log("Loaded", u, j.length, "items");
-    return j;
+  }).then(data => ({src, ok:true, data}))
+)).then(results=>{
+  const oks = results.filter(r=>r.status==="fulfilled" && r.value.ok);
+  const errs = results.filter(r=>r.status==="rejected");
+  const partial = results.filter(r=>r.status==="fulfilled" && r.value && !r.value.ok);
+
+  // Merge good data
+  CLASSES = oks.flatMap(r=>r.value.data).sort((a,b)=>a.id.localeCompare(b.id));
+
+  // Status report
+  const lines=[];
+  if(oks.length) lines.push(`<span class="ok">Loaded ${CLASSES.length} classes from ${oks.length} file(s).</span>`);
+  errs.forEach(e=>{
+    const i = results.indexOf(e);
+    lines.push(`<div class="err">Failed: ${DATA_SOURCES[i]} — ${e.reason}</div>`);
   });
-})).then(parts=>{
-  CLASSES = parts.flat().sort((a,b)=>a.id.localeCompare(b.id));
-  if(!CLASSES.length){ el.status.className="status err"; el.status.textContent="No classes loaded — check JSON files."; return; }
-  el.status.className="status ok"; el.status.textContent="Loaded "+CLASSES.length+" classes.";
+  if(!oks.length) {
+    lines.push(`<div class="err">No data files loaded. Showing 2 demo items so you can verify the UI.</div>`);
+    CLASSES = demoFallback();
+  }
+  el.status.innerHTML = lines.join("<br>");
+
+  // Build filters and render
   fill(el.part,   uniq(CLASSES.map(c=>c.part)));
   fill(el.series, uniq(CLASSES.map(c=>c.series)));
   fill(el.level,  uniq(CLASSES.map(c=>c.level)));
   fill(el.section,uniq(CLASSES.map(c=>c.section)));
   [el.q,el.part,el.series,el.level,el.section,el.age,el.pd].forEach(x=>x.addEventListener('input',render));
   render();
+
+  // Deep-link open (e.g., #LFC-001)
+  if(location.hash){
+    const target = document.querySelector(location.hash);
+    if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
+  }
 }).catch(err=>{
-  console.error("DATA LOAD ERROR:", err);
-  el.status.className="status err";
-  el.status.textContent = "Data load failed: " + err.message;
+  el.status.innerHTML = `<div class="err">Unexpected error: ${err.message}</div>`;
+  console.error(err);
 });
 
 function inAge(c,band){
@@ -123,5 +144,24 @@ function card(c){
       ${c.pdfUrl&&c.pdfUrl!=="#" ? `<a href="${c.pdfUrl}" target="_blank" rel="noopener">PDF</a>`:''}
     </div>
   </article>`;
+}
+
+function demoFallback(){
+  return [
+    {
+      "id":"LFC-001",
+      "title":"(DEMO) Materials & Mark-Making Lab",
+      "part":"Foundations","series":"Observational Drawing & Form","level":"Beginner","section":"Drawing",
+      "ageMin":8,"ageMax":18,"tags":["materials","graphite"],"pd":true,
+      "desc":"Demo item so you can verify the UI.","videoUrl":"#","pdfUrl":"#"
+    },
+    {
+      "id":"LFC-011",
+      "title":"(DEMO) Shape → Thing Remix",
+      "part":"Foundations","series":"Fun Sketch (Light & Shadow)","level":"All Levels","section":"Graphic",
+      "ageMin":6,"ageMax":12,"tags":["simplify"],"pd":true,
+      "desc":"Demo item #2.","videoUrl":"#","pdfUrl":"#"
+    }
+  ];
 }
 </script>

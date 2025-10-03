@@ -434,7 +434,6 @@ const CLASSES = [
 },
 
 /* ----------------------- LEARN FROM MASTERS --------------------- */
-
 { id:"LFC-016",
   title:"Matisse Eyes: Bold Color, Clear Shapes",
   part:"Masters",
@@ -616,7 +615,6 @@ const CLASSES = [
 },
 
 /* -------------------- MATERIAL LANGUAGE -------------- */
-
 { id:"LFC-026",
   title:"Watercolor Voices: Landscape & Illustration (+ Wax Resist)",
   part:"Materials",
@@ -799,6 +797,7 @@ const CLASSES = [
     {artist:"El Lissitzky",work:"PROUN compositions / photomontage",year:"1919–1925",museum:"Public Domain collections",license:"PD",url:"#"}
   ]
 },
+  
 /* ---------------------- INTERIOR DESIGN · CAFE STUDIO ------------- */
 { id:"LFC-036",
   title:"Cafe Studio 1 — Brief & Story",
@@ -902,6 +901,7 @@ const CLASSES = [
     {artist:"Josef Hoffmann",work:"Cafe Fledermaus (Vienna)",year:"1907",museum:"MAK Vienna",license:"PD",url:"https://www.mak.at/en"}
   ]
 },
+  
 /* ----------------- CUSTOM DESIGN BASIC (COSTUME) ----------------- */
 { id:"LFC-042",
   title:"What Is Costume Design? (vs Fashion Design)",
@@ -994,6 +994,7 @@ const CLASSES = [
     {artist:"Textile samples",work:"Lace & trims (reference)",year:"19th–early 20th c.",museum:"V&A Museum Collections",license:"Public Domain",url:"https://collections.vam.ac.uk"}
   ]
 },
+  
 { id:"LFC-047",
   title:"Conceptual / Artistic Costume (Free Approach)",
   part:"Design",
@@ -1012,6 +1013,7 @@ const CLASSES = [
     {artist:"Odilon Redon",work:"Noirs / dream imagery",year:"1880s–1890s",museum:"Public Domain collections",license:"PD",url:"https://www.metmuseum.org/art/collection"}
   ]
 },
+  
 /* ----------------- FIGURES IN MOTION (FOUNDATION) — 5 LESSONS ----------------- */
 { id:"LFC-048",
   title:"Masters on Motion: How the Greats Train",
@@ -1106,22 +1108,121 @@ const CLASSES = [
     {artist:"Étienne-Jules Marey",work:"Chronophotography sequences",year:"1880s–1890s",museum:"Gallica / BnF",license:"PD",url:"https://gallica.bnf.fr"}
   ]
 },
-/* ------------------------ ILLUSTRATION --------------- */
-{ id:"LFC-014", title:"Storyboard Basics (Pre-1945 Prints & Posters)", part:"Illustration/Comics", series:"Illustration Lab", level:"Beginner", section:"Graphic",
-  ageMin:9, ageMax:18, tags:["storyboard","beats","notan"], pd:true,
-  desc:"6–9 beats; value readability. Reference: narrative prints/posters.",
-  artists:[{name:"Hiroshige",death:1858},{name:"Mucha",death:1939}], movements:["Ukiyo-e","Art Nouveau"],
+  
+/* ----------------- ILLUSTRATION LAB — FROM STORY TO FINISHED PAGE ----------------- */
+{ id:"LFC-053",
+  title:"Figures in Motion (Foundation)",
+  part:"Figure/Anatomy",
+  series:"Figures in Motion",
+  level:"Beginner",
+  section:"Drawing",
+  ageMin:9, ageMax:18,
+  tags:["gesture","proportion","dynamic posing","mannequin","quick sketch"],
+  pd:true,
+  desc:"A 5-lesson foundation in figure sketching: learn gesture, balance, stickman-to-mannequin, quick sketches, and held poses with action strips. Includes a year-long challenge of 500 figures.",
+  artists:[{name:"Michelangelo",death:1564},{name:"Peter Paul Rubens",death:1640},{name:"Edgar Degas",death:1917},{name:"Eadweard Muybridge",death:1904}],
+  movements:["Renaissance","Baroque","Impressionism","Photography Studies"],
   videoUrl:"#", pdfUrl:"#",
-  refs:[{artist:"Mucha",work:"Gismonda (poster)",year:"1894",museum:"Public Domain",license:"PD",url:"#"}]
-},
-{ id:"LFC-015", title:"Mixed-Media Page: Watercolor × Pen × Pastel", part:"Illustration/Comics", series:"Illustration Lab", level:"All Levels", section:"Painting",
-  ageMin:9, ageMax:18, tags:["mixed media","cel-shading","page layout"], pd:true,
-  desc:"Safe material order and cel-style shadows; page readability.",
-  artists:[{name:"Felix Vallotton",death:1925}], movements:["Nabis"],
+  refs:[
+    {artist:"Michelangelo",work:"Studies of figures (Sistine Chapel prep)",year:"c.1508–1512",museum:"Public Domain",license:"PD",url:"https://www.metmuseum.org"},
+    {artist:"Peter Paul Rubens",work:"Dynamic figure studies",year:"1600s",museum:"Public Domain",license:"PD",url:"https://www.rijksmuseum.nl"},
+    {artist:"Edgar Degas",work:"Dancer sketches",year:"1870s",museum:"Public Domain",license:"PD",url:"https://www.metmuseum.org"},
+    {artist:"Eadweard Muybridge",work:"Animal Locomotion (motion photo plates)",year:"1887",museum:"Public Domain",license:"PD",url:"https://archive.org"}
+  ]
+},  
+{ id:"LFC-054",
+  title:"Illustration Voices & Your Story",
+  part:"Illustration/Comics",
+  series:"Illustration Lab — From Story to Finished Page",
+  level:"All Levels",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["illustration voices","moodboard","story idea","material tests"],
+  pd:true,
+  desc:"Explore different illustration voices (editorial, children’s book, comics, posters, concept art). Test watercolor, markers, and oil pastels. Choose a personal story + mood words; create a mood board and 12 thumbnails.",
+  artists:[{name:"Beatrix Potter",death:1943},{name:"John Tenniel",death:1914},{name:"Winsor McCay",death:1934}],
+  movements:["Illustration","Children’s Book","Early Comics"],
   videoUrl:"#", pdfUrl:"#",
-  refs:[{artist:"Vallotton",work:"Woodcuts (series)",year:"1890s",museum:"Public Domain",license:"PD",url:"#"}]
+  refs:[
+    {artist:"Beatrix Potter",work:"Peter Rabbit illustrations",year:"c.1900–1910",museum:"V&A / Public Domain",license:"PD",url:"https://collections.vam.ac.uk"},
+    {artist:"John Tenniel",work:"Alice’s Adventures in Wonderland",year:"1865",museum:"Public Domain",license:"PD",url:"https://www.gutenberg.org/files/11/11-h/11-h.htm"},
+    {artist:"Winsor McCay",work:"Little Nemo in Slumberland",year:"1905–1911",museum:"Public Domain",license:"PD",url:"https://www.loc.gov"}
+  ]
 },
-
+{ id:"LFC-055",
+  title:"Storyboards & Beats (Storyline → Thumbnails)",
+  part:"Illustration/Comics",
+  series:"Illustration Lab — From Story to Finished Page",
+  level:"All Levels",
+  section:"Graphic",
+  ageMin:8, ageMax:18,
+  tags:["storyboarding","beats","thumbnails","value map"],
+  pd:true,
+  desc:"Plan 6–9 panels: setup, complication, change, resolution. Vary camera angles and panel size; build a 3-tone value map for readability. Deliverable: beat board + 2 thumbnail page plans.",
+  artists:[{name:"Hokusai",death:1849},{name:"Utagawa Kuniyoshi",death:1861},{name:"George Herriman",death:1944}],
+  movements:["Ukiyo-e","Early Manga","Comics"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Katsushika Hokusai",work:"Hokusai Manga (sequential sketches)",year:"1814+",museum:"Public Domain",license:"PD",url:"https://archive.org/details/hokusaimanga"},
+    {artist:"Utagawa Kuniyoshi",work:"Warrior prints (dynamic panels)",year:"19th c.",museum:"Public Domain",license:"PD",url:"https://ukiyo-e.org"},
+    {artist:"George Herriman",work:"Krazy Kat comic strips",year:"1910s–1930s",museum:"Public Domain",license:"PD",url:"https://www.loc.gov"}
+  ]
+},
+{ id:"LFC-056",
+  title:"Composition & Atmosphere on a Page",
+  part:"Illustration/Comics",
+  series:"Illustration Lab — From Story to Finished Page",
+  level:"All Levels",
+  section:"Drawing",
+  ageMin:8, ageMax:18,
+  tags:["composition","atmosphere","lighting","page layout"],
+  pd:true,
+  desc:"Refine layout, hierarchy, and lighting. Use thirds, leading lines, silhouettes, overlaps, and light arrows. Clean pencils and value plan. Deliverable: final page layout + atmosphere notes.",
+  artists:[{name:"Gustave Doré",death:1883},{name:"Alphonse Mucha",death:1939}],
+  movements:["Engraving","Art Nouveau"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Gustave Doré",work:"Book illustrations (Biblical, Dante)",year:"1850s–1880s",museum:"Public Domain collections",license:"PD",url:"https://archive.org"},
+    {artist:"Alphonse Mucha",work:"Poster works (composition clarity)",year:"1890s–1900s",museum:"The Met / PD Open Access",license:"CC0",url:"https://www.metmuseum.org/art/collection"}
+  ]
+},
+{ id:"LFC-057",
+  title:"Mixed-Media Pipeline (Watercolor + Pens/Markers + Oil Pastel)",
+  part:"Illustration/Comics",
+  series:"Illustration Lab — From Story to Finished Page",
+  level:"All Levels",
+  section:"Painting",
+  ageMin:8, ageMax:18,
+  tags:["mixed media","pipeline","safe order","watercolor + pens + oil pastel"],
+  pd:true,
+  desc:"Execute a safe mixed-media pipeline: waterproof linework → watercolor base → markers/pen accents → oil pastel textures. Deliverable: finished page + swatch strip of your palette.",
+  artists:[{name:"Felix Vallotton",death:1925},{name:"Pierre Bonnard",death:1947}],
+  movements:["Nabis","Post-Impressionism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Felix Vallotton",work:"Woodcuts & flat-color illustrations",year:"1890s",museum:"Public Domain",license:"PD",url:"https://www.metmuseum.org"},
+    {artist:"Pierre Bonnard",work:"Intimate interiors (color fields)",year:"c.1900–1930",museum:"Public Domain collections",license:"PD",url:"https://www.artic.edu"}
+  ]
+},
+{ id:"LFC-058",
+  title:"Digital Finish & Publication",
+  part:"Illustration/Comics",
+  series:"Illustration Lab — From Story to Finished Page",
+  level:"All Levels",
+  section:"Digital",
+  ageMin:10, ageMax:18,
+  tags:["digital finish","scanning","cleanup","publication"],
+  pd:true,
+  desc:"Polish and package: scan or photo, cleanup (levels, white balance), small tweaks, captions, export as PDF/PNG. Optional GIF reveal. Deliverable: final print/web file + 3-image process strip.",
+  artists:[{name:"Winsor McCay",death:1934},{name:"Lyonel Feininger",death:1956}],
+  movements:["Early Comics","Modernism"],
+  videoUrl:"#", pdfUrl:"#",
+  refs:[
+    {artist:"Winsor McCay",work:"Little Nemo (page design)",year:"1905–1911",museum:"Library of Congress",license:"PD",url:"https://www.loc.gov"},
+    {artist:"Lyonel Feininger",work:"Comic strips for Chicago Tribune",year:"1906–1907",museum:"Public Domain",license:"PD",url:"https://archive.org"}
+  ]
+},
+  
 /* ------------------------ ARCHITECTURE --------------- */
 { id:"LFC-016", title:"1-Point Interior: Calm Depth", part:"Architecture", series:"Architecture Foundation", level:"Beginner", section:"Design",
   ageMin:9, ageMax:18, tags:["1-point","interior","horizon"], pd:true,

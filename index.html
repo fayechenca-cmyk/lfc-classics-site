@@ -2742,7 +2742,7 @@ function openDrawer(c){
   const links=[];
   if(c.videoUrl && c.videoUrl!=="#") links.push(`<a class="btn" href="${c.videoUrl}" target="_blank" rel="noopener">Open Video</a>`);
   if(c.pdfUrl && c.pdfUrl!=="#") links.push(`<a class="btn" href="${c.pdfUrl}" target="_blank" rel="noopener">Open PDF</a>`);
-  links.push(`<a class="btn" href="mailto:studio@example.com?subject=LFC%20${encodeURIComponent(c.id)}">Email about ${c.id}</a>`);
+  links.push(`<a class="btn" href="mailto:info@feiteamart.com?subject=LFC%20${encodeURIComponent(c.id)}">Email about ${c.id}</a>`);
   links.push(`<a class="btn" href="${location.origin}${location.pathname}#${c.id}" onclick="navigator.clipboard.writeText(this.href);return false;">Copy link</a>`);
   dwLinks.innerHTML = links.join('');
 

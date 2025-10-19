@@ -2831,5 +2831,36 @@ render();
   }
 }
 </script>
+  <!-- ===== Emergency viewer (safe to keep or remove later) ===== -->
+<script>
+(function () {
+  // 0) Make sure we have a place to show cards
+  var mount = document.getElementById('list');
+  if (!mount) {
+    mount = document.createElement('section');
+    mount.id = 'list';
+    mount.className = 'list';
+    document.body.appendChild(mount);
+  }
+
+  // 1) Read your data
+  var data = (typeof window !== 'undefined' && Array.isArray(window.CLASSES)) ? window.CLASSES : [];
+
+  // 2) If no data, tell us clearly on the page (not the console)
+  if (!data.length) {
+    mount.innerHTML = '<div style="padding:12px;border:1px solid #f0c36d;background:#fff3cd">No classes loaded yet. If you see this, the data block didn’t run.</div>';
+    return;
+  }
+
+  // 3) Draw very simple cards (ignores filters)
+  mount.innerHTML = data.slice(0, 60).map(function (c) {
+    return '<div style="padding:12px;margin:8px 0;border:1px solid #e5e7eb;background:#fff;border-radius:8px">'
+         + '<div style="font-weight:600">' + (c.id || '') + ' — ' + (c.title || '') + '</div>'
+         + (c.part ? '<div style="opacity:.8">Part: ' + c.part + '</div>' : '')
+         + (c.series ? '<div style="opacity:.8">Series: ' + c.series + '</div>' : '')
+         + '</div>';
+  }).join('');
+})();
+</script>
 </body>
 </html>

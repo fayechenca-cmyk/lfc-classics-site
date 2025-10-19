@@ -166,7 +166,7 @@
    refs[{artist,work,year,museum,license,url}]
    ===================================================== */
 
- window.CLASSES = [
+window.CLASSES = [
 /* -------- FOUNDATIONS / OBSERVATIONAL DRAWING -------- */  
 
 { id:"LFC-001",
@@ -672,7 +672,6 @@
     {artist:"Charles Bargue",work:"Cours de dessin (plates)",year:"19th c.",museum:"Public Domain",license:"PD",url:"#"},
     {artist:"J.-A.-D. Ingres",work:"Graphite portrait studies",year:"1800s",museum:"Public Domain",license:"PD",url:"#"}
   ]
-}
 },
 { id:"LFC-029",
   title:"Ink & Wash: Fineliner + Watercolor",
@@ -2657,7 +2656,7 @@
     { name: "Henri de Toulouse-Lautrec", death: 1901 },
     { name: "Katsushika Hokusai", death: 1849 },
     { name: "Rembrandt", death: 1669 }
-  ]
+  ],
   movements:["Neoclassicism","Aesthetic/Decadent","Post-Impressionism","Ukiyo-e","Dutch Golden Age"],
   videoUrl:"https://youtu.be/W6EGT-6kXrM?si=jShjj74Bsf6Qb1My", pdfUrl:"#",
   refs:[
@@ -2669,7 +2668,8 @@
   ]
 } 
 ]; 
-  
+const CLASSES = window.CLASSES;
+</script> 
 /* ======= ADD MORE CLASSES HERE (copy & edit) ======= */
 // Example skeleton to copy:
 /*
@@ -2830,44 +2830,6 @@ render();
     if (c) openDrawer(c);
   }
 }
-<script>
-// --- quick sanity test ---
-const _countEl = document.getElementById('count');
-const _listEl  = document.getElementById('list');
-
-// show how many classes loaded
-const _n = Array.isArray(window.CLASSES) ? window.CLASSES.length : 0;
-if (_countEl) _countEl.textContent = _n + ' classes loaded (sanity test)';
-
-// draw 3 simple rows (ignores filters/render code)
-if (_listEl) {
-  _listEl.innerHTML = (window.CLASSES || []).slice(0,3)
-    .map(c => `<div style="padding:8px;border:1px solid #ddd;border-radius:8px;background:#fff;margin:6px 0">
-                 <strong>${c.id||''}</strong> — ${c.title||''}
-               </div>`).join('');
-}
-
-// try to run your normal painter; if it fails, we’ll see the error
-try { if (typeof render === 'function') render(); } catch (e) { console.error('render() error:', e); }
-<script>
-// --- quick sanity test ---
-const _countEl = document.getElementById('count');
-const _listEl  = document.getElementById('list');
-
-// show how many classes loaded
-const _n = Array.isArray(window.CLASSES) ? window.CLASSES.length : 0;
-if (_countEl) _countEl.textContent = _n + ' classes loaded (sanity test)';
-
-// draw 3 simple rows (ignores filters/render code)
-if (_listEl) {
-  _listEl.innerHTML = (window.CLASSES || []).slice(0,3)
-    .map(c => `<div style="padding:8px;border:1px solid #ddd;border-radius:8px;background:#fff;margin:6px 0">
-                 <strong>${c.id||''}</strong> — ${c.title||''}
-               </div>`).join('');
-}
-
-// try to run your normal painter; if it fails, we’ll see the error
-try { if (typeof render === 'function') render(); } catch (e) { console.error('render() error:', e); }
 </script>
 </body>
 </html>

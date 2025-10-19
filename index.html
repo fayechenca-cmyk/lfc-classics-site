@@ -2829,6 +2829,44 @@ render();
     if (c) openDrawer(c);
   }
 }
+<script>
+// --- quick sanity test ---
+const _countEl = document.getElementById('count');
+const _listEl  = document.getElementById('list');
+
+// show how many classes loaded
+const _n = Array.isArray(window.CLASSES) ? window.CLASSES.length : 0;
+if (_countEl) _countEl.textContent = _n + ' classes loaded (sanity test)';
+
+// draw 3 simple rows (ignores filters/render code)
+if (_listEl) {
+  _listEl.innerHTML = (window.CLASSES || []).slice(0,3)
+    .map(c => `<div style="padding:8px;border:1px solid #ddd;border-radius:8px;background:#fff;margin:6px 0">
+                 <strong>${c.id||''}</strong> — ${c.title||''}
+               </div>`).join('');
+}
+
+// try to run your normal painter; if it fails, we’ll see the error
+try { if (typeof render === 'function') render(); } catch (e) { console.error('render() error:', e); }
+<script>
+// --- quick sanity test ---
+const _countEl = document.getElementById('count');
+const _listEl  = document.getElementById('list');
+
+// show how many classes loaded
+const _n = Array.isArray(window.CLASSES) ? window.CLASSES.length : 0;
+if (_countEl) _countEl.textContent = _n + ' classes loaded (sanity test)';
+
+// draw 3 simple rows (ignores filters/render code)
+if (_listEl) {
+  _listEl.innerHTML = (window.CLASSES || []).slice(0,3)
+    .map(c => `<div style="padding:8px;border:1px solid #ddd;border-radius:8px;background:#fff;margin:6px 0">
+                 <strong>${c.id||''}</strong> — ${c.title||''}
+               </div>`).join('');
+}
+
+// try to run your normal painter; if it fails, we’ll see the error
+try { if (typeof render === 'function') render(); } catch (e) { console.error('render() error:', e); }
 </script>
 </body>
 </html>

@@ -2810,11 +2810,24 @@ els.reset.addEventListener('click',()=>{
 });
 
 /* Deep link open (#LFC-00X) */
-window.addEventListener('hashchange',()=>{const id=location.hash.replace('#','');const c=CLASSES.find(x=>x.id===id);if(c) openDrawer(c);});
+window.addEventListener('hashchange', () => {
+  const id = location.hash.replace('#', '');
+  const c = CLASSES.find(x => x.id === id);
+  if (c) openDrawer(c);
+});
 
 /* First render */
+console.log("CLASSES loaded:", CLASSES?.length);
 render();
-const deep=location.hash.replace('#',''); if(deep){const c=CLASSES.find(x=>x.id===deep); if(c) openDrawer(c);}
+
+/* Open deep link if present on first load */
+{
+  const deep = location.hash.replace('#', '');
+  if (deep) {
+    const c = CLASSES.find(x => x.id === deep);
+    if (c) openDrawer(c);
+  }
+}
 </script>
 </body>
 </html>

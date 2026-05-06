@@ -7,28 +7,16 @@
     "part": "Foundations",
     "seriesId": "observational-drawing-form",
     "seriesTitle": "Observational Drawing & Form",
-    "seriesAliases": [
-      "Observational"
-    ],
+    "seriesAliases": ["Observational"],
     "level": "Beginner",
     "section": "Drawing",
     "ageMin": 8,
     "ageMax": 18,
     "ageLabel": "8+",
-    "ageBands": [
-      "8+",
-      "11+",
-      "14+"
-    ],
+    "ageBands": ["8+", "11+", "14+"],
     "shortDescription": "Discover core art materials and how artists use them in studio practice.",
     "fullDescription": "Discover the materials artists use to bring ideas to life. Explore pencils, paints, clay, paper, and other tools in this hands-on studio session. Learn how each medium has its own voice, and see how artists before 1945 experimented with texture, color, and form.",
-    "tags": [
-      "materials",
-      "studio",
-      "charcoal",
-      "marker",
-      "paints"
-    ],
+    "tags": ["materials", "studio", "charcoal", "marker", "paints"],
     "coverImage": "",
     "thumbnailImage": "",
     "gallery": [],
@@ -36,14 +24,9 @@
     "secondaryBadgeIds": [],
     "pd": true,
     "artists": [
-      {
-        "name": "Charles Bargue",
-        "death": 1883
-      }
+      { "name": "Charles Bargue", "death": 1883 }
     ],
-    "movements": [
-      "Academic"
-    ],
+    "movements": ["Academic"],
     "refs": [
       {
         "artist": "Charles Bargue",
@@ -99,42 +82,26 @@
     "part": "Materials",
     "seriesId": "material-language",
     "seriesTitle": "Material Language",
-    "seriesAliases": [
-      "Material Language"
-    ],
+    "seriesAliases": ["Material Language"],
     "level": "Beginner",
     "section": "Drawing",
     "ageMin": 8,
     "ageMax": 18,
     "ageLabel": "8+",
-    "ageBands": [
-      "8+",
-      "11+",
-      "14+"
-    ],
+    "ageBands": ["8+", "11+", "14+"],
     "shortDescription": "Build pressure control, clean value hierarchy, and stronger edge design in graphite.",
     "fullDescription": "Work with graphite through lamp-lit still life studies. Learn pressure control, value grouping, and hard or soft edges while keeping drawing structure clean and readable.",
-    "tags": [
-      "graphite",
-      "value",
-      "edges",
-      "still life"
-    ],
-    "coverImage": "",
+    "tags": ["graphite", "value", "edges", "still life"],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/68daf5253dc15612a294ffb6_88f00564162f6054a7e7e03c9dfe94e7.JPG",
     "thumbnailImage": "",
     "gallery": [],
     "badgeId": "realism_expert",
     "secondaryBadgeIds": [],
     "pd": true,
     "artists": [
-      {
-        "name": "Charles Bargue",
-        "death": 1883
-      }
+      { "name": "Charles Bargue", "death": 1883 }
     ],
-    "movements": [
-      "Academic"
-    ],
+    "movements": ["Academic"],
     "refs": [
       {
         "artist": "Charles Bargue",
@@ -163,7 +130,7 @@
     "showInMissionHub": true,
     "comingSoon": false,
     "legacyMissionTitle": "",
-    "legacyMissionLink": "",
+    "legacyMissionLink": "https://www.feiteamart.com/colour-pencil-realistic-drawing-practice",
     "active": true,
     "learning": {
       "state": "reference_only",
@@ -171,7 +138,7 @@
       "lessonType": "foundation",
       "smartClassEnabled": false,
       "launchMode": "none",
-      "courseEntryUrl": "",
+      "courseEntryUrl": "https://www.feiteamart.com/colour-pencil-realistic-drawing-practice",
       "prototypeEntryUrl": "",
       "smartClassEntryUrl": "",
       "previewUrl": "",
@@ -190,42 +157,26 @@
     "part": "Design",
     "seriesId": "interior-design-cafe-studio",
     "seriesTitle": "Interior Design · Cafe Studio",
-    "seriesAliases": [
-      "Interior Design"
-    ],
+    "seriesAliases": ["Interior Design"],
     "level": "All Levels",
     "section": "Design",
     "ageMin": 9,
     "ageMax": 18,
     "ageLabel": "All Ages",
-    "ageBands": [
-      "8+",
-      "11+",
-      "14+"
-    ],
+    "ageBands": ["8+", "11+", "14+"],
     "shortDescription": "Establish a brand story, moodboard, and circulation intent for a cafe design project.",
     "fullDescription": "Begin the Cafe Studio pathway by defining a brand story, a functional checklist, and a circulation idea. Output: moodboard, bubble diagram, and brand keywords.",
-    "tags": [
-      "interior design",
-      "moodboard",
-      "brand story",
-      "space planning"
-    ],
-    "coverImage": "",
+    "tags": ["interior design", "moodboard", "brand story", "space planning"],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e29737a0c84f1fe8df12e3_Screenshot%202026-04-17%20at%201.25.22%E2%80%AFPM.png",
     "thumbnailImage": "",
     "gallery": [],
     "badgeId": "interior_design",
     "secondaryBadgeIds": [],
     "pd": true,
     "artists": [
-      {
-        "name": "William Morris",
-        "death": 1896
-      }
+      { "name": "William Morris", "death": 1896 }
     ],
-    "movements": [
-      "Arts & Crafts"
-    ],
+    "movements": ["Arts & Crafts"],
     "refs": [
       {
         "artist": "William Morris",
@@ -281,48 +232,27 @@
     "part": "Figure/Anatomy",
     "seriesId": "figures-in-motion-foundation",
     "seriesTitle": "Figures in Motion (Foundation)",
-    "seriesAliases": [
-      "Figures in Motion"
-    ],
+    "seriesAliases": ["Figures in Motion"],
     "level": "Beginner",
     "section": "Drawing",
     "ageMin": 9,
     "ageMax": 18,
     "ageLabel": "8+",
-    "ageBands": [
-      "8+",
-      "11+",
-      "14+"
-    ],
+    "ageBands": ["8+", "11+", "14+"],
     "shortDescription": "A 5-lesson foundation in gesture, balance, mannequinization, and action sketching.",
     "fullDescription": "A 5-lesson foundation in figure sketching: learn gesture, balance, stickman-to-mannequin, quick sketches, and held poses with action strips.",
-    "tags": [
-      "gesture",
-      "proportion",
-      "dynamic posing",
-      "mannequin",
-      "quick sketch"
-    ],
-    "coverImage": "",
+    "tags": ["gesture", "proportion", "dynamic posing", "mannequin", "quick sketch"],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e298a1ed0d313895161536_IMG_0460.jpg",
     "thumbnailImage": "",
     "gallery": [],
     "badgeId": "figure_sketch",
     "secondaryBadgeIds": [],
     "pd": true,
     "artists": [
-      {
-        "name": "Michelangelo",
-        "death": 1564
-      },
-      {
-        "name": "Edgar Degas",
-        "death": 1917
-      }
+      { "name": "Michelangelo", "death": 1564 },
+      { "name": "Edgar Degas", "death": 1917 }
     ],
-    "movements": [
-      "Renaissance",
-      "Impressionism"
-    ],
+    "movements": ["Renaissance", "Impressionism"],
     "refs": [
       {
         "artist": "Michelangelo",
@@ -378,48 +308,27 @@
     "part": "Illustration/Comics",
     "seriesId": "illustration-lab-story-to-page",
     "seriesTitle": "Illustration Lab — From Story to Finished Page",
-    "seriesAliases": [
-      "Illustration Lab"
-    ],
+    "seriesAliases": ["Illustration Lab"],
     "level": "All Levels",
     "section": "Drawing",
     "ageMin": 8,
     "ageMax": 18,
     "ageLabel": "All Ages",
-    "ageBands": [
-      "4-7",
-      "8+",
-      "11+",
-      "14+"
-    ],
+    "ageBands": ["4-7", "8+", "11+", "14+"],
     "shortDescription": "Explore different illustration voices and choose a story direction through thumbnails and moodboards.",
     "fullDescription": "Explore illustration through children’s books, editorial images, posters, comics, and concept art. Test materials, choose a personal story idea, build a moodboard, and create thumbnails to begin your world.",
-    "tags": [
-      "illustration",
-      "story",
-      "moodboard",
-      "thumbnails"
-    ],
-    "coverImage": "",
+    "tags": ["illustration", "story", "moodboard", "thumbnails"],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e922ac42a1214b70380e93_Screenshot%202026-04-22%20at%2012.33.59%E2%80%AFPM.png",
     "thumbnailImage": "",
     "gallery": [],
     "badgeId": "storyteller",
     "secondaryBadgeIds": [],
     "pd": true,
     "artists": [
-      {
-        "name": "Beatrix Potter",
-        "death": 1943
-      },
-      {
-        "name": "Winsor McCay",
-        "death": 1934
-      }
+      { "name": "Beatrix Potter", "death": 1943 },
+      { "name": "Winsor McCay", "death": 1934 }
     ],
-    "movements": [
-      "Illustration",
-      "Early Comics"
-    ],
+    "movements": ["Illustration", "Early Comics"],
     "refs": [
       {
         "artist": "Beatrix Potter",
@@ -475,48 +384,27 @@
     "part": "Landscape",
     "seriesId": "landscape-lab-field-to-studio",
     "seriesTitle": "Landscape Lab — Field to Studio",
-    "seriesAliases": [
-      "Landscape Lab"
-    ],
+    "seriesAliases": ["Landscape Lab"],
     "level": "All Levels",
     "section": "Foundation",
     "ageMin": 8,
     "ageMax": 18,
     "ageLabel": "8+",
-    "ageBands": [
-      "8+",
-      "11+",
-      "14+"
-    ],
+    "ageBands": ["8+", "11+", "14+"],
     "shortDescription": "Learn to scout views, simplify big shapes, and begin plein air landscape thinking.",
     "fullDescription": "Learn to scout views, simplify big shapes, and mark light. Begin with thumbnails, then move into a main pencil sketch and optional watercolor washes for sky and ground.",
-    "tags": [
-      "plein air",
-      "landscape",
-      "sketch",
-      "watercolor",
-      "value"
-    ],
-    "coverImage": "",
+    "tags": ["plein air", "landscape", "sketch", "watercolor", "value"],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e117a73d26ca6f54a04c2d_Screenshot%202026-04-16%20at%2010.08.31%E2%80%AFAM.png",
     "thumbnailImage": "",
     "gallery": [],
     "badgeId": "landscape",
     "secondaryBadgeIds": [],
     "pd": true,
     "artists": [
-      {
-        "name": "Claude Monet",
-        "death": 1926
-      },
-      {
-        "name": "Camille Corot",
-        "death": 1875
-      }
+      { "name": "Claude Monet", "death": 1926 },
+      { "name": "Camille Corot", "death": 1875 }
     ],
-    "movements": [
-      "Impressionism",
-      "Barbizon School"
-    ],
+    "movements": ["Impressionism", "Barbizon School"],
     "refs": [
       {
         "artist": "Claude Monet",
@@ -572,27 +460,16 @@
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
     "seriesTitle": "Academic Portrait — Skull to Likeness",
-    "seriesAliases": [
-      "Portrait"
-    ],
+    "seriesAliases": ["Portrait"],
     "level": "Intermediate",
     "section": "Drawing",
     "ageMin": 11,
     "ageMax": 99,
     "ageLabel": "11+",
-    "ageBands": [
-      "11+",
-      "14+",
-      "Adults"
-    ],
+    "ageBands": ["11+", "14+", "Adults"],
     "shortDescription": "Start portraits from skull logic, major head planes, and simple construction before likeness.",
     "fullDescription": "Study the portrait through skull structure and major head construction. Build axis, proportion, and front/side relationships before moving toward facial likeness.",
-    "tags": [
-      "portrait",
-      "skull",
-      "head construction",
-      "likeness"
-    ],
+    "tags": ["portrait", "skull", "head construction", "likeness"],
     "coverImage": "",
     "thumbnailImage": "",
     "gallery": [],
@@ -600,18 +477,10 @@
     "secondaryBadgeIds": [],
     "pd": true,
     "artists": [
-      {
-        "name": "Leonardo da Vinci",
-        "death": 1519
-      },
-      {
-        "name": "Hans Holbein the Younger",
-        "death": 1543
-      }
+      { "name": "Leonardo da Vinci", "death": 1519 },
+      { "name": "Hans Holbein the Younger", "death": 1543 }
     ],
-    "movements": [
-      "Renaissance"
-    ],
+    "movements": ["Renaissance"],
     "refs": [
       {
         "artist": "Leonardo da Vinci",
@@ -667,47 +536,27 @@
     "part": "Foundations",
     "seriesId": "observational-drawing-form",
     "seriesTitle": "Observational Drawing & Form",
-    "seriesAliases": [
-      "Observational"
-    ],
+    "seriesAliases": ["Observational"],
     "level": "Beginner",
     "section": "Drawing",
     "ageMin": 9,
     "ageMax": 18,
     "ageLabel": "8+",
-    "ageBands": [
-      "8+",
-      "11+",
-      "14+"
-    ],
+    "ageBands": ["8+", "11+", "14+"],
     "shortDescription": "Train confident, economical lines through contour, pressure, and edge emphasis.",
     "fullDescription": "Train confident, economical lines through pressure ladders, ghost-then-commit strokes, one-line contours, and selective line weight. This warm-up lesson builds control, observation, and cleaner drawing habits.",
-    "tags": [
-      "line control",
-      "contour",
-      "gesture",
-      "warm-up"
-    ],
-    "coverImage": "",
+    "tags": ["line control", "contour", "gesture", "warm-up"],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69a9027ed32a09ff93e5c944_Screenshot%202026-03-04%20at%208.11.30%E2%80%AFPM.png",
     "thumbnailImage": "",
     "gallery": [],
     "badgeId": "basic_sketch",
     "secondaryBadgeIds": [],
     "pd": true,
     "artists": [
-      {
-        "name": "J.-A.-D. Ingres",
-        "death": 1867
-      },
-      {
-        "name": "Aubrey Beardsley",
-        "death": 1898
-      }
+      { "name": "J.-A.-D. Ingres", "death": 1867 },
+      { "name": "Aubrey Beardsley", "death": 1898 }
     ],
-    "movements": [
-      "Neoclassicism",
-      "Aesthetic Movement"
-    ],
+    "movements": ["Neoclassicism", "Aesthetic Movement"],
     "refs": [
       {
         "artist": "J.-A.-D. Ingres",
@@ -763,29 +612,16 @@
     "part": "Theory",
     "seriesId": "art-history-path",
     "seriesTitle": "Art History Path",
-    "seriesAliases": [
-      "Art History",
-      "Art History Class"
-    ],
+    "seriesAliases": ["Art History", "Art History Class"],
     "level": "All Levels",
     "section": "History",
     "ageMin": 8,
     "ageMax": 99,
     "ageLabel": "All Ages",
-    "ageBands": [
-      "8+",
-      "11+",
-      "14+",
-      "Adults"
-    ],
+    "ageBands": ["8+", "11+", "14+", "Adults"],
     "shortDescription": "Explore a dedicated 36+ lesson art history learning path through an independent system.",
     "fullDescription": "This path introduces artists, movements, and visual culture through a dedicated lesson system. Existing students can continue in the current Art History environment without losing progress.",
-    "tags": [
-      "art history",
-      "theory",
-      "movements",
-      "visual culture"
-    ],
+    "tags": ["art history", "theory", "movements", "visual culture"],
     "coverImage": "",
     "thumbnailImage": "",
     "gallery": [],

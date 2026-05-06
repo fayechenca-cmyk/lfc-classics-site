@@ -1,0 +1,121 @@
+[
+  {
+    "id": "material_explore",
+    "title": "Material Explore",
+    "description": "Exploration of media, materials, and studio experimentation.",
+    "artist": "Des. by Xinyue",
+    "imgUrl": "",
+    "emoji": "🧱",
+    "color": "#78716c",
+    "aliases": [],
+    "portalVisible": true,
+    "sortOrder": 4,
+    "active": true
+  },
+  {
+    "id": "basic_sketch",
+    "title": "Basic Sketch",
+    "description": "Foundational line, form, and observation training badge.",
+    "artist": "Des. by Alex",
+    "imgUrl": "",
+    "emoji": "✏️",
+    "color": "#f59e0b",
+    "aliases": [],
+    "portalVisible": true,
+    "sortOrder": 1,
+    "active": true
+  },
+  {
+    "id": "figure_sketch",
+    "title": "Figure Sketch",
+    "description": "Gesture, structure, and moving-figure observation badge.",
+    "artist": "Des. by Mia",
+    "imgUrl": "",
+    "emoji": "🧍",
+    "color": "#f43f5e",
+    "aliases": [],
+    "portalVisible": true,
+    "sortOrder": 8,
+    "active": true
+  },
+  {
+    "id": "storyteller",
+    "title": "Storyteller",
+    "description": "Narrative thinking, illustration voice, and visual storytelling badge.",
+    "artist": "Des. by Adrian",
+    "imgUrl": "",
+    "emoji": "📖",
+    "color": "#f97316",
+    "aliases": [
+      "illustrator"
+    ],
+    "portalVisible": true,
+    "sortOrder": 16,
+    "active": true
+  },
+  {
+    "id": "landscape",
+    "title": "Landscape",
+    "description": "Observation of place, atmosphere, and outdoor visual structure.",
+    "artist": "Des. by Xinyue",
+    "imgUrl": "",
+    "emoji": "⛰️",
+    "color": "#10b981",
+    "aliases": [],
+    "portalVisible": true,
+    "sortOrder": 3,
+    "active": true
+  },
+  {
+    "id": "interior_design",
+    "title": "Interior Design",
+    "description": "Spatial planning, mood, and environment concept badge.",
+    "artist": "Des. by Serena",
+    "imgUrl": "",
+    "emoji": "🛋️",
+    "color": "#d97706",
+    "aliases": [],
+    "portalVisible": true,
+    "sortOrder": 10,
+    "active": true
+  },
+  {
+    "id": "realism_expert",
+    "title": "Realism Expert",
+    "description": "Value control, accuracy, and careful visual rendering badge.",
+    "artist": "Des. by Temp",
+    "imgUrl": "",
+    "emoji": "👁️",
+    "color": "#374151",
+    "aliases": [],
+    "portalVisible": true,
+    "sortOrder": 6,
+    "active": true
+  },
+  {
+    "id": "portrait_master",
+    "title": "Portrait Master",
+    "description": "Portrait structure, likeness, and facial study badge.",
+    "artist": "Des. by FEI",
+    "imgUrl": "",
+    "emoji": "🙂",
+    "color": "#b45309",
+    "aliases": [],
+    "portalVisible": true,
+    "sortOrder": 9,
+    "active": true
+  },
+  {
+    "id": "art_history",
+    "title": "Art History",
+    "description": "Historical context, visual culture, and artist movement badge.",
+    "artist": "Des. by Ray",
+    "imgUrl": "",
+    "emoji": "🏺",
+    "color": "#eab308",
+    "aliases": [],
+    "portalVisible": true,
+    "sortOrder": 25,
+    "active": true
+  }
+]

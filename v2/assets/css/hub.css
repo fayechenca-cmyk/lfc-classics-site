@@ -1,32 +1,37 @@
 .hub-hero {
   position: relative;
-  padding: 84px 0 76px;
+  padding: 72px 0 64px;
   background:
-    radial-gradient(circle at 12% 30%, rgba(199, 210, 254, 0.55), transparent 34%),
-    radial-gradient(circle at 88% 24%, rgba(103, 232, 249, 0.40), transparent 28%),
+    radial-gradient(circle at 12% 30%, rgba(199, 210, 254, 0.52), transparent 34%),
+    radial-gradient(circle at 88% 24%, rgba(103, 232, 249, 0.36), transparent 28%),
     linear-gradient(135deg, #f8fbff 0%, var(--fei-mint-bg) 52%, #fdfefe 100%);
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 42px;
-  align-items: center;
+  grid-template-columns: 1fr 0.95fr;
+  gap: 36px;
+  align-items: end;
+}
+
+.hero-copy {
+  padding-bottom: 18px;
 }
 
 .hero-copy h1 {
-  max-width: 780px;
+  max-width: 760px;
   margin-bottom: 16px;
-  font-size: clamp(42px, 6vw, 72px);
+  font-size: clamp(42px, 5vw, 66px);
   font-weight: 800;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.055em;
+  line-height: 0.95;
 }
 
 .hero-subtitle {
-  max-width: 680px;
+  max-width: 620px;
   color: var(--fei-text-mid);
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 17px;
+  line-height: 1.72;
 }
 
 .hero-actions {
@@ -38,47 +43,75 @@
 
 .hero-visual {
   position: relative;
-  min-height: 380px;
 }
 
-.hero-visual-card {
+.hero-overlap-stage {
+  min-height: 640px;
+}
+
+.hero-frame {
   position: absolute;
-  border: 1px solid rgba(255, 255, 255, 0.95);
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.88);
-  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 24px 54px rgba(26, 29, 43, 0.12);
+  backdrop-filter: blur(8px);
+}
+
+.hero-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-frame-tag {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.94);
   color: var(--fei-ink);
   font-family: var(--font-display);
+  font-size: 11px;
   font-weight: 800;
-  backdrop-filter: blur(10px);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  box-shadow: 0 8px 18px rgba(26, 29, 43, 0.08);
 }
 
-.hero-card-a {
-  top: 28px;
-  left: 8%;
-  padding: 20px 24px;
-  font-size: 22px;
+.hero-frame-main {
+  top: 38px;
+  right: 6px;
+  width: 84%;
+  aspect-ratio: 0.9 / 1;
+  z-index: 1;
 }
 
-.hero-card-b {
-  top: 140px;
-  right: 6%;
-  padding: 18px 22px;
-  font-size: 18px;
+.hero-frame-top {
+  top: 0;
+  left: 0;
+  width: 74%;
+  aspect-ratio: 1.2 / 0.82;
+  z-index: 3;
+  transform: rotate(-2deg);
 }
 
-.hero-card-c {
-  bottom: 22px;
-  left: 18%;
-  padding: 18px 22px;
-  background: linear-gradient(135deg, rgba(199,210,254,0.92), rgba(103,232,249,0.72));
-  font-size: 18px;
+.hero-frame-bottom {
+  right: 0;
+  bottom: 0;
+  width: 72%;
+  aspect-ratio: 0.92 / 1;
+  z-index: 2;
+  transform: rotate(1.5deg);
 }
 
 .filter-shell {
   position: relative;
   z-index: 2;
-  margin-top: -24px;
+  margin-top: -10px;
   padding: 34px;
 }
 
@@ -223,17 +256,28 @@
 
 @media (max-width: 1100px) {
   .hero-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
+    gap: 28px;
+    align-items: start;
   }
 
-  .hero-visual {
-    min-height: 320px;
+  .hero-copy {
+    padding-bottom: 0;
+  }
+
+  .hero-overlap-stage {
+    min-height: 560px;
   }
 }
 
 @media (max-width: 768px) {
   .hub-hero {
-    padding: 68px 0 58px;
+    padding: 56px 0 52px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(36px, 11vw, 52px);
+    line-height: 0.98;
   }
 
   .hero-grid,
@@ -241,15 +285,17 @@
     grid-template-columns: 1fr;
   }
 
-  .hero-visual {
-    min-height: 240px;
+  .hero-overlap-stage {
+    min-height: auto;
+    display: grid;
+    gap: 14px;
   }
 
-  .hero-card-a,
-  .hero-card-b,
-  .hero-card-c {
+  .hero-frame {
     position: static;
-    margin-bottom: 12px;
+    width: 100%;
+    transform: none;
+    aspect-ratio: 4 / 3;
   }
 
   .filter-shell,

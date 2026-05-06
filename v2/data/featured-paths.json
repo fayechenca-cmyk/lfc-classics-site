@@ -1,0 +1,68 @@
+[
+  {
+    "id": "path-foundations",
+    "title": "Foundations",
+    "kicker": "Build the Core",
+    "description": "Train line, form, light, materials, and observation through beginner-friendly studio practice.",
+    "ageLabel": "8+",
+    "badgeHint": "Basic Sketch / Material Explore",
+    "lessonCount": 2,
+    "coverImage": "",
+    "href": "#series/observational-drawing-form"
+  },
+  {
+    "id": "path-portrait-figure",
+    "title": "Portrait & Figure",
+    "kicker": "Structure & Motion",
+    "description": "Develop gesture, likeness, anatomy thinking, and expressive human drawing through portraits and figure study.",
+    "ageLabel": "11+",
+    "badgeHint": "Figure Sketch / Portrait Master",
+    "lessonCount": 2,
+    "coverImage": "",
+    "href": "#series/figures-in-motion-foundation"
+  },
+  {
+    "id": "path-illustration",
+    "title": "Illustration & Storytelling",
+    "kicker": "Build Worlds",
+    "description": "Learn to turn observation, mood, and imagination into story-driven images, characters, and visual sequences.",
+    "ageLabel": "All Ages",
+    "badgeHint": "Storyteller",
+    "lessonCount": 1,
+    "coverImage": "",
+    "href": "#series/illustration-lab-story-to-page"
+  },
+  {
+    "id": "path-design-space",
+    "title": "Design & Space",
+    "kicker": "Think in Environments",
+    "description": "Explore interiors, architecture, costume, and visual planning through concept-based design pathways.",
+    "ageLabel": "9+",
+    "badgeHint": "Interior Design",
+    "lessonCount": 1,
+    "coverImage": "",
+    "href": "#series/interior-design-cafe-studio"
+  },
+  {
+    "id": "path-digital-motion",
+    "title": "Digital & Motion",
+    "kicker": "Create Across Media",
+    "description": "Move from drawing into digital illustration, animation, and motion-based visual storytelling.",
+    "ageLabel": "9+",
+    "badgeHint": "Digital Creator / Animation",
+    "lessonCount": 0,
+    "coverImage": "",
+    "href": "#"
+  },
+  {
+    "id": "path-art-history",
+    "title": "Art History Path",
+    "kicker": "Context & Visual Culture",
+    "description": "Study artists, movements, and visual ideas through a dedicated lesson system designed for independent learning.",
+    "ageLabel": "All Ages",
+    "badgeHint": "Art History",
+    "lessonCount": 36,
+    "coverImage": "",
+    "href": "pages/art-history-entry.html"
+  }
+]

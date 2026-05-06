@@ -1,0 +1,835 @@
+[
+  {
+    "id": "LFC-001",
+    "slug": "studio-study-material-exploration",
+    "title": "Studio Study: My Material Exploration",
+    "shortTitle": "Material Exploration",
+    "part": "Foundations",
+    "seriesId": "observational-drawing-form",
+    "seriesTitle": "Observational Drawing & Form",
+    "seriesAliases": [
+      "Observational"
+    ],
+    "level": "Beginner",
+    "section": "Drawing",
+    "ageMin": 8,
+    "ageMax": 18,
+    "ageLabel": "8+",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "shortDescription": "Discover core art materials and how artists use them in studio practice.",
+    "fullDescription": "Discover the materials artists use to bring ideas to life. Explore pencils, paints, clay, paper, and other tools in this hands-on studio session. Learn how each medium has its own voice, and see how artists before 1945 experimented with texture, color, and form.",
+    "tags": [
+      "materials",
+      "studio",
+      "charcoal",
+      "marker",
+      "paints"
+    ],
+    "coverImage": "",
+    "thumbnailImage": "",
+    "gallery": [],
+    "badgeId": "material_explore",
+    "secondaryBadgeIds": [],
+    "pd": true,
+    "artists": [
+      {
+        "name": "Charles Bargue",
+        "death": 1883
+      }
+    ],
+    "movements": [
+      "Academic"
+    ],
+    "refs": [
+      {
+        "artist": "Charles Bargue",
+        "work": "Cours de dessin (plates)",
+        "year": "19th c.",
+        "museum": "Public Domain",
+        "license": "PD",
+        "url": "#"
+      }
+    ],
+    "videoUrl": "",
+    "pdfUrl": "",
+    "smartClassUrl": "",
+    "detailPageUrl": "",
+    "registrationUrl": "",
+    "mentorshipUrl": "",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "selfTaughtMode": true,
+    "feedbackMode": false,
+    "mentorshipMode": true,
+    "featured": true,
+    "featuredOrder": 1,
+    "showInCatalog": true,
+    "showInMissionHub": true,
+    "comingSoon": false,
+    "legacyMissionTitle": "",
+    "legacyMissionLink": "",
+    "active": true,
+    "learning": {
+      "state": "reference_only",
+      "entryMode": "detail_then_launch",
+      "lessonType": "lfc",
+      "smartClassEnabled": false,
+      "launchMode": "none",
+      "courseEntryUrl": "",
+      "prototypeEntryUrl": "",
+      "smartClassEntryUrl": "",
+      "previewUrl": "",
+      "independentSystemUrl": "",
+      "accessMode": "none",
+      "purchaseRequired": false,
+      "statusLabel": "Reference Lesson",
+      "ctaLabel": "Explore This Course"
+    }
+  },
+  {
+    "id": "LFC-028",
+    "slug": "graphite-studio-tone-edges-control",
+    "title": "Graphite Studio: Tone, Edges, Control",
+    "shortTitle": "Graphite Studio",
+    "part": "Materials",
+    "seriesId": "material-language",
+    "seriesTitle": "Material Language",
+    "seriesAliases": [
+      "Material Language"
+    ],
+    "level": "Beginner",
+    "section": "Drawing",
+    "ageMin": 8,
+    "ageMax": 18,
+    "ageLabel": "8+",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "shortDescription": "Build pressure control, clean value hierarchy, and stronger edge design in graphite.",
+    "fullDescription": "Work with graphite through lamp-lit still life studies. Learn pressure control, value grouping, and hard or soft edges while keeping drawing structure clean and readable.",
+    "tags": [
+      "graphite",
+      "value",
+      "edges",
+      "still life"
+    ],
+    "coverImage": "",
+    "thumbnailImage": "",
+    "gallery": [],
+    "badgeId": "realism_expert",
+    "secondaryBadgeIds": [],
+    "pd": true,
+    "artists": [
+      {
+        "name": "Charles Bargue",
+        "death": 1883
+      }
+    ],
+    "movements": [
+      "Academic"
+    ],
+    "refs": [
+      {
+        "artist": "Charles Bargue",
+        "work": "Cours de dessin (plates)",
+        "year": "19th c.",
+        "museum": "Public Domain",
+        "license": "PD",
+        "url": "#"
+      }
+    ],
+    "videoUrl": "",
+    "pdfUrl": "",
+    "smartClassUrl": "",
+    "detailPageUrl": "",
+    "registrationUrl": "",
+    "mentorshipUrl": "",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "selfTaughtMode": true,
+    "feedbackMode": false,
+    "mentorshipMode": true,
+    "featured": true,
+    "featuredOrder": 7,
+    "showInCatalog": true,
+    "showInMissionHub": true,
+    "comingSoon": false,
+    "legacyMissionTitle": "",
+    "legacyMissionLink": "",
+    "active": true,
+    "learning": {
+      "state": "reference_only",
+      "entryMode": "detail_then_launch",
+      "lessonType": "foundation",
+      "smartClassEnabled": false,
+      "launchMode": "none",
+      "courseEntryUrl": "",
+      "prototypeEntryUrl": "",
+      "smartClassEntryUrl": "",
+      "previewUrl": "",
+      "independentSystemUrl": "",
+      "accessMode": "none",
+      "purchaseRequired": false,
+      "statusLabel": "Reference Lesson",
+      "ctaLabel": "Explore This Course"
+    }
+  },
+  {
+    "id": "LFC-036",
+    "slug": "cafe-studio-brief-and-story",
+    "title": "Cafe Studio 1 — Brief & Story",
+    "shortTitle": "Cafe Studio: Brief & Story",
+    "part": "Design",
+    "seriesId": "interior-design-cafe-studio",
+    "seriesTitle": "Interior Design · Cafe Studio",
+    "seriesAliases": [
+      "Interior Design"
+    ],
+    "level": "All Levels",
+    "section": "Design",
+    "ageMin": 9,
+    "ageMax": 18,
+    "ageLabel": "All Ages",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "shortDescription": "Establish a brand story, moodboard, and circulation intent for a cafe design project.",
+    "fullDescription": "Begin the Cafe Studio pathway by defining a brand story, a functional checklist, and a circulation idea. Output: moodboard, bubble diagram, and brand keywords.",
+    "tags": [
+      "interior design",
+      "moodboard",
+      "brand story",
+      "space planning"
+    ],
+    "coverImage": "",
+    "thumbnailImage": "",
+    "gallery": [],
+    "badgeId": "interior_design",
+    "secondaryBadgeIds": [],
+    "pd": true,
+    "artists": [
+      {
+        "name": "William Morris",
+        "death": 1896
+      }
+    ],
+    "movements": [
+      "Arts & Crafts"
+    ],
+    "refs": [
+      {
+        "artist": "William Morris",
+        "work": "Furniture and interior designs",
+        "year": "19th c.",
+        "museum": "V&A Museum",
+        "license": "PD",
+        "url": "https://collections.vam.ac.uk"
+      }
+    ],
+    "videoUrl": "",
+    "pdfUrl": "",
+    "smartClassUrl": "",
+    "detailPageUrl": "",
+    "registrationUrl": "",
+    "mentorshipUrl": "",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "selfTaughtMode": true,
+    "feedbackMode": false,
+    "mentorshipMode": true,
+    "featured": true,
+    "featuredOrder": 6,
+    "showInCatalog": true,
+    "showInMissionHub": true,
+    "comingSoon": false,
+    "legacyMissionTitle": "Interior Design Basic",
+    "legacyMissionLink": "https://www.feiteamart.com/class-6-interior-design-basic",
+    "active": true,
+    "learning": {
+      "state": "reference_only",
+      "entryMode": "detail_then_launch",
+      "lessonType": "design",
+      "smartClassEnabled": false,
+      "launchMode": "none",
+      "courseEntryUrl": "https://www.feiteamart.com/class-6-interior-design-basic",
+      "prototypeEntryUrl": "",
+      "smartClassEntryUrl": "",
+      "previewUrl": "",
+      "independentSystemUrl": "",
+      "accessMode": "none",
+      "purchaseRequired": false,
+      "statusLabel": "Reference Lesson",
+      "ctaLabel": "Explore This Course"
+    }
+  },
+  {
+    "id": "LFC-053",
+    "slug": "figures-in-motion-foundation",
+    "title": "Figures in Motion (Foundation)",
+    "shortTitle": "Figures in Motion",
+    "part": "Figure/Anatomy",
+    "seriesId": "figures-in-motion-foundation",
+    "seriesTitle": "Figures in Motion (Foundation)",
+    "seriesAliases": [
+      "Figures in Motion"
+    ],
+    "level": "Beginner",
+    "section": "Drawing",
+    "ageMin": 9,
+    "ageMax": 18,
+    "ageLabel": "8+",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "shortDescription": "A 5-lesson foundation in gesture, balance, mannequinization, and action sketching.",
+    "fullDescription": "A 5-lesson foundation in figure sketching: learn gesture, balance, stickman-to-mannequin, quick sketches, and held poses with action strips.",
+    "tags": [
+      "gesture",
+      "proportion",
+      "dynamic posing",
+      "mannequin",
+      "quick sketch"
+    ],
+    "coverImage": "",
+    "thumbnailImage": "",
+    "gallery": [],
+    "badgeId": "figure_sketch",
+    "secondaryBadgeIds": [],
+    "pd": true,
+    "artists": [
+      {
+        "name": "Michelangelo",
+        "death": 1564
+      },
+      {
+        "name": "Edgar Degas",
+        "death": 1917
+      }
+    ],
+    "movements": [
+      "Renaissance",
+      "Impressionism"
+    ],
+    "refs": [
+      {
+        "artist": "Michelangelo",
+        "work": "Studies of figures",
+        "year": "c.1508–1512",
+        "museum": "Public Domain",
+        "license": "PD",
+        "url": "https://www.metmuseum.org"
+      }
+    ],
+    "videoUrl": "",
+    "pdfUrl": "",
+    "smartClassUrl": "",
+    "detailPageUrl": "",
+    "registrationUrl": "",
+    "mentorshipUrl": "",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "selfTaughtMode": true,
+    "feedbackMode": false,
+    "mentorshipMode": true,
+    "featured": true,
+    "featuredOrder": 3,
+    "showInCatalog": true,
+    "showInMissionHub": true,
+    "comingSoon": false,
+    "legacyMissionTitle": "Figures in Motion: Foundation",
+    "legacyMissionLink": "https://www.feiteamart.com/figure-sketch-practice",
+    "active": true,
+    "learning": {
+      "state": "reference_only",
+      "entryMode": "detail_then_launch",
+      "lessonType": "foundation",
+      "smartClassEnabled": false,
+      "launchMode": "none",
+      "courseEntryUrl": "https://www.feiteamart.com/figure-sketch-practice",
+      "prototypeEntryUrl": "",
+      "smartClassEntryUrl": "",
+      "previewUrl": "",
+      "independentSystemUrl": "",
+      "accessMode": "none",
+      "purchaseRequired": false,
+      "statusLabel": "Reference Lesson",
+      "ctaLabel": "Explore This Course"
+    }
+  },
+  {
+    "id": "LFC-054",
+    "slug": "illustration-voices-and-your-story",
+    "title": "Illustration Voices & Your Story",
+    "shortTitle": "Illustration Voices",
+    "part": "Illustration/Comics",
+    "seriesId": "illustration-lab-story-to-page",
+    "seriesTitle": "Illustration Lab — From Story to Finished Page",
+    "seriesAliases": [
+      "Illustration Lab"
+    ],
+    "level": "All Levels",
+    "section": "Drawing",
+    "ageMin": 8,
+    "ageMax": 18,
+    "ageLabel": "All Ages",
+    "ageBands": [
+      "4-7",
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "shortDescription": "Explore different illustration voices and choose a story direction through thumbnails and moodboards.",
+    "fullDescription": "Explore illustration through children’s books, editorial images, posters, comics, and concept art. Test materials, choose a personal story idea, build a moodboard, and create thumbnails to begin your world.",
+    "tags": [
+      "illustration",
+      "story",
+      "moodboard",
+      "thumbnails"
+    ],
+    "coverImage": "",
+    "thumbnailImage": "",
+    "gallery": [],
+    "badgeId": "storyteller",
+    "secondaryBadgeIds": [],
+    "pd": true,
+    "artists": [
+      {
+        "name": "Beatrix Potter",
+        "death": 1943
+      },
+      {
+        "name": "Winsor McCay",
+        "death": 1934
+      }
+    ],
+    "movements": [
+      "Illustration",
+      "Early Comics"
+    ],
+    "refs": [
+      {
+        "artist": "Beatrix Potter",
+        "work": "Peter Rabbit illustrations",
+        "year": "c.1900–1910",
+        "museum": "V&A / Public Domain",
+        "license": "PD",
+        "url": "https://collections.vam.ac.uk"
+      }
+    ],
+    "videoUrl": "",
+    "pdfUrl": "",
+    "smartClassUrl": "",
+    "detailPageUrl": "",
+    "registrationUrl": "",
+    "mentorshipUrl": "",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "selfTaughtMode": true,
+    "feedbackMode": true,
+    "mentorshipMode": true,
+    "featured": true,
+    "featuredOrder": 4,
+    "showInCatalog": true,
+    "showInMissionHub": true,
+    "comingSoon": false,
+    "legacyMissionTitle": "Illustration Lab",
+    "legacyMissionLink": "https://www.feiteamart.com/illustration-lab-course",
+    "active": true,
+    "learning": {
+      "state": "smart_ready",
+      "entryMode": "detail_then_launch",
+      "lessonType": "lfc",
+      "smartClassEnabled": true,
+      "launchMode": "prototype_link",
+      "courseEntryUrl": "https://www.feiteamart.com/illustration-lab-course",
+      "prototypeEntryUrl": "https://fayechenca-cmyk.github.io/feiteamart-smartclass/runtime-prototype/",
+      "smartClassEntryUrl": "",
+      "previewUrl": "",
+      "independentSystemUrl": "",
+      "accessMode": "open",
+      "purchaseRequired": false,
+      "statusLabel": "Smart Class Test Ready",
+      "ctaLabel": "Enter Smart Class"
+    }
+  },
+  {
+    "id": "LFC-091",
+    "slug": "plein-air-starter-scout-pencil-watercolor-touch",
+    "title": "Plein Air Starter: Scout → Pencil Sketch → Watercolor Touch",
+    "shortTitle": "Plein Air Starter",
+    "part": "Landscape",
+    "seriesId": "landscape-lab-field-to-studio",
+    "seriesTitle": "Landscape Lab — Field to Studio",
+    "seriesAliases": [
+      "Landscape Lab"
+    ],
+    "level": "All Levels",
+    "section": "Foundation",
+    "ageMin": 8,
+    "ageMax": 18,
+    "ageLabel": "8+",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "shortDescription": "Learn to scout views, simplify big shapes, and begin plein air landscape thinking.",
+    "fullDescription": "Learn to scout views, simplify big shapes, and mark light. Begin with thumbnails, then move into a main pencil sketch and optional watercolor washes for sky and ground.",
+    "tags": [
+      "plein air",
+      "landscape",
+      "sketch",
+      "watercolor",
+      "value"
+    ],
+    "coverImage": "",
+    "thumbnailImage": "",
+    "gallery": [],
+    "badgeId": "landscape",
+    "secondaryBadgeIds": [],
+    "pd": true,
+    "artists": [
+      {
+        "name": "Claude Monet",
+        "death": 1926
+      },
+      {
+        "name": "Camille Corot",
+        "death": 1875
+      }
+    ],
+    "movements": [
+      "Impressionism",
+      "Barbizon School"
+    ],
+    "refs": [
+      {
+        "artist": "Claude Monet",
+        "work": "Field sketches and haystack studies",
+        "year": "1870s–1890s",
+        "museum": "Art Institute of Chicago / The Met",
+        "license": "PD",
+        "url": "https://www.artic.edu"
+      }
+    ],
+    "videoUrl": "",
+    "pdfUrl": "",
+    "smartClassUrl": "",
+    "detailPageUrl": "",
+    "registrationUrl": "",
+    "mentorshipUrl": "",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "selfTaughtMode": true,
+    "feedbackMode": false,
+    "mentorshipMode": true,
+    "featured": true,
+    "featuredOrder": 5,
+    "showInCatalog": true,
+    "showInMissionHub": true,
+    "comingSoon": false,
+    "legacyMissionTitle": "Landscape Lab",
+    "legacyMissionLink": "https://www.feiteamart.com/landscape-lab----field-to-studio",
+    "active": true,
+    "learning": {
+      "state": "reference_only",
+      "entryMode": "detail_then_launch",
+      "lessonType": "lfc",
+      "smartClassEnabled": false,
+      "launchMode": "none",
+      "courseEntryUrl": "https://www.feiteamart.com/landscape-lab----field-to-studio",
+      "prototypeEntryUrl": "",
+      "smartClassEntryUrl": "",
+      "previewUrl": "",
+      "independentSystemUrl": "",
+      "accessMode": "none",
+      "purchaseRequired": false,
+      "statusLabel": "Reference Lesson",
+      "ctaLabel": "Explore This Course"
+    }
+  },
+  {
+    "id": "LFC-096",
+    "slug": "skull-first-building-strong-portraits",
+    "title": "Skull First: Building Strong Portraits",
+    "shortTitle": "Skull First",
+    "part": "Portrait",
+    "seriesId": "academic-portrait-skull-to-likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
+    "seriesAliases": [
+      "Portrait"
+    ],
+    "level": "Intermediate",
+    "section": "Drawing",
+    "ageMin": 11,
+    "ageMax": 99,
+    "ageLabel": "11+",
+    "ageBands": [
+      "11+",
+      "14+",
+      "Adults"
+    ],
+    "shortDescription": "Start portraits from skull logic, major head planes, and simple construction before likeness.",
+    "fullDescription": "Study the portrait through skull structure and major head construction. Build axis, proportion, and front/side relationships before moving toward facial likeness.",
+    "tags": [
+      "portrait",
+      "skull",
+      "head construction",
+      "likeness"
+    ],
+    "coverImage": "",
+    "thumbnailImage": "",
+    "gallery": [],
+    "badgeId": "portrait_master",
+    "secondaryBadgeIds": [],
+    "pd": true,
+    "artists": [
+      {
+        "name": "Leonardo da Vinci",
+        "death": 1519
+      },
+      {
+        "name": "Hans Holbein the Younger",
+        "death": 1543
+      }
+    ],
+    "movements": [
+      "Renaissance"
+    ],
+    "refs": [
+      {
+        "artist": "Leonardo da Vinci",
+        "work": "Studies of heads",
+        "year": "c.1480s–1510s",
+        "museum": "Public Domain",
+        "license": "PD",
+        "url": "https://www.metmuseum.org"
+      }
+    ],
+    "videoUrl": "",
+    "pdfUrl": "",
+    "smartClassUrl": "",
+    "detailPageUrl": "",
+    "registrationUrl": "",
+    "mentorshipUrl": "",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "selfTaughtMode": true,
+    "feedbackMode": false,
+    "mentorshipMode": true,
+    "featured": false,
+    "featuredOrder": null,
+    "showInCatalog": true,
+    "showInMissionHub": true,
+    "comingSoon": false,
+    "legacyMissionTitle": "",
+    "legacyMissionLink": "",
+    "active": true,
+    "learning": {
+      "state": "reference_only",
+      "entryMode": "detail_then_launch",
+      "lessonType": "foundation",
+      "smartClassEnabled": false,
+      "launchMode": "none",
+      "courseEntryUrl": "",
+      "prototypeEntryUrl": "",
+      "smartClassEntryUrl": "",
+      "previewUrl": "",
+      "independentSystemUrl": "",
+      "accessMode": "none",
+      "purchaseRequired": false,
+      "statusLabel": "Reference Lesson",
+      "ctaLabel": "Explore This Course"
+    }
+  },
+  {
+    "id": "LFC-136",
+    "slug": "line-control-warm-up",
+    "title": "Sketch with Confidence: Line Control Warm-up",
+    "shortTitle": "Line Control Warm-up",
+    "part": "Foundations",
+    "seriesId": "observational-drawing-form",
+    "seriesTitle": "Observational Drawing & Form",
+    "seriesAliases": [
+      "Observational"
+    ],
+    "level": "Beginner",
+    "section": "Drawing",
+    "ageMin": 9,
+    "ageMax": 18,
+    "ageLabel": "8+",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "shortDescription": "Train confident, economical lines through contour, pressure, and edge emphasis.",
+    "fullDescription": "Train confident, economical lines through pressure ladders, ghost-then-commit strokes, one-line contours, and selective line weight. This warm-up lesson builds control, observation, and cleaner drawing habits.",
+    "tags": [
+      "line control",
+      "contour",
+      "gesture",
+      "warm-up"
+    ],
+    "coverImage": "",
+    "thumbnailImage": "",
+    "gallery": [],
+    "badgeId": "basic_sketch",
+    "secondaryBadgeIds": [],
+    "pd": true,
+    "artists": [
+      {
+        "name": "J.-A.-D. Ingres",
+        "death": 1867
+      },
+      {
+        "name": "Aubrey Beardsley",
+        "death": 1898
+      }
+    ],
+    "movements": [
+      "Neoclassicism",
+      "Aesthetic Movement"
+    ],
+    "refs": [
+      {
+        "artist": "J.-A.-D. Ingres",
+        "work": "Study of Hands",
+        "year": "1842",
+        "museum": "Cleveland Museum of Art",
+        "license": "PD",
+        "url": "https://www.clevelandart.org/art/2003.37"
+      }
+    ],
+    "videoUrl": "",
+    "pdfUrl": "",
+    "smartClassUrl": "",
+    "detailPageUrl": "",
+    "registrationUrl": "",
+    "mentorshipUrl": "",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "selfTaughtMode": true,
+    "feedbackMode": false,
+    "mentorshipMode": true,
+    "featured": true,
+    "featuredOrder": 2,
+    "showInCatalog": true,
+    "showInMissionHub": true,
+    "comingSoon": false,
+    "legacyMissionTitle": "Foundation ABCD: Zero to Hero",
+    "legacyMissionLink": "https://www.feiteamart.com/class-1--intro-sketch-basic",
+    "active": true,
+    "learning": {
+      "state": "smart_ready",
+      "entryMode": "detail_then_launch",
+      "lessonType": "foundation",
+      "smartClassEnabled": true,
+      "launchMode": "prototype_link",
+      "courseEntryUrl": "https://www.feiteamart.com/class-1--intro-sketch-basic",
+      "prototypeEntryUrl": "https://www.feiteamart.com/smart-art-class",
+      "smartClassEntryUrl": "",
+      "previewUrl": "",
+      "independentSystemUrl": "",
+      "accessMode": "open",
+      "purchaseRequired": false,
+      "statusLabel": "Smart Class Test Ready",
+      "ctaLabel": "Enter Smart Class"
+    }
+  },
+  {
+    "id": "ARTHIST-ENTRY-001",
+    "slug": "art-history-path-entry",
+    "title": "Art History Path",
+    "shortTitle": "Art History Path",
+    "part": "Theory",
+    "seriesId": "art-history-path",
+    "seriesTitle": "Art History Path",
+    "seriesAliases": [
+      "Art History",
+      "Art History Class"
+    ],
+    "level": "All Levels",
+    "section": "History",
+    "ageMin": 8,
+    "ageMax": 99,
+    "ageLabel": "All Ages",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+",
+      "Adults"
+    ],
+    "shortDescription": "Explore a dedicated 36+ lesson art history learning path through an independent system.",
+    "fullDescription": "This path introduces artists, movements, and visual culture through a dedicated lesson system. Existing students can continue in the current Art History environment without losing progress.",
+    "tags": [
+      "art history",
+      "theory",
+      "movements",
+      "visual culture"
+    ],
+    "coverImage": "",
+    "thumbnailImage": "",
+    "gallery": [],
+    "badgeId": "art_history",
+    "secondaryBadgeIds": [],
+    "pd": false,
+    "artists": [],
+    "movements": [],
+    "refs": [],
+    "videoUrl": "",
+    "pdfUrl": "",
+    "smartClassUrl": "",
+    "detailPageUrl": "pages/art-history-entry.html",
+    "registrationUrl": "",
+    "mentorshipUrl": "",
+    "selfStudyEligible": true,
+    "lfcEligible": false,
+    "artHistoryEligible": true,
+    "selfTaughtMode": true,
+    "feedbackMode": false,
+    "mentorshipMode": false,
+    "featured": true,
+    "featuredOrder": 8,
+    "showInCatalog": true,
+    "showInMissionHub": true,
+    "comingSoon": false,
+    "legacyMissionTitle": "Art History Path",
+    "legacyMissionLink": "https://www.feiteamart.com/contemporary-lens",
+    "active": true,
+    "learning": {
+      "state": "independent_system",
+      "entryMode": "detail_then_launch",
+      "lessonType": "history",
+      "smartClassEnabled": false,
+      "launchMode": "independent_system",
+      "courseEntryUrl": "",
+      "prototypeEntryUrl": "",
+      "smartClassEntryUrl": "",
+      "previewUrl": "",
+      "independentSystemUrl": "https://www.feiteamart.com/contemporary-lens",
+      "accessMode": "open",
+      "purchaseRequired": false,
+      "statusLabel": "Independent Path",
+      "ctaLabel": "Enter Art History"
+    }
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "id": "observational-drawing-form",
+    "title": "Observational Drawing & Form",
+    "shortTitle": "Observational",
+    "aliases": [
+      "Observational"
+    ],
+    "part": "Foundations",
+    "description": "Core foundation training in line, form, light, still life, and observation.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "Beginner",
+      "All Levels"
+    ],
+    "badgeIds": [
+      "basic_sketch",
+      "material_explore",
+      "realism_expert"
+    ],
+    "courseIds": [
+      "LFC-001",
+      "LFC-136"
+    ],
+    "coverImage": "",
+    "themeColor": "#67e8f9",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": true,
+    "sortOrder": 1,
+    "active": true
+  },
+  {
+    "id": "figures-in-motion-foundation",
+    "title": "Figures in Motion (Foundation)",
+    "shortTitle": "Figures in Motion",
+    "aliases": [
+      "Figures in Motion"
+    ],
+    "part": "Figure/Anatomy",
+    "description": "Gesture, proportion, mannequinization, and dynamic motion studies.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "badgeIds": [
+      "figure_sketch"
+    ],
+    "courseIds": [
+      "LFC-053"
+    ],
+    "coverImage": "",
+    "themeColor": "#c7d2fe",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": true,
+    "sortOrder": 2,
+    "active": true
+  },
+  {
+    "id": "illustration-lab-story-to-page",
+    "title": "Illustration Lab — From Story to Finished Page",
+    "shortTitle": "Illustration Lab",
+    "aliases": [
+      "Illustration Lab"
+    ],
+    "part": "Illustration/Comics",
+    "description": "Storytelling, moodboards, thumbnails, atmosphere, and visual narrative building.",
+    "ageBands": [
+      "4-7",
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "storyteller"
+    ],
+    "courseIds": [
+      "LFC-054"
+    ],
+    "coverImage": "",
+    "themeColor": "#8b5cf6",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": true,
+    "sortOrder": 3,
+    "active": true
+  },
+  {
+    "id": "landscape-lab-field-to-studio",
+    "title": "Landscape Lab — Field to Studio",
+    "shortTitle": "Landscape Lab",
+    "aliases": [
+      "Landscape Lab"
+    ],
+    "part": "Landscape",
+    "description": "Landscape observation, plein air thinking, atmosphere, and visual depth.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "landscape"
+    ],
+    "courseIds": [
+      "LFC-091"
+    ],
+    "coverImage": "",
+    "themeColor": "#67e8f9",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": true,
+    "sortOrder": 4,
+    "active": true
+  },
+  {
+    "id": "interior-design-cafe-studio",
+    "title": "Interior Design · Cafe Studio",
+    "shortTitle": "Interior Design",
+    "aliases": [
+      "Interior Design"
+    ],
+    "part": "Design",
+    "description": "Spatial thinking, storytelling, elevations, materials, and environment concept development.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "interior_design"
+    ],
+    "courseIds": [
+      "LFC-036"
+    ],
+    "coverImage": "",
+    "themeColor": "#dff5f2",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": true,
+    "sortOrder": 5,
+    "active": true
+  },
+  {
+    "id": "material-language",
+    "title": "Material Language",
+    "shortTitle": "Material Language",
+    "aliases": [
+      "Material Language"
+    ],
+    "part": "Materials",
+    "description": "Learn how different media behave through observation, control, and visual problem-solving.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "Beginner",
+      "All Levels"
+    ],
+    "badgeIds": [
+      "realism_expert"
+    ],
+    "courseIds": [
+      "LFC-028"
+    ],
+    "coverImage": "",
+    "themeColor": "#e2f5ee",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 6,
+    "active": true
+  },
+  {
+    "id": "academic-portrait-skull-to-likeness",
+    "title": "Academic Portrait — Skull to Likeness",
+    "shortTitle": "Academic Portrait",
+    "aliases": [
+      "Portrait"
+    ],
+    "part": "Portrait",
+    "description": "Build head structure, facial features, and likeness through academic portrait study.",
+    "ageBands": [
+      "11+",
+      "14+",
+      "Adults"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "badgeIds": [
+      "portrait_master"
+    ],
+    "courseIds": [
+      "LFC-096"
+    ],
+    "coverImage": "",
+    "themeColor": "#f3eadf",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": true,
+    "sortOrder": 7,
+    "active": true
+  },
+  {
+    "id": "art-history-path",
+    "title": "Art History Path",
+    "shortTitle": "Art History",
+    "aliases": [
+      "Art History",
+      "Art History Class"
+    ],
+    "part": "Theory",
+    "description": "A standalone art history learning pathway currently delivered through an independent lesson system.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+",
+      "Adults"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "art_history"
+    ],
+    "courseIds": [
+      "ARTHIST-ENTRY-001"
+    ],
+    "coverImage": "",
+    "themeColor": "#c7d2fe",
+    "selfStudyEligible": true,
+    "lfcEligible": false,
+    "artHistoryEligible": true,
+    "featured": true,
+    "sortOrder": 99,
+    "active": true
+  }
+]

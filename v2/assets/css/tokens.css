@@ -1,0 +1,40 @@
+:root {
+  --font-display: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+
+  --fei-ink: #1a1d2b;
+  --fei-paper: #ffffff;
+  --fei-card: rgba(255, 255, 255, 0.96);
+  --fei-line: #e9eef5;
+
+  --fei-mint-bg: #dff5f2;
+  --fei-soft-mint: #e2f5ee;
+  --fei-cyan: #67e8f9;
+  --fei-lavender: #c7d2fe;
+  --fei-violet: #8b5cf6;
+  --fei-gold: #c8a96e;
+
+  --fei-text-soft: #64748b;
+  --fei-text-mid: #5b6475;
+
+  --fei-success: #10b981;
+  --fei-warning: #f59e0b;
+  --fei-danger: #ef4444;
+
+  --radius-xl: 30px;
+  --radius-lg: 24px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --shadow-card: 0 14px 34px rgba(15, 23, 42, 0.10);
+  --shadow-hover: 0 18px 42px rgba(15, 23, 42, 0.14);
+
+  --max-width: 1240px;
+  --page-pad: 24px;
+  --section-gap: 88px;
+
+  --transition-fast: 0.2s ease;
+  --transition-mid: 0.3s ease;
+}

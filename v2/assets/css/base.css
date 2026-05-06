@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--fei-paper);
+  color: var(--fei-ink);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--fei-ink);
+  font-family: var(--font-display);
+  line-height: 1.08;
+}
+
+p {
+  margin: 0;
+  color: var(--fei-text-mid);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+#fei-hub-root,
+#fei-art-history-root {
+  min-height: 100vh;
+  overflow-x: clip;
+}
+
+.container {
+  width: min(var(--max-width), calc(100% - (var(--page-pad) * 2)));
+  margin: 0 auto;
+}
+
+.hub-section {
+  padding: 0 0 var(--section-gap);
+}
+
+.eyebrow {
+  margin-bottom: 10px;
+  color: var(--fei-violet);
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.section-head {
+  margin-bottom: 28px;
+}
+
+.section-head h2 {
+  margin-bottom: 12px;
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.section-head p {
+  max-width: 760px;
+  font-size: 16px;
+}
+
+.section-head-inline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.section-shell {
+  border: 1px solid var(--fei-line);
+  border-radius: var(--radius-xl);
+  background: var(--fei-card);
+  box-shadow: var(--shadow-soft);
+}
+
+.small-note {
+  color: var(--fei-text-soft);
+  font-size: 14px;
+}
+
+.results-meta {
+  color: var(--fei-text-soft);
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.section-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --page-pad: 18px;
+    --section-gap: 68px;
+  }
+
+  .section-head h2 {
+    line-height: 1.12;
+  }
+}

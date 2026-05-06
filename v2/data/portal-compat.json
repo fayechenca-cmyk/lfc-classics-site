@@ -1,0 +1,76 @@
+{
+  "badgeAliasMap": {
+    "animator_creator": "animation_beginner",
+    "ideal_inventor": "idea_inventor",
+    "illustrator": "storyteller",
+    "composition_builder": "observation_detective",
+    "aesthetic_thinker": "critical_thinker",
+    "abstract_explorer": "art_painting"
+  },
+  "badgeCourseMap": {
+    "basic_sketch": {
+      "primaryCourseIds": [
+        "LFC-136"
+      ],
+      "recommendedCourseIds": [
+        "LFC-001"
+      ],
+      "seriesIds": [
+        "observational-drawing-form"
+      ]
+    },
+    "material_explore": {
+      "primaryCourseIds": [
+        "LFC-001"
+      ],
+      "recommendedCourseIds": [
+        "LFC-028"
+      ],
+      "seriesIds": [
+        "observational-drawing-form",
+        "material-language"
+      ]
+    },
+    "portrait_master": {
+      "primaryCourseIds": [
+        "LFC-096"
+      ],
+      "recommendedCourseIds": [],
+      "seriesIds": [
+        "academic-portrait-skull-to-likeness"
+      ]
+    },
+    "art_history": {
+      "primaryCourseIds": [
+        "ARTHIST-ENTRY-001"
+      ],
+      "recommendedCourseIds": [],
+      "seriesIds": [
+        "art-history-path"
+      ]
+    }
+  },
+  "legacyCourseLinkMap": {
+    "https://www.feiteamart.com/class-1--intro-sketch-basic": {
+      "courseId": "LFC-136",
+      "badgeId": "basic_sketch"
+    },
+    "https://www.feiteamart.com/illustration-lab-course": {
+      "courseId": "LFC-054",
+      "badgeId": "storyteller"
+    },
+    "https://www.feiteamart.com/landscape-lab----field-to-studio": {
+      "courseId": "LFC-091",
+      "badgeId": "landscape"
+    },
+    "https://www.feiteamart.com/contemporary-lens": {
+      "courseId": "ARTHIST-ENTRY-001",
+      "badgeId": "art_history"
+    }
+  },
+  "studentRecommendationDefaults": {
+    "useLegacyLinkWhenCourseIdMissing": true,
+    "preferCourseDetailPageOverLegacyLink": false,
+    "fallbackToBadgePrimaryCourse": true
+  }
+}

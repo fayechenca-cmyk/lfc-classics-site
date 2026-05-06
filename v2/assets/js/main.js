@@ -10,9 +10,12 @@ const state = {
   filters: {
     search: '',
     age: 'all',
+    part: 'all',
     seriesId: 'all',
     level: 'all',
-    section: 'all'
+    section: 'all',
+    sort: 'num',
+    pdOnly: false
   }
 };
 
@@ -34,6 +37,15 @@ function populateSeriesFilter(series = []) {
   select.insertAdjacentHTML('beforeend', options);
 }
 
+function populatePartFilter(courses = []) {
+  const select = document.getElementById('partFilter');
+  if (!select) return;
+
+  const parts = [...new Set(courses.map(course => course.part).filter(Boolean))].sort();
+  const options = parts.map(part => `<option value="${part}">${part}</option>`).join('');
+  select.insertAdjacentHTML('beforeend', options);
+}
+
 function populateLevelFilter(courses = []) {
   const select = document.getElementById('levelFilter');
   if (!select) return;
@@ -41,6 +53,18 @@ function populateLevelFilter(courses = []) {
   const levels = [...new Set(courses.map(course => course.level).filter(Boolean))].sort();
   const options = levels.map(level => `<option value="${level}">${level}</option>`).join('');
   select.insertAdjacentHTML('beforeend', options);
+}
+
+function sortCourses(courses = [], sort = 'num') {
+  const items = [...courses];
+
+  items.sort((a, b) => {
+    if (sort === 'az') return a.title.localeCompare(b.title);
+    if (sort === 'za') return b.title.localeCompare(a.title);
+    return a.id.localeCompare(b.id);
+  });
+
+  return items;
 }
 
 function populateSectionFilter(courses = []) {
@@ -78,7 +102,7 @@ function renderFeaturedCourses() {
 
 function getFilteredCourses() {
   const { courses = [] } = state.data;
-  return filterCourses(courses, state.filters);
+  return sortCourses(filterCourses(courses, state.filters), state.filters.sort);
 }
 
 function renderFullLibrary() {
@@ -187,9 +211,20 @@ function bindAgeFilter() {
 }
 
 function bindSelectFilters() {
+  const partFilter = document.getElementById('partFilter');
   const seriesFilter = document.getElementById('seriesFilter');
   const levelFilter = document.getElementById('levelFilter');
   const sectionFilter = document.getElementById('sectionFilter');
+  const sortFilter = document.getElementById('sortFilter');
+  const pdOnlyFilter = document.getElementById('pdOnlyFilter');
+
+  if (partFilter) {
+    partFilter.addEventListener('change', event => {
+      state.filters.part = event.target.value || 'all';
+      state.visibleCount = 12;
+      renderFullLibrary();
+    });
+  }
 
   if (seriesFilter) {
     seriesFilter.addEventListener('change', event => {
@@ -214,12 +249,29 @@ function bindSelectFilters() {
       renderFullLibrary();
     });
   }
+
+  if (sortFilter) {
+    sortFilter.addEventListener('change', event => {
+      state.filters.sort = event.target.value || 'num';
+      state.visibleCount = 12;
+      renderFullLibrary();
+    });
+  }
+
+  if (pdOnlyFilter) {
+    pdOnlyFilter.addEventListener('change', event => {
+      state.filters.pdOnly = Boolean(event.target.checked);
+      state.visibleCount = 12;
+      renderFullLibrary();
+    });
+  }
 }
 
 async function init() {
   try {
     state.data = await loadAllData();
 
+    populatePartFilter(state.data.courses);
     populateSeriesFilter(state.data.series);
     populateLevelFilter(state.data.courses);
     populateSectionFilter(state.data.courses);

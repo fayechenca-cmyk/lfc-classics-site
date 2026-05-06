@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FEI TeamArt Course Hub</title>
+  <meta name="description" content="Explore FEI TeamArt learning paths, LFC classes, self-study journeys, and art history pathways.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/hub.css">
+</head>
+<body>
+  <main id="fei-hub-root">
+    <section class="hub-hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">FEI TeamArt Learning Hub</div>
+          <h1>Explore art paths built for making, thinking, and growing.</h1>
+          <p class="hero-subtitle">
+            Discover self-study courses, Learn From Collection journeys, design pathways,
+            and creative badge-based learning across FEI TeamArt.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#quick-filters" class="btn btn-primary">Explore Courses</a>
+            <a href="https://www.feiteamart.com/art-path-survey" class="btn btn-gradient">Find Your Starting Point</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-visual-card hero-card-a">136 Courses</div>
+          <div class="hero-visual-card hero-card-b">LFC Reference-First</div>
+          <div class="hero-visual-card hero-card-c">Badge Journey</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quick-filters" class="hub-section">
+      <div class="container">
+        <div class="section-shell filter-shell">
+          <div class="section-head">
+            <h2>What do you want to learn today?</h2>
+          </div>
+
+          <div class="filter-bar">
+            <div class="filter-search">
+              <input id="searchInput" type="search" placeholder="Search title, series, artist, badge...">
+            </div>
+
+            <div class="filter-row">
+              <div class="filter-label">By Age</div>
+              <div class="chip-group" id="ageFilterGroup">
+                <button class="chip chip-active" data-age="all">All Ages</button>
+                <button class="chip" data-age="4-7">4-7</button>
+                <button class="chip" data-age="8+">8+</button>
+                <button class="chip" data-age="11+">11+</button>
+                <button class="chip" data-age="14+">14+</button>
+                <button class="chip" data-age="Adults">Adults</button>
+              </div>
+            </div>
+
+            <div class="filter-grid">
+              <label class="filter-field">
+                <span>Series</span>
+                <select id="seriesFilter">
+                  <option value="all">All Learning Series</option>
+                </select>
+              </label>
+
+              <label class="filter-field">
+                <span>Level</span>
+                <select id="levelFilter">
+                  <option value="all">All Levels</option>
+                </select>
+              </label>
+
+              <label class="filter-field">
+                <span>Section</span>
+                <select id="sectionFilter">
+                  <option value="all">All Sections</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hub-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Learning Paths</div>
+          <h2>Choose a path, not just a single class.</h2>
+          <p>
+            Start with foundations, move into storytelling or design, or follow a dedicated art history journey.
+          </p>
+        </div>
+
+        <div id="featuredPathsGrid" class="path-grid"></div>
+      </div>
+    </section>
+
+    <section class="hub-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Featured Courses</div>
+          <h2>Start with the courses most ready to explore.</h2>
+        </div>
+
+        <div id="featuredCoursesGrid" class="course-grid featured-grid"></div>
+      </div>
+    </section>
+
+    <section class="hub-section">
+      <div class="container">
+        <div class="section-head section-head-inline">
+          <div>
+            <div class="eyebrow">Full Library</div>
+            <h2>Browse the full course collection.</h2>
+          </div>
+          <div id="resultsMeta" class="results-meta">0 courses</div>
+        </div>
+
+        <div id="fullCourseGrid" class="course-grid library-grid"></div>
+
+        <div class="section-actions">
+          <button id="loadMoreBtn" class="btn btn-secondary">Load More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="hub-section">
+      <div class="container">
+        <div class="section-shell modes-shell">
+          <div class="section-head">
+            <div class="eyebrow">Learning Modes</div>
+            <h2>Choose the level of guidance that fits your journey.</h2>
+          </div>
+
+          <div class="mode-grid">
+            <article class="mode-card">
+              <div class="mode-status">Open System</div>
+              <h3>Reference-First Course Entry</h3>
+              <p>Browse course pathways, references, and badge directions even before every Smart Class is finished.</p>
+              <a href="#quick-filters" class="btn btn-primary">Browse the Library</a>
+            </article>
+
+            <article class="mode-card">
+              <div class="mode-status">Testing</div>
+              <h3>Smart Class Prototypes</h3>
+              <p>Some courses already connect to working Smart Class prototypes while the shared lesson shell is still growing.</p>
+              <button class="btn btn-secondary" type="button">Open Through Course Detail</button>
+            </article>
+
+            <article class="mode-card">
+              <div class="mode-status mode-status-dark">Future Layer</div>
+              <h3>Feedback & Mentorship</h3>
+              <p>Instructor feedback, portfolio support, and mentorship will connect through the same course entry layer later.</p>
+              <a href="https://www.feiteamart.com/art-path-survey" class="btn btn-primary">Take the Survey</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hub-section">
+      <div class="container">
+        <div class="art-history-entry">
+          <div class="art-history-copy">
+            <div class="eyebrow">Independent Learning Path</div>
+            <h2>Art History Path</h2>
+            <p>
+              Explore 36+ lessons through a dedicated art history learning system focused on context,
+              visual culture, and guided progression.
+            </p>
+            <p class="small-note">
+              Existing students can continue in the current system without losing progress.
+            </p>
+            <div class="hero-actions">
+              <a href="pages/art-history-entry.html" class="btn btn-primary">Enter Art History</a>
+              <a href="https://www.feiteamart.com/art-path-survey" class="btn btn-secondary">Take the Survey</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hub-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Why FEI TeamArt</div>
+          <h2>A learning system built through making, reference, and reflection.</h2>
+        </div>
+
+        <div class="philosophy-grid">
+          <article class="philosophy-card">
+            <h3>Reference-First Learning</h3>
+            <p>Students begin from artworks, observations, and structured seeing before building their own work.</p>
+          </article>
+
+          <article class="philosophy-card">
+            <h3>Public-Domain & Open-Access Roots</h3>
+            <p>Many LFC pathways begin with pre-1945 works, PD/CC0 references, and museum collections.</p>
+          </article>
+
+          <article class="philosophy-card">
+            <h3>Make, Reflect, Grow</h3>
+            <p>Learning is not passive. Students compare, make, reflect, and build personal direction over time.</p>
+          </article>
+
+          <article class="philosophy-card">
+            <h3>Badges as Growth Markers</h3>
+            <p>Badges connect creative milestones across courses, pathways, and the student portal journey.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="hub-section">
+      <div class="container">
+        <div class="section-shell survey-shell">
+          <div class="section-head survey-head">
+            <div>
+              <div class="eyebrow">Need Help Choosing?</div>
+              <h2>Find your starting point.</h2>
+              <p>Take a short survey and discover the best path, level, or next step for your learning journey.</p>
+            </div>
+            <div class="section-actions">
+              <a href="https://www.feiteamart.com/art-path-survey" class="btn btn-gradient">Start the Survey</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="courseDetailMount" hidden></div>
+  </main>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,5 +1,38 @@
 [
   {
+    "id": "art-history-path",
+    "title": "Art History Path",
+    "shortTitle": "Art History Path",
+    "aliases": [
+      "Art History Path"
+    ],
+    "part": "Theory",
+    "description": "A standalone art history learning pathway currently delivered through an independent lesson system.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+",
+      "Adults"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "art_history"
+    ],
+    "courseIds": [
+      "ARTHIST-ENTRY-001"
+    ],
+    "coverImage": "",
+    "themeColor": "#fef3c7",
+    "selfStudyEligible": true,
+    "lfcEligible": false,
+    "artHistoryEligible": true,
+    "featured": true,
+    "sortOrder": 99,
+    "active": true
+  },
+  {
     "id": "observational-drawing-form",
     "title": "Observational Drawing & Form",
     "shortTitle": "Observational",
@@ -18,21 +51,257 @@
       "All Levels"
     ],
     "badgeIds": [
-      "basic_sketch",
-      "material_explore",
-      "realism_expert"
+      "basic_sketch"
     ],
     "courseIds": [
       "LFC-001",
+      "LFC-002",
+      "LFC-003",
+      "LFC-005",
+      "LFC-006",
+      "LFC-007",
+      "LFC-008",
+      "LFC-009",
+      "LFC-010",
       "LFC-136"
     ],
-    "coverImage": "",
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69a9027ed32a09ff93e5c944_Screenshot%202026-03-04%20at%208.11.30%E2%80%AFPM.png",
     "themeColor": "#67e8f9",
     "selfStudyEligible": true,
     "lfcEligible": true,
     "artHistoryEligible": false,
     "featured": true,
     "sortOrder": 1,
+    "active": true
+  },
+  {
+    "id": "geometry-perspective-basics",
+    "title": "Geometry & Perspective Basics",
+    "shortTitle": "Geometry Basics",
+    "aliases": [
+      "Geometry Basics"
+    ],
+    "part": "Foundations",
+    "description": "Learning path for Geometry & Perspective Basics.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "Beginner-Intermediate"
+    ],
+    "badgeIds": [
+      "basic_sketch"
+    ],
+    "courseIds": [
+      "LFC-004"
+    ],
+    "coverImage": "",
+    "themeColor": "#67e8f9",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "fun-sketch-light-shadow",
+    "title": "Fun Sketch (Light & Shadow)",
+    "shortTitle": "Fun Sketch",
+    "aliases": [
+      "Fun Sketch"
+    ],
+    "part": "Foundations",
+    "description": "Learning path for Fun Sketch (Light & Shadow).",
+    "ageBands": [
+      "4-7",
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels",
+      "Beginner"
+    ],
+    "badgeIds": [
+      "observation_detective"
+    ],
+    "courseIds": [
+      "LFC-011",
+      "LFC-012",
+      "LFC-013",
+      "LFC-014",
+      "LFC-015"
+    ],
+    "coverImage": "",
+    "themeColor": "#c7d2fe",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "learn-from-masters",
+    "title": "Learn from Masters",
+    "shortTitle": "Masters",
+    "aliases": [
+      "Masters"
+    ],
+    "part": "Masters",
+    "description": "Learning path for Learn from Masters.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels",
+      "Beginner"
+    ],
+    "badgeIds": [
+      "idea_inventor"
+    ],
+    "courseIds": [
+      "LFC-016",
+      "LFC-017",
+      "LFC-018",
+      "LFC-019",
+      "LFC-020",
+      "LFC-021",
+      "LFC-022",
+      "LFC-023",
+      "LFC-024",
+      "LFC-025"
+    ],
+    "coverImage": "",
+    "themeColor": "#ddd6fe",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "material-language",
+    "title": "Material Language",
+    "shortTitle": "Material Language",
+    "aliases": [
+      "Material Language"
+    ],
+    "part": "Materials",
+    "description": "Learn how different media behave through observation, control, and visual problem-solving.",
+    "ageBands": [
+      "4-7",
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "Beginner",
+      "All Levels"
+    ],
+    "badgeIds": [
+      "material_explore"
+    ],
+    "courseIds": [
+      "LFC-026",
+      "LFC-027",
+      "LFC-028",
+      "LFC-029",
+      "LFC-030",
+      "LFC-031",
+      "LFC-032",
+      "LFC-033",
+      "LFC-034",
+      "LFC-035"
+    ],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/68daf5253dc15612a294ffb6_88f00564162f6054a7e7e03c9dfe94e7.JPG",
+    "themeColor": "#e2f5ee",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 6,
+    "active": true
+  },
+  {
+    "id": "interior-design-cafe-studio",
+    "title": "Interior Design \u00b7 Cafe Studio",
+    "shortTitle": "Interior Design",
+    "aliases": [
+      "Interior Design"
+    ],
+    "part": "Design",
+    "description": "Spatial thinking, storytelling, elevations, materials, and environment concept development.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "interior_design"
+    ],
+    "courseIds": [
+      "LFC-036",
+      "LFC-037",
+      "LFC-038",
+      "LFC-039",
+      "LFC-040",
+      "LFC-041"
+    ],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e29737a0c84f1fe8df12e3_Screenshot%202026-04-17%20at%201.25.22%E2%80%AFPM.png",
+    "themeColor": "#dff5f2",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": true,
+    "sortOrder": 5,
+    "active": true
+  },
+  {
+    "id": "custom-design-basic-costume",
+    "title": "Custom Design Basic (Costume)",
+    "shortTitle": "Costume Design",
+    "aliases": [
+      "Costume Design"
+    ],
+    "part": "Design",
+    "description": "Learning path for Custom Design Basic (Costume).",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "Beginner",
+      "All Levels"
+    ],
+    "badgeIds": [
+      "costume_design"
+    ],
+    "courseIds": [
+      "LFC-042",
+      "LFC-043",
+      "LFC-044",
+      "LFC-045",
+      "LFC-046",
+      "LFC-047"
+    ],
+    "coverImage": "",
+    "themeColor": "#fde2f3",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
     "active": true
   },
   {
@@ -56,10 +325,14 @@
       "figure_sketch"
     ],
     "courseIds": [
-      "LFC-053"
+      "LFC-048",
+      "LFC-049",
+      "LFC-050",
+      "LFC-051",
+      "LFC-052"
     ],
     "coverImage": "",
-    "themeColor": "#c7d2fe",
+    "themeColor": "#fecdd3",
     "selfStudyEligible": true,
     "lfcEligible": true,
     "artHistoryEligible": false,
@@ -68,8 +341,40 @@
     "active": true
   },
   {
+    "id": "figures-in-motion",
+    "title": "Figures in Motion",
+    "shortTitle": "Figures in Motion",
+    "aliases": [
+      "Figures in Motion"
+    ],
+    "part": "Figure/Anatomy",
+    "description": "Learning path for Figures in Motion.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "badgeIds": [
+      "figure_sketch"
+    ],
+    "courseIds": [
+      "LFC-053"
+    ],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e298a1ed0d313895161536_IMG_0460.jpg",
+    "themeColor": "#fecdd3",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
     "id": "illustration-lab-story-to-page",
-    "title": "Illustration Lab — From Story to Finished Page",
+    "title": "Illustration Lab \u2014 From Story to Finished Page",
     "shortTitle": "Illustration Lab",
     "aliases": [
       "Illustration Lab"
@@ -77,7 +382,6 @@
     "part": "Illustration/Comics",
     "description": "Storytelling, moodboards, thumbnails, atmosphere, and visual narrative building.",
     "ageBands": [
-      "4-7",
       "8+",
       "11+",
       "14+"
@@ -89,10 +393,14 @@
       "storyteller"
     ],
     "courseIds": [
-      "LFC-054"
+      "LFC-054",
+      "LFC-055",
+      "LFC-056",
+      "LFC-057",
+      "LFC-058"
     ],
-    "coverImage": "",
-    "themeColor": "#8b5cf6",
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e922ac42a1214b70380e93_Screenshot%202026-04-22%20at%2012.33.59%E2%80%AFPM.png",
+    "themeColor": "#fbcfe8",
     "selfStudyEligible": true,
     "lfcEligible": true,
     "artHistoryEligible": false,
@@ -101,8 +409,195 @@
     "active": true
   },
   {
+    "id": "fan-art-arcade-draw-poster-lab",
+    "title": "Fan Art Arcade: Draw & Poster Lab",
+    "shortTitle": "Fan Art Arcade",
+    "aliases": [
+      "Fan Art Arcade"
+    ],
+    "part": "Illustration/Comics",
+    "description": "Learning path for Fan Art Arcade: Draw & Poster Lab.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "storyteller"
+    ],
+    "courseIds": [
+      "LFC-059",
+      "LFC-060",
+      "LFC-061",
+      "LFC-062",
+      "LFC-063",
+      "LFC-064",
+      "LFC-065",
+      "LFC-066",
+      "LFC-067",
+      "LFC-068"
+    ],
+    "coverImage": "",
+    "themeColor": "#fbcfe8",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "character-motion-basics",
+    "title": "Character Motion Basics",
+    "shortTitle": "Character Motion",
+    "aliases": [
+      "Character Motion"
+    ],
+    "part": "Animation",
+    "description": "Learning path for Character Motion Basics.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "digital_creator"
+    ],
+    "courseIds": [
+      "LFC-069",
+      "LFC-070",
+      "LFC-071",
+      "LFC-072",
+      "LFC-073",
+      "LFC-074",
+      "LFC-075",
+      "LFC-076",
+      "LFC-077",
+      "LFC-078"
+    ],
+    "coverImage": "",
+    "themeColor": "#dbeafe",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "marker-anime-characters-paper-sprint",
+    "title": "Marker Anime Characters on Paper \u2014 3-Class Sprint",
+    "shortTitle": "Marker Anime",
+    "aliases": [
+      "Marker Anime"
+    ],
+    "part": "Illustration/Comics",
+    "description": "Learning path for Marker Anime Characters on Paper \u2014 3-Class Sprint.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "storyteller"
+    ],
+    "courseIds": [
+      "LFC-079",
+      "LFC-080",
+      "LFC-081"
+    ],
+    "coverImage": "",
+    "themeColor": "#fbcfe8",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "digital-anime-characters-sprint",
+    "title": "Digital Anime Characters \u2014 3-Class Sprint",
+    "shortTitle": "Digital Anime",
+    "aliases": [
+      "Digital Anime"
+    ],
+    "part": "Illustration/Comics",
+    "description": "Learning path for Digital Anime Characters \u2014 3-Class Sprint.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "digital_creator"
+    ],
+    "courseIds": [
+      "LFC-082",
+      "LFC-083",
+      "LFC-084"
+    ],
+    "coverImage": "",
+    "themeColor": "#dbeafe",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "architecture-foundation-basic",
+    "title": "Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper",
+    "shortTitle": "Architecture",
+    "aliases": [
+      "Architecture"
+    ],
+    "part": "Architecture",
+    "description": "Learning path for Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "badgeIds": [
+      "little_architect"
+    ],
+    "courseIds": [
+      "LFC-085",
+      "LFC-086",
+      "LFC-087",
+      "LFC-088",
+      "LFC-089",
+      "LFC-090"
+    ],
+    "coverImage": "",
+    "themeColor": "#ccfbf1",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
     "id": "landscape-lab-field-to-studio",
-    "title": "Landscape Lab — Field to Studio",
+    "title": "Landscape Lab \u2014 Field to Studio",
     "shortTitle": "Landscape Lab",
     "aliases": [
       "Landscape Lab"
@@ -121,10 +616,14 @@
       "landscape"
     ],
     "courseIds": [
-      "LFC-091"
+      "LFC-091",
+      "LFC-092",
+      "LFC-093",
+      "LFC-094",
+      "LFC-095"
     ],
-    "coverImage": "",
-    "themeColor": "#67e8f9",
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e117a73d26ca6f54a04c2d_Screenshot%202026-04-16%20at%2010.08.31%E2%80%AFAM.png",
+    "themeColor": "#d1fae5",
     "selfStudyEligible": true,
     "lfcEligible": true,
     "artHistoryEligible": false,
@@ -133,46 +632,14 @@
     "active": true
   },
   {
-    "id": "interior-design-cafe-studio",
-    "title": "Interior Design · Cafe Studio",
-    "shortTitle": "Interior Design",
+    "id": "academic-portrait-skull-to-likeness",
+    "title": "Academic Portrait \u2014 Skull to Likeness",
+    "shortTitle": "Academic Portrait",
     "aliases": [
-      "Interior Design"
+      "Academic Portrait"
     ],
-    "part": "Design",
-    "description": "Spatial thinking, storytelling, elevations, materials, and environment concept development.",
-    "ageBands": [
-      "8+",
-      "11+",
-      "14+"
-    ],
-    "levels": [
-      "All Levels"
-    ],
-    "badgeIds": [
-      "interior_design"
-    ],
-    "courseIds": [
-      "LFC-036"
-    ],
-    "coverImage": "",
-    "themeColor": "#dff5f2",
-    "selfStudyEligible": true,
-    "lfcEligible": true,
-    "artHistoryEligible": false,
-    "featured": true,
-    "sortOrder": 5,
-    "active": true
-  },
-  {
-    "id": "material-language",
-    "title": "Material Language",
-    "shortTitle": "Material Language",
-    "aliases": [
-      "Material Language"
-    ],
-    "part": "Materials",
-    "description": "Learn how different media behave through observation, control, and visual problem-solving.",
+    "part": "Portrait",
+    "description": "Build head structure, facial features, and likeness through academic portrait study.",
     "ageBands": [
       "8+",
       "11+",
@@ -180,45 +647,22 @@
     ],
     "levels": [
       "Beginner",
-      "All Levels"
-    ],
-    "badgeIds": [
-      "realism_expert"
-    ],
-    "courseIds": [
-      "LFC-028"
-    ],
-    "coverImage": "",
-    "themeColor": "#e2f5ee",
-    "selfStudyEligible": true,
-    "lfcEligible": true,
-    "artHistoryEligible": false,
-    "featured": false,
-    "sortOrder": 6,
-    "active": true
-  },
-  {
-    "id": "academic-portrait-skull-to-likeness",
-    "title": "Academic Portrait — Skull to Likeness",
-    "shortTitle": "Academic Portrait",
-    "aliases": [
-      "Portrait"
-    ],
-    "part": "Portrait",
-    "description": "Build head structure, facial features, and likeness through academic portrait study.",
-    "ageBands": [
-      "11+",
-      "14+",
-      "Adults"
-    ],
-    "levels": [
       "Intermediate"
     ],
     "badgeIds": [
       "portrait_master"
     ],
     "courseIds": [
-      "LFC-096"
+      "LFC-096",
+      "LFC-097",
+      "LFC-098",
+      "LFC-099",
+      "LFC-100",
+      "LFC-101",
+      "LFC-102",
+      "LFC-103",
+      "LFC-104",
+      "LFC-105"
     ],
     "coverImage": "",
     "themeColor": "#f3eadf",
@@ -230,20 +674,66 @@
     "active": true
   },
   {
-    "id": "art-history-path",
-    "title": "Art History Path",
-    "shortTitle": "Art History",
+    "id": "materials-lab",
+    "title": "Materials Lab",
+    "shortTitle": "Materials Lab",
     "aliases": [
-      "Art History",
-      "Art History Class"
+      "Materials Lab"
+    ],
+    "part": "Creation Playground",
+    "description": "Learning path for Materials Lab.",
+    "ageBands": [
+      "4-7",
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "badgeIds": [
+      "hand_crafter"
+    ],
+    "courseIds": [
+      "LFC-106",
+      "LFC-107",
+      "LFC-108",
+      "LFC-109",
+      "LFC-110",
+      "LFC-111",
+      "LFC-112",
+      "LFC-113",
+      "LFC-114",
+      "LFC-115",
+      "LFC-116",
+      "LFC-117",
+      "LFC-118",
+      "LFC-119",
+      "LFC-120"
+    ],
+    "coverImage": "",
+    "themeColor": "#ede9fe",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "art-movements-and-ideas",
+    "title": "Art Movements & Ideas",
+    "shortTitle": "Art Movements",
+    "aliases": [
+      "Art Movements"
     ],
     "part": "Theory",
-    "description": "A standalone art history learning pathway currently delivered through an independent lesson system.",
+    "description": "Learning path for Art Movements & Ideas.",
     "ageBands": [
       "8+",
       "11+",
-      "14+",
-      "Adults"
+      "14+"
     ],
     "levels": [
       "All Levels"
@@ -252,15 +742,60 @@
       "art_history"
     ],
     "courseIds": [
-      "ARTHIST-ENTRY-001"
+      "LFC-121",
+      "LFC-122",
+      "LFC-123",
+      "LFC-124",
+      "LFC-125",
+      "LFC-126",
+      "LFC-127",
+      "LFC-128",
+      "LFC-129",
+      "LFC-130",
+      "LFC-131",
+      "LFC-132"
     ],
     "coverImage": "",
-    "themeColor": "#c7d2fe",
+    "themeColor": "#fef3c7",
     "selfStudyEligible": true,
-    "lfcEligible": false,
-    "artHistoryEligible": true,
-    "featured": true,
-    "sortOrder": 99,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "art-movements-and-ideas-add-ons",
+    "title": "Art Movements & Ideas \u2014 Add-Ons",
+    "shortTitle": "Art Movements Add-ons",
+    "aliases": [
+      "Art Movements Add-ons"
+    ],
+    "part": "Theory",
+    "description": "Learning path for Art Movements & Ideas \u2014 Add-Ons.",
+    "ageBands": [
+      "8+",
+      "11+",
+      "14+"
+    ],
+    "levels": [
+      "All Levels"
+    ],
+    "badgeIds": [
+      "art_history"
+    ],
+    "courseIds": [
+      "LFC-133",
+      "LFC-134",
+      "LFC-135"
+    ],
+    "coverImage": "",
+    "themeColor": "#fef3c7",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 50,
     "active": true
   }
 ]

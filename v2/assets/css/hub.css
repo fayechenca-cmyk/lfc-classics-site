@@ -111,7 +111,7 @@
 .filter-shell {
   position: relative;
   z-index: 2;
-  margin-top: -10px;
+  margin-top: -24px;
   padding: 34px;
 }
 
@@ -191,7 +191,7 @@
 
 .filter-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -212,6 +212,29 @@
   padding: 15px 18px;
   font-family: var(--font-display);
   font-size: 15px;
+  font-weight: 700;
+}
+
+.filter-check-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 54px;
+  border: 2px solid var(--fei-line);
+  border-radius: var(--radius-lg);
+  background: #fff;
+  padding: 0 16px;
+}
+
+.filter-check-box input {
+  width: auto;
+  margin: 0;
+}
+
+.filter-check-box label {
+  color: var(--fei-ink);
+  font-family: var(--font-display);
+  font-size: 14px;
   font-weight: 700;
 }
 

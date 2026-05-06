@@ -1,0 +1,42 @@
+[
+  {
+    "courseId": "LFC-136",
+    "reason": "Best beginner entry for line confidence and observation.",
+    "slot": 1
+  },
+  {
+    "courseId": "LFC-001",
+    "reason": "Strong foundation course with clear material and studio identity.",
+    "slot": 2
+  },
+  {
+    "courseId": "LFC-053",
+    "reason": "Represents gesture, motion, and figure structure.",
+    "slot": 3
+  },
+  {
+    "courseId": "LFC-054",
+    "reason": "Represents storytelling, illustration, and personal voice.",
+    "slot": 4
+  },
+  {
+    "courseId": "LFC-091",
+    "reason": "Represents landscape, plein air, and visual atmosphere.",
+    "slot": 5
+  },
+  {
+    "courseId": "LFC-036",
+    "reason": "Represents design thinking, spatial concepts, and cafe studio direction.",
+    "slot": 6
+  },
+  {
+    "courseId": "LFC-028",
+    "reason": "Represents realism, control, and tonal study.",
+    "slot": 7
+  },
+  {
+    "courseId": "ARTHIST-ENTRY-001",
+    "reason": "Represents the independent art history pathway in the larger ecosystem.",
+    "slot": 8
+  }
+]

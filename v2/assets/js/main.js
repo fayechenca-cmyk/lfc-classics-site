@@ -268,6 +268,48 @@ function bindSelectFilters() {
   }
 }
 
+function applySeriesPath(seriesId) {
+  if (!seriesId || !state.data?.series?.some(item => item.id === seriesId)) return;
+
+  state.filters.seriesId = seriesId;
+  state.visibleCount = 12;
+
+  const seriesFilter = document.getElementById('seriesFilter');
+  if (seriesFilter) {
+    seriesFilter.value = seriesId;
+  }
+
+  renderFullLibrary();
+
+  const librarySection = document.getElementById('fullCourseGrid');
+  if (librarySection) {
+    librarySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function bindPathLinks() {
+  document.addEventListener('click', event => {
+    const pathLink = event.target.closest('#featuredPathsGrid a[href^="#series/"]');
+    if (!pathLink) return;
+
+    event.preventDefault();
+
+    const href = pathLink.getAttribute('href') || '';
+    const seriesId = href.replace(/^#series\//, '').trim();
+    applySeriesPath(seriesId);
+  });
+}
+
+function handleInitialHash() {
+  const hash = window.location.hash || '';
+  if (!hash.startsWith('#series/')) return;
+
+  const seriesId = hash.replace(/^#series\//, '').trim();
+  if (!seriesId) return;
+
+  applySeriesPath(seriesId);
+}
+
 async function init() {
   try {
     state.data = await loadAllData();
@@ -286,6 +328,8 @@ async function init() {
     bindSearch();
     bindAgeFilter();
     bindSelectFilters();
+    bindPathLinks();
+    handleInitialHash();
   } catch (error) {
     console.error(error);
   }

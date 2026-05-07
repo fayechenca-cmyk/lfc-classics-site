@@ -97,7 +97,7 @@ function renderFeaturedCourses() {
     ? byIds(courses, featuredCourses.map(item => item.courseId))
     : courses.filter(item => item.featured).slice(0, 6);
 
-  grid.innerHTML = renderCourseCards(selectedCourses, badges, { variant: 'featured' });
+  grid.innerHTML = renderCourseCards(selectedCourses, badges, state.data.series, { variant: 'featured' });
 }
 
 function getFilteredCourses() {
@@ -117,6 +117,7 @@ function renderFullLibrary() {
     loadMoreBtn,
     courses: filteredCourses,
     badges: state.data.badges,
+    series: state.data.series,
     visibleCount: state.visibleCount
   });
 }
@@ -139,7 +140,7 @@ function openCourseDetail(courseId) {
   if (!course) return;
 
   mount.hidden = false;
-  mount.innerHTML = renderCourseDetail(course, state.data.badges, state.data.courses);
+  mount.innerHTML = renderCourseDetail(course, state.data.badges, state.data.series, state.data.courses);
   document.body.style.overflow = 'hidden';
 }
 

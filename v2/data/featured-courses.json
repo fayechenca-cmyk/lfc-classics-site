@@ -38,5 +38,10 @@
     "courseId": "ARTHIST-ENTRY-001",
     "reason": "Represents the independent art history pathway in the larger ecosystem.",
     "slot": 8
+  },
+  {
+    "courseId": "LFC-139",
+    "reason": "Represents a distinctive early art offering with self-study and live Cantonese or Mandarin teaching support.",
+    "slot": 9
   }
 ]

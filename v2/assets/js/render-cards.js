@@ -11,6 +11,10 @@ function badgeLookupMap(badges) {
   return new Map((badges || []).map(badge => [badge.id, badge]));
 }
 
+function seriesLookupMap(series = []) {
+  return new Map((series || []).map(item => [item.id, item]));
+}
+
 function getBadgeVisual(badge) {
   if (!badge) {
     return `<div class="badge-fallback">🏆</div>`;
@@ -21,6 +25,10 @@ function getBadgeVisual(badge) {
   }
 
   return `<div class="badge-fallback">${escapeHtml(badge.emoji || '🏆')}</div>`;
+}
+
+function getCourseCoverImage(course, badge, seriesItem) {
+  return course.coverImage || course.thumbnailImage || seriesItem?.coverImage || badge?.imgUrl || '';
 }
 
 export function renderPathCards(paths = []) {
@@ -56,12 +64,15 @@ export function renderPathCards(paths = []) {
   }).join('');
 }
 
-export function renderCourseCards(courses = [], badges = [], opts = {}) {
+export function renderCourseCards(courses = [], badges = [], series = [], opts = {}) {
   const { variant = 'featured' } = opts;
   const badgeMap = badgeLookupMap(badges);
+  const seriesMap = seriesLookupMap(series);
 
   return courses.map(course => {
     const badge = badgeMap.get(course.badgeId);
+    const seriesItem = seriesMap.get(course.seriesId);
+    const coverImage = getCourseCoverImage(course, badge, seriesItem);
     const cardClass = variant === 'library'
       ? 'course-card library-card card-hover'
       : 'course-card card-hover';
@@ -70,8 +81,8 @@ export function renderCourseCards(courses = [], badges = [], opts = {}) {
       <article class="${cardClass}" data-course-id="${escapeHtml(course.id)}">
         <div class="course-card-media">
           ${
-            course.coverImage
-              ? `<img src="${escapeHtml(course.coverImage)}" alt="${escapeHtml(course.title)}">`
+            coverImage
+              ? `<img src="${escapeHtml(coverImage)}" alt="${escapeHtml(course.title)}">`
               : `<div class="visual-fallback">${escapeHtml(course.title)}</div>`
           }
           <div class="badge-bubble">

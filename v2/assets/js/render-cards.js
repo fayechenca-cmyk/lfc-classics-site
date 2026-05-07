@@ -49,6 +49,7 @@ export function renderPathCards(paths = []) {
           }
         </div>
         <div class="path-card-body">
+          <div class="path-card-label">Category</div>
           <div class="card-kicker">${escapeHtml(path.kicker || 'Learning Path')}</div>
           <h3>${escapeHtml(path.title)}</h3>
           <p>${escapeHtml(path.description || '')}</p>
@@ -56,7 +57,7 @@ export function renderPathCards(paths = []) {
             ${meta.map(item => `<span class="path-meta-pill">${escapeHtml(item)}</span>`).join('')}
           </div>
           <div class="course-card-actions">
-            <a href="${escapeHtml(path.href || '#')}" class="btn btn-primary">Explore Path</a>
+            <a href="${escapeHtml(path.href || '#')}" class="btn btn-primary">Open Category</a>
           </div>
         </div>
       </article>

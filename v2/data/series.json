@@ -51,7 +51,8 @@
       "All Levels"
     ],
     "badgeIds": [
-      "basic_sketch"
+      "basic_sketch",
+      "material_explore"
     ],
     "courseIds": [
       "LFC-001",
@@ -63,7 +64,8 @@
       "LFC-008",
       "LFC-009",
       "LFC-010",
-      "LFC-136"
+      "LFC-136",
+      "LFC-138"
     ],
     "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69a9027ed32a09ff93e5c944_Screenshot%202026-03-04%20at%208.11.30%E2%80%AFPM.png",
     "themeColor": "#67e8f9",
@@ -206,7 +208,8 @@
       "All Levels"
     ],
     "badgeIds": [
-      "material_explore"
+      "material_explore",
+      "hand_crafter"
     ],
     "courseIds": [
       "LFC-026",
@@ -218,7 +221,8 @@
       "LFC-032",
       "LFC-033",
       "LFC-034",
-      "LFC-035"
+      "LFC-035",
+      "LFC-141"
     ],
     "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/68daf5253dc15612a294ffb6_88f00564162f6054a7e7e03c9dfe94e7.JPG",
     "themeColor": "#e2f5ee",
@@ -231,7 +235,7 @@
   },
   {
     "id": "interior-design-cafe-studio",
-    "title": "Interior Design \u00b7 Cafe Studio",
+    "title": "Interior Design · Cafe Studio",
     "shortTitle": "Interior Design",
     "aliases": [
       "Interior Design"
@@ -293,7 +297,8 @@
       "LFC-044",
       "LFC-045",
       "LFC-046",
-      "LFC-047"
+      "LFC-047",
+      "LFC-142"
     ],
     "coverImage": "",
     "themeColor": "#fde2f3",
@@ -374,7 +379,7 @@
   },
   {
     "id": "illustration-lab-story-to-page",
-    "title": "Illustration Lab \u2014 From Story to Finished Page",
+    "title": "Illustration Lab — From Story to Finished Page",
     "shortTitle": "Illustration Lab",
     "aliases": [
       "Illustration Lab"
@@ -397,7 +402,8 @@
       "LFC-055",
       "LFC-056",
       "LFC-057",
-      "LFC-058"
+      "LFC-058",
+      "LFC-143"
     ],
     "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e922ac42a1214b70380e93_Screenshot%202026-04-22%20at%2012.33.59%E2%80%AFPM.png",
     "themeColor": "#fbcfe8",
@@ -492,13 +498,13 @@
   },
   {
     "id": "marker-anime-characters-paper-sprint",
-    "title": "Marker Anime Characters on Paper \u2014 3-Class Sprint",
+    "title": "Marker Anime Characters on Paper — 3-Class Sprint",
     "shortTitle": "Marker Anime",
     "aliases": [
       "Marker Anime"
     ],
     "part": "Illustration/Comics",
-    "description": "Learning path for Marker Anime Characters on Paper \u2014 3-Class Sprint.",
+    "description": "Learning path for Marker Anime Characters on Paper — 3-Class Sprint.",
     "ageBands": [
       "8+",
       "11+",
@@ -526,13 +532,13 @@
   },
   {
     "id": "digital-anime-characters-sprint",
-    "title": "Digital Anime Characters \u2014 3-Class Sprint",
+    "title": "Digital Anime Characters — 3-Class Sprint",
     "shortTitle": "Digital Anime",
     "aliases": [
       "Digital Anime"
     ],
     "part": "Illustration/Comics",
-    "description": "Learning path for Digital Anime Characters \u2014 3-Class Sprint.",
+    "description": "Learning path for Digital Anime Characters — 3-Class Sprint.",
     "ageBands": [
       "8+",
       "11+",
@@ -547,7 +553,8 @@
     "courseIds": [
       "LFC-082",
       "LFC-083",
-      "LFC-084"
+      "LFC-084",
+      "LFC-144"
     ],
     "coverImage": "",
     "themeColor": "#dbeafe",
@@ -560,13 +567,13 @@
   },
   {
     "id": "architecture-foundation-basic",
-    "title": "Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper",
+    "title": "Architecture Foundation Basic — Perspective → Idea → Paper",
     "shortTitle": "Architecture",
     "aliases": [
       "Architecture"
     ],
     "part": "Architecture",
-    "description": "Learning path for Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper.",
+    "description": "Learning path for Architecture Foundation Basic — Perspective → Idea → Paper.",
     "ageBands": [
       "8+",
       "11+",
@@ -597,7 +604,7 @@
   },
   {
     "id": "landscape-lab-field-to-studio",
-    "title": "Landscape Lab \u2014 Field to Studio",
+    "title": "Landscape Lab — Field to Studio",
     "shortTitle": "Landscape Lab",
     "aliases": [
       "Landscape Lab"
@@ -633,7 +640,7 @@
   },
   {
     "id": "academic-portrait-skull-to-likeness",
-    "title": "Academic Portrait \u2014 Skull to Likeness",
+    "title": "Academic Portrait — Skull to Likeness",
     "shortTitle": "Academic Portrait",
     "aliases": [
       "Academic Portrait"
@@ -710,7 +717,8 @@
       "LFC-117",
       "LFC-118",
       "LFC-119",
-      "LFC-120"
+      "LFC-120",
+      "LFC-140"
     ],
     "coverImage": "",
     "themeColor": "#ede9fe",
@@ -753,7 +761,8 @@
       "LFC-129",
       "LFC-130",
       "LFC-131",
-      "LFC-132"
+      "LFC-132",
+      "LFC-145"
     ],
     "coverImage": "",
     "themeColor": "#fef3c7",
@@ -766,13 +775,13 @@
   },
   {
     "id": "art-movements-and-ideas-add-ons",
-    "title": "Art Movements & Ideas \u2014 Add-Ons",
+    "title": "Art Movements & Ideas — Add-Ons",
     "shortTitle": "Art Movements Add-ons",
     "aliases": [
       "Art Movements Add-ons"
     ],
     "part": "Theory",
-    "description": "Learning path for Art Movements & Ideas \u2014 Add-Ons.",
+    "description": "Learning path for Art Movements & Ideas — Add-Ons.",
     "ageBands": [
       "8+",
       "11+",
@@ -782,12 +791,14 @@
       "All Levels"
     ],
     "badgeIds": [
-      "art_history"
+      "art_history",
+      "idea_inventor"
     ],
     "courseIds": [
       "LFC-133",
       "LFC-134",
-      "LFC-135"
+      "LFC-135",
+      "LFC-137"
     ],
     "coverImage": "",
     "themeColor": "#fef3c7",
@@ -796,6 +807,37 @@
     "artHistoryEligible": false,
     "featured": false,
     "sortOrder": 50,
+    "active": true
+  },
+  {
+    "id": "art-playground",
+    "title": "Art Playground",
+    "shortTitle": "Art Playground",
+    "aliases": [
+      "Art Playground",
+      "Early Art Explore"
+    ],
+    "part": "Early Art",
+    "description": "Play-based art learning for younger children, focused on confidence, curiosity, and creative exploration.",
+    "ageBands": [
+      "4-7"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "badgeIds": [
+      "observation_detective"
+    ],
+    "courseIds": [
+      "LFC-139"
+    ],
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e1215fd7ca78765b7af843_Screenshot%202026-04-16%20at%2010.50.21%E2%80%AFAM.png",
+    "themeColor": "#fde68a",
+    "selfStudyEligible": true,
+    "lfcEligible": true,
+    "artHistoryEligible": false,
+    "featured": false,
+    "sortOrder": 8,
     "active": true
   }
 ]

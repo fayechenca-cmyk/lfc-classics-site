@@ -15,21 +15,26 @@ async function fetchJson(path) {
   return res.json();
 }
 
+async function fetchJsonOptional(path, fallback) {
+  try {
+    return await fetchJson(path);
+  } catch (error) {
+    console.warn(`Optional data failed to load: ${path}`, error);
+    return fallback;
+  }
+}
+
 export async function loadAllData() {
-  const [
-    courses,
-    badges,
-    series,
-    featuredCourses,
-    featuredPaths,
-    portalCompat
-  ] = await Promise.all([
+  const [courses, badges, series] = await Promise.all([
     fetchJson(DATA_PATHS.courses),
     fetchJson(DATA_PATHS.badges),
-    fetchJson(DATA_PATHS.series),
-    fetchJson(DATA_PATHS.featuredCourses),
-    fetchJson(DATA_PATHS.featuredPaths),
-    fetchJson(DATA_PATHS.portalCompat)
+    fetchJson(DATA_PATHS.series)
+  ]);
+
+  const [featuredCourses, featuredPaths, portalCompat] = await Promise.all([
+    fetchJsonOptional(DATA_PATHS.featuredCourses, []),
+    fetchJsonOptional(DATA_PATHS.featuredPaths, []),
+    fetchJsonOptional(DATA_PATHS.portalCompat, {})
   ]);
 
   return {

@@ -11,6 +11,14 @@ function badgeMapFromList(badges = []) {
   return new Map((badges || []).map(badge => [badge.id, badge]));
 }
 
+function seriesMapFromList(series = []) {
+  return new Map((series || []).map(item => [item.id, item]));
+}
+
+function getCourseCoverImage(course, badge, seriesItem) {
+  return course.coverImage || course.thumbnailImage || seriesItem?.coverImage || badge?.imgUrl || '';
+}
+
 function getLearning(course) {
   return course.learning || {
     state: 'reference_only',
@@ -349,9 +357,12 @@ function renderRelatedCourses(course, allCourses = []) {
   `;
 }
 
-export function renderCourseDetail(course, badges = [], allCourses = []) {
+export function renderCourseDetail(course, badges = [], series = [], allCourses = []) {
   const badgeLookup = badgeMapFromList(badges);
+  const seriesLookup = seriesMapFromList(series);
   const badge = badgeLookup.get(course.badgeId);
+  const seriesItem = seriesLookup.get(course.seriesId);
+  const coverImage = getCourseCoverImage(course, badge, seriesItem);
 
   return `
     <div class="detail-overlay" data-detail-overlay>
@@ -361,8 +372,8 @@ export function renderCourseDetail(course, badges = [], allCourses = []) {
         <div class="detail-hero">
           <div class="detail-hero-media">
             ${
-              course.coverImage
-                ? `<img src="${escapeHtml(course.coverImage)}" alt="${escapeHtml(course.title)}">`
+              coverImage
+                ? `<img src="${escapeHtml(coverImage)}" alt="${escapeHtml(course.title)}">`
                 : `<div class="visual-fallback">${escapeHtml(course.title)}</div>`
             }
           </div>

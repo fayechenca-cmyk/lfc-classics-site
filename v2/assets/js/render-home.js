@@ -6,13 +6,14 @@ export function renderLibrarySection({
   loadMoreBtn,
   courses,
   badges,
+  series,
   visibleCount
 }) {
   if (!mount) return;
 
   const visibleCourses = courses.slice(0, visibleCount);
 
-  mount.innerHTML = renderCourseCards(visibleCourses, badges, {
+  mount.innerHTML = renderCourseCards(visibleCourses, badges, series, {
     variant: 'library'
   });
 

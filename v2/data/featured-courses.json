@@ -1,47 +1,77 @@
 [
   {
-    "courseId": "LFC-136",
-    "reason": "Best beginner entry for line confidence and observation.",
+    "courseId": "LFC-140",
+    "reason": "A mature recorded leathercraft course with strong standalone value and distinctive handcraft identity.",
     "slot": 1
   },
   {
-    "courseId": "LFC-001",
-    "reason": "Strong foundation course with clear material and studio identity.",
+    "courseId": "LFC-139",
+    "reason": "A distinctive early art offering with self-study and live Cantonese or Mandarin teaching support.",
     "slot": 2
   },
   {
-    "courseId": "LFC-053",
-    "reason": "Represents gesture, motion, and figure structure.",
+    "courseId": "LFC-136",
+    "reason": "The strongest beginner entry for line confidence, observation, and Smart Class self-learning.",
     "slot": 3
   },
   {
-    "courseId": "LFC-054",
-    "reason": "Represents storytelling, illustration, and personal voice.",
+    "courseId": "LFC-138",
+    "reason": "A mature foundation class focused on academic sketch structure, materials, and tonal control.",
     "slot": 4
   },
   {
-    "courseId": "LFC-091",
-    "reason": "Represents landscape, plein air, and visual atmosphere.",
+    "courseId": "LFC-053",
+    "reason": "A core figure foundation course that has already been taught and refined through repeated runs.",
     "slot": 5
+  },
+  {
+    "courseId": "LFC-143",
+    "reason": "A mature narrative storytelling course that represents illustration, sequencing, and visual voice.",
+    "slot": 6
+  },
+  {
+    "courseId": "LFC-142",
+    "reason": "Represents costume and custom design through an established teacher-led and self-learning direction.",
+    "slot": 7
+  },
+  {
+    "courseId": "LFC-145",
+    "reason": "A mature contemporary art theory course that deserves direct visibility at the top level.",
+    "slot": 8
+  },
+  {
+    "courseId": "LFC-137",
+    "reason": "A distinctive theory course on video art and deep structure that has already been taught in practice.",
+    "slot": 9
+  },
+  {
+    "courseId": "LFC-001",
+    "reason": "Strong studio-material foundation course with broad beginner appeal.",
+    "slot": 10
+  },
+  {
+    "courseId": "LFC-054",
+    "reason": "Represents illustration voice, personal story, and project-based creative development.",
+    "slot": 11
+  },
+  {
+    "courseId": "LFC-091",
+    "reason": "Represents landscape observation, plein air process, and atmosphere building.",
+    "slot": 12
   },
   {
     "courseId": "LFC-036",
     "reason": "Represents design thinking, spatial concepts, and cafe studio direction.",
-    "slot": 6
+    "slot": 13
   },
   {
     "courseId": "LFC-028",
-    "reason": "Represents realism, control, and tonal study.",
-    "slot": 7
+    "reason": "Represents realism, graphite control, and tonal study.",
+    "slot": 14
   },
   {
     "courseId": "ARTHIST-ENTRY-001",
-    "reason": "Represents the independent art history pathway in the larger ecosystem.",
-    "slot": 8
-  },
-  {
-    "courseId": "LFC-139",
-    "reason": "Represents a distinctive early art offering with self-study and live Cantonese or Mandarin teaching support.",
-    "slot": 9
+    "reason": "Represents the independent art history pathway in the larger learning ecosystem.",
+    "slot": 15
   }
 ]

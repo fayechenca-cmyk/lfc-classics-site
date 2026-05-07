@@ -134,7 +134,7 @@
         "url": "#"
       },
       {
-        "artist": "Jean-L\u00e9on G\u00e9r\u00f4me",
+        "artist": "Jean-Léon Gérôme",
         "work": "Studio studies (as context)",
         "year": "19th c.",
         "museum": "Public Domain",
@@ -182,7 +182,7 @@
   {
     "id": "LFC-002",
     "slug": "light-and-basic-forms-sphere-cube-cylinder",
-    "title": "Light & Basic Forms: Sphere \u2022 Cube \u2022 Cylinder",
+    "title": "Light & Basic Forms: Sphere • Cube • Cylinder",
     "shortTitle": "Light & Basic Forms",
     "part": "Foundations",
     "seriesId": "observational-drawing-form",
@@ -235,7 +235,7 @@
     ],
     "videoUrl": "https://www.youtube.com/watch?v=boQBzxq534U&t=15s",
     "pdfUrl": "#",
-    "smartClassUrl": "https://www.feiteamart.com/smart-art-class",
+    "smartClassUrl": "",
     "detailPageUrl": "",
     "registrationUrl": "",
     "mentorshipUrl": "",
@@ -291,13 +291,13 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "See/construct form via planes; render a faceted \u2018low-poly\u2019 object in 4\u20135 value steps (no heavy blending).",
-    "fullDescription": "See/construct form via planes; render a faceted \u2018low-poly\u2019 object in 4\u20135 value steps (no heavy blending).",
+    "shortDescription": "See/construct form via planes; render a faceted ‘low-poly’ object in 4–5 value steps (no heavy blending).",
+    "fullDescription": "See/construct form via planes; render a faceted ‘low-poly’ object in 4–5 value steps (no heavy blending).",
     "tags": [
       "planes",
       "facets",
       "cross-contour",
-      "4\u20135 values"
+      "4–5 values"
     ],
     "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69fc0e103a43fcc5129727ad_Screenshot%202026-05-06%20at%208.59.07%E2%80%AFPM.png",
     "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69fc0e103a43fcc5129727ad_Screenshot%202026-05-06%20at%208.59.07%E2%80%AFPM.png",
@@ -307,7 +307,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Paul C\u00e9zanne",
+        "name": "Paul Cézanne",
         "death": 1906
       }
     ],
@@ -316,9 +316,9 @@
     ],
     "refs": [
       {
-        "artist": "Paul C\u00e9zanne",
+        "artist": "Paul Cézanne",
         "work": "Still Life studies (plane logic)",
-        "year": "c.1880\u20131906",
+        "year": "c.1880–1906",
         "museum": "AIC / The Met",
         "license": "CC0",
         "url": "#"
@@ -364,7 +364,7 @@
   {
     "id": "LFC-004",
     "slug": "when-geometry-meets-art-cube-and-pyramid-lab",
-    "title": "When Geometry Meets Art \u2014 Cube & Pyramid Lab",
+    "title": "When Geometry Meets Art — Cube & Pyramid Lab",
     "shortTitle": "When Geometry Meets Art",
     "part": "Foundations",
     "seriesId": "geometry-perspective-basics",
@@ -522,7 +522,7 @@
         "url": "#"
       },
       {
-        "artist": "D\u00fcrer",
+        "artist": "Dürer",
         "work": "Instructional sheets (proportion)",
         "year": "16th c.",
         "museum": "Public Domain",
@@ -695,7 +695,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Albrecht D\u00fcrer",
+        "name": "Albrecht Dürer",
         "death": 1528
       }
     ],
@@ -704,7 +704,7 @@
     ],
     "refs": [
       {
-        "artist": "D\u00fcrer",
+        "artist": "Dürer",
         "work": "Underweysung der Messung (perspective/ellipse notes)",
         "year": "1525",
         "museum": "Public Domain",
@@ -752,7 +752,7 @@
   {
     "id": "LFC-008",
     "slug": "surfaces-and-textures-ceramic-metal-glass-fabric-organic",
-    "title": "Surfaces & Textures: Ceramic \u2022 Metal \u2022 Glass \u2022 Fabric \u2022 Organic",
+    "title": "Surfaces & Textures: Ceramic • Metal • Glass • Fabric • Organic",
     "shortTitle": "Surfaces & Textures",
     "part": "Foundations",
     "seriesId": "observational-drawing-form",
@@ -873,8 +873,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Make 3 value thumbnails (notan) for 4\u20136 objects; choose one and take the drawing to 80% finish with clear focal path.",
-    "fullDescription": "Make 3 value thumbnails (notan) for 4\u20136 objects; choose one and take the drawing to 80% finish with clear focal path.",
+    "shortDescription": "Make 3 value thumbnails (notan) for 4–6 objects; choose one and take the drawing to 80% finish with clear focal path.",
+    "fullDescription": "Make 3 value thumbnails (notan) for 4–6 objects; choose one and take the drawing to 80% finish with clear focal path.",
     "tags": [
       "thumbnails",
       "notan",
@@ -893,7 +893,7 @@
         "death": 1779
       },
       {
-        "name": "C\u00e9zanne",
+        "name": "Cézanne",
         "death": 1906
       }
     ],
@@ -911,9 +911,9 @@
         "url": "#"
       },
       {
-        "artist": "C\u00e9zanne",
+        "artist": "Cézanne",
         "work": "Still life value structure",
-        "year": "c.1880\u20131906",
+        "year": "c.1880–1906",
         "museum": "AIC / The Met",
         "license": "CC0",
         "url": "#"
@@ -959,7 +959,7 @@
   {
     "id": "LFC-010",
     "slug": "found-still-life-capstone-setup-to-portfolio-piece",
-    "title": "Found Still Life (Capstone) \u2014 Setup \u2192 Portfolio Piece",
+    "title": "Found Still Life (Capstone) — Setup → Portfolio Piece",
     "shortTitle": "Found Still Life (Capstone)",
     "part": "Foundations",
     "seriesId": "observational-drawing-form",
@@ -977,8 +977,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Select objects, arrange with clear light, block-in \u2192 measure \u2192 value group \u2192 edges \u2192 finish; present with a simple process strip.",
-    "fullDescription": "Select objects, arrange with clear light, block-in \u2192 measure \u2192 value group \u2192 edges \u2192 finish; present with a simple process strip.",
+    "shortDescription": "Select objects, arrange with clear light, block-in → measure → value group → edges → finish; present with a simple process strip.",
+    "fullDescription": "Select objects, arrange with clear light, block-in → measure → value group → edges → finish; present with a simple process strip.",
     "tags": [
       "capstone",
       "workflow",
@@ -997,7 +997,7 @@
         "death": 1779
       },
       {
-        "name": "C\u00e9zanne",
+        "name": "Cézanne",
         "death": 1906
       }
     ],
@@ -1015,9 +1015,9 @@
         "url": "#"
       },
       {
-        "artist": "C\u00e9zanne",
+        "artist": "Cézanne",
         "work": "Still life exemplars",
-        "year": "c.1880\u20131906",
+        "year": "c.1880–1906",
         "museum": "CC0 Collections",
         "license": "CC0",
         "url": "#"
@@ -1085,7 +1085,7 @@
     "fullDescription": "Turn everyday objects into square/triangle/circle constructions, then add one clear shadow shape. Quick, friendly value sense without heavy rules.",
     "tags": [
       "simplify",
-      "2\u20133 values",
+      "2–3 values",
       "cast shadow",
       "playful"
     ],
@@ -1113,7 +1113,7 @@
       {
         "artist": "Kazimir Malevich",
         "work": "Suprematist Composition (geometric forms)",
-        "year": "1915\u20131920s",
+        "year": "1915–1920s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "#"
@@ -1121,7 +1121,7 @@
       {
         "artist": "Theo van Doesburg",
         "work": "Composition studies",
-        "year": "1917\u20131931",
+        "year": "1917–1931",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "#"
@@ -1185,8 +1185,8 @@
       "8+",
       "11+"
     ],
-    "shortDescription": "Block animal bodies with beans/ovals, add 3\u20134 character features, then seat each with a spot shadow. Focus on gesture over details.",
-    "fullDescription": "Block animal bodies with beans/ovals, add 3\u20134 character features, then seat each with a spot shadow. Focus on gesture over details.",
+    "shortDescription": "Block animal bodies with beans/ovals, add 3–4 character features, then seat each with a spot shadow. Focus on gesture over details.",
+    "fullDescription": "Block animal bodies with beans/ovals, add 3–4 character features, then seat each with a spot shadow. Focus on gesture over details.",
     "tags": [
       "gesture",
       "big shapes",
@@ -1201,7 +1201,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Albrecht D\u00fcrer",
+        "name": "Albrecht Dürer",
         "death": 1528
       },
       {
@@ -1215,7 +1215,7 @@
     ],
     "refs": [
       {
-        "artist": "Albrecht D\u00fcrer",
+        "artist": "Albrecht Dürer",
         "work": "Young Hare & animal studies",
         "year": "c.1502",
         "museum": "Public Domain",
@@ -1290,8 +1290,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Arrange 3\u20135 fun objects (toy/snack/desk item). Block flat local colors, then drop one darker pass on the shadow side + a simple cast shadow under each.",
-    "fullDescription": "Arrange 3\u20135 fun objects (toy/snack/desk item). Block flat local colors, then drop one darker pass on the shadow side + a simple cast shadow under each.",
+    "shortDescription": "Arrange 3–5 fun objects (toy/snack/desk item). Block flat local colors, then drop one darker pass on the shadow side + a simple cast shadow under each.",
+    "fullDescription": "Arrange 3–5 fun objects (toy/snack/desk item). Block flat local colors, then drop one darker pass on the shadow side + a simple cast shadow under each.",
     "tags": [
       "flat color",
       "poster logic",
@@ -1316,13 +1316,13 @@
     ],
     "movements": [
       "Art Nouveau",
-      "Belle \u00c9poque Posters"
+      "Belle Époque Posters"
     ],
     "refs": [
       {
         "artist": "Alphonse Mucha",
         "work": "Poster works (flat color & contour)",
-        "year": "1890s\u20131900s",
+        "year": "1890s–1900s",
         "museum": "The Met / AIC Open Access",
         "license": "CC0",
         "url": "#"
@@ -1330,7 +1330,7 @@
       {
         "artist": "Leonetto Cappiello",
         "work": "Advertising posters",
-        "year": "1900s\u20131920s",
+        "year": "1900s–1920s",
         "museum": "Rijksmuseum / PD collections",
         "license": "CC0/PD",
         "url": "#"
@@ -1426,7 +1426,7 @@
       {
         "artist": "Winsor McCay",
         "work": "Little Nemo drawings",
-        "year": "1905\u20131914",
+        "year": "1905–1914",
         "museum": "Public Domain",
         "license": "PD",
         "url": "#"
@@ -1434,7 +1434,7 @@
       {
         "artist": "George Herriman",
         "work": "Krazy Kat strips (shape & light hints)",
-        "year": "1910s\u20131930s",
+        "year": "1910s–1930s",
         "museum": "Public Domain",
         "license": "PD",
         "url": "#"
@@ -1499,11 +1499,11 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Divide the page into sky\u2013middle\u2013ground bands, place bold shapes (tree/house/path), and add short ground shadows. Think far = lighter/softer.",
-    "fullDescription": "Divide the page into sky\u2013middle\u2013ground bands, place bold shapes (tree/house/path), and add short ground shadows. Think far = lighter/softer.",
+    "shortDescription": "Divide the page into sky–middle–ground bands, place bold shapes (tree/house/path), and add short ground shadows. Think far = lighter/softer.",
+    "fullDescription": "Divide the page into sky–middle–ground bands, place bold shapes (tree/house/path), and add short ground shadows. Think far = lighter/softer.",
     "tags": [
       "landscape bands",
-      "near\u2013far values",
+      "near–far values",
       "ground shadows",
       "graphic rhythm"
     ],
@@ -1530,7 +1530,7 @@
       {
         "artist": "Hiroshige",
         "work": "One Hundred Famous Views of Edo (landscape bands)",
-        "year": "1856\u20131858",
+        "year": "1856–1858",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "#"
@@ -1538,7 +1538,7 @@
       {
         "artist": "Hokusai",
         "work": "Thirty-six Views of Mount Fuji",
-        "year": "1830\u20131832",
+        "year": "1830–1832",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "#"
@@ -1602,8 +1602,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "See like Matisse\u2014big shapes, bold local color, confident contour. Studio: still life or bust with flat color blocks + a few decisive lines.",
-    "fullDescription": "See like Matisse\u2014big shapes, bold local color, confident contour. Studio: still life or bust with flat color blocks + a few decisive lines.",
+    "shortDescription": "See like Matisse—big shapes, bold local color, confident contour. Studio: still life or bust with flat color blocks + a few decisive lines.",
+    "fullDescription": "See like Matisse—big shapes, bold local color, confident contour. Studio: still life or bust with flat color blocks + a few decisive lines.",
     "tags": [
       "flat color",
       "contour",
@@ -1706,8 +1706,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Turn everyday objects into icons using poster logic\u2014flat color, bold contour, and smart type placement. Studio: 4-panel colorways or one hero poster.",
-    "fullDescription": "Turn everyday objects into icons using poster logic\u2014flat color, bold contour, and smart type placement. Studio: 4-panel colorways or one hero poster.",
+    "shortDescription": "Turn everyday objects into icons using poster logic—flat color, bold contour, and smart type placement. Studio: 4-panel colorways or one hero poster.",
+    "fullDescription": "Turn everyday objects into icons using poster logic—flat color, bold contour, and smart type placement. Studio: 4-panel colorways or one hero poster.",
     "tags": [
       "poster",
       "flat color",
@@ -1732,7 +1732,7 @@
     ],
     "movements": [
       "Art Nouveau",
-      "Belle \u00c9poque Posters"
+      "Belle Époque Posters"
     ],
     "refs": [
       {
@@ -1792,8 +1792,8 @@
   {
     "id": "LFC-018",
     "slug": "renaissance-space-and-composition-raphael-leonardo-michelangelo",
-    "title": "Renaissance Space & Composition (Raphael \u00b7 Leonardo \u00b7 Michelangelo)",
-    "shortTitle": "Renaissance Space & Composition (Raphael \u00b7 Leonardo \u00b7 Michelangelo)",
+    "title": "Renaissance Space & Composition (Raphael · Leonardo · Michelangelo)",
+    "shortTitle": "Renaissance Space & Composition (Raphael · Leonardo · Michelangelo)",
     "part": "Masters",
     "seriesId": "learn-from-masters",
     "seriesTitle": "Learn from Masters",
@@ -1917,8 +1917,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "From Bosch\u2019s teeming details to your own tiny allegories. Studio: a 3-panel mini-triptych\u2014ordinary / dream / hybrid creature\u2014using line + two values.",
-    "fullDescription": "From Bosch\u2019s teeming details to your own tiny allegories. Studio: a 3-panel mini-triptych\u2014ordinary / dream / hybrid creature\u2014using line + two values.",
+    "shortDescription": "From Bosch’s teeming details to your own tiny allegories. Studio: a 3-panel mini-triptych—ordinary / dream / hybrid creature—using line + two values.",
+    "fullDescription": "From Bosch’s teeming details to your own tiny allegories. Studio: a 3-panel mini-triptych—ordinary / dream / hybrid creature—using line + two values.",
     "tags": [
       "narrative",
       "triptych",
@@ -1944,7 +1944,7 @@
       {
         "artist": "Hieronymus Bosch",
         "work": "The Garden of Earthly Delights (details)",
-        "year": "c.1490\u20131510",
+        "year": "c.1490–1510",
         "museum": "Public Domain",
         "license": "PD",
         "url": "#"
@@ -1990,7 +1990,7 @@
   {
     "id": "LFC-020",
     "slug": "architecture-dialogues-behrens-x-gaud",
-    "title": "Architecture Dialogues: Behrens \u00d7 Gaud\u00ed",
+    "title": "Architecture Dialogues: Behrens × Gaudí",
     "shortTitle": "Architecture Dialogues",
     "part": "Masters",
     "seriesId": "learn-from-masters",
@@ -2008,16 +2008,16 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Geometric clarity vs. organic flow. Studio: hybrid fa\u00e7ade\u2014Behrens-like base box + Gaud\u00ed-inspired skin/pattern; optional 2-point setup.",
-    "fullDescription": "Geometric clarity vs. organic flow. Studio: hybrid fa\u00e7ade\u2014Behrens-like base box + Gaud\u00ed-inspired skin/pattern; optional 2-point setup.",
+    "shortDescription": "Geometric clarity vs. organic flow. Studio: hybrid façade—Behrens-like base box + Gaudí-inspired skin/pattern; optional 2-point setup.",
+    "fullDescription": "Geometric clarity vs. organic flow. Studio: hybrid façade—Behrens-like base box + Gaudí-inspired skin/pattern; optional 2-point setup.",
     "tags": [
       "2-point",
-      "fa\u00e7ade rhythm",
+      "façade rhythm",
       "geometric vs organic",
       "silhouette"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/682418bc44729946dbeeb493_IMG_2485.jpg",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/682418bc44729946dbeeb493_IMG_2485.jpg",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "idea_inventor",
     "secondaryBadgeIds": [],
@@ -2028,7 +2028,7 @@
         "death": 1940
       },
       {
-        "name": "Antoni Gaud\u00ed",
+        "name": "Antoni Gaudí",
         "death": 1926
       }
     ],
@@ -2046,8 +2046,8 @@
         "url": "#"
       },
       {
-        "artist": "Antoni Gaud\u00ed",
-        "work": "Casa Batll\u00f3 / Sagrada Fam\u00edlia (historic docs)",
+        "artist": "Antoni Gaudí",
+        "work": "Casa Batlló / Sagrada Família (historic docs)",
         "year": "1900s",
         "museum": "Public Domain",
         "license": "PD",
@@ -2159,7 +2159,7 @@
       },
       {
         "artist": "Utagawa Hiroshige",
-        "work": "Sudden Shower over Shin-\u014chashi",
+        "work": "Sudden Shower over Shin-Ōhashi",
         "year": "1857",
         "museum": "The Met Open Access",
         "license": "CC0",
@@ -2206,7 +2206,7 @@
   {
     "id": "LFC-022",
     "slug": "post-impressionism-trio-van-gogh-gauguin-c-zanne",
-    "title": "Post-Impressionism Trio: Van Gogh \u00b7 Gauguin \u00b7 C\u00e9zanne",
+    "title": "Post-Impressionism Trio: Van Gogh · Gauguin · Cézanne",
     "shortTitle": "Post-Impressionism Trio",
     "part": "Masters",
     "seriesId": "learn-from-masters",
@@ -2224,8 +2224,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "One motif, three logics\u2014Van Gogh\u2019s stroke rhythm, Gauguin\u2019s flat color, C\u00e9zanne\u2019s planes. Studio: paint or draw the same subject in each mode.",
-    "fullDescription": "One motif, three logics\u2014Van Gogh\u2019s stroke rhythm, Gauguin\u2019s flat color, C\u00e9zanne\u2019s planes. Studio: paint or draw the same subject in each mode.",
+    "shortDescription": "One motif, three logics—Van Gogh’s stroke rhythm, Gauguin’s flat color, Cézanne’s planes. Studio: paint or draw the same subject in each mode.",
+    "fullDescription": "One motif, three logics—Van Gogh’s stroke rhythm, Gauguin’s flat color, Cézanne’s planes. Studio: paint or draw the same subject in each mode.",
     "tags": [
       "brushwork",
       "planes",
@@ -2248,7 +2248,7 @@
         "death": 1903
       },
       {
-        "name": "Paul C\u00e9zanne",
+        "name": "Paul Cézanne",
         "death": 1906
       }
     ],
@@ -2265,9 +2265,9 @@
         "url": "#"
       },
       {
-        "artist": "Paul C\u00e9zanne",
+        "artist": "Paul Cézanne",
         "work": "Mont Sainte-Victoire",
-        "year": "1902\u201306",
+        "year": "1902–06",
         "museum": "AIC / The Met",
         "license": "CC0",
         "url": "#"
@@ -2313,7 +2313,7 @@
   {
     "id": "LFC-023",
     "slug": "paths-to-abstraction-malevich-kandinsky-mondrian",
-    "title": "Paths to Abstraction: Malevich \u00b7 Kandinsky \u00b7 Mondrian",
+    "title": "Paths to Abstraction: Malevich · Kandinsky · Mondrian",
     "shortTitle": "Paths to Abstraction",
     "part": "Masters",
     "seriesId": "learn-from-masters",
@@ -2331,8 +2331,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "From reduction to pure design: abstract a reference photo into 6\u201310 shapes (Mondrian/Malevich logic) or a line/plane composition (Kandinsky).",
-    "fullDescription": "From reduction to pure design: abstract a reference photo into 6\u201310 shapes (Mondrian/Malevich logic) or a line/plane composition (Kandinsky).",
+    "shortDescription": "From reduction to pure design: abstract a reference photo into 6–10 shapes (Mondrian/Malevich logic) or a line/plane composition (Kandinsky).",
+    "fullDescription": "From reduction to pure design: abstract a reference photo into 6–10 shapes (Mondrian/Malevich logic) or a line/plane composition (Kandinsky).",
     "tags": [
       "reduction",
       "geometry",
@@ -2440,8 +2440,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Bauhaus problem-solving with play: Klee\u2019s color/shape grammar and Moholy-Nagy\u2019s design experiments. Studio: 2-stage study (grayscale \u2192 color).",
-    "fullDescription": "Bauhaus problem-solving with play: Klee\u2019s color/shape grammar and Moholy-Nagy\u2019s design experiments. Studio: 2-stage study (grayscale \u2192 color).",
+    "shortDescription": "Bauhaus problem-solving with play: Klee’s color/shape grammar and Moholy-Nagy’s design experiments. Studio: 2-stage study (grayscale → color).",
+    "fullDescription": "Bauhaus problem-solving with play: Klee’s color/shape grammar and Moholy-Nagy’s design experiments. Studio: 2-stage study (grayscale → color).",
     "tags": [
       "foundation course",
       "color theory",
@@ -2460,7 +2460,7 @@
         "death": 1940
       },
       {
-        "name": "L\u00e1szl\u00f3 Moholy-Nagy",
+        "name": "László Moholy-Nagy",
         "death": 1946
       }
     ],
@@ -2480,7 +2480,7 @@
       {
         "artist": "L. Moholy-Nagy",
         "work": "Photograms / composition studies",
-        "year": "1920s\u201330s",
+        "year": "1920s–30s",
         "museum": "Public Domain",
         "license": "PD",
         "url": "#"
@@ -2544,8 +2544,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Make the impossible feel real. Start with Redon\u2019s dream imagery and Piranesi\u2019s imagined spaces. Studio: collage three mismatched elements, then unify with shared light and one clear cast shadow.",
-    "fullDescription": "Make the impossible feel real. Start with Redon\u2019s dream imagery and Piranesi\u2019s imagined spaces. Studio: collage three mismatched elements, then unify with shared light and one clear cast shadow.",
+    "shortDescription": "Make the impossible feel real. Start with Redon’s dream imagery and Piranesi’s imagined spaces. Studio: collage three mismatched elements, then unify with shared light and one clear cast shadow.",
+    "fullDescription": "Make the impossible feel real. Start with Redon’s dream imagery and Piranesi’s imagined spaces. Studio: collage three mismatched elements, then unify with shared light and one clear cast shadow.",
     "tags": [
       "surreal roots",
       "juxtaposition",
@@ -2576,15 +2576,15 @@
       {
         "artist": "Odilon Redon",
         "work": "Noirs (lithographs & drawings)",
-        "year": "1880s\u20131890s",
+        "year": "1880s–1890s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "#"
       },
       {
         "artist": "G. B. Piranesi",
-        "work": "Carceri d\u2019Invenzione",
-        "year": "c.1745\u20131761",
+        "work": "Carceri d’Invenzione",
+        "year": "c.1745–1761",
         "museum": "Getty / Public Domain",
         "license": "Open Content/PD",
         "url": "#"
@@ -2753,8 +2753,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Explore opacity and body\u2014flat graphic areas contrasted with one textured impasto zone. Finish with crisp acrylic-marker lines.",
-    "fullDescription": "Explore opacity and body\u2014flat graphic areas contrasted with one textured impasto zone. Finish with crisp acrylic-marker lines.",
+    "shortDescription": "Explore opacity and body—flat graphic areas contrasted with one textured impasto zone. Finish with crisp acrylic-marker lines.",
+    "fullDescription": "Explore opacity and body—flat graphic areas contrasted with one textured impasto zone. Finish with crisp acrylic-marker lines.",
     "tags": [
       "acrylic",
       "impasto",
@@ -2780,13 +2780,13 @@
     ],
     "movements": [
       "Art Nouveau",
-      "Belle \u00c9poque Posters"
+      "Belle Époque Posters"
     ],
     "refs": [
       {
         "artist": "Alphonse Mucha",
         "work": "Poster works (flat color & contour)",
-        "year": "1890s\u20131900s",
+        "year": "1890s–1900s",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "#"
@@ -3106,7 +3106,7 @@
       {
         "artist": "Pierre Bonnard",
         "work": "Color field interiors/landscapes",
-        "year": "c.1900\u20131930s",
+        "year": "c.1900–1930s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "#"
@@ -3170,8 +3170,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Matte opacity and tidy edges. Monochrome under-block, then 4\u20136 flat color shapes with small modeling on top.",
-    "fullDescription": "Matte opacity and tidy edges. Monochrome under-block, then 4\u20136 flat color shapes with small modeling on top.",
+    "shortDescription": "Matte opacity and tidy edges. Monochrome under-block, then 4–6 flat color shapes with small modeling on top.",
+    "fullDescription": "Matte opacity and tidy edges. Monochrome under-block, then 4–6 flat color shapes with small modeling on top.",
     "tags": [
       "gouache",
       "opaque",
@@ -3202,7 +3202,7 @@
       {
         "artist": "Beatrix Potter",
         "work": "Animal watercolors/gouache",
-        "year": "c.1890\u20131910",
+        "year": "c.1890–1910",
         "museum": "Public Domain",
         "license": "PD",
         "url": "#"
@@ -3274,8 +3274,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Slow blending and rich values with a simple Zorn-style palette. Thin block-in \u2192 darks \u2192 mids \u2192 lights; big brushes first, a few crisp accents last.",
-    "fullDescription": "Slow blending and rich values with a simple Zorn-style palette. Thin block-in \u2192 darks \u2192 mids \u2192 lights; big brushes first, a few crisp accents last.",
+    "shortDescription": "Slow blending and rich values with a simple Zorn-style palette. Thin block-in → darks → mids → lights; big brushes first, a few crisp accents last.",
+    "fullDescription": "Slow blending and rich values with a simple Zorn-style palette. Thin block-in → darks → mids → lights; big brushes first, a few crisp accents last.",
     "tags": [
       "oils",
       "limited palette",
@@ -3290,7 +3290,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Diego Vel\u00e1zquez",
+        "name": "Diego Velázquez",
         "death": 1660
       },
       {
@@ -3308,7 +3308,7 @@
     ],
     "refs": [
       {
-        "artist": "Diego Vel\u00e1zquez",
+        "artist": "Diego Velázquez",
         "work": "Head studies (value & edges)",
         "year": "17th c.",
         "museum": "Public Domain",
@@ -3318,7 +3318,7 @@
       {
         "artist": "John Singer Sargent",
         "work": "Portrait studies (brush economy)",
-        "year": "c.1880\u20131910",
+        "year": "c.1880–1910",
         "museum": "Public Domain",
         "license": "PD",
         "url": "#"
@@ -3414,7 +3414,7 @@
       {
         "artist": "Winsor McCay",
         "work": "Little Nemo drawings",
-        "year": "1905\u20131914",
+        "year": "1905–1914",
         "museum": "Public Domain",
         "license": "PD",
         "url": "#"
@@ -3422,7 +3422,7 @@
       {
         "artist": "George Herriman",
         "work": "Krazy Kat strips (shape & light)",
-        "year": "1910s\u20131930s",
+        "year": "1910s–1930s",
         "museum": "Public Domain",
         "license": "PD",
         "url": "#"
@@ -3514,7 +3514,7 @@
       {
         "artist": "Classical casts",
         "work": "Educational plaster studies",
-        "year": "\u2014",
+        "year": "—",
         "museum": "Public Domain",
         "license": "PD",
         "url": "#"
@@ -3609,7 +3609,7 @@
       {
         "artist": "Kurt Schwitters",
         "work": "Merz collages",
-        "year": "1919\u20131930s",
+        "year": "1919–1930s",
         "museum": "Public Domain (Canada term)",
         "license": "PD",
         "url": "#"
@@ -3617,7 +3617,7 @@
       {
         "artist": "El Lissitzky",
         "work": "PROUN compositions / photomontage",
-        "year": "1919\u20131925",
+        "year": "1919–1925",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "#"
@@ -3663,11 +3663,11 @@
   {
     "id": "LFC-036",
     "slug": "cafe-studio-1-brief-and-story",
-    "title": "Cafe Studio 1 \u2014 Brief & Story",
+    "title": "Cafe Studio 1 — Brief & Story",
     "shortTitle": "Cafe Studio 1",
     "part": "Design",
     "seriesId": "interior-design-cafe-studio",
-    "seriesTitle": "Interior Design \u00b7 Cafe Studio",
+    "seriesTitle": "Interior Design · Cafe Studio",
     "seriesAliases": [
       "Interior Design"
     ],
@@ -3753,11 +3753,11 @@
   {
     "id": "LFC-037",
     "slug": "cafe-studio-2-plan-basics",
-    "title": "Cafe Studio 2 \u2014 Plan Basics",
+    "title": "Cafe Studio 2 — Plan Basics",
     "shortTitle": "Cafe Studio 2",
     "part": "Design",
     "seriesId": "interior-design-cafe-studio",
-    "seriesTitle": "Interior Design \u00b7 Cafe Studio",
+    "seriesTitle": "Interior Design · Cafe Studio",
     "seriesAliases": [
       "Interior Design"
     ],
@@ -3798,7 +3798,7 @@
         "artist": "Otto Wagner",
         "work": "Cafe interior drawings",
         "year": "1900s",
-        "museum": "\u00d6NB / Public Domain",
+        "museum": "ÖNB / Public Domain",
         "license": "PD",
         "url": "https://digital.onb.ac.at"
       }
@@ -3843,11 +3843,11 @@
   {
     "id": "LFC-038",
     "slug": "cafe-studio-3-elevation-and-facade",
-    "title": "Cafe Studio 3 \u2014 Elevation & Facade",
+    "title": "Cafe Studio 3 — Elevation & Facade",
     "shortTitle": "Cafe Studio 3",
     "part": "Design",
     "seriesId": "interior-design-cafe-studio",
-    "seriesTitle": "Interior Design \u00b7 Cafe Studio",
+    "seriesTitle": "Interior Design · Cafe Studio",
     "seriesAliases": [
       "Interior Design"
     ],
@@ -3861,8 +3861,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Translate plan into elevations: one interior wall (bar/back wall) and one storefront fa\u00e7ade with logo placement.",
-    "fullDescription": "Translate plan into elevations: one interior wall (bar/back wall) and one storefront fa\u00e7ade with logo placement.",
+    "shortDescription": "Translate plan into elevations: one interior wall (bar/back wall) and one storefront façade with logo placement.",
+    "fullDescription": "Translate plan into elevations: one interior wall (bar/back wall) and one storefront façade with logo placement.",
     "tags": [
       "interior elevation",
       "storefront",
@@ -3887,7 +3887,7 @@
       {
         "artist": "Charles Rennie Mackintosh",
         "work": "Tea Room designs (Glasgow)",
-        "year": "1890s\u20131900s",
+        "year": "1890s–1900s",
         "museum": "Glasgow Museums",
         "license": "CC0",
         "url": "https://www.glasgowlife.org.uk/museums"
@@ -3933,11 +3933,11 @@
   {
     "id": "LFC-039",
     "slug": "cafe-studio-4-materials-and-lighting",
-    "title": "Cafe Studio 4 \u2014 Materials & Lighting",
+    "title": "Cafe Studio 4 — Materials & Lighting",
     "shortTitle": "Cafe Studio 4",
     "part": "Design",
     "seriesId": "interior-design-cafe-studio",
-    "seriesTitle": "Interior Design \u00b7 Cafe Studio",
+    "seriesTitle": "Interior Design · Cafe Studio",
     "seriesAliases": [
       "Interior Design"
     ],
@@ -4023,11 +4023,11 @@
   {
     "id": "LFC-040",
     "slug": "cafe-studio-5-visual-development",
-    "title": "Cafe Studio 5 \u2014 Visual Development",
+    "title": "Cafe Studio 5 — Visual Development",
     "shortTitle": "Cafe Studio 5",
     "part": "Design",
     "seriesId": "interior-design-cafe-studio",
-    "seriesTitle": "Interior Design \u00b7 Cafe Studio",
+    "seriesTitle": "Interior Design · Cafe Studio",
     "seriesAliases": [
       "Interior Design"
     ],
@@ -4041,8 +4041,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Create perspective sketches and color concepts to test atmosphere. Deliver 2\u20133 views (interior + fa\u00e7ade) showing mood and material feel.",
-    "fullDescription": "Create perspective sketches and color concepts to test atmosphere. Deliver 2\u20133 views (interior + fa\u00e7ade) showing mood and material feel.",
+    "shortDescription": "Create perspective sketches and color concepts to test atmosphere. Deliver 2–3 views (interior + façade) showing mood and material feel.",
+    "fullDescription": "Create perspective sketches and color concepts to test atmosphere. Deliver 2–3 views (interior + façade) showing mood and material feel.",
     "tags": [
       "perspective",
       "color sketch",
@@ -4067,7 +4067,7 @@
       {
         "artist": "Walter Gropius",
         "work": "Bauhaus building perspectives",
-        "year": "1920s\u201330s",
+        "year": "1920s–30s",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://www.bauhaus.de"
@@ -4113,11 +4113,11 @@
   {
     "id": "LFC-041",
     "slug": "cafe-studio-6-final-presentation",
-    "title": "Cafe Studio 6 \u2014 Final Presentation",
+    "title": "Cafe Studio 6 — Final Presentation",
     "shortTitle": "Cafe Studio 6",
     "part": "Design",
     "seriesId": "interior-design-cafe-studio",
-    "seriesTitle": "Interior Design \u00b7 Cafe Studio",
+    "seriesTitle": "Interior Design · Cafe Studio",
     "seriesAliases": [
       "Interior Design"
     ],
@@ -4131,8 +4131,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Assemble a final presentation board: plan, 2 elevations, 1\u20132 perspective sketches, moodboard, and materials. Present as a mini portfolio project.",
-    "fullDescription": "Assemble a final presentation board: plan, 2 elevations, 1\u20132 perspective sketches, moodboard, and materials. Present as a mini portfolio project.",
+    "shortDescription": "Assemble a final presentation board: plan, 2 elevations, 1–2 perspective sketches, moodboard, and materials. Present as a mini portfolio project.",
+    "fullDescription": "Assemble a final presentation board: plan, 2 elevations, 1–2 perspective sketches, moodboard, and materials. Present as a mini portfolio project.",
     "tags": [
       "portfolio",
       "presentation board",
@@ -4230,15 +4230,15 @@
       "lineup",
       "comparison"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/682418e9131e6414790abbd5_IMG_2474.jpg",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/682418e9131e6414790abbd5_IMG_2474.jpg",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "costume_design",
     "secondaryBadgeIds": [],
     "pd": true,
     "artists": [
       {
-        "name": "L\u00e9on Bakst",
+        "name": "Léon Bakst",
         "death": 1924
       },
       {
@@ -4252,7 +4252,7 @@
     ],
     "refs": [
       {
-        "artist": "L\u00e9on Bakst",
+        "artist": "Léon Bakst",
         "work": "Costume designs for the Ballets Russes",
         "year": "c.1910s",
         "museum": "The Met Open Access",
@@ -4262,7 +4262,7 @@
       {
         "artist": "Paul Poiret / Gazette du Bon Ton",
         "work": "Fashion plates",
-        "year": "1912\u20131925",
+        "year": "1912–1925",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://gallica.bnf.fr"
@@ -4276,7 +4276,7 @@
         "url": "https://archive.org"
       }
     ],
-    "videoUrl": "https://www.youtube.com/watch?v=gaY2iOzm_k4&t=13s",
+    "videoUrl": "#",
     "pdfUrl": "#",
     "smartClassUrl": "",
     "detailPageUrl": "",
@@ -4334,17 +4334,17 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Adult/teen/child proportions; clear gesture lines; timed sets (10\u00d730s \u2192 5\u00d72min). Deliver a proportion chart and 3 clean gestures.",
-    "fullDescription": "Adult/teen/child proportions; clear gesture lines; timed sets (10\u00d730s \u2192 5\u00d72min). Deliver a proportion chart and 3 clean gestures.",
+    "shortDescription": "Adult/teen/child proportions; clear gesture lines; timed sets (10×30s → 5×2min). Deliver a proportion chart and 3 clean gestures.",
+    "fullDescription": "Adult/teen/child proportions; clear gesture lines; timed sets (10×30s → 5×2min). Deliver a proportion chart and 3 clean gestures.",
     "tags": [
       "9-head",
-      "child 5\u20136",
+      "child 5–6",
       "gesture",
       "landmarks",
       "timed poses"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e298a1ed0d313895161536_IMG_0460.jpg",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e298a1ed0d313895161536_IMG_0460.jpg",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "costume_design",
     "secondaryBadgeIds": [],
@@ -4355,7 +4355,7 @@
         "death": 1883
       },
       {
-        "name": "Albrecht D\u00fcrer",
+        "name": "Albrecht Dürer",
         "death": 1528
       }
     ],
@@ -4373,7 +4373,7 @@
         "url": "https://archive.org"
       },
       {
-        "artist": "Albrecht D\u00fcrer",
+        "artist": "Albrecht Dürer",
         "work": "Proportion studies",
         "year": "16th c.",
         "museum": "Public Domain",
@@ -4381,7 +4381,7 @@
         "url": "https://www.metmuseum.org/art/collection"
       }
     ],
-    "videoUrl": "https://www.youtube.com/watch?v=1tNKfJzTan8&t=2s",
+    "videoUrl": "#",
     "pdfUrl": "#",
     "smartClassUrl": "",
     "detailPageUrl": "",
@@ -4421,7 +4421,7 @@
   {
     "id": "LFC-044",
     "slug": "dressing-the-body-i-tops-and-bottoms-single-figure",
-    "title": "Dressing the Body I \u2014 Tops & Bottoms (Single Figure)",
+    "title": "Dressing the Body I — Tops & Bottoms (Single Figure)",
     "shortTitle": "Dressing the Body I",
     "part": "Design",
     "seriesId": "custom-design-basic-costume",
@@ -4447,8 +4447,8 @@
       "fold logic",
       "fit"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e1226d7486d2e1101a7d69_IMG_0407.PNG",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e1226d5d501602482f7bee_4212E09F-741A-4AC8-9041-90A4DCA6E463.jpg",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "costume_design",
     "secondaryBadgeIds": [],
@@ -4471,7 +4471,7 @@
       {
         "artist": "Leonardo da Vinci",
         "work": "Drapery studies",
-        "year": "c.1480\u20131500",
+        "year": "c.1480–1500",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://www.metmuseum.org/art/collection"
@@ -4525,7 +4525,7 @@
   {
     "id": "LFC-045",
     "slug": "theme-lineup-4-figures",
-    "title": "Theme Lineup \u2014 4 Figures",
+    "title": "Theme Lineup — 4 Figures",
     "shortTitle": "Theme Lineup",
     "part": "Design",
     "seriesId": "custom-design-basic-costume",
@@ -4543,8 +4543,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Build a coherent mini-collection for a theme (Halloween/Christmas/Summer\u2026). One sheet: 4-figure lineup + palette strip + 3 adjectives.",
-    "fullDescription": "Build a coherent mini-collection for a theme (Halloween/Christmas/Summer\u2026). One sheet: 4-figure lineup + palette strip + 3 adjectives.",
+    "shortDescription": "Build a coherent mini-collection for a theme (Halloween/Christmas/Summer…). One sheet: 4-figure lineup + palette strip + 3 adjectives.",
+    "fullDescription": "Build a coherent mini-collection for a theme (Halloween/Christmas/Summer…). One sheet: 4-figure lineup + palette strip + 3 adjectives.",
     "tags": [
       "lineup",
       "palette",
@@ -4575,7 +4575,7 @@
       {
         "artist": "Georges Barbier",
         "work": "Fashion & costume plates",
-        "year": "1910s\u20131920s",
+        "year": "1910s–1920s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://gallica.bnf.fr"
@@ -4583,7 +4583,7 @@
       {
         "artist": "Alphonse Mucha",
         "work": "Poster color/contour logic",
-        "year": "1890s\u20131900s",
+        "year": "1890s–1900s",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -4655,8 +4655,8 @@
       "trains/veils",
       "fabric rendering"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/682418e9131e6414790abbd5_IMG_2474.jpg",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/682418e9131e6414790abbd5_IMG_2474.jpg",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "costume_design",
     "secondaryBadgeIds": [],
@@ -4686,13 +4686,13 @@
       {
         "artist": "Textile samples",
         "work": "Lace & trims (reference)",
-        "year": "19th\u2013early 20th c.",
+        "year": "19th–early 20th c.",
         "museum": "V&A Museum Collections",
         "license": "Public Domain",
         "url": "https://collections.vam.ac.uk"
       }
     ],
-    "videoUrl": "https://www.youtube.com/watch?v=gaY2iOzm_k4&t=16s",
+    "videoUrl": "#",
     "pdfUrl": "#",
     "smartClassUrl": "",
     "detailPageUrl": "",
@@ -4750,8 +4750,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Push concept and shape language: moodboard \u2192 12 silhouettes \u2192 choose 1\u20132 for a keyframe (character in action) with a one-sentence story.",
-    "fullDescription": "Push concept and shape language: moodboard \u2192 12 silhouettes \u2192 choose 1\u20132 for a keyframe (character in action) with a one-sentence story.",
+    "shortDescription": "Push concept and shape language: moodboard → 12 silhouettes → choose 1–2 for a keyframe (character in action) with a one-sentence story.",
+    "fullDescription": "Push concept and shape language: moodboard → 12 silhouettes → choose 1–2 for a keyframe (character in action) with a one-sentence story.",
     "tags": [
       "silhouette exploration",
       "motif abstraction",
@@ -4790,7 +4790,7 @@
       {
         "artist": "Odilon Redon",
         "work": "Noirs / dream imagery",
-        "year": "1880s\u20131890s",
+        "year": "1880s–1890s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://www.metmuseum.org/art/collection"
@@ -4854,8 +4854,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Study master gestures for flow and balance. 12 mini master-copies (30\u201360s) focusing on the line of action, weight, and silhouette read.",
-    "fullDescription": "Study master gestures for flow and balance. 12 mini master-copies (30\u201360s) focusing on the line of action, weight, and silhouette read.",
+    "shortDescription": "Study master gestures for flow and balance. 12 mini master-copies (30–60s) focusing on the line of action, weight, and silhouette read.",
+    "fullDescription": "Study master gestures for flow and balance. 12 mini master-copies (30–60s) focusing on the line of action, weight, and silhouette read.",
     "tags": [
       "gesture",
       "line of action",
@@ -4913,7 +4913,7 @@
       {
         "artist": "Edgar Degas",
         "work": "Dancer sketches (gesture studies)",
-        "year": "c.1870\u20131900",
+        "year": "c.1870–1900",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -4985,12 +4985,12 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Make poses feel alive: center of gravity, contrapposto, ribcage\u2013pelvis \u2018bean\u2019, counter-angles, simple foreshortening. Sheet shows before/after balance corrections.",
-    "fullDescription": "Make poses feel alive: center of gravity, contrapposto, ribcage\u2013pelvis \u2018bean\u2019, counter-angles, simple foreshortening. Sheet shows before/after balance corrections.",
+    "shortDescription": "Make poses feel alive: center of gravity, contrapposto, ribcage–pelvis ‘bean’, counter-angles, simple foreshortening. Sheet shows before/after balance corrections.",
+    "fullDescription": "Make poses feel alive: center of gravity, contrapposto, ribcage–pelvis ‘bean’, counter-angles, simple foreshortening. Sheet shows before/after balance corrections.",
     "tags": [
       "center of gravity",
       "contrapposto",
-      "bean (ribcage\u2013pelvis)",
+      "bean (ribcage–pelvis)",
       "counter-angles",
       "foreshortening"
     ],
@@ -5018,7 +5018,7 @@
       {
         "artist": "Michelangelo",
         "work": "David (contrapposto reference)",
-        "year": "1501\u20131504",
+        "year": "1501–1504",
         "museum": "Public Domain (multiple museum image sets)",
         "license": "PD",
         "url": "https://collections.louvre.fr/en/"
@@ -5026,7 +5026,7 @@
       {
         "artist": "Classical Sculpture",
         "work": "Doryphoros & contrapposto examples (Roman copies)",
-        "year": "1st c. BCE\u20131st c. CE",
+        "year": "1st c. BCE–1st c. CE",
         "museum": "The Met Open Access / various",
         "license": "CC0/PD",
         "url": "https://www.metmuseum.org/art/collection"
@@ -5072,8 +5072,8 @@
   {
     "id": "LFC-050",
     "slug": "stickman-to-mannequin-adding-volume",
-    "title": "Stickman \u2192 Mannequin: Adding Volume",
-    "shortTitle": "Stickman \u2192 Mannequin",
+    "title": "Stickman → Mannequin: Adding Volume",
+    "shortTitle": "Stickman → Mannequin",
     "part": "Figure/Anatomy",
     "seriesId": "figures-in-motion-foundation",
     "seriesTitle": "Figures in Motion (Foundation)",
@@ -5127,7 +5127,7 @@
       {
         "artist": "Leonardo da Vinci",
         "work": "Anatomical studies (structure & volumes)",
-        "year": "c.1489\u20131510",
+        "year": "c.1489–1510",
         "museum": "Royal Collection / Public Domain",
         "license": "PD",
         "url": "https://www.rct.uk/collection"
@@ -5207,13 +5207,13 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Timed sets (20\u00d730s, 10\u00d760s, 6\u00d72min). Flow \u2192 bean \u2192 a few contour accents. Curate your best 12 and annotate what worked.",
-    "fullDescription": "Timed sets (20\u00d730s, 10\u00d760s, 6\u00d72min). Flow \u2192 bean \u2192 a few contour accents. Curate your best 12 and annotate what worked.",
+    "shortDescription": "Timed sets (20×30s, 10×60s, 6×2min). Flow → bean → a few contour accents. Curate your best 12 and annotate what worked.",
+    "fullDescription": "Timed sets (20×30s, 10×60s, 6×2min). Flow → bean → a few contour accents. Curate your best 12 and annotate what worked.",
     "tags": [
       "timed drawing",
       "overlap",
       "negative shapes",
-      "big\u2192small",
+      "big→small",
       "edge accents"
     ],
     "coverImage": "",
@@ -5240,7 +5240,7 @@
       {
         "artist": "Edgar Degas",
         "work": "Rapid figure/dancer sketches",
-        "year": "c.1870\u20131900",
+        "year": "c.1870–1900",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -5312,8 +5312,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Combine gesture + structure in three 5-minute studies, then thumbnail a slow-motion action strip (6\u20139 frames) from life or video.",
-    "fullDescription": "Combine gesture + structure in three 5-minute studies, then thumbnail a slow-motion action strip (6\u20139 frames) from life or video.",
+    "shortDescription": "Combine gesture + structure in three 5-minute studies, then thumbnail a slow-motion action strip (6–9 frames) from life or video.",
+    "fullDescription": "Combine gesture + structure in three 5-minute studies, then thumbnail a slow-motion action strip (6–9 frames) from life or video.",
     "tags": [
       "5-minute pose",
       "value groups",
@@ -5333,7 +5333,7 @@
         "death": 1904
       },
       {
-        "name": "\u00c9tienne-Jules Marey",
+        "name": "Étienne-Jules Marey",
         "death": 1904
       }
     ],
@@ -5344,15 +5344,15 @@
       {
         "artist": "Eadweard Muybridge",
         "work": "Human & Animal Locomotion plates",
-        "year": "1870s\u20131880s",
+        "year": "1870s–1880s",
         "museum": "Library of Congress",
         "license": "PD",
         "url": "https://www.loc.gov/collections/edweard-muybridge"
       },
       {
-        "artist": "\u00c9tienne-Jules Marey",
+        "artist": "Étienne-Jules Marey",
         "work": "Chronophotography sequences",
-        "year": "1880s\u20131890s",
+        "year": "1880s–1890s",
         "museum": "Gallica / BnF",
         "license": "PD",
         "url": "https://gallica.bnf.fr"
@@ -5459,7 +5459,7 @@
       {
         "artist": "Michelangelo",
         "work": "Studies of figures (Sistine Chapel prep)",
-        "year": "c.1508\u20131512",
+        "year": "c.1508–1512",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://www.metmuseum.org"
@@ -5533,7 +5533,7 @@
     "shortTitle": "Illustration Voices & Your Story",
     "part": "Illustration/Comics",
     "seriesId": "illustration-lab-story-to-page",
-    "seriesTitle": "Illustration Lab \u2014 From Story to Finished Page",
+    "seriesTitle": "Illustration Lab — From Story to Finished Page",
     "seriesAliases": [
       "Illustration Lab"
     ],
@@ -5547,8 +5547,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Explore different illustration voices (editorial, children\u2019s book, comics, posters, concept art). Test watercolor, markers, and oil pastels. Choose a personal story + mood words; create a mood board and 12 thumbnails.",
-    "fullDescription": "Explore different illustration voices (editorial, children\u2019s book, comics, posters, concept art). Test watercolor, markers, and oil pastels. Choose a personal story + mood words; create a mood board and 12 thumbnails.",
+    "shortDescription": "Explore different illustration voices (editorial, children’s book, comics, posters, concept art). Test watercolor, markers, and oil pastels. Choose a personal story + mood words; create a mood board and 12 thumbnails.",
+    "fullDescription": "Explore different illustration voices (editorial, children’s book, comics, posters, concept art). Test watercolor, markers, and oil pastels. Choose a personal story + mood words; create a mood board and 12 thumbnails.",
     "tags": [
       "illustration voices",
       "moodboard",
@@ -5556,7 +5556,7 @@
       "material tests"
     ],
     "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e922ac42a1214b70380e93_Screenshot%202026-04-22%20at%2012.33.59%E2%80%AFPM.png",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e295cd57028c0e0abee65b_Screenshot%202026-04-17%20at%201.19.19%E2%80%AFPM.png",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "storyteller",
     "secondaryBadgeIds": [],
@@ -5577,21 +5577,21 @@
     ],
     "movements": [
       "Illustration",
-      "Children\u2019s Book",
+      "Children’s Book",
       "Early Comics"
     ],
     "refs": [
       {
         "artist": "Beatrix Potter",
         "work": "Peter Rabbit illustrations",
-        "year": "c.1900\u20131910",
+        "year": "c.1900–1910",
         "museum": "V&A / Public Domain",
         "license": "PD",
         "url": "https://collections.vam.ac.uk"
       },
       {
         "artist": "John Tenniel",
-        "work": "Alice\u2019s Adventures in Wonderland",
+        "work": "Alice’s Adventures in Wonderland",
         "year": "1865",
         "museum": "Public Domain",
         "license": "PD",
@@ -5600,7 +5600,7 @@
       {
         "artist": "Winsor McCay",
         "work": "Little Nemo in Slumberland",
-        "year": "1905\u20131911",
+        "year": "1905–1911",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://www.loc.gov"
@@ -5646,11 +5646,11 @@
   {
     "id": "LFC-055",
     "slug": "storyboards-and-beats-storyline-to-thumbnails",
-    "title": "Storyboards & Beats (Storyline \u2192 Thumbnails)",
-    "shortTitle": "Storyboards & Beats (Storyline \u2192 Thumbnails)",
+    "title": "Storyboards & Beats (Storyline → Thumbnails)",
+    "shortTitle": "Storyboards & Beats (Storyline → Thumbnails)",
     "part": "Illustration/Comics",
     "seriesId": "illustration-lab-story-to-page",
-    "seriesTitle": "Illustration Lab \u2014 From Story to Finished Page",
+    "seriesTitle": "Illustration Lab — From Story to Finished Page",
     "seriesAliases": [
       "Illustration Lab"
     ],
@@ -5664,16 +5664,16 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Plan 6\u20139 panels: setup, complication, change, resolution. Vary camera angles and panel size; build a 3-tone value map for readability. Deliverable: beat board + 2 thumbnail page plans.",
-    "fullDescription": "Plan 6\u20139 panels: setup, complication, change, resolution. Vary camera angles and panel size; build a 3-tone value map for readability. Deliverable: beat board + 2 thumbnail page plans.",
+    "shortDescription": "Plan 6–9 panels: setup, complication, change, resolution. Vary camera angles and panel size; build a 3-tone value map for readability. Deliverable: beat board + 2 thumbnail page plans.",
+    "fullDescription": "Plan 6–9 panels: setup, complication, change, resolution. Vary camera angles and panel size; build a 3-tone value map for readability. Deliverable: beat board + 2 thumbnail page plans.",
     "tags": [
       "storyboarding",
       "beats",
       "thumbnails",
       "value map"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e295cd57028c0e0abee65b_Screenshot%202026-04-17%20at%201.19.19%E2%80%AFPM.png",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e295cd57028c0e0abee65b_Screenshot%202026-04-17%20at%201.19.19%E2%80%AFPM.png",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "storyteller",
     "secondaryBadgeIds": [],
@@ -5717,7 +5717,7 @@
       {
         "artist": "George Herriman",
         "work": "Krazy Kat comic strips",
-        "year": "1910s\u20131930s",
+        "year": "1910s–1930s",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://www.loc.gov"
@@ -5767,7 +5767,7 @@
     "shortTitle": "Composition & Atmosphere on a Page",
     "part": "Illustration/Comics",
     "seriesId": "illustration-lab-story-to-page",
-    "seriesTitle": "Illustration Lab \u2014 From Story to Finished Page",
+    "seriesTitle": "Illustration Lab — From Story to Finished Page",
     "seriesAliases": [
       "Illustration Lab"
     ],
@@ -5797,7 +5797,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Gustave Dor\u00e9",
+        "name": "Gustave Doré",
         "death": 1883
       },
       {
@@ -5811,9 +5811,9 @@
     ],
     "refs": [
       {
-        "artist": "Gustave Dor\u00e9",
+        "artist": "Gustave Doré",
         "work": "Book illustrations (Biblical, Dante)",
-        "year": "1850s\u20131880s",
+        "year": "1850s–1880s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://archive.org"
@@ -5821,7 +5821,7 @@
       {
         "artist": "Alphonse Mucha",
         "work": "Poster works (composition clarity)",
-        "year": "1890s\u20131900s",
+        "year": "1890s–1900s",
         "museum": "The Met / PD Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -5871,7 +5871,7 @@
     "shortTitle": "Mixed-Media Pipeline (Watercolor + Pens/Markers + Oil Pastel)",
     "part": "Illustration/Comics",
     "seriesId": "illustration-lab-story-to-page",
-    "seriesTitle": "Illustration Lab \u2014 From Story to Finished Page",
+    "seriesTitle": "Illustration Lab — From Story to Finished Page",
     "seriesAliases": [
       "Illustration Lab"
     ],
@@ -5885,8 +5885,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Execute a safe mixed-media pipeline: waterproof linework \u2192 watercolor base \u2192 markers/pen accents \u2192 oil pastel textures. Deliverable: finished page + swatch strip of your palette.",
-    "fullDescription": "Execute a safe mixed-media pipeline: waterproof linework \u2192 watercolor base \u2192 markers/pen accents \u2192 oil pastel textures. Deliverable: finished page + swatch strip of your palette.",
+    "shortDescription": "Execute a safe mixed-media pipeline: waterproof linework → watercolor base → markers/pen accents → oil pastel textures. Deliverable: finished page + swatch strip of your palette.",
+    "fullDescription": "Execute a safe mixed-media pipeline: waterproof linework → watercolor base → markers/pen accents → oil pastel textures. Deliverable: finished page + swatch strip of your palette.",
     "tags": [
       "mixed media",
       "pipeline",
@@ -5925,7 +5925,7 @@
       {
         "artist": "Pierre Bonnard",
         "work": "Intimate interiors (color fields)",
-        "year": "c.1900\u20131930",
+        "year": "c.1900–1930",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://www.artic.edu"
@@ -5975,7 +5975,7 @@
     "shortTitle": "Digital Finish & Publication",
     "part": "Illustration/Comics",
     "seriesId": "illustration-lab-story-to-page",
-    "seriesTitle": "Illustration Lab \u2014 From Story to Finished Page",
+    "seriesTitle": "Illustration Lab — From Story to Finished Page",
     "seriesAliases": [
       "Illustration Lab"
     ],
@@ -6021,7 +6021,7 @@
       {
         "artist": "Winsor McCay",
         "work": "Little Nemo (page design)",
-        "year": "1905\u20131911",
+        "year": "1905–1911",
         "museum": "Library of Congress",
         "license": "PD",
         "url": "https://www.loc.gov"
@@ -6029,7 +6029,7 @@
       {
         "artist": "Lyonel Feininger",
         "work": "Comic strips for Chicago Tribune",
-        "year": "1906\u20131907",
+        "year": "1906–1907",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://archive.org"
@@ -6075,7 +6075,7 @@
   {
     "id": "LFC-059",
     "slug": "kickoff-turning-fandom-into-art",
-    "title": "Kickoff \u2014 Turning Fandom into Art",
+    "title": "Kickoff — Turning Fandom into Art",
     "shortTitle": "Kickoff",
     "part": "Illustration/Comics",
     "seriesId": "fan-art-arcade-draw-poster-lab",
@@ -6131,7 +6131,7 @@
       {
         "artist": "Winsor McCay",
         "work": "Little Nemo in Slumberland (page design)",
-        "year": "1905\u20131911",
+        "year": "1905–1911",
         "museum": "Library of Congress",
         "license": "PD",
         "url": "https://www.loc.gov"
@@ -6139,7 +6139,7 @@
       {
         "artist": "George Herriman",
         "work": "Krazy Kat strips (style economy)",
-        "year": "1910s\u20131930s",
+        "year": "1910s–1930s",
         "museum": "Library of Congress",
         "license": "PD",
         "url": "https://www.loc.gov"
@@ -6193,7 +6193,7 @@
   {
     "id": "LFC-060",
     "slug": "block-worlds-minecraft-logic",
-    "title": "Block Worlds \u2014 Minecraft Logic",
+    "title": "Block Worlds — Minecraft Logic",
     "shortTitle": "Block Worlds",
     "part": "Illustration/Comics",
     "seriesId": "fan-art-arcade-draw-poster-lab",
@@ -6228,7 +6228,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Albrecht D\u00fcrer",
+        "name": "Albrecht Dürer",
         "death": 1528
       },
       {
@@ -6236,7 +6236,7 @@
         "death": 1778
       },
       {
-        "name": "Denis Diderot (Encyclop\u00e9die)",
+        "name": "Denis Diderot (Encyclopédie)",
         "death": 1784
       }
     ],
@@ -6247,7 +6247,7 @@
     ],
     "refs": [
       {
-        "artist": "Albrecht D\u00fcrer",
+        "artist": "Albrecht Dürer",
         "work": "Underweysung der Messung (perspective solids)",
         "year": "1525",
         "museum": "Public Domain",
@@ -6263,9 +6263,9 @@
         "url": "https://www.getty.edu"
       },
       {
-        "artist": "Encyclop\u00e9die",
+        "artist": "Encyclopédie",
         "work": "Geometry/mechanics plates (axonometric-like diagrams)",
-        "year": "1751\u20131772",
+        "year": "1751–1772",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://gallica.bnf.fr"
@@ -6311,7 +6311,7 @@
   {
     "id": "LFC-061",
     "slug": "swords-and-breath-demon-slayer-energy",
-    "title": "Swords & Breath \u2014 Demon Slayer Energy",
+    "title": "Swords & Breath — Demon Slayer Energy",
     "shortTitle": "Swords & Breath",
     "part": "Illustration/Comics",
     "seriesId": "fan-art-arcade-draw-poster-lab",
@@ -6362,7 +6362,7 @@
       {
         "artist": "Utagawa Kuniyoshi",
         "work": "Samurai/action prints (motion & line)",
-        "year": "1830s\u20131850s",
+        "year": "1830s–1850s",
         "museum": "Public Domain digitizations",
         "license": "PD",
         "url": "https://ukiyo-e.org"
@@ -6416,7 +6416,7 @@
   {
     "id": "LFC-062",
     "slug": "power-pose-dragon-ball-impact",
-    "title": "Power Pose \u2014 Dragon Ball Impact",
+    "title": "Power Pose — Dragon Ball Impact",
     "shortTitle": "Power Pose",
     "part": "Illustration/Comics",
     "seriesId": "fan-art-arcade-draw-poster-lab",
@@ -6455,7 +6455,7 @@
         "death": 1861
       },
       {
-        "name": "Gustave Dor\u00e9",
+        "name": "Gustave Doré",
         "death": 1883
       },
       {
@@ -6478,9 +6478,9 @@
         "url": "https://ukiyo-e.org"
       },
       {
-        "artist": "Gustave Dor\u00e9",
+        "artist": "Gustave Doré",
         "work": "Dramatic diagonals/lighting in engravings",
-        "year": "1850s\u20131880s",
+        "year": "1850s–1880s",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://archive.org"
@@ -6534,7 +6534,7 @@
   {
     "id": "LFC-063",
     "slug": "myth-hero-nezha",
-    "title": "Myth Hero \u2014 Nezha (\u54ea\u5412)",
+    "title": "Myth Hero — Nezha (哪吒)",
     "shortTitle": "Myth Hero",
     "part": "Illustration/Comics",
     "seriesId": "fan-art-arcade-draw-poster-lab",
@@ -6552,8 +6552,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Ribbons and flame motifs with calligraphic line. Poster task: front + \u00be head studies + emblem badge.",
-    "fullDescription": "Ribbons and flame motifs with calligraphic line. Poster task: front + \u00be head studies + emblem badge.",
+    "shortDescription": "Ribbons and flame motifs with calligraphic line. Poster task: front + ¾ head studies + emblem badge.",
+    "fullDescription": "Ribbons and flame motifs with calligraphic line. Poster task: front + ¾ head studies + emblem badge.",
     "tags": [
       "ribbon flow",
       "flame motifs",
@@ -6585,7 +6585,7 @@
       {
         "artist": "Nianhua workshops",
         "work": "Door gods & myth heroes (woodblock prints)",
-        "year": "Qing\u2013Republic era",
+        "year": "Qing–Republic era",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -6593,7 +6593,7 @@
       {
         "artist": "Classical ink tradition",
         "work": "Flowing ribbon/cloud motifs",
-        "year": "\u2014",
+        "year": "—",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://digitalarchive.asia.si.edu"
@@ -6639,7 +6639,7 @@
   {
     "id": "LFC-064",
     "slug": "anime-city-scene-street-corner",
-    "title": "Anime City Scene \u2014 Street Corner",
+    "title": "Anime City Scene — Street Corner",
     "shortTitle": "Anime City Scene",
     "part": "Illustration/Comics",
     "seriesId": "fan-art-arcade-draw-poster-lab",
@@ -6743,7 +6743,7 @@
   {
     "id": "LFC-065",
     "slug": "gaming-hero-spotlight-choose-your-game",
-    "title": "Gaming Hero Spotlight \u2014 Choose Your Game",
+    "title": "Gaming Hero Spotlight — Choose Your Game",
     "shortTitle": "Gaming Hero Spotlight",
     "part": "Illustration/Comics",
     "seriesId": "fan-art-arcade-draw-poster-lab",
@@ -6777,7 +6777,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Albrecht D\u00fcrer",
+        "name": "Albrecht Dürer",
         "death": 1528
       },
       {
@@ -6796,9 +6796,9 @@
     ],
     "refs": [
       {
-        "artist": "Albrecht D\u00fcrer",
+        "artist": "Albrecht Dürer",
         "work": "Armour/knight engravings (metal specular)",
-        "year": "c.1495\u20131515",
+        "year": "c.1495–1515",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://www.metmuseum.org/art/collection"
@@ -6806,7 +6806,7 @@
       {
         "artist": "Johannes Vermeer",
         "work": "Fabric/light behavior (soft edges)",
-        "year": "1650s\u20131670s",
+        "year": "1650s–1670s",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://www.nga.gov"
@@ -6878,17 +6878,17 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Shift proportions for cute appeal; build a 6-face expression grid; ink with thick\u2013thin lines. Poster task: chibi group mini-poster.",
-    "fullDescription": "Shift proportions for cute appeal; build a 6-face expression grid; ink with thick\u2013thin lines. Poster task: chibi group mini-poster.",
+    "shortDescription": "Shift proportions for cute appeal; build a 6-face expression grid; ink with thick–thin lines. Poster task: chibi group mini-poster.",
+    "fullDescription": "Shift proportions for cute appeal; build a 6-face expression grid; ink with thick–thin lines. Poster task: chibi group mini-poster.",
     "tags": [
       "proportion shift",
       "big head/small body",
       "expression grid",
-      "thick\u2013thin line",
+      "thick–thin line",
       "poster"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69fc17d7a5502186ef1937bc_Screenshot%202026-05-06%20at%209.40.50%E2%80%AFPM.png",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/682e2a55a854788acf55c4fa_Screen%20Shot%202020-04-23%20at%204.58.49%20PM.png",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "storyteller",
     "secondaryBadgeIds": [],
@@ -6899,7 +6899,7 @@
         "death": 1878
       },
       {
-        "name": "Honor\u00e9 Daumier",
+        "name": "Honoré Daumier",
         "death": 1879
       },
       {
@@ -6922,9 +6922,9 @@
         "url": "https://www.britishmuseum.org/collection"
       },
       {
-        "artist": "Honor\u00e9 Daumier",
+        "artist": "Honoré Daumier",
         "work": "Lithographs (expression/exaggeration)",
-        "year": "1830s\u20131860s",
+        "year": "1830s–1860s",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://www.metmuseum.org/art/collection"
@@ -6978,7 +6978,7 @@
   {
     "id": "LFC-067",
     "slug": "poster-design-layout-and-typography",
-    "title": "Poster Design \u2014 Layout & Typography",
+    "title": "Poster Design — Layout & Typography",
     "shortTitle": "Poster Design",
     "part": "Illustration/Comics",
     "seriesId": "fan-art-arcade-draw-poster-lab",
@@ -7027,13 +7027,13 @@
     ],
     "movements": [
       "Art Nouveau Posters",
-      "Belle \u00c9poque Posters"
+      "Belle Époque Posters"
     ],
     "refs": [
       {
         "artist": "Alphonse Mucha",
         "work": "Poster design & lettering zones",
-        "year": "1890s\u20131900s",
+        "year": "1890s–1900s",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -7049,7 +7049,7 @@
       {
         "artist": "Leonetto Cappiello",
         "work": "Bold icon posters",
-        "year": "1900s\u20131920s",
+        "year": "1900s–1920s",
         "museum": "Rijksmuseum",
         "license": "CC0",
         "url": "https://www.rijksmuseum.nl/en/collection"
@@ -7095,7 +7095,7 @@
   {
     "id": "LFC-068",
     "slug": "crossover-finale-mash-up-poster",
-    "title": "Crossover Finale \u2014 Mash-Up Poster",
+    "title": "Crossover Finale — Mash-Up Poster",
     "shortTitle": "Crossover Finale",
     "part": "Illustration/Comics",
     "seriesId": "fan-art-arcade-draw-poster-lab",
@@ -7113,8 +7113,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Combine 2\u20134 characters from different sessions. Unify scale, overlap, palette, and cast-shadow logic. Deliverable: crossover poster + 1 process strip.",
-    "fullDescription": "Combine 2\u20134 characters from different sessions. Unify scale, overlap, palette, and cast-shadow logic. Deliverable: crossover poster + 1 process strip.",
+    "shortDescription": "Combine 2–4 characters from different sessions. Unify scale, overlap, palette, and cast-shadow logic. Deliverable: crossover poster + 1 process strip.",
+    "fullDescription": "Combine 2–4 characters from different sessions. Unify scale, overlap, palette, and cast-shadow logic. Deliverable: crossover poster + 1 process strip.",
     "tags": [
       "ensemble cast",
       "scale/overlap",
@@ -7130,7 +7130,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Gustave Dor\u00e9",
+        "name": "Gustave Doré",
         "death": 1883
       },
       {
@@ -7149,9 +7149,9 @@
     ],
     "refs": [
       {
-        "artist": "Gustave Dor\u00e9",
+        "artist": "Gustave Doré",
         "work": "Complex group compositions (depth & lighting)",
-        "year": "1850s\u20131880s",
+        "year": "1850s–1880s",
         "museum": "Public Domain",
         "license": "PD",
         "url": "https://archive.org"
@@ -7269,7 +7269,7 @@
       {
         "artist": "Edgar Degas",
         "work": "Dancer gesture sketches",
-        "year": "c.1870\u20131900",
+        "year": "c.1870–1900",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -7353,7 +7353,7 @@
     "fullDescription": "Construct poseable figures: adult/child proportion, the bean, simple forms, foreshortening. Deliverable: proportion chart + one clean mannequin.",
     "tags": [
       "adult/child ratios",
-      "bean (ribcage\u2013pelvis)",
+      "bean (ribcage–pelvis)",
       "boxes/cylinders",
       "foreshortening",
       "eye level"
@@ -7370,7 +7370,7 @@
         "death": 1519
       },
       {
-        "name": "Albrecht D\u00fcrer",
+        "name": "Albrecht Dürer",
         "death": 1528
       }
     ],
@@ -7381,13 +7381,13 @@
       {
         "artist": "Leonardo da Vinci",
         "work": "Anatomical & proportion studies",
-        "year": "c.1489\u20131510",
+        "year": "c.1489–1510",
         "museum": "Royal Collection",
         "license": "PD",
         "url": "https://www.rct.uk/collection"
       },
       {
-        "artist": "Albrecht D\u00fcrer",
+        "artist": "Albrecht Dürer",
         "work": "Instruction on Measurement (perspective/solids)",
         "year": "1525",
         "museum": "The Met Open Access",
@@ -7453,8 +7453,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Make figures stand and sit believably: COG, contrapposto, contact, and ground shadows. Deliverable: pose sheet (best 4\u20136) labeled for balance.",
-    "fullDescription": "Make figures stand and sit believably: COG, contrapposto, contact, and ground shadows. Deliverable: pose sheet (best 4\u20136) labeled for balance.",
+    "shortDescription": "Make figures stand and sit believably: COG, contrapposto, contact, and ground shadows. Deliverable: pose sheet (best 4–6) labeled for balance.",
+    "fullDescription": "Make figures stand and sit believably: COG, contrapposto, contact, and ground shadows. Deliverable: pose sheet (best 4–6) labeled for balance.",
     "tags": [
       "center of gravity",
       "contrapposto",
@@ -7486,7 +7486,7 @@
       {
         "artist": "Classical Sculpture",
         "work": "Contrapposto exemplars (Roman copies of Greek works)",
-        "year": "1st c. BCE\u20131st c. CE",
+        "year": "1st c. BCE–1st c. CE",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -7558,8 +7558,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Understand locomotion with keys (no in-betweens): contact\u2192down\u2192passing\u2192up; spacing and arcs. Deliverable: clean 8-key walk strip with arrows.",
-    "fullDescription": "Understand locomotion with keys (no in-betweens): contact\u2192down\u2192passing\u2192up; spacing and arcs. Deliverable: clean 8-key walk strip with arrows.",
+    "shortDescription": "Understand locomotion with keys (no in-betweens): contact→down→passing→up; spacing and arcs. Deliverable: clean 8-key walk strip with arrows.",
+    "fullDescription": "Understand locomotion with keys (no in-betweens): contact→down→passing→up; spacing and arcs. Deliverable: clean 8-key walk strip with arrows.",
     "tags": [
       "locomotion",
       "keys",
@@ -7579,7 +7579,7 @@
         "death": 1904
       },
       {
-        "name": "\u00c9tienne-Jules Marey",
+        "name": "Étienne-Jules Marey",
         "death": 1904
       },
       {
@@ -7595,15 +7595,15 @@
       {
         "artist": "Eadweard Muybridge",
         "work": "Human & Animal Locomotion plates",
-        "year": "1870s\u20131880s",
+        "year": "1870s–1880s",
         "museum": "Library of Congress",
         "license": "PD",
         "url": "https://www.loc.gov/collections/edweard-muybridge"
       },
       {
-        "artist": "\u00c9tienne-Jules Marey",
+        "artist": "Étienne-Jules Marey",
         "work": "Chronophotography sequences",
-        "year": "1880s\u20131890s",
+        "year": "1880s–1890s",
         "museum": "BnF Gallica",
         "license": "PD",
         "url": "https://gallica.bnf.fr"
@@ -7675,8 +7675,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Add life to hair/cloth/tails: lead vs follow, delay/drag, settle. Deliverable: a 6\u20139 mini-key strip (jump-land or turn) with timing notes.",
-    "fullDescription": "Add life to hair/cloth/tails: lead vs follow, delay/drag, settle. Deliverable: a 6\u20139 mini-key strip (jump-land or turn) with timing notes.",
+    "shortDescription": "Add life to hair/cloth/tails: lead vs follow, delay/drag, settle. Deliverable: a 6–9 mini-key strip (jump-land or turn) with timing notes.",
+    "fullDescription": "Add life to hair/cloth/tails: lead vs follow, delay/drag, settle. Deliverable: a 6–9 mini-key strip (jump-land or turn) with timing notes.",
     "tags": [
       "overlap",
       "follow-through",
@@ -7801,7 +7801,7 @@
         "death": 1690
       },
       {
-        "name": "Honor\u00e9 Daumier",
+        "name": "Honoré Daumier",
         "death": 1879
       }
     ],
@@ -7819,9 +7819,9 @@
         "url": "https://archive.org"
       },
       {
-        "artist": "Honor\u00e9 Daumier",
+        "artist": "Honoré Daumier",
         "work": "Caricature lithographs (facial emotion)",
-        "year": "1830s\u20131860s",
+        "year": "1830s–1860s",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -7885,8 +7885,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Show relationships and read beats at a glance: proximity, eyelines, overlap, clear silhouettes; stage in a simple room/street. Deliverable: refined panel in 1\u20132 point.",
-    "fullDescription": "Show relationships and read beats at a glance: proximity, eyelines, overlap, clear silhouettes; stage in a simple room/street. Deliverable: refined panel in 1\u20132 point.",
+    "shortDescription": "Show relationships and read beats at a glance: proximity, eyelines, overlap, clear silhouettes; stage in a simple room/street. Deliverable: refined panel in 1–2 point.",
+    "fullDescription": "Show relationships and read beats at a glance: proximity, eyelines, overlap, clear silhouettes; stage in a simple room/street. Deliverable: refined panel in 1–2 point.",
     "tags": [
       "staging",
       "proximity",
@@ -7902,7 +7902,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Gustave Dor\u00e9",
+        "name": "Gustave Doré",
         "death": 1883
       },
       {
@@ -7916,9 +7916,9 @@
     ],
     "refs": [
       {
-        "artist": "Gustave Dor\u00e9",
+        "artist": "Gustave Doré",
         "work": "Group staging & focal hierarchy",
-        "year": "1850s\u20131880s",
+        "year": "1850s–1880s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://archive.org"
@@ -7990,8 +7990,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Sequence your drawings: 6\u20139 beats (setup\u2192complication\u2192change\u2192resolution), WS/MS/Close, and value grouping for readability. Deliverable: final storyboard page.",
-    "fullDescription": "Sequence your drawings: 6\u20139 beats (setup\u2192complication\u2192change\u2192resolution), WS/MS/Close, and value grouping for readability. Deliverable: final storyboard page.",
+    "shortDescription": "Sequence your drawings: 6–9 beats (setup→complication→change→resolution), WS/MS/Close, and value grouping for readability. Deliverable: final storyboard page.",
+    "fullDescription": "Sequence your drawings: 6–9 beats (setup→complication→change→resolution), WS/MS/Close, and value grouping for readability. Deliverable: final storyboard page.",
     "tags": [
       "beats",
       "storyboard",
@@ -8022,7 +8022,7 @@
       {
         "artist": "Winsor McCay",
         "work": "Page compositions & panel rhythm",
-        "year": "1905\u20131911",
+        "year": "1905–1911",
         "museum": "Library of Congress",
         "license": "PD",
         "url": "https://www.loc.gov"
@@ -8030,7 +8030,7 @@
       {
         "artist": "George Herriman",
         "work": "Krazy Kat (staging/readability)",
-        "year": "1910s\u20131930s",
+        "year": "1910s–1930s",
         "museum": "Library of Congress",
         "license": "PD",
         "url": "https://www.loc.gov"
@@ -8076,7 +8076,7 @@
   {
     "id": "LFC-077",
     "slug": "optional-dramatic-layout-3-point-perspective",
-    "title": "(Optional) Dramatic Layout \u2014 3-Point Perspective",
+    "title": "(Optional) Dramatic Layout — 3-Point Perspective",
     "shortTitle": "(Optional) Dramatic Layout",
     "part": "Animation",
     "seriesId": "character-motion-basics",
@@ -8133,7 +8133,7 @@
       },
       {
         "artist": "Hiroshige",
-        "work": "Bird\u2019s-eye perspectives & depth bands",
+        "work": "Bird’s-eye perspectives & depth bands",
         "year": "1850s",
         "museum": "The Met Open Access",
         "license": "CC0",
@@ -8198,8 +8198,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Professional finish and timing test: clean line hierarchy, light value pass, assemble panels into a short animatic (10\u201320s).",
-    "fullDescription": "Professional finish and timing test: clean line hierarchy, light value pass, assemble panels into a short animatic (10\u201320s).",
+    "shortDescription": "Professional finish and timing test: clean line hierarchy, light value pass, assemble panels into a short animatic (10–20s).",
+    "fullDescription": "Professional finish and timing test: clean line hierarchy, light value pass, assemble panels into a short animatic (10–20s).",
     "tags": [
       "cleanup",
       "value pass",
@@ -8239,7 +8239,7 @@
       {
         "artist": "Eadweard Muybridge",
         "work": "Sequential motion plates (timing reference)",
-        "year": "1870s\u20131880s",
+        "year": "1870s–1880s",
         "museum": "Library of Congress",
         "license": "PD",
         "url": "https://www.loc.gov/collections/edweard-muybridge"
@@ -8285,11 +8285,11 @@
   {
     "id": "LFC-079",
     "slug": "marker-anime-girl-bust-with-prop",
-    "title": "Marker Anime Girl \u2014 \u00be Bust with Prop",
+    "title": "Marker Anime Girl — ¾ Bust with Prop",
     "shortTitle": "Marker Anime Girl",
     "part": "Illustration/Comics",
     "seriesId": "marker-anime-characters-paper-sprint",
-    "seriesTitle": "Marker Anime Characters on Paper \u2014 3-Class Sprint",
+    "seriesTitle": "Marker Anime Characters on Paper — 3-Class Sprint",
     "seriesAliases": [
       "Marker Anime"
     ],
@@ -8303,8 +8303,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Clean ink \u2192 flats \u2192 cel-shadows from one light arrow, then hair flick/feather, small gradients, and gel-pen highlights. Deliverable: finished A4 bust + 1\" swatch strip (skin/hair/clothes).",
-    "fullDescription": "Clean ink \u2192 flats \u2192 cel-shadows from one light arrow, then hair flick/feather, small gradients, and gel-pen highlights. Deliverable: finished A4 bust + 1\" swatch strip (skin/hair/clothes).",
+    "shortDescription": "Clean ink → flats → cel-shadows from one light arrow, then hair flick/feather, small gradients, and gel-pen highlights. Deliverable: finished A4 bust + 1\" swatch strip (skin/hair/clothes).",
+    "fullDescription": "Clean ink → flats → cel-shadows from one light arrow, then hair flick/feather, small gradients, and gel-pen highlights. Deliverable: finished A4 bust + 1\" swatch strip (skin/hair/clothes).",
     "tags": [
       "markers",
       "cel-shading",
@@ -8341,7 +8341,7 @@
       {
         "artist": "Alphonse Mucha",
         "work": "Poster works (flat color & contour; hair flow)",
-        "year": "1890s\u20131900s",
+        "year": "1890s–1900s",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -8403,11 +8403,11 @@
   {
     "id": "LFC-080",
     "slug": "chinese-character-boy-wuxia-modern-fusion-half-body",
-    "title": "Chinese Character Boy \u2014 Wuxia/Modern Fusion (Half-Body)",
+    "title": "Chinese Character Boy — Wuxia/Modern Fusion (Half-Body)",
     "shortTitle": "Chinese Character Boy",
     "part": "Illustration/Comics",
     "seriesId": "marker-anime-characters-paper-sprint",
-    "seriesTitle": "Marker Anime Characters on Paper \u2014 3-Class Sprint",
+    "seriesTitle": "Marker Anime Characters on Paper — 3-Class Sprint",
     "seriesAliases": [
       "Marker Anime"
     ],
@@ -8430,8 +8430,8 @@
       "material reads",
       "half-body"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/67c00f91c1ab799a319b2362_Screenshot%202025-02-26%20at%2011.08.53%E2%80%AFPM.png",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/67c00f91c1ab799a319b2362_Screenshot%202025-02-26%20at%2011.08.53%E2%80%AFPM.png",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "storyteller",
     "secondaryBadgeIds": [],
@@ -8459,7 +8459,7 @@
       {
         "artist": "Utagawa Kuniyoshi",
         "work": "Warrior prints (flowing ribbons, patterned robes)",
-        "year": "1830s\u20131850s",
+        "year": "1830s–1850s",
         "museum": "Ukiyo-e.org (aggregated PD)",
         "license": "PD",
         "url": "https://ukiyo-e.org"
@@ -8467,7 +8467,7 @@
       {
         "artist": "Nianhua workshops",
         "work": "Door gods & auspicious motifs (cloud/flame forms)",
-        "year": "Qing\u2013Republic era",
+        "year": "Qing–Republic era",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -8481,7 +8481,7 @@
         "url": "https://www.metmuseum.org/art/collection"
       }
     ],
-    "videoUrl": "https://www.youtube.com/watch?v=6bMb-ji9FQg",
+    "videoUrl": "#",
     "pdfUrl": "#",
     "smartClassUrl": "",
     "detailPageUrl": "",
@@ -8521,11 +8521,11 @@
   {
     "id": "LFC-081",
     "slug": "western-euro-american-girl-dynamic-full-figure-poster-crop",
-    "title": "Western/Euro-American Girl \u2014 Dynamic Full Figure (Poster Crop)",
+    "title": "Western/Euro-American Girl — Dynamic Full Figure (Poster Crop)",
     "shortTitle": "Western/Euro-American Girl",
     "part": "Illustration/Comics",
     "seriesId": "marker-anime-characters-paper-sprint",
-    "seriesTitle": "Marker Anime Characters on Paper \u2014 3-Class Sprint",
+    "seriesTitle": "Marker Anime Characters on Paper — 3-Class Sprint",
     "seriesAliases": [
       "Marker Anime"
     ],
@@ -8539,8 +8539,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Graphic silhouette, bold accent color; flats fast \u2192 one strong gray family for cel-shadows \u2192 VFX pass (rim light, speed lines). Deliverable: full-figure A4 poster crop + hand-lettered title ribbon.",
-    "fullDescription": "Graphic silhouette, bold accent color; flats fast \u2192 one strong gray family for cel-shadows \u2192 VFX pass (rim light, speed lines). Deliverable: full-figure A4 poster crop + hand-lettered title ribbon.",
+    "shortDescription": "Graphic silhouette, bold accent color; flats fast → one strong gray family for cel-shadows → VFX pass (rim light, speed lines). Deliverable: full-figure A4 poster crop + hand-lettered title ribbon.",
+    "fullDescription": "Graphic silhouette, bold accent color; flats fast → one strong gray family for cel-shadows → VFX pass (rim light, speed lines). Deliverable: full-figure A4 poster crop + hand-lettered title ribbon.",
     "tags": [
       "markers",
       "dynamic pose",
@@ -8569,7 +8569,7 @@
       }
     ],
     "movements": [
-      "Belle \u00c9poque Posters",
+      "Belle Époque Posters",
       "Lithographic Posters",
       "Nabis"
     ],
@@ -8577,7 +8577,7 @@
       {
         "artist": "Leonetto Cappiello",
         "work": "Bold icon posters (flat color + punchy silhouette)",
-        "year": "1900s\u20131920s",
+        "year": "1900s–1920s",
         "museum": "Rijksmuseum Open Access",
         "license": "CC0",
         "url": "https://www.rijksmuseum.nl/en/collection"
@@ -8639,11 +8639,11 @@
   {
     "id": "LFC-082",
     "slug": "procreate-anime-girl-bust-blink-sparkle-loop",
-    "title": "Procreate: Anime Girl \u00be Bust + Blink/Sparkle Loop",
+    "title": "Procreate: Anime Girl ¾ Bust + Blink/Sparkle Loop",
     "shortTitle": "Procreate",
     "part": "Illustration/Comics",
     "seriesId": "digital-anime-characters-sprint",
-    "seriesTitle": "Digital Anime Characters \u2014 3-Class Sprint",
+    "seriesTitle": "Digital Anime Characters — 3-Class Sprint",
     "seriesAliases": [
       "Digital Anime"
     ],
@@ -8657,8 +8657,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Canvas 2000\u00d72000, 10\u201312 fps. Layer stack: FX/Highlights/Shadows/Flats/Line/Sketch/BG. Pipeline: thumbnails \u2192 clean ink (outer thicker) \u2192 flats (3\u20134 hues) \u2192 cel-shadows (one light arrow) \u2192 8\u201312f blink + sparkle (Animation Assist). Export GIF/MP4 + palette strip.",
-    "fullDescription": "Canvas 2000\u00d72000, 10\u201312 fps. Layer stack: FX/Highlights/Shadows/Flats/Line/Sketch/BG. Pipeline: thumbnails \u2192 clean ink (outer thicker) \u2192 flats (3\u20134 hues) \u2192 cel-shadows (one light arrow) \u2192 8\u201312f blink + sparkle (Animation Assist). Export GIF/MP4 + palette strip.",
+    "shortDescription": "Canvas 2000×2000, 10–12 fps. Layer stack: FX/Highlights/Shadows/Flats/Line/Sketch/BG. Pipeline: thumbnails → clean ink (outer thicker) → flats (3–4 hues) → cel-shadows (one light arrow) → 8–12f blink + sparkle (Animation Assist). Export GIF/MP4 + palette strip.",
+    "fullDescription": "Canvas 2000×2000, 10–12 fps. Layer stack: FX/Highlights/Shadows/Flats/Line/Sketch/BG. Pipeline: thumbnails → clean ink (outer thicker) → flats (3–4 hues) → cel-shadows (one light arrow) → 8–12f blink + sparkle (Animation Assist). Export GIF/MP4 + palette strip.",
     "tags": [
       "Procreate",
       "cel-shading",
@@ -8703,7 +8703,7 @@
       {
         "artist": "Alphonse Mucha",
         "work": "Poster motifs (hair flow, star/sparkle ornaments)",
-        "year": "1890s\u20131900s",
+        "year": "1890s–1900s",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -8761,7 +8761,7 @@
     "shortTitle": "Procreate",
     "part": "Illustration/Comics",
     "seriesId": "digital-anime-characters-sprint",
-    "seriesTitle": "Digital Anime Characters \u2014 3-Class Sprint",
+    "seriesTitle": "Digital Anime Characters — 3-Class Sprint",
     "seriesAliases": [
       "Digital Anime"
     ],
@@ -8775,8 +8775,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Canvas 2200\u00d71600, 10\u201312 fps. Gesture/bean \u2192 line & flats (indigo/teal + metal accents) \u2192 stacked glazes for deep folds. Mini-animation: 6\u20138f idle breath (subtle torso nudge) + 4\u20136f ribbon/tassel with delayed overlap; consistent chin/collar shadow. Export loop + callout panel.",
-    "fullDescription": "Canvas 2200\u00d71600, 10\u201312 fps. Gesture/bean \u2192 line & flats (indigo/teal + metal accents) \u2192 stacked glazes for deep folds. Mini-animation: 6\u20138f idle breath (subtle torso nudge) + 4\u20136f ribbon/tassel with delayed overlap; consistent chin/collar shadow. Export loop + callout panel.",
+    "shortDescription": "Canvas 2200×1600, 10–12 fps. Gesture/bean → line & flats (indigo/teal + metal accents) → stacked glazes for deep folds. Mini-animation: 6–8f idle breath (subtle torso nudge) + 4–6f ribbon/tassel with delayed overlap; consistent chin/collar shadow. Export loop + callout panel.",
+    "fullDescription": "Canvas 2200×1600, 10–12 fps. Gesture/bean → line & flats (indigo/teal + metal accents) → stacked glazes for deep folds. Mini-animation: 6–8f idle breath (subtle torso nudge) + 4–6f ribbon/tassel with delayed overlap; consistent chin/collar shadow. Export loop + callout panel.",
     "tags": [
       "Procreate",
       "idle loop",
@@ -8784,8 +8784,8 @@
       "fabric flow",
       "cel-shading"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/67c00f91c1ab799a319b2362_Screenshot%202025-02-26%20at%2011.08.53%E2%80%AFPM.png",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/67c00f91c1ab799a319b2362_Screenshot%202025-02-26%20at%2011.08.53%E2%80%AFPM.png",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "digital_creator",
     "secondaryBadgeIds": [],
@@ -8813,7 +8813,7 @@
       {
         "artist": "Utagawa Kuniyoshi",
         "work": "Warrior prints (flowing ribbons, patterned robes)",
-        "year": "1830s\u20131850s",
+        "year": "1830s–1850s",
         "museum": "Ukiyo-e.org (aggregated PD)",
         "license": "PD",
         "url": "https://ukiyo-e.org"
@@ -8829,7 +8829,7 @@
       {
         "artist": "Nianhua workshops",
         "work": "Door gods & auspicious motifs (cloud/flame forms)",
-        "year": "Qing\u2013Republic era",
+        "year": "Qing–Republic era",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -8879,7 +8879,7 @@
     "shortTitle": "Dresscode",
     "part": "Illustration/Comics",
     "seriesId": "digital-anime-characters-sprint",
-    "seriesTitle": "Digital Anime Characters \u2014 3-Class Sprint",
+    "seriesTitle": "Digital Anime Characters — 3-Class Sprint",
     "seriesAliases": [
       "Digital Anime"
     ],
@@ -8893,8 +8893,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Pre-prep layered PNGs from Procreate (BG, Cape, HairFront, Head, Torso, ArmL/R, Legs, FX). In Dresscode: 1920\u00d71080, 24 fps, 4\u20136 s. Keyframes: settle \u2192 cape swish (rotate + slight translate, hair tip overlap) \u2192 slow push-in/pan \u2192 settle; ease in/out, offset secondaries. Export MP4 + rig map.",
-    "fullDescription": "Pre-prep layered PNGs from Procreate (BG, Cape, HairFront, Head, Torso, ArmL/R, Legs, FX). In Dresscode: 1920\u00d71080, 24 fps, 4\u20136 s. Keyframes: settle \u2192 cape swish (rotate + slight translate, hair tip overlap) \u2192 slow push-in/pan \u2192 settle; ease in/out, offset secondaries. Export MP4 + rig map.",
+    "shortDescription": "Pre-prep layered PNGs from Procreate (BG, Cape, HairFront, Head, Torso, ArmL/R, Legs, FX). In Dresscode: 1920×1080, 24 fps, 4–6 s. Keyframes: settle → cape swish (rotate + slight translate, hair tip overlap) → slow push-in/pan → settle; ease in/out, offset secondaries. Export MP4 + rig map.",
+    "fullDescription": "Pre-prep layered PNGs from Procreate (BG, Cape, HairFront, Head, Torso, ArmL/R, Legs, FX). In Dresscode: 1920×1080, 24 fps, 4–6 s. Keyframes: settle → cape swish (rotate + slight translate, hair tip overlap) → slow push-in/pan → settle; ease in/out, offset secondaries. Export MP4 + rig map.",
     "tags": [
       "Dresscode",
       "layer transforms",
@@ -8993,11 +8993,11 @@
   {
     "id": "LFC-085",
     "slug": "1-point-perspective-interior-depth-and-simple-fa-ade",
-    "title": "1-Point Perspective \u2014 Interior Depth & Simple Fa\u00e7ade",
+    "title": "1-Point Perspective — Interior Depth & Simple Façade",
     "shortTitle": "1-Point Perspective",
     "part": "Architecture",
     "seriesId": "architecture-foundation-basic",
-    "seriesTitle": "Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper",
+    "seriesTitle": "Architecture Foundation Basic — Perspective → Idea → Paper",
     "seriesAliases": [
       "Architecture"
     ],
@@ -9011,14 +9011,14 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Calm depth with a single vanishing point. Draw a hallway/caf\u00e9 interior (tables, frames) and a tiny centered-door fa\u00e7ade study; add a light marker/pencil value pass.",
-    "fullDescription": "Calm depth with a single vanishing point. Draw a hallway/caf\u00e9 interior (tables, frames) and a tiny centered-door fa\u00e7ade study; add a light marker/pencil value pass.",
+    "shortDescription": "Calm depth with a single vanishing point. Draw a hallway/café interior (tables, frames) and a tiny centered-door façade study; add a light marker/pencil value pass.",
+    "fullDescription": "Calm depth with a single vanishing point. Draw a hallway/café interior (tables, frames) and a tiny centered-door façade study; add a light marker/pencil value pass.",
     "tags": [
       "1-point",
       "eye level",
       "vanishing point",
       "interior",
-      "fa\u00e7ade",
+      "façade",
       "value pass"
     ],
     "coverImage": "",
@@ -9099,11 +9099,11 @@
   {
     "id": "LFC-086",
     "slug": "2-point-perspective-street-corner-and-shopfront",
-    "title": "2-Point Perspective \u2014 Street Corner & Shopfront",
+    "title": "2-Point Perspective — Street Corner & Shopfront",
     "shortTitle": "2-Point Perspective",
     "part": "Architecture",
     "seriesId": "architecture-foundation-basic",
-    "seriesTitle": "Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper",
+    "seriesTitle": "Architecture Foundation Basic — Perspective → Idea → Paper",
     "seriesAliases": [
       "Architecture"
     ],
@@ -9135,7 +9135,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Albrecht D\u00fcrer",
+        "name": "Albrecht Dürer",
         "death": 1528
       },
       {
@@ -9149,7 +9149,7 @@
     ],
     "refs": [
       {
-        "artist": "Albrecht D\u00fcrer",
+        "artist": "Albrecht Dürer",
         "work": "Underweysung der Messung (solids/perspective)",
         "year": "1525",
         "museum": "The Met Open Access",
@@ -9158,7 +9158,7 @@
       },
       {
         "artist": "G. B. Piranesi",
-        "work": "Vedute di Roma (urban corners & fa\u00e7ades)",
+        "work": "Vedute di Roma (urban corners & façades)",
         "year": "18th c.",
         "museum": "Getty Open Content",
         "license": "Open Content/PD",
@@ -9205,11 +9205,11 @@
   {
     "id": "LFC-087",
     "slug": "3-point-perspective-tall-and-dramatic",
-    "title": "3-Point Perspective \u2014 Tall & Dramatic",
+    "title": "3-Point Perspective — Tall & Dramatic",
     "shortTitle": "3-Point Perspective",
     "part": "Architecture",
     "seriesId": "architecture-foundation-basic",
-    "seriesTitle": "Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper",
+    "seriesTitle": "Architecture Foundation Basic — Perspective → Idea → Paper",
     "seriesAliases": [
       "Architecture"
     ],
@@ -9256,14 +9256,14 @@
     "refs": [
       {
         "artist": "Piranesi",
-        "work": "Carceri d\u2019Invenzione (dramatic perspective)",
-        "year": "c.1745\u20131761",
+        "work": "Carceri d’Invenzione (dramatic perspective)",
+        "year": "c.1745–1761",
         "museum": "Getty / Public Domain",
         "license": "Open Content/PD",
         "url": "https://www.getty.edu"
       },
       {
-        "artist": "\u00c9cole des Beaux-Arts",
+        "artist": "École des Beaux-Arts",
         "work": "Atelier drawings (tower studies)",
         "year": "19th c.",
         "museum": "Public Domain collections",
@@ -9311,11 +9311,11 @@
   {
     "id": "LFC-088",
     "slug": "reading-classics-from-eye-candy-to-ideas",
-    "title": "Reading Classics \u2014 From Eye-Candy to Ideas",
+    "title": "Reading Classics — From Eye-Candy to Ideas",
     "shortTitle": "Reading Classics",
     "part": "Architecture",
     "seriesId": "architecture-foundation-basic",
-    "seriesTitle": "Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper",
+    "seriesTitle": "Architecture Foundation Basic — Perspective → Idea → Paper",
     "seriesAliases": [
       "Architecture"
     ],
@@ -9329,8 +9329,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Not a timeline\u2014design takeaways. Make two annotated diagrams per building: 1 massing sketch and 1 rhythm overlay (what you\u2019d \u2018steal\u2019 for your own corner design).",
-    "fullDescription": "Not a timeline\u2014design takeaways. Make two annotated diagrams per building: 1 massing sketch and 1 rhythm overlay (what you\u2019d \u2018steal\u2019 for your own corner design).",
+    "shortDescription": "Not a timeline—design takeaways. Make two annotated diagrams per building: 1 massing sketch and 1 rhythm overlay (what you’d ‘steal’ for your own corner design).",
+    "fullDescription": "Not a timeline—design takeaways. Make two annotated diagrams per building: 1 massing sketch and 1 rhythm overlay (what you’d ‘steal’ for your own corner design).",
     "tags": [
       "massing",
       "rhythm",
@@ -9350,7 +9350,7 @@
         "death": 1865
       },
       {
-        "name": "Antoni Gaud\u00ed",
+        "name": "Antoni Gaudí",
         "death": 1926
       },
       {
@@ -9378,8 +9378,8 @@
         "url": "https://archive.org"
       },
       {
-        "artist": "Antoni Gaud\u00ed",
-        "work": "Casa Batll\u00f3 / Casa Mil\u00e0 (organic fa\u00e7ades)",
+        "artist": "Antoni Gaudí",
+        "work": "Casa Batlló / Casa Milà (organic façades)",
         "year": "1900s",
         "museum": "Public Domain historic docs",
         "license": "PD",
@@ -9388,7 +9388,7 @@
       {
         "artist": "H. H. Richardson circle",
         "work": "Brick massing/rhythm precedents",
-        "year": "1870s\u20131880s",
+        "year": "1870s–1880s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://www.loc.gov"
@@ -9396,7 +9396,7 @@
       {
         "artist": "Alhambra (Granada)",
         "work": "Courtyards/light & air",
-        "year": "13th\u201314th c.",
+        "year": "13th–14th c.",
         "museum": "Public Domain image sets",
         "license": "PD",
         "url": "https://www.metmuseum.org/art/collection"
@@ -9442,11 +9442,11 @@
   {
     "id": "LFC-089",
     "slug": "ai-assist-from-pencil-to-concept-image-optional",
-    "title": "AI Assist \u2014 From Pencil to Concept Image (Optional)",
+    "title": "AI Assist — From Pencil to Concept Image (Optional)",
     "shortTitle": "AI Assist",
     "part": "Architecture",
     "seriesId": "architecture-foundation-basic",
-    "seriesTitle": "Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper",
+    "seriesTitle": "Architecture Foundation Basic — Perspective → Idea → Paper",
     "seriesAliases": [
       "Architecture"
     ],
@@ -9469,8 +9469,8 @@
       "iteration",
       "ethics"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/6838be7366077d923795a970_ai%20pic-feiteamart.png",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/6838be7366077d923795a970_ai%20pic-feiteamart.png",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "little_architect",
     "secondaryBadgeIds": [],
@@ -9493,7 +9493,7 @@
       {
         "artist": "El Lissitzky",
         "work": "Photomontage & architectural visions",
-        "year": "1920s\u20131930s",
+        "year": "1920s–1930s",
         "museum": "Public Domain digitizations",
         "license": "PD",
         "url": "https://archive.org"
@@ -9507,7 +9507,7 @@
         "url": "https://www.getty.edu"
       }
     ],
-    "videoUrl": "https://www.youtube.com/watch?v=2xQlHHhlrr4",
+    "videoUrl": "#",
     "pdfUrl": "#",
     "smartClassUrl": "",
     "detailPageUrl": "",
@@ -9547,11 +9547,11 @@
   {
     "id": "LFC-090",
     "slug": "paper-sculpture-capstone-from-drawing-to-model",
-    "title": "Paper Sculpture Capstone \u2014 From Drawing to Model",
+    "title": "Paper Sculpture Capstone — From Drawing to Model",
     "shortTitle": "Paper Sculpture Capstone",
     "part": "Architecture",
     "seriesId": "architecture-foundation-basic",
-    "seriesTitle": "Architecture Foundation Basic \u2014 Perspective \u2192 Idea \u2192 Paper",
+    "seriesTitle": "Architecture Foundation Basic — Perspective → Idea → Paper",
     "seriesAliases": [
       "Architecture"
     ],
@@ -9565,12 +9565,12 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Translate your design into a cardstock massing model. Draft nets with tabs, assemble safely, add fa\u00e7ade rhythm with marker lines or cut-outs, mount on a base card with a drawn pavement and a paper tree.",
-    "fullDescription": "Translate your design into a cardstock massing model. Draft nets with tabs, assemble safely, add fa\u00e7ade rhythm with marker lines or cut-outs, mount on a base card with a drawn pavement and a paper tree.",
+    "shortDescription": "Translate your design into a cardstock massing model. Draft nets with tabs, assemble safely, add façade rhythm with marker lines or cut-outs, mount on a base card with a drawn pavement and a paper tree.",
+    "fullDescription": "Translate your design into a cardstock massing model. Draft nets with tabs, assemble safely, add façade rhythm with marker lines or cut-outs, mount on a base card with a drawn pavement and a paper tree.",
     "tags": [
       "paper model",
       "massing",
-      "fa\u00e7ade rhythm",
+      "façade rhythm",
       "nets & tabs",
       "safe cutting"
     ],
@@ -9598,7 +9598,7 @@
       {
         "artist": "Bauhaus",
         "work": "Foundational paper/structure exercises (precedent for nets/forms)",
-        "year": "1920s\u20131930s",
+        "year": "1920s–1930s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://www.metmuseum.org/art/collection"
@@ -9652,11 +9652,11 @@
   {
     "id": "LFC-091",
     "slug": "plein-air-starter-scout-to-pencil-sketch-to-watercolor-touch",
-    "title": "Plein Air Starter: Scout \u2192 Pencil Sketch \u2192 Watercolor Touch",
+    "title": "Plein Air Starter: Scout → Pencil Sketch → Watercolor Touch",
     "shortTitle": "Plein Air Starter",
     "part": "Landscape",
     "seriesId": "landscape-lab-field-to-studio",
-    "seriesTitle": "Landscape Lab \u2014 Field to Studio",
+    "seriesTitle": "Landscape Lab — Field to Studio",
     "seriesAliases": [
       "Landscape Lab"
     ],
@@ -9703,7 +9703,7 @@
       {
         "artist": "Claude Monet",
         "work": "Field sketches and haystack studies",
-        "year": "1870s\u20131890s",
+        "year": "1870s–1890s",
         "museum": "Public Domain via Art Institute of Chicago / Met",
         "license": "PD",
         "url": "https://www.artic.edu"
@@ -9711,7 +9711,7 @@
       {
         "artist": "Camille Corot",
         "work": "Plein-air oil studies",
-        "year": "1820s\u20131850s",
+        "year": "1820s–1850s",
         "museum": "Metropolitan Museum of Art",
         "license": "PD",
         "url": "https://www.metmuseum.org/art/collection"
@@ -9761,7 +9761,7 @@
     "shortTitle": "Studio from Photo",
     "part": "Landscape",
     "seriesId": "landscape-lab-field-to-studio",
-    "seriesTitle": "Landscape Lab \u2014 Field to Studio",
+    "seriesTitle": "Landscape Lab — Field to Studio",
     "seriesAliases": [
       "Landscape Lab"
     ],
@@ -9792,7 +9792,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Paul C\u00e9zanne",
+        "name": "Paul Cézanne",
         "death": 1906
       },
       {
@@ -9806,10 +9806,10 @@
     ],
     "refs": [
       {
-        "artist": "Paul C\u00e9zanne",
+        "artist": "Paul Cézanne",
         "work": "Mont Sainte-Victoire series (value simplification)",
-        "year": "1880s\u20131900s",
-        "museum": "Public Domain via The Met / Mus\u00e9e d\u2019Orsay",
+        "year": "1880s–1900s",
+        "museum": "Public Domain via The Met / Musée d’Orsay",
         "license": "PD",
         "url": "https://www.metmuseum.org/art/collection"
       },
@@ -9866,7 +9866,7 @@
     "shortTitle": "Collage Landscape",
     "part": "Landscape",
     "seriesId": "landscape-lab-field-to-studio",
-    "seriesTitle": "Landscape Lab \u2014 Field to Studio",
+    "seriesTitle": "Landscape Lab — Field to Studio",
     "seriesAliases": [
       "Landscape Lab"
     ],
@@ -9889,8 +9889,8 @@
       "texture",
       "rhythm"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/690254dff7fe8ab0da931abb_Screenshot%202025-10-29%20at%2010.49.40%E2%80%AFAM.png",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/690254dff7fe8ab0da931abb_Screenshot%202025-10-29%20at%2010.49.40%E2%80%AFAM.png",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "landscape",
     "secondaryBadgeIds": [],
@@ -9921,7 +9921,7 @@
       {
         "artist": "Kurt Schwitters",
         "work": "Merz collages",
-        "year": "1919\u20131930s",
+        "year": "1919–1930s",
         "museum": "MoMA (PD reproductions)",
         "license": "PD",
         "url": "https://www.moma.org"
@@ -9967,11 +9967,11 @@
   {
     "id": "LFC-094",
     "slug": "mixed-media-landscape-watercolor-x-oil-pastel",
-    "title": "Mixed Media Landscape: Watercolor \u00d7 Oil Pastel",
+    "title": "Mixed Media Landscape: Watercolor × Oil Pastel",
     "shortTitle": "Mixed Media Landscape",
     "part": "Landscape",
     "seriesId": "landscape-lab-field-to-studio",
-    "seriesTitle": "Landscape Lab \u2014 Field to Studio",
+    "seriesTitle": "Landscape Lab — Field to Studio",
     "seriesAliases": [
       "Landscape Lab"
     ],
@@ -9994,8 +9994,8 @@
       "texture",
       "mood"
     ],
-    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/690254dfbd57c690e47054d2_Screenshot%202025-10-29%20at%2010.54.05%E2%80%AFAM.png",
-    "thumbnailImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/690254dfbd57c690e47054d2_Screenshot%202025-10-29%20at%2010.54.05%E2%80%AFAM.png",
+    "coverImage": "",
+    "thumbnailImage": "",
     "gallery": [],
     "badgeId": "landscape",
     "secondaryBadgeIds": [],
@@ -10018,7 +10018,7 @@
       {
         "artist": "Vincent van Gogh",
         "work": "Arles landscapes (mixed strokes, color mood)",
-        "year": "1888\u20131889",
+        "year": "1888–1889",
         "museum": "Van Gogh Museum / Met",
         "license": "PD",
         "url": "https://www.vangoghmuseum.nl"
@@ -10026,7 +10026,7 @@
       {
         "artist": "Edvard Munch",
         "work": "Nordic landscapes with expressive color",
-        "year": "1890s\u20131900s",
+        "year": "1890s–1900s",
         "museum": "National Museum Oslo (PD)",
         "license": "PD",
         "url": "https://www.nasjonalmuseet.no"
@@ -10072,11 +10072,11 @@
   {
     "id": "LFC-095",
     "slug": "photo-landscape-shoot-to-edit-to-print-and-pair",
-    "title": "Photo Landscape: Shoot \u2192 Edit \u2192 Print & Pair",
+    "title": "Photo Landscape: Shoot → Edit → Print & Pair",
     "shortTitle": "Photo Landscape",
     "part": "Landscape",
     "seriesId": "landscape-lab-field-to-studio",
-    "seriesTitle": "Landscape Lab \u2014 Field to Studio",
+    "seriesTitle": "Landscape Lab — Field to Studio",
     "seriesAliases": [
       "Landscape Lab"
     ],
@@ -10123,7 +10123,7 @@
       {
         "artist": "Eadweard Muybridge",
         "work": "Early photographic landscapes",
-        "year": "1860s\u20131880s",
+        "year": "1860s–1880s",
         "museum": "Library of Congress",
         "license": "PD",
         "url": "https://www.loc.gov"
@@ -10181,7 +10181,7 @@
     "shortTitle": "Skull First",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -10195,8 +10195,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Three-view skull quick sketch (front/side/3/4) using cranial sphere + jaw wedge construction, basic thirds/fifths head divisions, and key bony landmarks (zygoma, brow ridge, nasal aperture, TMJ). Then overlay an \u201cX-ray\u201d skull on an AI-generated three-quarter male portrait to connect structure to likeness and observational portrait sketching, with references to historical skull/head studies by Leonardo da Vinci and Albrecht D\u00fcrer.",
-    "fullDescription": "Three-view skull quick sketch (front/side/3/4) using cranial sphere + jaw wedge construction, basic thirds/fifths head divisions, and key bony landmarks (zygoma, brow ridge, nasal aperture, TMJ). Then overlay an \u201cX-ray\u201d skull on an AI-generated three-quarter male portrait to connect structure to likeness and observational portrait sketching, with references to historical skull/head studies by Leonardo da Vinci and Albrecht D\u00fcrer.",
+    "shortDescription": "Three-view skull quick sketch (front/side/3/4) using cranial sphere + jaw wedge construction, basic thirds/fifths head divisions, and key bony landmarks (zygoma, brow ridge, nasal aperture, TMJ). Then overlay an “X-ray” skull on an AI-generated three-quarter male portrait to connect structure to likeness and observational portrait sketching, with references to historical skull/head studies by Leonardo da Vinci and Albrecht Dürer.",
+    "fullDescription": "Three-view skull quick sketch (front/side/3/4) using cranial sphere + jaw wedge construction, basic thirds/fifths head divisions, and key bony landmarks (zygoma, brow ridge, nasal aperture, TMJ). Then overlay an “X-ray” skull on an AI-generated three-quarter male portrait to connect structure to likeness and observational portrait sketching, with references to historical skull/head studies by Leonardo da Vinci and Albrecht Dürer.",
     "tags": [
       "skull",
       "head structure",
@@ -10218,7 +10218,7 @@
         "death": 1519
       },
       {
-        "name": "Albrecht D\u00fcrer",
+        "name": "Albrecht Dürer",
         "death": 1528
       },
       {
@@ -10236,14 +10236,14 @@
       {
         "artist": "Leonardo da Vinci",
         "work": "Studies of the human skull (multiple views/sections)",
-        "year": "c. 1489\u20131510",
+        "year": "c. 1489–1510",
         "museum": "Royal Collection / The Met",
         "license": "PD",
         "url": "https://commons.wikimedia.org/wiki/Category:Studies_of_skulls_by_Leonardo_da_Vinci"
       },
       {
-        "artist": "Albrecht D\u00fcrer",
-        "work": "Vier B\u00fccher von menschlicher Proportion (head proportion plates)",
+        "artist": "Albrecht Dürer",
+        "work": "Vier Bücher von menschlicher Proportion (head proportion plates)",
         "year": "1528",
         "museum": "Germanisches Nationalmuseum / various",
         "license": "PD / Open Access",
@@ -10302,7 +10302,7 @@
     "shortTitle": "Muscles & Planes",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -10316,8 +10316,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Map major muscle masses and simplify the head into planar blocks; render a 5-step value study from \u00be without heavy blending; design hard/soft/lost edges.",
-    "fullDescription": "Map major muscle masses and simplify the head into planar blocks; render a 5-step value study from \u00be without heavy blending; design hard/soft/lost edges.",
+    "shortDescription": "Map major muscle masses and simplify the head into planar blocks; render a 5-step value study from ¾ without heavy blending; design hard/soft/lost edges.",
+    "fullDescription": "Map major muscle masses and simplify the head into planar blocks; render a 5-step value study from ¾ without heavy blending; design hard/soft/lost edges.",
     "tags": [
       "planes",
       "temporalis/masseter",
@@ -10336,7 +10336,7 @@
         "death": 1933
       },
       {
-        "name": "Jean-L\u00e9on G\u00e9r\u00f4me",
+        "name": "Jean-Léon Gérôme",
         "death": 1904
       }
     ],
@@ -10348,13 +10348,13 @@
       {
         "artist": "Paul Richer",
         "work": "Planar/anatomical plates of head",
-        "year": "1890s\u20131910s",
+        "year": "1890s–1910s",
         "museum": "BnF Gallica",
         "license": "PD",
         "url": "https://gallica.bnf.fr"
       },
       {
-        "artist": "Jean-L\u00e9on G\u00e9r\u00f4me",
+        "artist": "Jean-Léon Gérôme",
         "work": "Academic studio drawings (edge/value logic)",
         "year": "19th c.",
         "museum": "The Met Open Access",
@@ -10402,11 +10402,11 @@
   {
     "id": "LFC-098",
     "slug": "portrait-study-facial-features-nose-lips-ears-and-eyes",
-    "title": "Portrait Study \u2014 Facial Features (Nose, Lips, Ears & Eyes)",
+    "title": "Portrait Study — Facial Features (Nose, Lips, Ears & Eyes)",
     "shortTitle": "Portrait Study",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -10420,8 +10420,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Intro to the five main features as 3D forms: nose tip as sphere with clear front/side planes and cheek connection; lips built from layered in\u2013out curves with upper lip in shadow; ears simplified with straight-line block-in and three value groups; eyes as spheres with lid volume and cast shadow. Applied on front and \u00be head views in Adobe Fresco.",
-    "fullDescription": "Intro to the five main features as 3D forms: nose tip as sphere with clear front/side planes and cheek connection; lips built from layered in\u2013out curves with upper lip in shadow; ears simplified with straight-line block-in and three value groups; eyes as spheres with lid volume and cast shadow. Applied on front and \u00be head views in Adobe Fresco.",
+    "shortDescription": "Intro to the five main features as 3D forms: nose tip as sphere with clear front/side planes and cheek connection; lips built from layered in–out curves with upper lip in shadow; ears simplified with straight-line block-in and three value groups; eyes as spheres with lid volume and cast shadow. Applied on front and ¾ head views in Adobe Fresco.",
+    "fullDescription": "Intro to the five main features as 3D forms: nose tip as sphere with clear front/side planes and cheek connection; lips built from layered in–out curves with upper lip in shadow; ears simplified with straight-line block-in and three value groups; eyes as spheres with lid volume and cast shadow. Applied on front and ¾ head views in Adobe Fresco.",
     "tags": [
       "features",
       "nose",
@@ -10469,7 +10469,7 @@
       {
         "artist": "Leonardo da Vinci",
         "work": "Studies of facial features",
-        "year": "c.1490\u20131510",
+        "year": "c.1490–1510",
         "museum": "Royal Collection / PD reproductions",
         "license": "PD",
         "url": "https://www.rct.uk/collection"
@@ -10515,11 +10515,11 @@
   {
     "id": "LFC-099",
     "slug": "male-portrait-study-3-4-view-planes-and-shading",
-    "title": "Male Portrait Study \u2014 3/4 View Planes & Shading",
+    "title": "Male Portrait Study — 3/4 View Planes & Shading",
     "shortTitle": "Male Portrait Study",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -10561,7 +10561,7 @@
     ],
     "movements": [
       "Academic",
-      "19th\u201320th-c. Portrait"
+      "19th–20th-c. Portrait"
     ],
     "refs": [
       {
@@ -10575,7 +10575,7 @@
       {
         "artist": "John Singer Sargent",
         "work": "Charcoal portrait studies",
-        "year": "c.1900\u20131925",
+        "year": "c.1900–1925",
         "museum": "Various (PD)",
         "license": "PD",
         "url": "#"
@@ -10621,11 +10621,11 @@
   {
     "id": "LFC-100",
     "slug": "female-portrait-graphite-edges-and-transitions",
-    "title": "Female Portrait (Graphite) \u2014 Edges & Transitions",
+    "title": "Female Portrait (Graphite) — Edges & Transitions",
     "shortTitle": "Female Portrait (Graphite)",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -10639,8 +10639,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Prioritize edge control and subtle transitions in a female self-portrait. Use graphite-style brushes to keep skin values light while turning the form; refine the eyelid crease and lip softness; design hair as flowing sheen bands. Front or gentle \u00be view brought to an 80\u201390% finished state. Demo drawn in Adobe Fresco.",
-    "fullDescription": "Prioritize edge control and subtle transitions in a female self-portrait. Use graphite-style brushes to keep skin values light while turning the form; refine the eyelid crease and lip softness; design hair as flowing sheen bands. Front or gentle \u00be view brought to an 80\u201390% finished state. Demo drawn in Adobe Fresco.",
+    "shortDescription": "Prioritize edge control and subtle transitions in a female self-portrait. Use graphite-style brushes to keep skin values light while turning the form; refine the eyelid crease and lip softness; design hair as flowing sheen bands. Front or gentle ¾ view brought to an 80–90% finished state. Demo drawn in Adobe Fresco.",
+    "fullDescription": "Prioritize edge control and subtle transitions in a female self-portrait. Use graphite-style brushes to keep skin values light while turning the form; refine the eyelid crease and lip softness; design hair as flowing sheen bands. Front or gentle ¾ view brought to an 80–90% finished state. Demo drawn in Adobe Fresco.",
     "tags": [
       "soft edges",
       "subtle contrast",
@@ -10680,7 +10680,7 @@
       {
         "artist": "Edgar Degas",
         "work": "Pastel/drawing heads (edge/softness cues)",
-        "year": "1870s\u20131900",
+        "year": "1870s–1900",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -10730,7 +10730,7 @@
     "shortTitle": "Head Perspectives & Likeness Strategy",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -10744,8 +10744,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Turn heads convincingly with ball/plane logic; plan likeness via envelope, plumb lines, and angle checks. 9 thumbnail tilts \u2192 select one for a 3-value study.",
-    "fullDescription": "Turn heads convincingly with ball/plane logic; plan likeness via envelope, plumb lines, and angle checks. 9 thumbnail tilts \u2192 select one for a 3-value study.",
+    "shortDescription": "Turn heads convincingly with ball/plane logic; plan likeness via envelope, plumb lines, and angle checks. 9 thumbnail tilts → select one for a 3-value study.",
+    "fullDescription": "Turn heads convincingly with ball/plane logic; plan likeness via envelope, plumb lines, and angle checks. 9 thumbnail tilts → select one for a 3-value study.",
     "tags": [
       "tilt/pitch/yaw/roll",
       "centerline wrap",
@@ -10784,7 +10784,7 @@
       {
         "artist": "Paul Richer",
         "work": "Head proportion & tilt diagrams",
-        "year": "1890s\u20131910s",
+        "year": "1890s–1910s",
         "museum": "BnF Gallica",
         "license": "PD",
         "url": "https://gallica.bnf.fr"
@@ -10830,11 +10830,11 @@
   {
     "id": "LFC-102",
     "slug": "senior-portrait-graphite-planes-and-structure",
-    "title": "Senior Portrait (Graphite) \u2014 Planes & Structure",
+    "title": "Senior Portrait (Graphite) — Planes & Structure",
     "shortTitle": "Senior Portrait (Graphite)",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -10848,8 +10848,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Strong planar read and measured block-in; beard as value mass; hair grouped by value with a few directional accents. \u00be head to 80\u201390% finish.",
-    "fullDescription": "Strong planar read and measured block-in; beard as value mass; hair grouped by value with a few directional accents. \u00be head to 80\u201390% finish.",
+    "shortDescription": "Strong planar read and measured block-in; beard as value mass; hair grouped by value with a few directional accents. ¾ head to 80–90% finish.",
+    "fullDescription": "Strong planar read and measured block-in; beard as value mass; hair grouped by value with a few directional accents. ¾ head to 80–90% finish.",
     "tags": [
       "planes",
       "beard mass",
@@ -10865,7 +10865,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Diego Vel\u00e1zquez",
+        "name": "Diego Velázquez",
         "death": 1660
       },
       {
@@ -10879,7 +10879,7 @@
     ],
     "refs": [
       {
-        "artist": "Vel\u00e1zquez",
+        "artist": "Velázquez",
         "work": "Head/portrait studies (edge/value hierarchy)",
         "year": "17th c.",
         "museum": "Public Domain collections",
@@ -10889,7 +10889,7 @@
       {
         "artist": "John Singer Sargent",
         "work": "Graphite/charcoal portraits (brush/edge economy idea)",
-        "year": "c.1880\u20131915",
+        "year": "c.1880–1915",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -10935,11 +10935,11 @@
   {
     "id": "LFC-103",
     "slug": "senior-portrait-female-edges-and-transitions",
-    "title": "Senior Portrait (Female) \u2014 Edges & Transitions",
+    "title": "Senior Portrait (Female) — Edges & Transitions",
     "shortTitle": "Senior Portrait (Female)",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -10953,8 +10953,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Prioritize edge control and subtle transitions; control the eyelid crease and lip softness; hair as sheen bands. Front or gentle \u00be to 80\u201390% finish.",
-    "fullDescription": "Prioritize edge control and subtle transitions; control the eyelid crease and lip softness; hair as sheen bands. Front or gentle \u00be to 80\u201390% finish.",
+    "shortDescription": "Prioritize edge control and subtle transitions; control the eyelid crease and lip softness; hair as sheen bands. Front or gentle ¾ to 80–90% finish.",
+    "fullDescription": "Prioritize edge control and subtle transitions; control the eyelid crease and lip softness; hair as sheen bands. Front or gentle ¾ to 80–90% finish.",
     "tags": [
       "soft edges",
       "subtle contrast",
@@ -10994,7 +10994,7 @@
       {
         "artist": "Edgar Degas",
         "work": "Pastel/drawing heads (edge/softness cues)",
-        "year": "1870s\u20131900",
+        "year": "1870s–1900",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -11044,7 +11044,7 @@
     "shortTitle": "Child & Elder Portrait Cues (Graphite)",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -11058,8 +11058,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Child: larger cranium, lower facial third, big-eye/short-nose, low contrast. Elder: bony landmarks + designed wrinkle rhythms; compress value range thoughtfully. Two half-length studies to 60\u201370%.",
-    "fullDescription": "Child: larger cranium, lower facial third, big-eye/short-nose, low contrast. Elder: bony landmarks + designed wrinkle rhythms; compress value range thoughtfully. Two half-length studies to 60\u201370%.",
+    "shortDescription": "Child: larger cranium, lower facial third, big-eye/short-nose, low contrast. Elder: bony landmarks + designed wrinkle rhythms; compress value range thoughtfully. Two half-length studies to 60–70%.",
+    "fullDescription": "Child: larger cranium, lower facial third, big-eye/short-nose, low contrast. Elder: bony landmarks + designed wrinkle rhythms; compress value range thoughtfully. Two half-length studies to 60–70%.",
     "tags": [
       "age cues",
       "proportion shift",
@@ -11079,7 +11079,7 @@
         "death": 1933
       },
       {
-        "name": "Honor\u00e9 Daumier",
+        "name": "Honoré Daumier",
         "death": 1879
       }
     ],
@@ -11091,15 +11091,15 @@
       {
         "artist": "Paul Richer",
         "work": "Age/proportion anatomy plates",
-        "year": "1890s\u20131910s",
+        "year": "1890s–1910s",
         "museum": "BnF Gallica",
         "license": "PD",
         "url": "https://gallica.bnf.fr"
       },
       {
-        "artist": "Honor\u00e9 Daumier",
+        "artist": "Honoré Daumier",
         "work": "Head studies (structure & aging cues)",
-        "year": "1830s\u20131860s",
+        "year": "1830s–1860s",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -11145,11 +11145,11 @@
   {
     "id": "LFC-105",
     "slug": "charcoal-capstone-from-block-in-to-finish",
-    "title": "Charcoal Capstone \u2014 From Block-In to Finish",
+    "title": "Charcoal Capstone — From Block-In to Finish",
     "shortTitle": "Charcoal Capstone",
     "part": "Portrait",
     "seriesId": "academic-portrait-skull-to-likeness",
-    "seriesTitle": "Academic Portrait \u2014 Skull to Likeness",
+    "seriesTitle": "Academic Portrait — Skull to Likeness",
     "seriesAliases": [
       "Academic Portrait"
     ],
@@ -11163,11 +11163,11 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Vine lay-in \u2192 mass shadow family \u2192 wipe to halftone \u2192 restate darks \u2192 set background value \u2192 push hard/soft/lost edges; final accents in compressed charcoal; lift with kneaded/chamois. One finished portfolio portrait + process strip.",
-    "fullDescription": "Vine lay-in \u2192 mass shadow family \u2192 wipe to halftone \u2192 restate darks \u2192 set background value \u2192 push hard/soft/lost edges; final accents in compressed charcoal; lift with kneaded/chamois. One finished portfolio portrait + process strip.",
+    "shortDescription": "Vine lay-in → mass shadow family → wipe to halftone → restate darks → set background value → push hard/soft/lost edges; final accents in compressed charcoal; lift with kneaded/chamois. One finished portfolio portrait + process strip.",
+    "fullDescription": "Vine lay-in → mass shadow family → wipe to halftone → restate darks → set background value → push hard/soft/lost edges; final accents in compressed charcoal; lift with kneaded/chamois. One finished portfolio portrait + process strip.",
     "tags": [
       "charcoal",
-      "vine\u2192compressed",
+      "vine→compressed",
       "wipe to halftone",
       "background value",
       "edge design",
@@ -11197,7 +11197,7 @@
       {
         "artist": "John Singer Sargent",
         "work": "Charcoal portraits (value/edge economy)",
-        "year": "c.1900\u20131920",
+        "year": "c.1900–1920",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -11286,7 +11286,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Hannah H\u00f6ch",
+        "name": "Hannah Höch",
         "death": 1978
       }
     ],
@@ -11296,9 +11296,9 @@
     ],
     "refs": [
       {
-        "artist": "Hannah H\u00f6ch",
+        "artist": "Hannah Höch",
         "work": "Collage & photomontage works",
-        "year": "1910s\u20131930s",
+        "year": "1910s–1930s",
         "museum": "MoMA / Public Domain reproductions",
         "license": "PD",
         "url": "https://www.moma.org/collection"
@@ -11344,7 +11344,7 @@
   {
     "id": "LFC-107",
     "slug": "printmaking-i-foam-relief-and-stamps",
-    "title": "Printmaking I \u2014 Foam Relief & Stamps",
+    "title": "Printmaking I — Foam Relief & Stamps",
     "shortTitle": "Printmaking I",
     "part": "Creation Playground",
     "seriesId": "materials-lab",
@@ -11456,8 +11456,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Create a 3\u20135 layer paper diorama inside a window frame; explore silhouette and depth.",
-    "fullDescription": "Create a 3\u20135 layer paper diorama inside a window frame; explore silhouette and depth.",
+    "shortDescription": "Create a 3–5 layer paper diorama inside a window frame; explore silhouette and depth.",
+    "fullDescription": "Create a 3–5 layer paper diorama inside a window frame; explore silhouette and depth.",
     "tags": [
       "paper cutting",
       "silhouette",
@@ -11530,7 +11530,7 @@
   {
     "id": "LFC-109",
     "slug": "clay-minis-character-ramen",
-    "title": "Clay Minis \u2014 'Character Ramen'",
+    "title": "Clay Minis — 'Character Ramen'",
     "shortTitle": "Clay Minis",
     "part": "Creation Playground",
     "seriesId": "materials-lab",
@@ -11622,7 +11622,7 @@
   {
     "id": "LFC-110",
     "slug": "cardboard-engineering-i-tubes-tabs-and-joinery",
-    "title": "Cardboard Engineering I \u2014 Tubes, Tabs & Joinery",
+    "title": "Cardboard Engineering I — Tubes, Tabs & Joinery",
     "shortTitle": "Cardboard Engineering I",
     "part": "Creation Playground",
     "seriesId": "materials-lab",
@@ -11761,7 +11761,7 @@
       {
         "artist": "Paul Poiret",
         "work": "Costume/fashion sketches",
-        "year": "1900s\u20131920s",
+        "year": "1900s–1920s",
         "museum": "V&A Collections",
         "license": "PD",
         "url": "https://collections.vam.ac.uk"
@@ -11807,7 +11807,7 @@
   {
     "id": "LFC-112",
     "slug": "printmaking-ii-monoprint-gel-plate",
-    "title": "Printmaking II \u2014 Monoprint / Gel Plate",
+    "title": "Printmaking II — Monoprint / Gel Plate",
     "shortTitle": "Printmaking II",
     "part": "Creation Playground",
     "seriesId": "materials-lab",
@@ -11854,7 +11854,7 @@
       {
         "artist": "Degas",
         "work": "Monotypes (ghost textures)",
-        "year": "1870s\u20131890s",
+        "year": "1870s–1890s",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection"
@@ -11947,7 +11947,7 @@
       {
         "artist": "William Blake",
         "work": "Relief prints & illustrated books",
-        "year": "1790s\u20131820s",
+        "year": "1790s–1820s",
         "museum": "The British Museum",
         "license": "PD",
         "url": "https://www.britishmuseum.org"
@@ -11993,7 +11993,7 @@
   {
     "id": "LFC-114",
     "slug": "3d-basics-design-for-3d-print",
-    "title": "3D Basics \u2014 Design for 3D Print",
+    "title": "3D Basics — Design for 3D Print",
     "shortTitle": "3D Basics",
     "part": "Creation Playground",
     "seriesId": "materials-lab",
@@ -12086,8 +12086,8 @@
   {
     "id": "LFC-115",
     "slug": "diorama-worlds-collage-x-sculpture",
-    "title": "Diorama Worlds (Collage \u00d7 Sculpture)",
-    "shortTitle": "Diorama Worlds (Collage \u00d7 Sculpture)",
+    "title": "Diorama Worlds (Collage × Sculpture)",
+    "shortTitle": "Diorama Worlds (Collage × Sculpture)",
     "part": "Creation Playground",
     "seriesId": "materials-lab",
     "seriesTitle": "Materials Lab",
@@ -12133,7 +12133,7 @@
       {
         "artist": "Kurt Schwitters",
         "work": "Merz assemblages",
-        "year": "1920s\u20131940s",
+        "year": "1920s–1940s",
         "museum": "MoMA",
         "license": "PD",
         "url": "https://www.moma.org/artists/5290"
@@ -12225,7 +12225,7 @@
       {
         "artist": "Alexander Calder",
         "work": "Mobiles (balance and rhythm)",
-        "year": "1930s\u201340s",
+        "year": "1930s–40s",
         "museum": "National Gallery of Art",
         "license": "PD",
         "url": "https://www.nga.gov"
@@ -12271,7 +12271,7 @@
   {
     "id": "LFC-117",
     "slug": "show-build-mount-label-photograph",
-    "title": "Show Build \u2014 Mount, Label, Photograph",
+    "title": "Show Build — Mount, Label, Photograph",
     "shortTitle": "Show Build",
     "part": "Creation Playground",
     "seriesId": "materials-lab",
@@ -12318,7 +12318,7 @@
       {
         "artist": "Bauhaus",
         "work": "Student exhibitions/documentation",
-        "year": "1920s\u20131930s",
+        "year": "1920s–1930s",
         "museum": "Bauhaus Archiv",
         "license": "PD",
         "url": "https://www.bauhaus.de/en/collection"
@@ -12364,7 +12364,7 @@
   {
     "id": "LFC-118",
     "slug": "3d-print-ii-finish-and-paint",
-    "title": "3D Print II \u2014 Finish & Paint",
+    "title": "3D Print II — Finish & Paint",
     "shortTitle": "3D Print II",
     "part": "Creation Playground",
     "seriesId": "materials-lab",
@@ -12475,8 +12475,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Make a 10\u201320s stop-motion short using clay/collage and a phone app; add simple lighting and credits.",
-    "fullDescription": "Make a 10\u201320s stop-motion short using clay/collage and a phone app; add simple lighting and credits.",
+    "shortDescription": "Make a 10–20s stop-motion short using clay/collage and a phone app; add simple lighting and credits.",
+    "fullDescription": "Make a 10–20s stop-motion short using clay/collage and a phone app; add simple lighting and credits.",
     "tags": [
       "stop-motion",
       "frame planning",
@@ -12503,7 +12503,7 @@
       {
         "artist": "Lotte Reiniger",
         "work": "Silhouette stop-motion films",
-        "year": "1920s\u20131930s",
+        "year": "1920s–1930s",
         "museum": "BFI Archive",
         "license": "PD",
         "url": "https://player.bfi.org.uk/free/film/watch-the-adventures-of-prince-achmed-1926-online"
@@ -12596,7 +12596,7 @@
       {
         "artist": "Marcel Duchamp",
         "work": "Readymades / assemblages",
-        "year": "1910s\u201320s",
+        "year": "1910s–20s",
         "museum": "Philadelphia Museum of Art",
         "license": "PD",
         "url": "https://philamuseum.org"
@@ -12642,7 +12642,7 @@
   {
     "id": "LFC-121",
     "slug": "first-marks-prehistory-and-early-ritual-images",
-    "title": "First Marks \u2014 Prehistory & Early Ritual Images",
+    "title": "First Marks — Prehistory & Early Ritual Images",
     "shortTitle": "First Marks",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -12660,8 +12660,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Why humans make images: ritual, myth, and naturalism. Lascaux/Chauvet, Tassili, G\u00f6bekli Tepe. Mini: charcoal \u2018negative hand\u2019 and timeline start.",
-    "fullDescription": "Why humans make images: ritual, myth, and naturalism. Lascaux/Chauvet, Tassili, G\u00f6bekli Tepe. Mini: charcoal \u2018negative hand\u2019 and timeline start.",
+    "shortDescription": "Why humans make images: ritual, myth, and naturalism. Lascaux/Chauvet, Tassili, Göbekli Tepe. Mini: charcoal ‘negative hand’ and timeline start.",
+    "fullDescription": "Why humans make images: ritual, myth, and naturalism. Lascaux/Chauvet, Tassili, Göbekli Tepe. Mini: charcoal ‘negative hand’ and timeline start.",
     "tags": [
       "prehistory",
       "ritual",
@@ -12698,9 +12698,9 @@
         "url": "https://www.metmuseum.org/art/collection"
       },
       {
-        "artist": "G\u00f6bekli Tepe",
+        "artist": "Göbekli Tepe",
         "work": "T-pillars with carvings",
-        "year": "c.9600\u20138200 BCE",
+        "year": "c.9600–8200 BCE",
         "museum": "Public Domain archaeology archives",
         "license": "PD",
         "url": "https://archive.org"
@@ -12746,7 +12746,7 @@
   {
     "id": "LFC-122",
     "slug": "civilizations-and-symbols-egypt-mesopotamia-indus-early-china-olmec",
-    "title": "Civilizations & Symbols \u2014 Egypt \u00b7 Mesopotamia \u00b7 Indus \u00b7 Early China \u00b7 Olmec",
+    "title": "Civilizations & Symbols — Egypt · Mesopotamia · Indus · Early China · Olmec",
     "shortTitle": "Civilizations & Symbols",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -12803,7 +12803,7 @@
       {
         "artist": "Mesopotamia",
         "work": "Standard of Ur",
-        "year": "c.2600\u20132400 BCE",
+        "year": "c.2600–2400 BCE",
         "museum": "The British Museum",
         "license": "PD",
         "url": "https://www.britishmuseum.org"
@@ -12849,7 +12849,7 @@
   {
     "id": "LFC-123",
     "slug": "classical-balance-greece-and-rome-with-qin-han-echo",
-    "title": "Classical Balance \u2014 Greece & Rome (with Qin/Han Echo)",
+    "title": "Classical Balance — Greece & Rome (with Qin/Han Echo)",
     "shortTitle": "Classical Balance",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -12867,8 +12867,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Ideal body and civic space: Polykleitos, Parthenon frieze, Augustus of Prima Porta, Pantheon; echo: Terracotta Army. Mini: 2-minute contrapposto stick\u2192mannequin.",
-    "fullDescription": "Ideal body and civic space: Polykleitos, Parthenon frieze, Augustus of Prima Porta, Pantheon; echo: Terracotta Army. Mini: 2-minute contrapposto stick\u2192mannequin.",
+    "shortDescription": "Ideal body and civic space: Polykleitos, Parthenon frieze, Augustus of Prima Porta, Pantheon; echo: Terracotta Army. Mini: 2-minute contrapposto stick→mannequin.",
+    "fullDescription": "Ideal body and civic space: Polykleitos, Parthenon frieze, Augustus of Prima Porta, Pantheon; echo: Terracotta Army. Mini: 2-minute contrapposto stick→mannequin.",
     "tags": [
       "contrapposto",
       "orders",
@@ -12952,7 +12952,7 @@
   {
     "id": "LFC-124",
     "slug": "light-of-faith-byzantine-early-islamic-medieval-europe",
-    "title": "Light of Faith \u2014 Byzantine \u00b7 Early Islamic \u00b7 Medieval Europe",
+    "title": "Light of Faith — Byzantine · Early Islamic · Medieval Europe",
     "shortTitle": "Light of Faith",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -12970,8 +12970,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Icons and mosaics; aniconism and pattern logic. Hagia Sophia, Dome of the Rock, Qur\u2019anic pages, Insular manuscripts. Mini: radial/tessellation tile.",
-    "fullDescription": "Icons and mosaics; aniconism and pattern logic. Hagia Sophia, Dome of the Rock, Qur\u2019anic pages, Insular manuscripts. Mini: radial/tessellation tile.",
+    "shortDescription": "Icons and mosaics; aniconism and pattern logic. Hagia Sophia, Dome of the Rock, Qur’anic pages, Insular manuscripts. Mini: radial/tessellation tile.",
+    "fullDescription": "Icons and mosaics; aniconism and pattern logic. Hagia Sophia, Dome of the Rock, Qur’anic pages, Insular manuscripts. Mini: radial/tessellation tile.",
     "tags": [
       "icons",
       "mosaic",
@@ -13004,15 +13004,15 @@
       {
         "artist": "Hagia Sophia",
         "work": "Mosaics & architectural space",
-        "year": "6th\u201314th c.",
+        "year": "6th–14th c.",
         "museum": "Public Domain image sets",
         "license": "PD",
         "url": "https://www.metmuseum.org"
       },
       {
-        "artist": "Qur\u2019anic scribe",
+        "artist": "Qur’anic scribe",
         "work": "Illuminated pages",
-        "year": "8th\u201314th c.",
+        "year": "8th–14th c.",
         "museum": "The Met Open Access",
         "license": "CC0",
         "url": "https://www.metmuseum.org"
@@ -13058,7 +13058,7 @@
   {
     "id": "LFC-125",
     "slug": "vertical-dreams-and-misty-mountains-gothic-europe-x-song-china",
-    "title": "Vertical Dreams & Misty Mountains \u2014 Gothic Europe \u00d7 Song China",
+    "title": "Vertical Dreams & Misty Mountains — Gothic Europe × Song China",
     "shortTitle": "Vertical Dreams & Misty Mountains",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -13108,7 +13108,7 @@
       {
         "artist": "Chartres Cathedral",
         "work": "Stained glass & structure",
-        "year": "12th\u201313th c.",
+        "year": "12th–13th c.",
         "museum": "Public Domain image sets",
         "license": "PD",
         "url": "https://www.metmuseum.org"
@@ -13162,7 +13162,7 @@
   {
     "id": "LFC-126",
     "slug": "renaissance-revolutions-perspective-humanism-anatomy",
-    "title": "Renaissance Revolutions \u2014 Perspective \u00b7 Humanism \u00b7 Anatomy",
+    "title": "Renaissance Revolutions — Perspective · Humanism · Anatomy",
     "shortTitle": "Renaissance Revolutions",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -13219,7 +13219,7 @@
       {
         "artist": "Leonardo da Vinci",
         "work": "Anatomy & perspective notes",
-        "year": "c.1490\u20131510",
+        "year": "c.1490–1510",
         "museum": "Royal Collection / PD reproductions",
         "license": "PD",
         "url": "https://www.rct.uk/collection"
@@ -13265,7 +13265,7 @@
   {
     "id": "LFC-127",
     "slug": "after-the-balance-mannerism-and-global-exchanges",
-    "title": "After the Balance \u2014 Mannerism & Global Exchanges",
+    "title": "After the Balance — Mannerism & Global Exchanges",
     "shortTitle": "After the Balance",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -13317,7 +13317,7 @@
       {
         "artist": "Parmigianino",
         "work": "Madonna of the Long Neck",
-        "year": "1534\u201340",
+        "year": "1534–40",
         "museum": "Uffizi (PD)",
         "license": "PD",
         "url": "https://www.uffizi.it"
@@ -13325,7 +13325,7 @@
       {
         "artist": "Kano school",
         "work": "Gold-leaf screen landscapes",
-        "year": "16th\u201317th c.",
+        "year": "16th–17th c.",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://www.metmuseum.org"
@@ -13371,7 +13371,7 @@
   {
     "id": "LFC-128",
     "slug": "drama-and-delight-baroque-and-rococo",
-    "title": "Drama & Delight \u2014 Baroque and Rococo",
+    "title": "Drama & Delight — Baroque and Rococo",
     "shortTitle": "Drama & Delight",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -13389,8 +13389,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Theater vs. playfulness: Caravaggio, Bernini, Vel\u00e1zquez, Rembrandt, Fragonard; Andean/Mexican Baroque note. Mini: 3-tone chiaroscuro notan.",
-    "fullDescription": "Theater vs. playfulness: Caravaggio, Bernini, Vel\u00e1zquez, Rembrandt, Fragonard; Andean/Mexican Baroque note. Mini: 3-tone chiaroscuro notan.",
+    "shortDescription": "Theater vs. playfulness: Caravaggio, Bernini, Velázquez, Rembrandt, Fragonard; Andean/Mexican Baroque note. Mini: 3-tone chiaroscuro notan.",
+    "fullDescription": "Theater vs. playfulness: Caravaggio, Bernini, Velázquez, Rembrandt, Fragonard; Andean/Mexican Baroque note. Mini: 3-tone chiaroscuro notan.",
     "tags": [
       "chiaroscuro",
       "movement",
@@ -13421,7 +13421,7 @@
       {
         "artist": "Caravaggio",
         "work": "Calling of Saint Matthew",
-        "year": "1599\u20131600",
+        "year": "1599–1600",
         "museum": "PD collections",
         "license": "PD",
         "url": "https://www.metmuseum.org"
@@ -13475,7 +13475,7 @@
   {
     "id": "LFC-129",
     "slug": "reason-and-storm-neoclassicism-to-romanticism",
-    "title": "Reason & Storm \u2014 Neoclassicism \u2192 Romanticism",
+    "title": "Reason & Storm — Neoclassicism → Romanticism",
     "shortTitle": "Reason & Storm",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -13493,8 +13493,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Revolutionary reason vs. sublime emotion: David/Ingres; Delacroix/Turner/Goya; East Asia echo: Hokusai/Hiroshige. Mini: \u2018calm vs. storm\u2019 diptych.",
-    "fullDescription": "Revolutionary reason vs. sublime emotion: David/Ingres; Delacroix/Turner/Goya; East Asia echo: Hokusai/Hiroshige. Mini: \u2018calm vs. storm\u2019 diptych.",
+    "shortDescription": "Revolutionary reason vs. sublime emotion: David/Ingres; Delacroix/Turner/Goya; East Asia echo: Hokusai/Hiroshige. Mini: ‘calm vs. storm’ diptych.",
+    "fullDescription": "Revolutionary reason vs. sublime emotion: David/Ingres; Delacroix/Turner/Goya; East Asia echo: Hokusai/Hiroshige. Mini: ‘calm vs. storm’ diptych.",
     "tags": [
       "revolution",
       "antiquity redux",
@@ -13534,7 +13534,7 @@
       {
         "artist": "Turner",
         "work": "Seascapes & light studies",
-        "year": "1800s\u20131840s",
+        "year": "1800s–1840s",
         "museum": "Tate / PD",
         "license": "PD",
         "url": "https://www.tate.org.uk"
@@ -13580,7 +13580,7 @@
   {
     "id": "LFC-130",
     "slug": "the-modern-eye-i-realism-to-impressionism-to-post-impressionism",
-    "title": "The Modern Eye I \u2014 Realism \u2192 Impressionism \u2192 Post-Impressionism",
+    "title": "The Modern Eye I — Realism → Impressionism → Post-Impressionism",
     "shortTitle": "The Modern Eye I",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -13598,8 +13598,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "Contemporary life to optical color and subjective structure: Courbet, Manet, Monet, Degas, Van Gogh, Gauguin, C\u00e9zanne. Mini: warm/cool color study.",
-    "fullDescription": "Contemporary life to optical color and subjective structure: Courbet, Manet, Monet, Degas, Van Gogh, Gauguin, C\u00e9zanne. Mini: warm/cool color study.",
+    "shortDescription": "Contemporary life to optical color and subjective structure: Courbet, Manet, Monet, Degas, Van Gogh, Gauguin, Cézanne. Mini: warm/cool color study.",
+    "fullDescription": "Contemporary life to optical color and subjective structure: Courbet, Manet, Monet, Degas, Van Gogh, Gauguin, Cézanne. Mini: warm/cool color study.",
     "tags": [
       "optical color",
       "everyday life",
@@ -13618,7 +13618,7 @@
         "death": 1926
       },
       {
-        "name": "Paul C\u00e9zanne",
+        "name": "Paul Cézanne",
         "death": 1906
       }
     ],
@@ -13631,15 +13631,15 @@
       {
         "artist": "Monet",
         "work": "Water Lilies / Haystacks",
-        "year": "1890s\u20131910s",
+        "year": "1890s–1910s",
         "museum": "AIC / Met Open Access",
         "license": "CC0",
         "url": "https://www.artic.edu"
       },
       {
-        "artist": "C\u00e9zanne",
+        "artist": "Cézanne",
         "work": "Mont Sainte-Victoire",
-        "year": "1880s\u20131906",
+        "year": "1880s–1906",
         "museum": "AIC / Met",
         "license": "CC0",
         "url": "https://www.metmuseum.org"
@@ -13685,7 +13685,7 @@
   {
     "id": "LFC-131",
     "slug": "the-modern-eye-ii-early-20th-century-abstraction-and-design",
-    "title": "The Modern Eye II \u2014 Early 20th-Century Abstraction & Design",
+    "title": "The Modern Eye II — Early 20th-Century Abstraction & Design",
     "shortTitle": "The Modern Eye II",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -13748,7 +13748,7 @@
       {
         "artist": "Kandinsky",
         "work": "Composition studies",
-        "year": "1910s\u20131920s",
+        "year": "1910s–1920s",
         "museum": "Public Domain collections",
         "license": "PD",
         "url": "https://www.guggenheim.org"
@@ -13802,7 +13802,7 @@
   {
     "id": "LFC-132",
     "slug": "ideas-as-art-dada-to-surrealism-to-abex-to-pop-minimal-conceptual-to-c-1970s",
-    "title": "Ideas as Art \u2014 Dada \u2192 Surrealism \u2192 AbEx \u2192 Pop \u00b7 Minimal \u00b7 Conceptual (to c.1970s)",
+    "title": "Ideas as Art — Dada → Surrealism → AbEx → Pop · Minimal · Conceptual (to c.1970s)",
     "shortTitle": "Ideas as Art",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas",
@@ -13820,8 +13820,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "From anti-art and dream logic to idea-first art. Duchamp; Magritte/Dal\u00ed; Rothko/Pollock; Warhol/Lichtenstein; Judd; Kosuth; Smithson. Mini: surreal juxtaposition sketch (consistent shadow) or minimal composition + 2-sentence \u2018artist statement\u2019.",
-    "fullDescription": "From anti-art and dream logic to idea-first art. Duchamp; Magritte/Dal\u00ed; Rothko/Pollock; Warhol/Lichtenstein; Judd; Kosuth; Smithson. Mini: surreal juxtaposition sketch (consistent shadow) or minimal composition + 2-sentence \u2018artist statement\u2019.",
+    "shortDescription": "From anti-art and dream logic to idea-first art. Duchamp; Magritte/Dalí; Rothko/Pollock; Warhol/Lichtenstein; Judd; Kosuth; Smithson. Mini: surreal juxtaposition sketch (consistent shadow) or minimal composition + 2-sentence ‘artist statement’.",
+    "fullDescription": "From anti-art and dream logic to idea-first art. Duchamp; Magritte/Dalí; Rothko/Pollock; Warhol/Lichtenstein; Judd; Kosuth; Smithson. Mini: surreal juxtaposition sketch (consistent shadow) or minimal composition + 2-sentence ‘artist statement’.",
     "tags": [
       "chance",
       "dream logic",
@@ -13842,7 +13842,7 @@
         "death": 1968
       },
       {
-        "name": "Ren\u00e9 Magritte",
+        "name": "René Magritte",
         "death": 1967
       },
       {
@@ -13870,9 +13870,9 @@
       {
         "artist": "Marcel Duchamp",
         "work": "Readymades / notes",
-        "year": "1910s\u20131960s",
+        "year": "1910s–1960s",
         "museum": "Philadelphia Museum of Art / MoMA (link-out only)",
-        "license": "\u00a9 / link-out",
+        "license": "© / link-out",
         "url": "https://philamuseum.org"
       },
       {
@@ -13880,7 +13880,7 @@
         "work": "Screenprints",
         "year": "1960s",
         "museum": "Official foundations/museums (link-out)",
-        "license": "\u00a9 / link-out",
+        "license": "© / link-out",
         "url": "https://warhol.org"
       }
     ],
@@ -13924,11 +13924,11 @@
   {
     "id": "LFC-133",
     "slug": "global-modernisms-1900-1970",
-    "title": "Global Modernisms (1900\u20131970)",
-    "shortTitle": "Global Modernisms (1900\u20131970)",
+    "title": "Global Modernisms (1900–1970)",
+    "shortTitle": "Global Modernisms (1900–1970)",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas-add-ons",
-    "seriesTitle": "Art Movements & Ideas \u2014 Add-Ons",
+    "seriesTitle": "Art Movements & Ideas — Add-Ons",
     "seriesAliases": [
       "Art Movements Add-ons"
     ],
@@ -13980,17 +13980,17 @@
       {
         "artist": "Diego Rivera",
         "work": "Murals",
-        "year": "1920s\u20131950s",
+        "year": "1920s–1950s",
         "museum": "Public institutions (link-out)",
-        "license": "\u00a9 / link-out",
+        "license": "© / link-out",
         "url": "https://www.loc.gov"
       },
       {
         "artist": "Aaron Douglas",
         "work": "Harlem Renaissance works",
-        "year": "1920s\u201330s",
+        "year": "1920s–30s",
         "museum": "Public institutions (link-out)",
-        "license": "\u00a9 / link-out",
+        "license": "© / link-out",
         "url": "https://www.si.edu"
       }
     ],
@@ -14038,7 +14038,7 @@
     "shortTitle": "Photography & Film Foundations (to c.1940s)",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas-add-ons",
-    "seriesTitle": "Art Movements & Ideas \u2014 Add-Ons",
+    "seriesTitle": "Art Movements & Ideas — Add-Ons",
     "seriesAliases": [
       "Art Movements Add-ons"
     ],
@@ -14052,8 +14052,8 @@
       "11+",
       "14+"
     ],
-    "shortDescription": "From Ni\u00e9pce and Daguerre to Muybridge and montage. How lens technology reshapes seeing in art and design.",
-    "fullDescription": "From Ni\u00e9pce and Daguerre to Muybridge and montage. How lens technology reshapes seeing in art and design.",
+    "shortDescription": "From Niépce and Daguerre to Muybridge and montage. How lens technology reshapes seeing in art and design.",
+    "fullDescription": "From Niépce and Daguerre to Muybridge and montage. How lens technology reshapes seeing in art and design.",
     "tags": [
       "photography",
       "film",
@@ -14068,7 +14068,7 @@
     "pd": true,
     "artists": [
       {
-        "name": "Nic\u00e9phore Ni\u00e9pce",
+        "name": "Nicéphore Niépce",
         "death": 1833
       },
       {
@@ -14087,7 +14087,7 @@
     ],
     "refs": [
       {
-        "artist": "Ni\u00e9pce",
+        "artist": "Niépce",
         "work": "View from the Window at Le Gras",
         "year": "1826/27",
         "museum": "Harry Ransom Center (PD image)",
@@ -14147,7 +14147,7 @@
     "shortTitle": "Design & Architecture Movements (pre-Contemporary)",
     "part": "Theory",
     "seriesId": "art-movements-and-ideas-add-ons",
-    "seriesTitle": "Art Movements & Ideas \u2014 Add-Ons",
+    "seriesTitle": "Art Movements & Ideas — Add-Ons",
     "seriesAliases": [
       "Art Movements Add-ons"
     ],
@@ -14199,7 +14199,7 @@
       {
         "artist": "William Morris",
         "work": "Pattern & book designs",
-        "year": "1860s\u20131890s",
+        "year": "1860s–1890s",
         "museum": "V&A Collections",
         "license": "PD",
         "url": "https://collections.vam.ac.uk"
@@ -14342,8 +14342,8 @@
       },
       {
         "artist": "Katsushika Hokusai",
-        "work": "Hokusai Manga (Random Sketches), Vols. 1\u201311",
-        "year": "1814\u20131878",
+        "work": "Hokusai Manga (Random Sketches), Vols. 1–11",
+        "year": "1814–1878",
         "museum": "The Metropolitan Museum of Art",
         "license": "CC0",
         "url": "https://www.metmuseum.org/art/collection/search/57804"

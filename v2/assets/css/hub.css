@@ -21,10 +21,11 @@
 .hero-copy h1 {
   max-width: 760px;
   margin-bottom: 16px;
-  font-size: clamp(42px, 5vw, 66px);
-  font-weight: 800;
-  letter-spacing: -0.055em;
-  line-height: 0.95;
+  font-family: var(--font-display);
+  font-size: clamp(38px, 4.6vw, 58px);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.01;
 }
 
 .hero-subtitle {
@@ -277,6 +278,27 @@
   gap: 18px;
 }
 
+.hub-credit-footer {
+  padding: 0 0 44px;
+}
+
+.hub-credit-shell {
+  border-top: 1px solid rgba(217, 227, 238, 0.95);
+  padding-top: 20px;
+  color: var(--fei-text-soft);
+  display: grid;
+  gap: 8px;
+}
+
+.hub-credit-shell p {
+  margin: 0;
+  max-width: 980px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
 @media (max-width: 1100px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -299,8 +321,8 @@
   }
 
   .hero-copy h1 {
-    font-size: clamp(36px, 11vw, 52px);
-    line-height: 0.98;
+    font-size: clamp(34px, 10vw, 46px);
+    line-height: 1.03;
   }
 
   .hero-grid,
@@ -330,5 +352,13 @@
 
   .survey-head {
     align-items: start;
+  }
+
+  .hub-credit-footer {
+    padding-bottom: 32px;
+  }
+
+  .hub-credit-shell p {
+    font-size: 12px;
   }
 }

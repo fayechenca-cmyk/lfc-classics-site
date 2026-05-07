@@ -47,7 +47,7 @@
 }
 
 .hero-overlap-stage {
-  min-height: 640px;
+  min-height: 0;
 }
 
 .hero-frame {
@@ -83,30 +83,10 @@
   box-shadow: 0 8px 18px rgba(26, 29, 43, 0.08);
 }
 
-.hero-frame-main {
-  top: 38px;
-  right: 6px;
-  width: 84%;
-  aspect-ratio: 0.9 / 1;
-  z-index: 1;
-}
-
-.hero-frame-top {
-  top: 0;
-  left: 0;
-  width: 74%;
-  aspect-ratio: 1.2 / 0.82;
-  z-index: 3;
-  transform: rotate(-2deg);
-}
-
-.hero-frame-bottom {
-  right: 0;
-  bottom: 0;
-  width: 72%;
-  aspect-ratio: 0.92 / 1;
-  z-index: 2;
-  transform: rotate(1.5deg);
+.hero-frame-single {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.06 / 1;
 }
 
 .filter-shell {
@@ -310,8 +290,8 @@
     padding-bottom: 0;
   }
 
-  .hero-overlap-stage {
-    min-height: 560px;
+  .hero-frame-single {
+    max-width: 720px;
   }
 }
 
@@ -332,8 +312,6 @@
 
   .hero-overlap-stage {
     min-height: auto;
-    display: grid;
-    gap: 14px;
   }
 
   .hero-frame {

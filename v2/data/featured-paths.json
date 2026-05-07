@@ -7,7 +7,7 @@
     "ageLabel": "8+",
     "badgeHint": "Basic Sketch / Material Explore",
     "lessonCount": 2,
-    "coverImage": "",
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e28c230d0ee7cf161c2453_Screenshot%202026-04-17%20at%2012.38.04%E2%80%AFPM.png",
     "href": "#series/observational-drawing-form"
   },
   {
@@ -18,7 +18,7 @@
     "ageLabel": "11+",
     "badgeHint": "Figure Sketch / Portrait Master",
     "lessonCount": 2,
-    "coverImage": "",
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69fc04de616414a31107e9bb_IMG_0493.jpg",
     "href": "#series/figures-in-motion-foundation"
   },
   {
@@ -29,7 +29,7 @@
     "ageLabel": "All Ages",
     "badgeHint": "Storyteller",
     "lessonCount": 1,
-    "coverImage": "",
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e295cd57028c0e0abee65b_Screenshot%202026-04-17%20at%201.19.19%E2%80%AFPM.png",
     "href": "#series/illustration-lab-story-to-page"
   },
   {
@@ -40,7 +40,7 @@
     "ageLabel": "9+",
     "badgeHint": "Interior Design",
     "lessonCount": 1,
-    "coverImage": "",
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69e29737a0c84f1fe8df12e3_Screenshot%202026-04-17%20at%201.25.22%E2%80%AFPM.png",
     "href": "#series/interior-design-cafe-studio"
   },
   {
@@ -51,7 +51,7 @@
     "ageLabel": "9+",
     "badgeHint": "Digital Creator / Animation",
     "lessonCount": 0,
-    "coverImage": "",
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69fc1ec588c6d7be13e1a90e_IMG_0494.jpg",
     "href": "#"
   },
   {
@@ -62,7 +62,7 @@
     "ageLabel": "All Ages",
     "badgeHint": "Art History",
     "lessonCount": 36,
-    "coverImage": "",
+    "coverImage": "https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69dd5d6a087f1c8985d33c17_Screenshot%202026-04-13%20at%202.16.38%E2%80%AFPM.png",
     "href": "pages/art-history-entry.html"
   }
 ]

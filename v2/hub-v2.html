@@ -133,35 +133,39 @@
 
     <section class="hub-section">
       <div class="container">
-        <div class="section-head">
-          <div class="eyebrow">Signature Courses</div>
-          <h2>Start with featured courses.</h2>
-          <p>
-            A highlighted set of recommended courses for first-time visitors who want a strong place to begin.
-          </p>
-        </div>
+        <div class="section-shell featured-shell">
+          <div class="section-head">
+            <div class="eyebrow">Signature Courses</div>
+            <h2>Start with featured courses.</h2>
+            <p>
+              A highlighted set of mature, high-value courses that are already strong across self-learning, live teaching, or both.
+            </p>
+          </div>
 
-        <div id="featuredCoursesGrid" class="course-grid featured-grid"></div>
+          <div id="featuredCoursesGrid" class="course-grid featured-grid"></div>
+        </div>
       </div>
     </section>
 
     <section class="hub-section">
       <div class="container">
-        <div class="section-head section-head-inline">
-          <div>
-            <div class="eyebrow">Filtered Course Collection</div>
-            <h2>Browse courses based on what you selected.</h2>
-            <p>
-              This area updates from your category and filter choices above, so you can compare the courses that match your interests.
-            </p>
+        <div id="resultsSection" class="section-shell results-shell">
+          <div class="section-head section-head-inline">
+            <div>
+              <div class="eyebrow">Search & Filter Results</div>
+              <h2>Browse courses based on what you selected.</h2>
+              <p>
+                Search and filter results appear here. This area updates from your category and filter choices above, so you can compare the courses that match your interests.
+              </p>
+            </div>
+            <div id="resultsMeta" class="results-meta">0 courses</div>
           </div>
-          <div id="resultsMeta" class="results-meta">0 courses</div>
-        </div>
 
-        <div id="fullCourseGrid" class="course-grid library-grid"></div>
+          <div id="fullCourseGrid" class="course-grid library-grid"></div>
 
-        <div class="section-actions">
-          <button id="loadMoreBtn" class="btn btn-secondary">Load More</button>
+          <div class="section-actions">
+            <button id="loadMoreBtn" class="btn btn-secondary">Load More</button>
+          </div>
         </div>
       </div>
     </section>

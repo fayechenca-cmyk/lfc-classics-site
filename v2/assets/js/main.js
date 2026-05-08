@@ -122,6 +122,12 @@ function renderFullLibrary() {
   });
 }
 
+function scrollToResults() {
+  const section = document.getElementById('resultsSection');
+  if (!section) return;
+  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 function bindLoadMore() {
   const btn = document.getElementById('loadMoreBtn');
   if (!btn) return;
@@ -190,6 +196,7 @@ function bindSearch() {
     state.filters.search = event.target.value || '';
     state.visibleCount = 12;
     renderFullLibrary();
+    scrollToResults();
   });
 }
 
@@ -208,6 +215,7 @@ function bindAgeFilter() {
     btn.classList.add('chip-active');
 
     renderFullLibrary();
+    scrollToResults();
   });
 }
 
@@ -224,6 +232,7 @@ function bindSelectFilters() {
       state.filters.part = event.target.value || 'all';
       state.visibleCount = 12;
       renderFullLibrary();
+      scrollToResults();
     });
   }
 
@@ -232,6 +241,7 @@ function bindSelectFilters() {
       state.filters.seriesId = event.target.value || 'all';
       state.visibleCount = 12;
       renderFullLibrary();
+      scrollToResults();
     });
   }
 
@@ -240,6 +250,7 @@ function bindSelectFilters() {
       state.filters.level = event.target.value || 'all';
       state.visibleCount = 12;
       renderFullLibrary();
+      scrollToResults();
     });
   }
 
@@ -248,6 +259,7 @@ function bindSelectFilters() {
       state.filters.section = event.target.value || 'all';
       state.visibleCount = 12;
       renderFullLibrary();
+      scrollToResults();
     });
   }
 
@@ -256,6 +268,7 @@ function bindSelectFilters() {
       state.filters.sort = event.target.value || 'num';
       state.visibleCount = 12;
       renderFullLibrary();
+      scrollToResults();
     });
   }
 
@@ -264,6 +277,7 @@ function bindSelectFilters() {
       state.filters.pdOnly = Boolean(event.target.checked);
       state.visibleCount = 12;
       renderFullLibrary();
+      scrollToResults();
     });
   }
 }
@@ -280,6 +294,7 @@ function applySeriesPath(seriesId) {
   }
 
   renderFullLibrary();
+  scrollToResults();
 
   const librarySection = document.getElementById('fullCourseGrid');
   if (librarySection) {

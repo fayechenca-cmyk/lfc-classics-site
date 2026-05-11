@@ -1,17 +1,17 @@
 [
   {
+    "courseId": "LFC-136",
+    "reason": "The strongest beginner entry for line confidence, observation, and Smart Class self-learning, already proven through multiple live teaching runs.",
+    "slot": 1
+  },
+  {
     "courseId": "LFC-140",
     "reason": "A mature recorded leathercraft course with strong standalone value and distinctive handcraft identity.",
-    "slot": 1
+    "slot": 2
   },
   {
     "courseId": "LFC-139",
     "reason": "A distinctive early art offering with self-study and live Cantonese or Mandarin teaching support.",
-    "slot": 2
-  },
-  {
-    "courseId": "LFC-136",
-    "reason": "The strongest beginner entry for line confidence, observation, and Smart Class self-learning.",
     "slot": 3
   },
   {

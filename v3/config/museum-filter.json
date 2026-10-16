@@ -1,0 +1,32 @@
+{
+  "allowDepartments": {
+    "aic": [
+      "Arts of Asia",
+      "Painting and Sculpture of Europe",
+      "Arts of the Americas",
+      "Prints and Drawings",
+      "Textiles",
+      "Applied Arts of Europe",
+      "Architecture and Design"
+    ],
+    "met": [
+      "Asian Art",
+      "European Paintings",
+      "Drawings and Prints",
+      "American Decorative Arts",
+      "European Sculpture and Decorative Arts",
+      "Islamic Art",
+      "The American Wing"
+    ]
+  },
+  "excludeClassifications": ["sculpture", "statue"],
+  "blockKeywords": [
+    "nude", "naked", "nudity", "bather", "bathers", "bathing",
+    "venus", "odalisque", "leda", "susanna", "bathsheba",
+    "danae", "danaë", "toilette", "erotic", "lovers",
+    "death", "dead", "corpse", "skull",
+    "execution", "martyrdom", "massacre", "battle", "war",
+    "crucifixion", "decapitation", "judith", "salome",
+    "saint sebastian", "torture", "suicide", "blood", "hell", "inferno", "plague"
+  ]
+}

@@ -77,7 +77,7 @@ function checkResource(r, context) {
 
 function visibleTextOf(topic) {
   return [
-    topic.title, topic.summary, topic.tryIt,
+    topic.title, topic.summary, topic.tryIt, topic.imageNote,
     ...(topic.keyConcepts || []),
     ...(topic.resources || []).flatMap((r) => [r.title, r.note, r.creator, r.publisher])
   ].filter(Boolean).join(' ').toLowerCase();

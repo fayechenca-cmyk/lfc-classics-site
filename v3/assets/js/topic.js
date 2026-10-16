@@ -33,6 +33,23 @@ function renderKeyConcepts(keyConcepts) {
   `;
 }
 
+// Optional field (see v3/COMPLIANCE.md's data model note): one quiet
+// line explaining why a topic has no images, shown right above the
+// resource sections. The "icon" is a plain bordered circle with a
+// literal "i" character, not an SVG or icon-library glyph, consistent
+// with "no icon library" -- no license to track, nothing to fetch.
+function renderImageNote(topic) {
+  if (!topic.imageNote) return '';
+  return `
+    <div class="lib-container" style="padding:0 20px 14px;">
+      <div class="lib-image-note">
+        <span class="lib-image-note-icon" aria-hidden="true">i</span>
+        ${escapeHtml(topic.imageNote)}
+      </div>
+    </div>
+  `;
+}
+
 // COMPLIANCE.md section 1 ("Image captions"): the two allowed sources
 // want slightly different wording, so this checks imageUrl's host --
 // structural, not string-matching on the publisher name. AIC's own
@@ -244,6 +261,7 @@ async function main() {
       <p class="lib-topic-summary">${escapeHtml(topic.summary)}</p>
     </div>
     ${renderKeyConcepts(topic.keyConcepts)}
+    ${renderImageNote(topic)}
     ${renderImageResources(images)}
     ${renderWatchSection(videos)}
     ${renderReadSection(links)}

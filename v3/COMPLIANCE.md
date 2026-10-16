@@ -99,11 +99,20 @@ file in `v3/data/batches/`, and all `v3/**/*.html|css|js`. It fails
 3. A resource has no `publisher`.
 4. A video `embedUrl` is not `https://www.youtube-nocookie.com/embed/<id>`.
 5. A `hidden` or `noImages` topic has an image resource.
-6. Any **visible** topic's text (title, summary, tryIt, keyConcepts, or
-   any resource's title/note/creator/publisher) contains a blocked
-   brand name from `v3/config/compliance.json`. Hidden topics are
-   exempt from this specific check, since their text is never shown —
-   that is what `hidden: true` is for.
+6. Any **visible** topic's text (title, summary, tryIt, imageNote,
+   keyConcepts, or any resource's title/note/creator/publisher)
+   contains a blocked brand name from `v3/config/compliance.json`.
+   Hidden topics are exempt from this specific check, since their text
+   is never shown — that is what `hidden: true` is for.
+
+## 7. Data model note
+
+`imageNote` (optional, string) — one short line explaining why a topic
+has no image resources (e.g. the artworks are still under copyright).
+Rendered on the topic page as a quiet `--muted` line with a small
+inline "i" icon (a plain bordered circle, not an SVG or icon-library
+glyph — nothing to license), right above the resource sections. Omit
+the field entirely on topics that do have images.
 
 `merge-batch.mjs` runs this check after writing `topics.json` and
 refuses the merge (restoring the previous file) if it fails.

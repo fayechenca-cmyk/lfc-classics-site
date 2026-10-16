@@ -16,6 +16,17 @@
 //   hidden) -- this script does not need to touch those topics at all,
 //   since "still hidden" means "leave it exactly as it is."
 //
+// Topic fields, beyond the ones every batch already uses (id, title,
+// category, summary, keyConcepts, tryIt, keywords, ageLabel, level,
+// state, smartClass, resources, relatedTopics, hidden, hiddenReason,
+// noImages, lastVerified, core):
+// - imageNote (optional, string): one short line explaining why a
+//   topic has no image resources (e.g. the artworks are still under
+//   copyright). Rendered on the topic page as a quiet line with a
+//   small inline "i" icon, right above the resource sections, by
+//   topic.js's renderImageNote(). Omit the field entirely on topics
+//   that do have images.
+//
 // After writing, runs v3/scripts/check-compliance.mjs (see
 // v3/COMPLIANCE.md) and restores the pre-merge topics.json, refusing
 // the merge, if it fails -- legal compliance outranks everything else

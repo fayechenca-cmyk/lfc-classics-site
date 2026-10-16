@@ -2,293 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>FEI TeamArt Course Hub</title>
-  <meta name="description" content="Explore FEI TeamArt learning paths, LFC classes, self-study journeys, and art history pathways.">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=../v3/index.html">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://fayechenca-cmyk.github.io/lfc-classics-site/v3/index.html">
+  <title>FEI Art Learning Library has moved</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/css/tokens.css">
-  <link rel="stylesheet" href="assets/css/base.css">
-  <link rel="stylesheet" href="assets/css/layout.css">
-  <link rel="stylesheet" href="assets/css/components.css">
-  <link rel="stylesheet" href="assets/css/hub.css">
+  <style>
+    :root {
+      --paper: #f3f0f6;
+      --ink: #17182f;
+      --text: #4f5670;
+      --violet-text: #6450c4;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--paper);
+      background-image:
+        radial-gradient(circle, rgba(23, 24, 47, 0.05) 1px, transparent 1px),
+        radial-gradient(circle, rgba(23, 24, 47, 0.035) 1px, transparent 1px);
+      background-size: 34px 34px, 22px 22px;
+      background-position: 0 0, 11px 11px;
+      font-family: 'Open Sans', sans-serif;
+      color: var(--text);
+      text-align: center;
+      padding: 20px;
+    }
+    p { font-size: 15px; margin: 0; }
+    a { color: var(--violet-text); font-weight: 700; text-decoration: underline; }
+  </style>
 </head>
 <body>
-  <main id="fei-hub-root">
-    <section class="hub-hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow">FEI TeamArt Learning Hub</div>
-          <h1>Explore art paths built for making, thinking, and growing.</h1>
-          <p class="hero-subtitle">
-            Discover self-study courses, Learn From Collection journeys, design pathways,
-            and creative badge-based learning across FEI TeamArt.
-          </p>
-
-          <div class="hero-actions">
-            <a href="#quick-filters" class="btn btn-primary">Explore Courses</a>
-            <a href="https://www.feiteamart.com/art-path-survey" class="btn btn-gradient">Find Your Starting Point</a>
-          </div>
-        </div>
-
-        <div class="hero-visual hero-overlap-stage">
-          <div class="hero-frame hero-frame-single">
-            <img src="https://cdn.prod.website-files.com/67b17a6580f358f0c7dd29f4/69fc26557d2a20fb42c1e281_4C1C5DFE-A570-4E2F-96E5-FA7F3CB7AB53.PNG" alt="FEI TeamArt learning systems overview">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="quick-filters" class="hub-section">
-      <div class="container">
-        <div class="section-shell filter-shell">
-          <div class="section-head">
-            <h2>What do you want to learn today?</h2>
-          </div>
-
-          <div class="filter-bar">
-            <div class="filter-search">
-              <input id="searchInput" type="search" placeholder="Search title, series, artist, movement, tags, badge...">
-            </div>
-
-            <div class="filter-row">
-              <div class="filter-label">By Age</div>
-              <div class="chip-group" id="ageFilterGroup">
-                <button class="chip chip-active" data-age="all">All Ages</button>
-                <button class="chip" data-age="4-7">4-7</button>
-                <button class="chip" data-age="8+">8+</button>
-                <button class="chip" data-age="11+">11+</button>
-                <button class="chip" data-age="14+">14+</button>
-                <button class="chip" data-age="Adults">Adults</button>
-              </div>
-            </div>
-
-            <div class="filter-grid">
-              <label class="filter-field">
-                <span>Part</span>
-                <select id="partFilter">
-                  <option value="all">All Parts</option>
-                </select>
-              </label>
-
-              <label class="filter-field">
-                <span>Series</span>
-                <select id="seriesFilter">
-                  <option value="all">All Learning Series</option>
-                </select>
-              </label>
-
-              <label class="filter-field">
-                <span>Level</span>
-                <select id="levelFilter">
-                  <option value="all">All Levels</option>
-                </select>
-              </label>
-
-              <label class="filter-field">
-                <span>Section</span>
-                <select id="sectionFilter">
-                  <option value="all">All Sections</option>
-                </select>
-              </label>
-
-              <label class="filter-field">
-                <span>Sort</span>
-                <select id="sortFilter">
-                  <option value="num">Number (LFC-001...)</option>
-                  <option value="az">A to Z</option>
-                  <option value="za">Z to A</option>
-                </select>
-              </label>
-
-              <label class="filter-field filter-check">
-                <span>Reference Filter</span>
-                <div class="filter-check-box">
-                  <input id="pdOnlyFilter" type="checkbox">
-                  <label for="pdOnlyFilter">Show PD/CC0 only</label>
-                </div>
-              </label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="hub-section">
-      <div class="container">
-        <div class="section-head">
-          <div class="eyebrow">Course Categories</div>
-          <h2>Start by choosing a category.</h2>
-          <p>
-            These are grouped learning areas that help you narrow the library before choosing individual courses.
-          </p>
-        </div>
-
-        <div id="featuredPathsGrid" class="path-grid"></div>
-      </div>
-    </section>
-
-    <section class="hub-section">
-      <div class="container">
-        <div class="section-shell featured-shell">
-          <div class="section-head">
-            <div class="eyebrow">Signature Courses</div>
-            <h2>Start with featured courses.</h2>
-            <p>
-              A highlighted set of mature, high-value courses that are already strong across self-learning, live teaching, or both.
-            </p>
-          </div>
-
-          <div id="featuredCoursesGrid" class="course-grid featured-grid"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="hub-section">
-      <div class="container">
-        <div id="resultsSection" class="section-shell results-shell">
-          <div class="section-head section-head-inline">
-            <div>
-              <div class="eyebrow">Search & Filter Results</div>
-              <h2>Browse courses based on what you selected.</h2>
-              <p>
-                Search and filter results appear here. This area updates from your category and filter choices above, so you can compare the courses that match your interests.
-              </p>
-            </div>
-            <div id="resultsMeta" class="results-meta">0 courses</div>
-          </div>
-
-          <div id="fullCourseGrid" class="course-grid library-grid"></div>
-
-          <div class="section-actions">
-            <button id="loadMoreBtn" class="btn btn-secondary">Load More</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="hub-section">
-      <div class="container">
-        <div class="section-shell modes-shell">
-          <div class="section-head">
-            <div class="eyebrow">Learning Methods</div>
-            <h2>Choose how you want to learn.</h2>
-            <p>
-              Choose the level of support that fits your pace, from self-paced Smart Class learning to teacher feedback and live group instruction.
-            </p>
-          </div>
-
-          <div class="mode-grid">
-            <article class="mode-card">
-              <div class="mode-status">CA$39</div>
-              <h3>Smart Class Only</h3>
-              <p>Foundation Step 1: The Core 10. Self-paced Smart Art Class access for independent learners, with 12-month access from purchase.</p>
-              <a href="https://buy.stripe.com/3cI9AU1uJ1ma5Ye8Cad7q0e" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Buy Smart Class</a>
-            </article>
-
-            <article class="mode-card">
-              <div class="mode-status">CA$89</div>
-              <h3>Smart Class + Teacher Feedback</h3>
-              <p>Foundation Step 1: The Core 10 plus guided teacher support, including up to 3 question interactions and 1 final artwork feedback review.</p>
-              <a href="https://buy.stripe.com/00w6oI5KZc0O72i2dMd7q0f" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Buy with Feedback</a>
-            </article>
-
-            <article class="mode-card">
-              <div class="mode-status mode-status-dark">CA$188</div>
-              <h3>Live Group Class</h3>
-              <p>Foundation Step 1 live small-group instruction with teacher demos, class rhythm, peer learning, and complimentary Step 1 Smart Art Class access.</p>
-              <a href="https://buy.stripe.com/7sYcN67T70i65YecSqd7q0g" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Buy Live Group Class</a>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="hub-section">
-      <div class="container">
-        <div class="art-history-entry">
-          <div class="art-history-copy">
-            <div class="eyebrow">Independent Learning Path</div>
-            <h2>Art History Path</h2>
-            <p>
-              Explore 36+ lessons through a dedicated art history learning system focused on context,
-              visual culture, and guided progression.
-            </p>
-            <p class="small-note">
-              Existing students can continue in the current system without losing progress.
-            </p>
-            <div class="hero-actions">
-              <a href="https://www.feiteamart.com/100-classes-catalog?view=history" class="btn btn-primary">Enter Art History</a>
-              <a href="https://www.feiteamart.com/art-path-survey" class="btn btn-secondary">Take the Survey</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="hub-section">
-      <div class="container">
-        <div class="section-head">
-          <div class="eyebrow">Why FEI TeamArt</div>
-          <h2>A learning system built through making, reference, and reflection.</h2>
-        </div>
-
-        <div class="philosophy-grid">
-          <article class="philosophy-card">
-            <h3>Reference-First Learning</h3>
-            <p>Students begin from artworks, observations, and structured seeing before building their own work.</p>
-          </article>
-
-          <article class="philosophy-card">
-            <h3>Public-Domain & Open-Access Roots</h3>
-            <p>Many LFC pathways begin with pre-1945 works, PD/CC0 references, and museum collections.</p>
-          </article>
-
-          <article class="philosophy-card">
-            <h3>Make, Reflect, Grow</h3>
-            <p>Learning is not passive. Students compare, make, reflect, and build personal direction over time.</p>
-          </article>
-
-          <article class="philosophy-card">
-            <h3>Badges as Growth Markers</h3>
-            <p>Badges connect creative milestones across courses, pathways, and the student portal journey.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="hub-section">
-      <div class="container">
-        <div class="section-shell survey-shell">
-          <div class="section-head survey-head">
-            <div>
-              <div class="eyebrow">Need Help Choosing?</div>
-              <h2>Find your starting point.</h2>
-              <p>Take a short survey and discover the best path, level, or next step for your learning journey.</p>
-            </div>
-            <div class="section-actions">
-              <a href="https://www.feiteamart.com/art-path-survey" class="btn btn-gradient">Start the Survey</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="hub-credit-footer">
-      <div class="container">
-        <div class="hub-credit-shell">
-          <p>&copy; 2025 FEI TeamArt. All rights reserved.</p>
-          <p>Featured course visuals and selected artworks on this page are credited to FEI TeamArt students and teachers through shared learning and teaching projects.</p>
-        </div>
-      </div>
-    </footer>
-
-    <div id="courseDetailMount" hidden></div>
-  </main>
-
-  <script type="module" src="assets/js/main.js"></script>
+  <p>The FEI Art Learning Library has moved. <a href="../v3/index.html">Continue →</a></p>
+  <script>
+    location.replace('../v3/index.html');
+  </script>
 </body>
 </html>

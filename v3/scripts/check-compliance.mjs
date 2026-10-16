@@ -3,8 +3,13 @@
 // Node, no dependencies. Exits 1 and prints every violation it finds;
 // exits 0 silently (beyond a summary line) when clean.
 //
-// Run by hand before every commit that touches v3/, and automatically
-// from merge-batch.mjs after every batch merge.
+// Scans v3/data/topics.json, every v3/data/batches/*.json, all
+// v3/**/*.html|css|js, and -- now that the legacy pages are retired
+// redirects -- root index.html and v2/**/*.html too (stricter there:
+// no <img> at all, no CSS url() at all, no Stripe links).
+//
+// Run by hand before every commit that touches v3/, root index.html or
+// v2/, and automatically from merge-batch.mjs after every batch merge.
 
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -180,6 +185,33 @@ for (const file of codeFiles) {
       if (m[1].includes('${')) continue;
       checkUrlReference(m[1], context);
     }
+  }
+}
+
+// ── 4. Legacy pages: root index.html and v2/**/*.html ──
+// These are retired redirect pages now (see v3/COMPLIANCE.md) --
+// stricter than the v3 check above (which allows AIC/Met images):
+// legacy pages must have no <img> at all, no CSS url() at all, and no
+// Stripe links, since nothing should still be selling or showing
+// unverified images from a page search engines and old bookmarks can
+// still reach.
+const REPO_ROOT = join(V3_ROOT, '..');
+const STRIPE_RE = /buy\.stripe\.com/i;
+const legacyFiles = [join(REPO_ROOT, 'index.html'), ...walk(join(REPO_ROOT, 'v2'), ['.html'])];
+
+for (const file of legacyFiles) {
+  const src = readFileSync(file, 'utf8');
+  const context = file.replace(REPO_ROOT + '/', '');
+  if (/<img\b/i.test(src)) {
+    fail('contains an <img> tag -- legacy pages must have none', context);
+  }
+  CSS_URL_RE.lastIndex = 0;
+  let legacyMatch;
+  while ((legacyMatch = CSS_URL_RE.exec(src))) {
+    fail(`contains a CSS url() reference (${legacyMatch[1]}) -- legacy pages must have none`, context);
+  }
+  if (STRIPE_RE.test(src)) {
+    fail('contains a buy.stripe.com link -- legacy pages must have none', context);
   }
 }
 

@@ -86,8 +86,10 @@ which must never be carried into `v3/`). Use a text link card instead.
 ## 6. Enforcement
 
 `v3/scripts/check-compliance.mjs` scans `v3/data/topics.json`, every
-file in `v3/data/batches/`, and all `v3/**/*.html|css|js`. It fails
-(exit code 1) if any of the following is true:
+file in `v3/data/batches/`, all `v3/**/*.html|css|js`, and — now that
+the legacy pages are retired redirects (see §8) — root `index.html`
+and `v2/**/*.html` too. It fails (exit code 1) if any of the following
+is true:
 
 1. An image resource has a `license` outside `{Public Domain, CC0}`,
    or an `imageUrl` host outside `{www.artic.edu, images.metmuseum.org}`.
@@ -104,6 +106,10 @@ file in `v3/data/batches/`, and all `v3/**/*.html|css|js`. It fails
    contains a blocked brand name from `v3/config/compliance.json`.
    Hidden topics are exempt from this specific check, since their text
    is never shown — that is what `hidden: true` is for.
+7. Root `index.html` or any `v2/**/*.html` file contains an `<img>`
+   tag, a CSS `url(...)` reference, or a `buy.stripe.com` link —
+   stricter than rule 2 above (which allows AIC/Met images): these are
+   retired redirect pages and must have none of this at all.
 
 ## 7. Data model note
 
@@ -116,3 +122,15 @@ the field entirely on topics that do have images.
 
 `merge-batch.mjs` runs this check after writing `topics.json` and
 refuses the merge (restoring the previous file) if it fails.
+
+## 8. Legacy pages
+
+Root `index.html`, `v2/hub-v2.html` and `v2/pages/art-history-entry.html`
+are retired: each is now a minimal redirect page (meta refresh + a JS
+`location.replace`, a `canonical` link to the matching `v3/` page,
+`<meta name="robots" content="noindex">`, and one visible fallback
+line) so old bookmarks and search results still land somewhere real.
+No images, no external scripts, no Stripe links — enforced by rule 7
+above. The rest of `v2/` (its CSS, JS and data JSON) stays in place
+for now; nothing in `v3/` or the redirects link to it. The original
+versions of these three pages remain in git history.

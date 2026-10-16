@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art History Has Moved</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/library.css">
+</head>
+<body>
+
+  <header class="lib-topbar">
+    <a class="lib-logo" href="index.html">FEI Art Learning Library</a>
+    <a class="lib-topbar-link" href="https://www.feiteamart.com/guided-practice-studio">Smart Class →</a>
+  </header>
+
+  <section class="lib-hero" style="padding-top:60px;">
+    <h1 class="lib-hero-title">Art History Has Moved!</h1>
+    <p class="lib-hero-sub">Our Art History &amp; Theory journey now lives in FEI Smart Class, upgraded and improved. Explore artists, movements, Western and Chinese art history, and critical thinking.</p>
+  </section>
+
+  <section class="lib-cta-section" style="padding-top:0;">
+    <div class="lib-cta-box">
+      <a class="lib-cta-btn" id="art-history-cta-btn" href="https://www.feiteamart.com/guided-practice-studio">Sign up and explore Art Theory in Smart Class →</a>
+      <div style="margin-top:14px; font-size:13px;">After you sign in: Skills → Art Theory</div>
+    </div>
+    <p style="margin-top:22px; font-size:13px;">
+      <a href="index.html#subject=art-history-theory" style="text-decoration:underline; color:var(--lib-purple); font-weight:700;">Or browse Art History resources in the Library →</a>
+    </p>
+  </section>
+
+  <footer class="lib-footer">
+    FEI TeamArt &middot; FEI Art Learning Library
+  </footer>
+
+  <script type="module">
+    import { loadLibraryData } from './assets/js/data-loader.js';
+    loadLibraryData().then(({ smartclass }) => {
+      const btn = document.getElementById('art-history-cta-btn');
+      if (btn && smartclass && smartclass.entry) btn.href = smartclass.entry;
+    }).catch(() => {});
+  </script>
+</body>
+</html>

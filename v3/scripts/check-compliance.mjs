@@ -21,6 +21,11 @@ const V3_ROOT = join(__dirname, '..');
 const ALLOWED_IMAGE_HOSTS = ['www.artic.edu', 'images.metmuseum.org'];
 const ALLOWED_LICENSES = ['Public Domain', 'CC0'];
 const YOUTUBE_EMBED_RE = /^https:\/\/www\.youtube-nocookie\.com\/embed\/[^/?#]+$/;
+// CJK Unified Ideographs + CJK Symbols/Punctuation + fullwidth forms --
+// catches Chinese (and most Japanese/Korean) text in visible fields.
+// Hidden `keywords` are exempt by design (see v3/COMPLIANCE.md): they
+// help Chinese-speaking families search, and are never displayed.
+const CJK_RE = /[　-鿿＀-￯]/;
 
 function loadJson(path) {
   return JSON.parse(readFileSync(path, 'utf8'));
@@ -99,15 +104,18 @@ function checkTopic(topic, context) {
       fail(`topic is hidden/noImages but still has an image resource`, `${context} > ${topic.id}`);
     }
   }
-  // Brand-name check only applies to topics that are actually visible --
-  // a hidden topic's text is never rendered, so it is exempt (that is
-  // the whole point of hiding it).
+  // Brand-name and English-only checks only apply to topics that are
+  // actually visible -- a hidden topic's text is never rendered, so it
+  // is exempt (that is the whole point of hiding it).
   if (topic.hidden !== true) {
     const text = visibleTextOf(topic);
     for (const brand of blockedBrandNames) {
       if (text.includes(brand)) {
         fail(`visible text contains blocked brand name "${brand}"`, `${context} > ${topic.id}`);
       }
+    }
+    if (CJK_RE.test(text)) {
+      fail(`visible text contains CJK characters -- must be English-only (keywords may keep Chinese search terms)`, `${context} > ${topic.id}`);
     }
   }
 }
@@ -185,6 +193,26 @@ for (const file of codeFiles) {
       if (m[1].includes('${')) continue;
       checkUrlReference(m[1], context);
     }
+  }
+}
+
+// ── 3b. Every v3/**/*.html for CJK characters in rendered text ──
+// Strips <script>/<style> contents, HTML comments and all tags (so
+// attribute values like href/data-* never false-positive -- only
+// actual rendered text nodes count as "visible text").
+function extractVisibleText(html) {
+  return html
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<!--[\s\S]*?-->/g, ' ')
+    .replace(/<[^>]+>/g, ' ');
+}
+
+for (const file of codeFiles) {
+  if (extname(file) !== '.html') continue;
+  const text = extractVisibleText(readFileSync(file, 'utf8'));
+  if (CJK_RE.test(text)) {
+    fail('rendered page text contains CJK characters -- must be English-only', relPath(file));
   }
 }
 

@@ -19,7 +19,7 @@
         {
           "type": "image", "title": "The Silver Tureen", "creator": "Jean Siméon Chardin, ca. 1728–30",
           "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/art/collection/search/435887",
+          "url": "https://www.metmuseum.org/en/art/collection/search/435887",
           "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356136.jpg",
           "license": "Public Domain", "language": "en", "lastChecked": "2026-10-15",
           "note": "One soft light source — follow how it wraps around the round tureen and fruit."
@@ -69,7 +69,7 @@
         {
           "type": "image", "title": "The Draughtsman of the Lute", "creator": "Albrecht Dürer, woodcut",
           "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/art/collection/search/387741",
+          "url": "https://www.metmuseum.org/en/art/collection/search/387741",
           "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816495.jpg",
           "license": "Public Domain", "language": "en", "lastChecked": "2026-10-15",
           "note": "A 500-year-old 'perspective machine' — artists used string and a frame to plot points."
@@ -106,7 +106,7 @@
         },
         {
           "type": "link", "title": "Still-Life Painting in Northern Europe, 1600–1800", "creator": "Walter A. Liedtke", "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/essays/still-life-painting-in-northern-europe-1600-1800",
+          "url": "https://www.metmuseum.org/en/essays/still-life-painting-in-northern-europe-1600-1800",
           "license": "", "language": "en", "lastChecked": "2026-10-15",
           "note": "How Dutch painters turned flowers, food and silver into a whole art form."
         }
@@ -166,7 +166,7 @@
         {
           "type": "image", "title": "Madame Guillaume Guillon Lethière and her son Lucien", "creator": "Jean Auguste Dominique Ingres, 1808 (graphite)",
           "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/art/collection/search/337363",
+          "url": "https://www.metmuseum.org/en/art/collection/search/337363",
           "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP806771.jpg",
           "license": "Public Domain", "language": "en", "lastChecked": "2026-10-15",
           "note": "Pencil only: careful faces, quick clothing — notice where Ingres spends his detail."
@@ -209,7 +209,7 @@
         },
         {
           "type": "link", "title": "The Aesthetic of the Sketch in Nineteenth-Century France", "creator": "Nicole Myers", "publisher": "The Metropolitan Museum of Art",
-          "url": "https://www.metmuseum.org/essays/the-aesthetic-of-the-sketch-in-nineteenth-century-france",
+          "url": "https://www.metmuseum.org/en/essays/the-aesthetic-of-the-sketch-in-nineteenth-century-france",
           "license": "", "language": "en", "lastChecked": "2026-10-15",
           "note": "How quick oil sketches outdoors helped lead to Impressionism. Best for ages 12+."
         }

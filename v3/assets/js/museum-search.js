@@ -110,6 +110,22 @@ const MET_DEPARTMENTS = [
 ];
 const MET_PER_DEPARTMENT = 4;
 
+// The Met API's objectURL has no language prefix (e.g.
+// "https://www.metmuseum.org/art/collection/search/436535"), so the
+// Met site picks a language from the visitor's browser -- a Chinese-
+// locale browser lands on a translated-looking page. Force the
+// explicit English path so every student sees the same English page
+// regardless of browser language (see v3/COMPLIANCE.md).
+function toEnglishMetUrl(url) {
+  const m = /^https?:\/\/(?:www\.)?metmuseum\.org(\/([a-z]{2})(\/.*)?|\/.*)?$/.exec(url);
+  if (!m) return url;
+  const [, path, lang, rest] = m;
+  if (!path) return 'https://www.metmuseum.org/en';
+  if (lang && lang !== 'en') return 'https://www.metmuseum.org/en' + (rest || '');
+  if (lang === 'en') return url;
+  return 'https://www.metmuseum.org/en' + path;
+}
+
 function objectToMetItem(item) {
   return {
     museum: 'met',
@@ -118,7 +134,7 @@ function objectToMetItem(item) {
     artist: item.artistDisplayName,
     date: item.objectDate,
     imageUrl: item.primaryImageSmall,
-    pageUrl: item.objectURL
+    pageUrl: toEnglishMetUrl(item.objectURL)
   };
 }
 

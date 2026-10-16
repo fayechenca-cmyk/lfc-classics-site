@@ -1,6 +1,10 @@
 // FEI Art Learning Library (v3) -- topic page controller.
+// Visual Refresh (A2): bookmark ribbon, eyebrow section headings,
+// museum-mat image resources, a Video references grid when a topic
+// has 2+ videos, and a quiet "CHECKED <MONTH YEAR>" date stamp.
 import { loadLibraryData } from './data-loader.js';
 import { escapeHtml, topicCardHtml } from './card.js';
+import { renderMuseumSection } from './museum-ui.js';
 
 function qs(name) {
   return new URLSearchParams(window.location.search).get(name);
@@ -21,7 +25,7 @@ function renderKeyConcepts(keyConcepts) {
   if (!keyConcepts || keyConcepts.length === 0) return '';
   return `
     <section class="lib-section lib-container" aria-label="Key concepts">
-      <h2 class="lib-section-title" style="font-size:16px; margin-bottom:12px;">Key Concepts</h2>
+      <div class="lib-eyebrow" style="margin-bottom:12px;">Key Concepts</div>
       <ul class="lib-key-concepts">
         ${keyConcepts.map((k) => `<li>${escapeHtml(k)}</li>`).join('')}
       </ul>
@@ -29,57 +33,76 @@ function renderKeyConcepts(keyConcepts) {
   `;
 }
 
+function pdTagHtml(r) {
+  return r.license ? `<span class="lib-resource-pd-tag">${escapeHtml(r.license)}</span>` : '';
+}
+
 function attributionLine(r) {
-  const bits = [r.title, r.creator, r.publisher].filter(Boolean);
-  const text = bits.join(' · ') + (r.license ? ` · ${r.license}` : '');
-  return `
-    <div class="lib-resource-attribution">
-      ${escapeHtml(text)}
-      ${r.url ? ` · <a href="${escapeHtml(r.url)}" target="_blank" rel="noopener">View original ↗</a>` : ''}
-    </div>
-  `;
+  const bits = [r.creator, r.publisher].filter(Boolean);
+  if (bits.length === 0) return '';
+  return `<div class="lib-resource-attribution">${escapeHtml(bits.join(' · '))}</div>`;
 }
 
 function renderImageResources(images) {
   if (images.length === 0) return '';
   return `
-    <div class="lib-resource-image-grid">
-      ${images
-        .map(
-          (r) => `
-        <figure class="lib-resource-image-card">
-          <img src="${escapeHtml(r.imageUrl)}" alt="${escapeHtml(r.title || '')}" loading="lazy">
-          <div class="lib-resource-image-body">
-            <div class="lib-resource-title">${escapeHtml(r.title || '')}</div>
-            ${attributionLine(r)}
-            ${r.note ? `<div class="lib-resource-note">${escapeHtml(r.note)}</div>` : ''}
-          </div>
-        </figure>
-      `
-        )
-        .join('')}
-    </div>
+    <section class="lib-section lib-container" aria-label="From the collection">
+      <div class="lib-eyebrow" style="margin-bottom:14px;">From the Collection</div>
+      <div class="lib-resource-image-grid">
+        ${images
+          .map(
+            (r) => `
+          <figure class="lib-resource-image-card">
+            <img src="${escapeHtml(r.imageUrl)}" alt="${escapeHtml(r.title || '')}" loading="lazy">
+            <div class="lib-resource-image-body">
+              ${pdTagHtml(r)}
+              <div class="lib-resource-title">${escapeHtml(r.title || '')}</div>
+              ${attributionLine(r)}
+              ${r.note ? `<div class="lib-resource-note">${escapeHtml(r.note)}</div>` : ''}
+              ${r.url ? `<a class="lib-resource-view-link" href="${escapeHtml(r.url)}" target="_blank" rel="noopener">View at museum ↗</a>` : ''}
+            </div>
+          </figure>
+        `
+          )
+          .join('')}
+      </div>
+    </section>
   `;
 }
 
 let _videoFrameCounter = 0;
 
-function renderVideoCard(r) {
+// compact: true for the 2+ video "Video references" grid (title +
+// publisher only); false for the single-video full layout (creator,
+// note and a separate "Watch on YouTube" line).
+function renderVideoCard(r, compact) {
   const frameId = `lib-video-frame-${_videoFrameCounter++}`;
+  const poster = `
+    <div id="${frameId}">
+      <button type="button" class="lib-video-poster" data-embed="${escapeHtml(r.embedUrl || '')}" data-target="${frameId}" aria-label="Play video: ${escapeHtml(r.title || '')}">
+        <span class="lib-video-poster-play" aria-hidden="true">▶</span>
+      </button>
+    </div>
+  `;
+  if (compact) {
+    return `
+      <div class="lib-video-card">
+        ${poster}
+        <div class="lib-resource-title">${escapeHtml(r.title || '')}</div>
+        <div class="lib-video-publisher">${escapeHtml(r.publisher || '')}</div>
+      </div>
+    `;
+  }
   return `
     <div class="lib-video-card">
       <div class="lib-resource-row-head">
         <span class="lib-resource-publisher">${escapeHtml(r.publisher || 'Video')}</span>
       </div>
       <div class="lib-resource-title">${escapeHtml(r.title || '')}</div>
-      <div id="${frameId}">
-        <button type="button" class="lib-video-poster" data-embed="${escapeHtml(r.embedUrl || '')}" data-target="${frameId}" aria-label="Play video: ${escapeHtml(r.title || '')}">
-          <span class="lib-video-poster-play" aria-hidden="true">▶</span>
-        </button>
-      </div>
+      ${poster}
       ${r.creator ? `<div class="lib-resource-attribution">${escapeHtml(r.creator)}</div>` : ''}
       ${r.note ? `<div class="lib-resource-note">${escapeHtml(r.note)}</div>` : ''}
-      ${r.url ? `<div class="lib-resource-attribution"><a href="${escapeHtml(r.url)}" target="_blank" rel="noopener">Watch on YouTube ↗</a></div>` : ''}
+      ${r.url ? `<a class="lib-resource-view-link" href="${escapeHtml(r.url)}" target="_blank" rel="noopener">Watch on YouTube ↗</a>` : ''}
     </div>
   `;
 }
@@ -98,41 +121,35 @@ function renderLinkCard(r) {
   `;
 }
 
-function renderResources(resources) {
-  const images = resources.filter((r) => r.type === 'image' && r.imageUrl);
-  const rest = resources.filter((r) => !(r.type === 'image' && r.imageUrl));
-  if (images.length === 0 && rest.length === 0) return '';
+function renderWatchSection(videos) {
+  if (videos.length === 0) return '';
+  const body = videos.length >= 2
+    ? `<div class="lib-video-grid">${videos.map((r) => renderVideoCard(r, true)).join('')}</div>`
+    : videos.map((r) => renderVideoCard(r, false)).join('');
   return `
-    <section class="lib-section lib-container" aria-label="Learning resources">
-      <h2 class="lib-section-title" style="font-size:16px; margin-bottom:14px;">Learning Resources</h2>
-      ${renderImageResources(images)}
-      <div class="lib-resource-list" style="margin-top:${images.length ? '16px' : '0'};">
-        ${rest.map((r) => (r.type === 'video' && r.embedUrl ? renderVideoCard(r) : renderLinkCard(r))).join('')}
-      </div>
+    <section class="lib-section lib-container" aria-label="Watch">
+      <div class="lib-eyebrow" style="margin-bottom:14px;">Watch</div>
+      ${body}
     </section>
   `;
 }
 
-function wireVideoClickToLoad(root) {
-  root.querySelectorAll('.lib-video-poster').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const embed = btn.dataset.embed;
-      const target = document.getElementById(btn.dataset.target);
-      if (!embed || !target) return;
-      target.innerHTML = `
-        <div class="lib-video-frame-wrap">
-          <iframe src="${embed}" title="Video player" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
-      `;
-    });
-  });
+function renderReadSection(links) {
+  if (links.length === 0) return '';
+  return `
+    <section class="lib-section lib-container" aria-label="Read">
+      <div class="lib-eyebrow" style="margin-bottom:14px;">Read</div>
+      <div class="lib-resource-list">${links.map(renderLinkCard).join('')}</div>
+    </section>
+  `;
 }
 
 function renderTryIt(tryIt) {
   if (!tryIt) return '';
   return `
     <section class="lib-section lib-container" aria-label="Try it yourself">
-      <div class="lib-try-it"><strong>Try It Yourself —</strong> ${escapeHtml(tryIt)}</div>
+      <div class="lib-eyebrow" style="margin-bottom:12px;">Try It Yourself</div>
+      <div class="lib-try-it">${escapeHtml(tryIt)}</div>
     </section>
   `;
 }
@@ -169,6 +186,15 @@ function renderRelatedTopics(topic, allTopics, fromHash) {
   `;
 }
 
+const MONTH_ABBR = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+function dateStampHtml(lastVerified) {
+  if (!lastVerified) return '';
+  const d = new Date(lastVerified + 'T00:00:00');
+  if (Number.isNaN(d.getTime())) return '';
+  const text = `Checked ${MONTH_ABBR[d.getMonth()]} ${d.getFullYear()}`;
+  return `<div class="lib-container" style="padding:4px 20px 0;"><span class="lib-date-stamp">${escapeHtml(text)}</span></div>`;
+}
+
 async function main() {
   const id = qs('id');
   const fromHash = qs('from') || '';
@@ -183,9 +209,14 @@ async function main() {
   document.title = `${topic.title} · FEI Art Learning Library`;
 
   const metaBits = [topic.level, topic.ageLabel].filter(Boolean).join(' · ');
+  const resources = topic.resources || [];
+  const images = resources.filter((r) => r.type === 'image' && r.imageUrl);
+  const videos = resources.filter((r) => r.type === 'video' && r.embedUrl);
+  const links = resources.filter((r) => !(r.type === 'image' && r.imageUrl) && !(r.type === 'video' && r.embedUrl));
 
   document.getElementById('lib-topic-root').innerHTML = `
     <div class="lib-topic-header lib-container">
+      <span class="lib-bookmark-ribbon" aria-hidden="true"></span>
       <a class="lib-back-link" href="index.html${fromHash ? '#' + fromHash : ''}">← Back to results</a>
       <div class="lib-topic-kicker">${escapeHtml(topic.category)}</div>
       <h1 class="lib-topic-title">${escapeHtml(topic.title)}</h1>
@@ -193,16 +224,40 @@ async function main() {
       <p class="lib-topic-summary">${escapeHtml(topic.summary)}</p>
     </div>
     ${renderKeyConcepts(topic.keyConcepts)}
-    ${renderResources(topic.resources || [])}
+    ${renderImageResources(images)}
+    ${renderWatchSection(videos)}
+    ${renderReadSection(links)}
     ${renderTryIt(topic.tryIt)}
     ${renderSmartClassBox(topic, smartclass)}
     ${renderRelatedTopics(topic, topics, fromHash)}
-    <div class="lib-container" style="padding:10px 20px 30px;">
+    <section class="lib-section lib-container" id="lib-museum-section" aria-label="From Museum Collections" style="display:none;"></section>
+    ${dateStampHtml(topic.lastVerified)}
+    <div class="lib-container" style="padding:14px 20px 30px;">
       <a class="lib-back-link" href="index.html${fromHash ? '#' + fromHash : ''}">← Back to results</a>
     </div>
   `;
 
   wireVideoClickToLoad(document.getElementById('lib-topic-root'));
+  // "related to ... the topic" -- the topic's own title is the most
+  // reliable art-searchable term available (no separate curated
+  // search term exists in the data model). Failures/empty results hide
+  // this section quietly, same as the homepage.
+  renderMuseumSection(document.getElementById('lib-museum-section'), topic.title);
+}
+
+function wireVideoClickToLoad(root) {
+  root.querySelectorAll('.lib-video-poster').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const embed = btn.dataset.embed;
+      const target = document.getElementById(btn.dataset.target);
+      if (!embed || !target) return;
+      target.innerHTML = `
+        <div class="lib-video-frame-wrap">
+          <iframe src="${embed}" title="Video player" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      `;
+    });
+  });
 }
 
 main().catch((err) => {

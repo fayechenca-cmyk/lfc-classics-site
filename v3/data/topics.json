@@ -709,7 +709,31 @@
       "key": "color-practice",
       "match": "related"
     },
-    "resources": [],
+    "resources": [
+      {
+        "type": "video",
+        "title": "What do Henri Matisse's Collages Mean? | Tate Kids",
+        "creator": "",
+        "publisher": "Tate Kids",
+        "url": "https://www.tate.org.uk/kids/videos/meet-matisse",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/lA17BZuCt30",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Kid-friendly video about Matisse's colorful paper cut-outs."
+      },
+      {
+        "type": "link",
+        "title": "Henri Matisse: The Cut-Outs (exhibition, 2014–15)",
+        "creator": "",
+        "publisher": "The Museum of Modern Art (MoMA)",
+        "url": "https://www.moma.org/calendar/exhibitions/1429",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Exhibition page with a kids' audio tour, image slideshow and installation photos."
+      }
+    ],
     "relatedTopics": [],
     "hidden": true,
     "lastVerified": "2026-10-15"
@@ -949,9 +973,56 @@
       "key": "kandinsky",
       "match": "related"
     },
-    "resources": [],
+    "resources": [
+      {
+        "type": "image",
+        "title": "Improvisation No. 30 (Cannons)",
+        "creator": "Vasily Kandinsky, 1913",
+        "publisher": "The Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/8991/improvisation-no-30-cannons",
+        "imageUrl": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Color used like music — shapes and hues carry the feeling."
+      },
+      {
+        "type": "image",
+        "title": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray",
+        "creator": "Piet Mondrian, 1921",
+        "publisher": "The Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/109819/lozenge-composition-with-yellow-black-blue-red-and-gray",
+        "imageUrl": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Only primary colors, black, white and gray — balance through simplicity."
+      },
+      {
+        "type": "link",
+        "title": "Abstract art (Art Term)",
+        "creator": "",
+        "publisher": "Tate",
+        "url": "https://www.tate.org.uk/art/art-terms/a/abstract-art",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "What abstract art is, with Kandinsky, Malevich, Mondrian and many others."
+      },
+      {
+        "type": "link",
+        "title": "Kandinsky, Improvisation 28 (second version)",
+        "creator": "Dr. Beth Harris and Dr. Steven Zucker",
+        "publisher": "Smarthistory",
+        "url": "https://smarthistory.org/?p=1990",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "How Kandinsky connected color, music and feeling."
+      }
+    ],
     "relatedTopics": [],
-    "hidden": true,
+    "hidden": false,
     "lastVerified": "2026-10-15"
   },
   {
@@ -982,9 +1053,32 @@
       "key": "",
       "match": ""
     },
-    "resources": [],
+    "resources": [
+      {
+        "type": "link",
+        "title": "Bauhaus: Building the New Artist — Color",
+        "creator": "",
+        "publisher": "Getty Research Institute",
+        "url": "https://www.getty.edu/research/exhibitions_events/exhibitions/bauhaus/new_artist/form_color/color/",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "How Itten, Klee, Kandinsky and Albers taught color through hands-on exercises."
+      },
+      {
+        "type": "link",
+        "title": "Bauhaus (Art Term)",
+        "creator": "",
+        "publisher": "Tate",
+        "url": "https://www.tate.org.uk/art/art-terms/b/bauhaus",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Short introduction to the Bauhaus school and its teachers."
+      }
+    ],
     "relatedTopics": [],
-    "hidden": true,
+    "hidden": false,
     "lastVerified": "2026-10-15"
   },
   {
@@ -7787,5 +7881,211 @@
     "relatedTopics": [],
     "hidden": false,
     "lastVerified": "2026-10-15"
+  },
+  {
+    "keyConcepts": [
+      "Primary and secondary colors",
+      "Warm and cool colors",
+      "Complementary (opposite) pairs",
+      "Value: light and dark",
+      "Saturation: bright and dull"
+    ],
+    "tryIt": "Paint the same small scene twice — once using only warm colors, once using only cool colors. Which one feels calmer? Which one feels warmer in temperature?",
+    "keywords": [
+      "color",
+      "colour",
+      "color wheel",
+      "colour wheel",
+      "warm",
+      "cool",
+      "complementary",
+      "primary",
+      "secondary",
+      "value",
+      "saturation",
+      "hue",
+      "color theory",
+      "色彩",
+      "色轮",
+      "冷暖色",
+      "互补色"
+    ],
+    "relatedTopics": [
+      "COLOR-002",
+      "LFC-016",
+      "LFC-023"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "The Bedroom",
+        "creator": "Vincent van Gogh, 1889",
+        "publisher": "The Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/28560/the-bedroom",
+        "imageUrl": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Flat, simplified color with strong complementary pairs."
+      },
+      {
+        "type": "image",
+        "title": "Stacks of Wheat (End of Summer)",
+        "creator": "Claude Monet, 1890–91",
+        "publisher": "The Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/64818/stacks-of-wheat-end-of-summer",
+        "imageUrl": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Warm sunlight against cool blue-violet shadows."
+      },
+      {
+        "type": "link",
+        "title": "Van Gogh's letter about the colors of The Bedroom (16 October 1888)",
+        "creator": "Vincent van Gogh",
+        "publisher": "Van Gogh Museum — Van Gogh Letters",
+        "url": "https://vangoghletters.org/en/let705",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Van Gogh explains how he chose each color in the room to suggest rest."
+      },
+      {
+        "type": "link",
+        "title": "Complementary colours (Art Term)",
+        "creator": "",
+        "publisher": "Tate",
+        "url": "https://www.tate.org.uk/art/art-terms/c/complementary-colours",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Short explanation of opposite colors and how painters used them for light and shadow."
+      },
+      {
+        "type": "link",
+        "title": "Complementary colours (Glossary)",
+        "creator": "",
+        "publisher": "The National Gallery, London",
+        "url": "https://nationalgallery.org.uk/paintings/glossary/complementary-colours",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "How complementary colors make each other look stronger."
+      },
+      {
+        "type": "link",
+        "title": "Pixar in a Box (includes a Color Science lesson)",
+        "creator": "Pixar Animation Studios",
+        "publisher": "Khan Academy",
+        "url": "https://www.khanacademy.org/partner-content/pixar",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Free video lessons on how Pixar artists use color and light."
+      }
+    ],
+    "id": "COLOR-001",
+    "title": "Color Basics: The Wheel, Warm & Cool, and Complementary Pairs",
+    "category": "Color & Visual Language",
+    "summary": "How colors relate to each other, and how artists use warm, cool and opposite colors to create mood and make things glow.",
+    "ageLabel": "7+",
+    "level": "Beginner",
+    "state": "A",
+    "smartClass": {
+      "key": "color-practice",
+      "match": "direct"
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-15",
+    "core": true
+  },
+  {
+    "keyConcepts": [
+      "Optical mixing",
+      "Pure, unmixed color",
+      "Complementary dots for vibration",
+      "Neo-Impressionism"
+    ],
+    "tryIt": "Fill a small square with dots of only blue and yellow. Step back across the room — what color do you see now?",
+    "keywords": [
+      "seurat",
+      "pointillism",
+      "pointillist",
+      "neo-impressionism",
+      "dots",
+      "optical mixing",
+      "divisionism",
+      "la grande jatte",
+      "点彩",
+      "修拉"
+    ],
+    "relatedTopics": [
+      "COLOR-001",
+      "LFC-022",
+      "LFC-130"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "A Sunday on La Grande Jatte — 1884",
+        "creator": "Georges Seurat, 1884–86",
+        "publisher": "The Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884",
+        "imageUrl": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Zoom in on the museum page to see the individual dots."
+      },
+      {
+        "type": "video",
+        "title": "Georges Seurat: Great Art Explained",
+        "creator": "James Payne",
+        "publisher": "Great Art Explained (YouTube)",
+        "url": "https://www.youtube.com/watch?v=AJr2T1ko3Is",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/AJr2T1ko3Is",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "In-depth explainer; best for ages 11+."
+      },
+      {
+        "type": "link",
+        "title": "Georges Seurat, A Sunday on La Grande Jatte — 1884",
+        "creator": "Dr. Beth Harris and Dr. Steven Zucker",
+        "publisher": "Smarthistory",
+        "url": "https://smarthistory.org/georges-seurat-a-sunday-on-la-grande-jatte-1884/",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Conversation-style video and essay on how Seurat's dots mix in the eye."
+      },
+      {
+        "type": "link",
+        "title": "Georges Seurat (1859–1891) and Neo-Impressionism",
+        "creator": "Dita Amory",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/en/essays/georges-seurat-1859-1891-and-neo-impressionism",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-15",
+        "note": "Museum essay on optical mixture and the Neo-Impressionist painters."
+      }
+    ],
+    "id": "COLOR-002",
+    "title": "Seurat & Pointillism: Mixing Color with Dots",
+    "category": "Color & Visual Language",
+    "summary": "Seurat placed tiny dots of pure color side by side and let the viewer's eye mix them — a scientific way of making paintings shimmer.",
+    "ageLabel": "8+",
+    "level": "Beginner",
+    "state": "B",
+    "smartClass": {
+      "key": "color-practice",
+      "match": "related"
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-15",
+    "core": true
   }
 ]

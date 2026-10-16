@@ -1,0 +1,222 @@
+{
+  "batch": "drawing-01",
+  "category": "Drawing & Painting",
+  "checked": "2026-10-15",
+  "newTopics": [
+    {
+      "id": "DRAW-001",
+      "title": "Light & Shadow: Drawing Form",
+      "category": "Drawing & Painting",
+      "summary": "Every object turns from light into shadow. Learning to see that change is how a flat drawing becomes a solid form.",
+      "keyConcepts": ["Light source and direction", "Highlight, mid-tone, core shadow", "Cast shadow", "Reflected light", "Chiaroscuro"],
+      "tryIt": "Put an apple or a mug under a single desk lamp. Squint, then shade only three values: light, middle and dark.",
+      "keywords": ["light", "shadow", "shading", "value", "tone", "form", "sphere", "cube", "cylinder", "chiaroscuro", "sketch", "drawing", "素描", "明暗", "光影", "几何体"],
+      "ageLabel": "8+",
+      "level": "Beginner",
+      "state": "A",
+      "smartClass": { "key": "foundation-of-sketch", "match": "direct" },
+      "resources": [
+        {
+          "type": "image", "title": "The Silver Tureen", "creator": "Jean Siméon Chardin, ca. 1728–30",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/435887",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356136.jpg",
+          "license": "Public Domain", "language": "en", "lastChecked": "2026-10-15",
+          "note": "One soft light source — follow how it wraps around the round tureen and fruit."
+        },
+        {
+          "type": "link", "title": "Chiaroscuro (Art Term)", "creator": "", "publisher": "Tate",
+          "url": "https://www.tate.org.uk/art/art-terms/c/chiaroscuro",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "What chiaroscuro means: strong light and dark to create form and drama."
+        },
+        {
+          "type": "link", "title": "Sketching is Seeing (6 short video activities)", "creator": "Teaching artist Stephanie Morse", "publisher": "National Gallery of Art",
+          "url": "https://www.nga.gov/audio-video/sketching-is-seeing.html",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "Includes building a drawing from basic shapes and drawing negative space. For all ages."
+        }
+      ],
+      "relatedTopics": ["LFC-002", "LFC-003", "LFC-006", "LFC-028"]
+    },
+    {
+      "id": "DRAW-002",
+      "title": "Perspective Basics: Horizon Line & Vanishing Point",
+      "category": "Drawing & Painting",
+      "summary": "Perspective makes a flat page feel deep. A horizon line, a vanishing point and a few guide lines are all you need to start.",
+      "keyConcepts": ["Horizon line (eye level)", "Vanishing point", "Orthogonals (lines that meet at the point)", "One-point perspective", "Two-point perspective"],
+      "tryIt": "Draw a long hallway or a street using one vanishing point. Then add a door on each side, all following the guide lines.",
+      "keywords": ["perspective", "one-point", "two-point", "vanishing point", "horizon line", "eye level", "depth", "space", "architecture drawing", "透视", "一点透视", "两点透视", "消失点", "视平线"],
+      "ageLabel": "9+",
+      "level": "Beginner",
+      "state": "A",
+      "smartClass": { "key": "scene-drawing", "match": "direct" },
+      "resources": [
+        {
+          "type": "video", "title": "How to draw The Met using perspective drawing | Drop-in Drawing", "creator": "", "publisher": "The Met (YouTube)",
+          "url": "https://www.youtube.com/watch?v=SnBjB58XWWI",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/SnBjB58XWWI",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "Step-by-step: horizon line, vanishing points and drawing a real building."
+        },
+        {
+          "type": "video", "title": "How one-point linear perspective works", "creator": "Dr. Beth Harris and Dr. Steven Zucker", "publisher": "Smarthistory (YouTube)",
+          "url": "https://www.youtube.com/watch?v=eOksHhQ8TLM",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/eOksHhQ8TLM",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "How Renaissance artists invented perspective, from Brunelleschi to Leonardo."
+        },
+        {
+          "type": "image", "title": "The Draughtsman of the Lute", "creator": "Albrecht Dürer, woodcut",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/387741",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816495.jpg",
+          "license": "Public Domain", "language": "en", "lastChecked": "2026-10-15",
+          "note": "A 500-year-old 'perspective machine' — artists used string and a frame to plot points."
+        },
+        {
+          "type": "link", "title": "How one-point linear perspective works", "creator": "Dr. Beth Harris and Dr. Steven Zucker", "publisher": "Smarthistory",
+          "url": "https://smarthistory.org/how-one-point-linear-perspective-works",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "Essay and transcript to read alongside the video."
+        }
+      ],
+      "relatedTopics": ["LFC-007", "LFC-085", "LFC-086", "LFC-087"]
+    },
+    {
+      "id": "DRAW-003",
+      "title": "Still Life: Learning from Everyday Objects",
+      "category": "Drawing & Painting",
+      "summary": "Artists have practiced on cups, fruit and bottles for centuries. Still life teaches shape, surface, light and arrangement all at once.",
+      "keyConcepts": ["Arranging a composition", "Overlap and spacing", "Surfaces: shiny, soft, rough", "Ellipses on round objects", "Looking at the gaps between things"],
+      "tryIt": "Choose three objects of different heights and textures. Arrange them three different ways and do a quick thumbnail of each before picking your favorite.",
+      "keywords": ["still life", "still-life", "fruit", "apples", "objects", "composition", "texture", "ellipse", "cezanne", "chardin", "静物", "质感", "构图"],
+      "ageLabel": "8+",
+      "level": "Beginner",
+      "state": "A",
+      "smartClass": { "key": "foundation-of-sketch", "match": "direct" },
+      "resources": [
+        {
+          "type": "image", "title": "The Basket of Apples", "creator": "Paul Cezanne, c. 1893",
+          "publisher": "The Art Institute of Chicago",
+          "url": "https://www.artic.edu/artworks/111436/the-basket-of-apples",
+          "imageUrl": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
+          "license": "Public Domain", "language": "en", "lastChecked": "2026-10-15",
+          "note": "Look closely: the table edges don't line up. Cezanne bent the rules to balance the picture."
+        },
+        {
+          "type": "link", "title": "Still-Life Painting in Northern Europe, 1600–1800", "creator": "Walter A. Liedtke", "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/still-life-painting-in-northern-europe-1600-1800",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "How Dutch painters turned flowers, food and silver into a whole art form."
+        }
+      ],
+      "relatedTopics": ["DRAW-001", "LFC-006", "LFC-008", "LFC-009", "LFC-010"]
+    },
+    {
+      "id": "DRAW-004",
+      "title": "Gesture & Movement: Drawing Figures in Action",
+      "category": "Drawing & Painting",
+      "summary": "Gesture drawing captures the energy of a pose in seconds — the line of action first, details later.",
+      "keyConcepts": ["Line of action", "Quick timed sketches", "Balance and weight", "Simple shapes for the body", "Drawing what moves, not what's still"],
+      "tryIt": "Ask someone to hold five different poses for 30 seconds each. Draw only one flowing line for each pose before adding anything else.",
+      "keywords": ["gesture", "movement", "motion", "figure", "pose", "action", "quick sketch", "dancers", "degas", "速写", "动态", "人物"],
+      "ageLabel": "9+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": { "key": "", "match": "" },
+      "resources": [
+        {
+          "type": "image", "title": "Two Dancers", "creator": "Edgar Degas, c. 1893–98 (pastel and charcoal)",
+          "publisher": "The Art Institute of Chicago",
+          "url": "https://www.artic.edu/artworks/45243/two-dancers",
+          "imageUrl": "https://www.artic.edu/iiif/2/1381bcfe-b5a9-777a-9c53-adafc8a3ec58/full/843,/0/default.jpg",
+          "license": "Public Domain", "language": "en", "lastChecked": "2026-10-15",
+          "note": "Degas drew dancers again and again to catch balance and movement."
+        },
+        {
+          "type": "video", "title": "How to Sketch Movement | Drop-in Drawing", "creator": "", "publisher": "The Met (YouTube)",
+          "url": "https://www.youtube.com/watch?v=o7Stxjh8uEo",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/o7Stxjh8uEo",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "Short demonstration of sketching figures in motion."
+        },
+        {
+          "type": "link", "title": "Sketching is Seeing: one-line and less-dominant-hand drawing", "creator": "Teaching artist Stephanie Morse", "publisher": "National Gallery of Art",
+          "url": "https://www.nga.gov/audio-video/sketching-is-seeing.html",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "Loosening-up exercises that train fast, confident lines."
+        }
+      ],
+      "relatedTopics": ["LFC-048", "LFC-049", "LFC-051", "LFC-053"]
+    },
+    {
+      "id": "DRAW-005",
+      "title": "Portrait Drawing: Seeing a Face",
+      "category": "Drawing & Painting",
+      "summary": "A good portrait starts with big shapes and placement — where the eyes, nose and mouth sit — before any detail.",
+      "keyConcepts": ["The egg shape of the head", "Eyes halfway down the head", "Spacing of features", "Light and planes of the face", "Capturing personality"],
+      "tryIt": "Draw a friend's portrait in 10 lines or fewer. Then draw it again with as many lines as you like. Which one feels more like them?",
+      "keywords": ["portrait", "face", "head", "features", "likeness", "eyes", "ingres", "肖像", "头像", "五官"],
+      "ageLabel": "10+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": { "key": "", "match": "" },
+      "resources": [
+        {
+          "type": "image", "title": "Madame Guillaume Guillon Lethière and her son Lucien", "creator": "Jean Auguste Dominique Ingres, 1808 (graphite)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/337363",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP806771.jpg",
+          "license": "Public Domain", "language": "en", "lastChecked": "2026-10-15",
+          "note": "Pencil only: careful faces, quick clothing — notice where Ingres spends his detail."
+        },
+        {
+          "type": "link", "title": "Sketching is Seeing: a portrait in 10 lines or fewer", "creator": "Teaching artist Stephanie Morse", "publisher": "National Gallery of Art",
+          "url": "https://www.nga.gov/audio-video/sketching-is-seeing.html",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "A playful exercise in finding the most important lines of a face."
+        }
+      ],
+      "relatedTopics": ["LFC-096", "LFC-098", "LFC-101", "LFC-097"]
+    },
+    {
+      "id": "DRAW-006",
+      "title": "Landscape: Painting Outdoors and the Oil Sketch",
+      "category": "Drawing & Painting",
+      "summary": "Painting outdoors (plein air) trains you to see light and atmosphere quickly. Many great landscapes began as small, fast sketches.",
+      "keyConcepts": ["Plein air painting", "Near, middle and far", "Atmosphere: far things look paler and cooler", "Simplifying big shapes", "Working fast while the light changes"],
+      "tryIt": "Go outside for 15 minutes. Paint or draw only three big shapes — sky, ground, one main object — with no details at all.",
+      "keywords": ["landscape", "plein air", "outdoor painting", "nature", "sky", "trees", "oil sketch", "corot", "风景", "写生", "户外"],
+      "ageLabel": "8+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": { "key": "", "match": "" },
+      "resources": [
+        {
+          "type": "image", "title": "Landscape", "creator": "Jean-Baptiste-Camille Corot, 1865/70",
+          "publisher": "The Art Institute of Chicago",
+          "url": "https://www.artic.edu/artworks/877/landscape",
+          "imageUrl": "https://www.artic.edu/iiif/2/1501b057-0441-f1fa-e949-298b06ec6270/full/843,/0/default.jpg",
+          "license": "Public Domain", "language": "en", "lastChecked": "2026-10-15",
+          "note": "Soft, silvery tones — Corot simplifies trees into big masses of light and dark."
+        },
+        {
+          "type": "link", "title": "Plein air (Art Term)", "creator": "", "publisher": "Tate",
+          "url": "https://www.tate.org.uk/art/art-terms/p/plein-air",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "What painting 'out of doors' means, from Constable to the Impressionists."
+        },
+        {
+          "type": "link", "title": "The Aesthetic of the Sketch in Nineteenth-Century France", "creator": "Nicole Myers", "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/the-aesthetic-of-the-sketch-in-nineteenth-century-france",
+          "license": "", "language": "en", "lastChecked": "2026-10-15",
+          "note": "How quick oil sketches outdoors helped lead to Impressionism. Best for ages 12+."
+        }
+      ],
+      "relatedTopics": ["LFC-091", "LFC-092", "LFC-015", "COLOR-001"]
+    }
+  ],
+  "updateTopics": [],
+  "stillHidden": []
+}

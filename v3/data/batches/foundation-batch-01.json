@@ -1,0 +1,80 @@
+{
+  "batch": "foundation-01",
+  "category": "Drawing & Painting",
+  "checked": "2026-10-15",
+  "newTopics": [],
+  "updateTopics": [
+    {
+      "id": "LFC-136",
+      "unhide": false,
+      "addResources": [
+        {
+          "type": "video",
+          "title": "How to draw The Met using perspective drawing | Drop-in Drawing",
+          "creator": "",
+          "publisher": "The Met (YouTube)",
+          "url": "https://www.youtube.com/watch?v=SnBjB58XWWI",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/SnBjB58XWWI",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-15",
+          "note": "Perspective: horizon line and vanishing points on a real building."
+        },
+        {
+          "type": "video",
+          "title": "How to Sketch Movement | Drop-in Drawing",
+          "creator": "",
+          "publisher": "The Met (YouTube)",
+          "url": "https://www.youtube.com/watch?v=o7Stxjh8uEo",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/o7Stxjh8uEo",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-15",
+          "note": "Quick, loose figure sketching."
+        },
+        {
+          "type": "video",
+          "title": "How to draw a self-portrait | Drop-in Drawing",
+          "creator": "",
+          "publisher": "The Met (YouTube)",
+          "url": "https://www.youtube.com/watch?v=ZgyEi-fjfy4",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/ZgyEi-fjfy4",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-15",
+          "note": "Placing the features of a face, step by step."
+        },
+        {
+          "type": "link",
+          "title": "Sketching is Seeing (6 short video activities)",
+          "creator": "Teaching artist Stephanie Morse",
+          "publisher": "National Gallery of Art",
+          "url": "https://www.nga.gov/audio-video/sketching-is-seeing.html",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-15",
+          "note": "Basic shapes, negative space, one-line drawing and quick portraits. For all ages."
+        }
+      ]
+    },
+    {
+      "id": "DRAW-005",
+      "unhide": false,
+      "addResources": [
+        {
+          "type": "video",
+          "title": "How to draw a self-portrait | Drop-in Drawing",
+          "creator": "",
+          "publisher": "The Met (YouTube)",
+          "url": "https://www.youtube.com/watch?v=ZgyEi-fjfy4",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/ZgyEi-fjfy4",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-15",
+          "note": "Placing the features of a face, step by step."
+        }
+      ]
+    }
+  ],
+  "stillHidden": []
+}

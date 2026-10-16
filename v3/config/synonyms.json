@@ -1,0 +1,24 @@
+{
+  "groups": [
+    ["colour", "color"],
+    ["watercolour", "watercolor"],
+    ["sketch", "drawing"],
+    ["perspective", "vanishing point"],
+    ["fashion", "costume", "clothing design"],
+    ["art history", "art theory"]
+  ],
+  "chinese": {
+    "素描": "sketch",
+    "水彩": "watercolor",
+    "色彩": "color",
+    "透视": "perspective",
+    "时装设计": "fashion design",
+    "艺术史": "art history",
+    "当代艺术": "contemporary art",
+    "版画": "printmaking",
+    "雕塑": "sculpture",
+    "动画": "animation",
+    "插画": "illustration",
+    "国画": "chinese painting"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "entry": "https://www.feiteamart.com/guided-practice-studio",
+  "destinations": {
+    "foundation-of-sketch": {
+      "title": "Foundation of Sketch",
+      "path": "(Skills > Drawing screen)",
+      "where": "Skills → Drawing → Foundation of Sketch"
+    },
+    "scene-drawing": {
+      "title": "Scene Drawing Foundation",
+      "path": "lessons/scene-drawing-foundation/",
+      "where": "Skills → Drawing → Scene Drawing Foundation"
+    },
+    "color-practice": {
+      "title": "Color Practice",
+      "path": "color-lab/",
+      "where": "Skills → Color Practice"
+    },
+    "fashion-design": {
+      "title": "Fashion Design",
+      "path": "fashion-design/",
+      "where": "Skills → Fashion Design"
+    },
+    "art-theory": {
+      "title": "Art Theory (Western & Chinese Art History)",
+      "path": "art-theory/",
+      "where": "Skills → Art Theory"
+    },
+    "cardboard": {
+      "title": "RE:MAKE 01 — Cardboard",
+      "path": "material-art/cardboard/",
+      "where": "Skills → Material Arts"
+    },
+    "leather-craft": {
+      "title": "Leather Craft for Beginners",
+      "path": "(Skills > Material Arts screen)",
+      "where": "Skills → Material Arts"
+    },
+    "ink-painting": {
+      "title": "Ink Painting (Ink Animal Studio, Zodiac Brush Technique)",
+      "path": "(Skills > Painting screen)",
+      "where": "Skills → Painting → Ink Painting"
+    },
+    "lfc054": {
+      "title": "Illustration Through Surrealism",
+      "path": "lessons/lfc054-illustration-surrealism/",
+      "where": "Creation"
+    },
+    "illustration-book": {
+      "title": "Make My First Illustration Book",
+      "path": "lessons/first-illustration-book/",
+      "where": "Creation"
+    },
+    "kandinsky": {
+      "title": "Music into Shape (Kandinsky)",
+      "path": "lessons/kandinsky-music-into-shape/",
+      "where": "Creation"
+    },
+    "yokai": {
+      "title": "Yōkai in the Great Wave",
+      "path": "lessons/yokai-in-the-great-wave/",
+      "where": "Creation"
+    },
+    "miro": {
+      "title": "Draw Without Knowing (Miró)",
+      "path": "lessons/miro-draw-without-knowing/",
+      "where": "Creation"
+    },
+    "pop-art": {
+      "title": "Learn From Masters: Pop Art",
+      "path": "lessons/lfc018-learn-from-masters-pop-art/",
+      "where": "Creation"
+    },
+    "creation-young": {
+      "title": "Creation lessons for young learners",
+      "path": "(Creation)",
+      "where": "Creation"
+    }
+  }
+}

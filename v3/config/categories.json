@@ -1,0 +1,50 @@
+[
+  {
+    "id": "drawing-painting",
+    "title": "Drawing & Painting",
+    "description": "Observational drawing, form, light and traditional painting technique.",
+    "accentColor": "#8C7FD6"
+  },
+  {
+    "id": "color-visual-language",
+    "title": "Color & Visual Language",
+    "description": "How color, composition and visual structure carry meaning.",
+    "accentColor": "#6FB8C9"
+  },
+  {
+    "id": "creative-projects",
+    "title": "Creative Projects",
+    "description": "Hands-on projects that turn an idea into a finished piece.",
+    "accentColor": "#D6A86F"
+  },
+  {
+    "id": "design-applied-art",
+    "title": "Design & Applied Art",
+    "description": "Fashion, craft and design practice grounded in real materials.",
+    "accentColor": "#C98FA8"
+  },
+  {
+    "id": "art-history-theory",
+    "title": "Art History & Theory",
+    "description": "Artists, movements and the ideas behind the art we study.",
+    "accentColor": "#9AA6D6"
+  },
+  {
+    "id": "contemporary-art-critical-thinking",
+    "title": "Contemporary Art & Critical Thinking",
+    "description": "Recent art and the questions it asks us to think through.",
+    "accentColor": "#7FBFA0"
+  },
+  {
+    "id": "materials-techniques",
+    "title": "Materials & Techniques",
+    "description": "The tools, materials and methods behind the mark-making.",
+    "accentColor": "#C9B06F"
+  },
+  {
+    "id": "digital-art-animation",
+    "title": "Digital Art & Animation",
+    "description": "Digital drawing, animation and motion as creative tools.",
+    "accentColor": "#6FA7D6"
+  }
+]

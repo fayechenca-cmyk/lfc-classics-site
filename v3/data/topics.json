@@ -8585,5 +8585,301 @@
     "hidden": false,
     "lastVerified": "2026-10-15",
     "core": true
+  },
+  {
+    "keyConcepts": [
+      "Fashion figure (croquis)",
+      "Silhouette: the overall shape",
+      "Fabric, texture and drape",
+      "A collection tells one story",
+      "Historic dress as inspiration"
+    ],
+    "tryIt": "Pick one word — 'ocean', 'forest' or 'city'. Sketch three outfits that all share that idea through color, shape or pattern.",
+    "keywords": [
+      "fashion",
+      "fashion design",
+      "costume",
+      "clothing",
+      "dress",
+      "garment",
+      "silhouette",
+      "croquis",
+      "textile",
+      "时装设计",
+      "服装设计",
+      "服装"
+    ],
+    "relatedTopics": [
+      "LFC-042",
+      "LFC-043",
+      "LFC-045",
+      "LFC-142"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "Evening dress",
+        "creator": "House of Worth, 1895–96",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/107023",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ci/web-large/35.134.2ab_F.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Notice the huge sleeves and narrow waist — the silhouette is the design."
+      },
+      {
+        "type": "link",
+        "title": "Costume in The Metropolitan Museum of Art",
+        "creator": "The Costume Institute",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/en/essays/costume-in-the-metropolitan-museum-of-art",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "How a museum collects and studies clothing as art."
+      },
+      {
+        "type": "link",
+        "title": "Costume Institute Fashion Plates (digital collection)",
+        "creator": "",
+        "publisher": "The Metropolitan Museum of Art — Watson Library",
+        "url": "https://metmuseum.org/art/libraries-and-research-centers/watson-digital-collections/costume-institute-collections/costume-institute-fashion-plates",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Hundreds of historic fashion illustrations to browse for ideas."
+      }
+    ],
+    "id": "DESIGN-001",
+    "title": "Fashion Design: From Idea to Garment",
+    "category": "Design & Applied Art",
+    "summary": "Fashion designers start with a figure, a mood and a few sketches, then think about fabric, shape and how clothes move on a body.",
+    "ageLabel": "9+",
+    "level": "Beginner",
+    "state": "A",
+    "smartClass": {
+      "key": "fashion-design",
+      "match": "direct"
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-16",
+    "core": true
+  },
+  {
+    "keyConcepts": [
+      "One clear focal point",
+      "Flat areas of color",
+      "Strong silhouettes",
+      "Lettering as part of the picture",
+      "Readable from far away"
+    ],
+    "tryIt": "Design a poster for an imaginary event using only three colors. Step back three meters — can you still read it?",
+    "keywords": [
+      "poster",
+      "poster design",
+      "graphic design",
+      "lettering",
+      "typography",
+      "lithograph",
+      "toulouse-lautrec",
+      "海报",
+      "平面设计",
+      "字体设计"
+    ],
+    "relatedTopics": [
+      "LFC-017",
+      "LFC-067",
+      "DESIGN-003"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "Divan Japonais",
+        "creator": "Henri de Toulouse-Lautrec, 1892–93 (color lithograph)",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/334197",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DT224360.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Big black shapes, cropped figures and hand-drawn lettering — a model of poster design."
+      },
+      {
+        "type": "video",
+        "title": "How to make decorative letters | Drop-in Drawing",
+        "creator": "",
+        "publisher": "The Met (YouTube)",
+        "url": "https://www.youtube.com/watch?v=Usyw2Vlu2AY",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/Usyw2Vlu2AY",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Design your own letters, the way poster artists did."
+      }
+    ],
+    "id": "DESIGN-002",
+    "title": "Poster Design: Bold Shapes, Few Colors",
+    "category": "Design & Applied Art",
+    "summary": "A good poster is read in a second. Artists like Toulouse-Lautrec used flat shapes, strong outlines and only a few colors to catch the eye from across the street.",
+    "ageLabel": "9+",
+    "level": "Beginner",
+    "state": "B",
+    "smartClass": {
+      "key": "",
+      "match": ""
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-16",
+    "core": true
+  },
+  {
+    "keyConcepts": [
+      "Motif",
+      "Repeat and rhythm",
+      "Symmetry",
+      "Positive and negative space",
+      "Nature as a source"
+    ],
+    "tryIt": "Draw one small leaf or flower in a square. Trace it into a 3×3 grid, flipping every other square. What new shapes appear where they meet?",
+    "keywords": [
+      "pattern",
+      "ornament",
+      "motif",
+      "repeat",
+      "textile design",
+      "wallpaper",
+      "border",
+      "william morris",
+      "arts and crafts",
+      "图案",
+      "纹样",
+      "装饰"
+    ],
+    "relatedTopics": [
+      "LFC-024",
+      "DESIGN-002"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "Bird (woven textile)",
+        "creator": "William Morris, designed 1878",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/221485",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/es/web-large/DP319440.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Find the single bird motif, then see how it repeats across the cloth."
+      },
+      {
+        "type": "video",
+        "title": "How to draw a decorative border | Drop-in Drawing",
+        "creator": "",
+        "publisher": "The Met (YouTube)",
+        "url": "https://www.youtube.com/watch?v=J44fyZL4a98",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/J44fyZL4a98",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Step-by-step repeating border design."
+      },
+      {
+        "type": "link",
+        "title": "Arts and Crafts movement (Art Term)",
+        "creator": "",
+        "publisher": "The Museum of Modern Art (MoMA)",
+        "url": "https://www.moma.org/collection/terms/arts-and-crafts-movement",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Why designers like Morris chose handmade work and nature-inspired patterns."
+      }
+    ],
+    "id": "DESIGN-003",
+    "title": "Pattern & Ornament: Designing with Repeats",
+    "category": "Design & Applied Art",
+    "summary": "Patterns are built from a small motif repeated in a rhythm. Designers like William Morris turned birds, leaves and flowers into fabrics and wallpapers.",
+    "ageLabel": "7+",
+    "level": "Beginner",
+    "state": "B",
+    "smartClass": {
+      "key": "",
+      "match": ""
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-16",
+    "core": true
+  },
+  {
+    "keyConcepts": [
+      "Eye level and vanishing points",
+      "Big shapes first, details last",
+      "People for scale",
+      "Light across buildings",
+      "Framing a view through an arch or window"
+    ],
+    "tryIt": "Draw the view through a doorway or window at home. Use the frame of the opening as the edge of your picture.",
+    "keywords": [
+      "architecture",
+      "architectural drawing",
+      "building",
+      "city",
+      "street",
+      "interior",
+      "space",
+      "perspective",
+      "建筑",
+      "建筑绘画",
+      "城市",
+      "空间"
+    ],
+    "relatedTopics": [
+      "DRAW-002",
+      "LFC-085",
+      "LFC-086",
+      "LFC-036"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "Paris Street; Rainy Day",
+        "creator": "Gustave Caillebotte, 1877",
+        "publisher": "The Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/20684/paris-street-rainy-day",
+        "imageUrl": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Follow the building edges — they lead your eye deep into the city."
+      },
+      {
+        "type": "image",
+        "title": "Design for a Painted Wall Decoration: Architectural Perspective Seen Through an Arch",
+        "creator": "Anonymous Italian artist, 18th century (pen, ink and watercolor)",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/340732",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP803622.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "A painted illusion: flat wall, but it looks like you could walk through it."
+      }
+    ],
+    "id": "DESIGN-004",
+    "title": "Drawing Spaces: Architecture and the City",
+    "category": "Design & Applied Art",
+    "summary": "Architects and painters use perspective to imagine buildings and streets before they exist. Looking at how they arrange space helps your own scenes feel real.",
+    "ageLabel": "10+",
+    "level": "Beginner",
+    "state": "B",
+    "smartClass": {
+      "key": "scene-drawing",
+      "match": "related"
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-16",
+    "core": true
   }
 ]

@@ -13,16 +13,28 @@ export function debounce(fn, ms) {
   };
 }
 
+// COMPLIANCE.md section 1: AIC wants a plain museum name plus a
+// separate "Public Domain (CC0)" label; the Met wants "Open Access
+// (CC0)" folded directly into the caption sentence instead, with no
+// separate label. item.artist/item.date are genuinely separate fields
+// here (unlike curated resources' combined `creator` string), so the
+// museums' literal "Artist. Title, Date. Publisher." order is used
+// as-is.
+function captionLine(item) {
+  const titleDate = [item.title, item.date].filter(Boolean).join(', ');
+  const bits = [item.artist, titleDate].filter(Boolean);
+  const museumPart = item.museum === 'met' ? `${item.museumLabel}, Open Access (CC0).` : `${item.museumLabel}.`;
+  return [...bits, museumPart].join('. ');
+}
+
 function cardHtml(item) {
-  const meta = [item.artist, item.date].filter(Boolean).join(' · ');
+  const pdLabel = item.museum === 'met' ? '' : `<span class="lib-museum-pd-label">Public Domain (CC0)</span>`;
   return `
     <a class="lib-museum-card" href="${escapeHtml(item.pageUrl)}" target="_blank" rel="noopener">
       <img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.title || '')}" loading="lazy">
       <div class="lib-museum-card-body">
-        <span class="lib-museum-pd-label">Public Domain</span>
-        <div class="lib-resource-title">${escapeHtml(item.title || 'Untitled')}</div>
-        ${meta ? `<div class="lib-resource-attribution">${escapeHtml(meta)}</div>` : ''}
-        <div class="lib-resource-attribution">${escapeHtml(item.museumLabel)}</div>
+        ${pdLabel}
+        <div class="lib-resource-title">${escapeHtml(captionLine(item))}</div>
         <span class="lib-museum-view-link">View at museum ↗</span>
       </div>
     </a>

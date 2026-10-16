@@ -82,18 +82,6 @@
         "license": "",
         "language": "en",
         "lastChecked": "2026-10-15"
-      },
-      {
-        "type": "link",
-        "title": "Study PDF",
-        "creator": "",
-        "publisher": "",
-        "url": "https://drive.google.com/file/d/1QHasoelv7cmzQPjE5uMPb57EYJwDKLxD/view?usp=share_link",
-        "imageUrl": "",
-        "embedUrl": "",
-        "license": "",
-        "language": "en",
-        "lastChecked": "2026-10-15"
       }
     ],
     "relatedTopics": [],
@@ -257,18 +245,6 @@
         "url": "https://www.youtube.com/watch?v=Sm428U-X-Gw",
         "imageUrl": "",
         "embedUrl": "https://www.youtube-nocookie.com/embed/Sm428U-X-Gw",
-        "license": "",
-        "language": "en",
-        "lastChecked": "2026-10-15"
-      },
-      {
-        "type": "link",
-        "title": "Study PDF",
-        "creator": "",
-        "publisher": "",
-        "url": "https://drive.google.com/file/d/1ztyt31aMi0txOikCm-FTP8PPF_GWWoVA/view?usp=sharing",
-        "imageUrl": "",
-        "embedUrl": "",
         "license": "",
         "language": "en",
         "lastChecked": "2026-10-15"
@@ -2891,9 +2867,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-060",
@@ -2965,9 +2942,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-061",
@@ -3026,9 +3004,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-062",
@@ -3101,9 +3080,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-063",
@@ -3160,9 +3140,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-064",
@@ -3220,9 +3201,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-065",
@@ -3295,9 +3277,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-066",
@@ -3368,9 +3351,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-067",
@@ -3441,9 +3425,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-068",
@@ -3516,9 +3501,10 @@
       }
     ],
     "relatedTopics": [],
-    "hidden": false,
+    "hidden": true,
     "lastVerified": "2026-10-15",
-    "noImages": true
+    "noImages": true,
+    "hiddenReason": "compliance: commercial characters"
   },
   {
     "id": "LFC-069",
@@ -5507,18 +5493,6 @@
         "url": "https://www.youtube.com/watch?v=ZdgpTWgSFl4",
         "imageUrl": "",
         "embedUrl": "https://www.youtube-nocookie.com/embed/ZdgpTWgSFl4",
-        "license": "",
-        "language": "en",
-        "lastChecked": "2026-10-15"
-      },
-      {
-        "type": "link",
-        "title": "Study PDF",
-        "creator": "",
-        "publisher": "",
-        "url": "https://drive.google.com/file/d/1qtkU39i2V82bbL4K-qsKTB_arMyzzxAR/view?usp=sharing",
-        "imageUrl": "",
-        "embedUrl": "",
         "license": "",
         "language": "en",
         "lastChecked": "2026-10-15"

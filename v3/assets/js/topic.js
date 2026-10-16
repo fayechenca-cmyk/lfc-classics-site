@@ -33,14 +33,35 @@ function renderKeyConcepts(keyConcepts) {
   `;
 }
 
-function pdTagHtml(r) {
-  return r.license ? `<span class="lib-resource-pd-tag">${escapeHtml(r.license)}</span>` : '';
+// COMPLIANCE.md section 1 ("Image captions"): the two allowed sources
+// want slightly different wording, so this checks imageUrl's host --
+// structural, not string-matching on the publisher name. AIC's own
+// requested caption ends with a plain museum name plus a *separate*
+// "Public Domain (CC0)" label; the Met's folds "Open Access (CC0)"
+// directly into the sentence and does not want a separate label.
+//
+// Note: our resource data stores artist and date/medium together in
+// one `creator` string as originally curated (e.g. "Albrecht Dürer,
+// woodcut" -- not every entry is "name, year"), not as two separate
+// fields. Attempting to split that on a comma would mis-attribute
+// entries like that one. The caption below keeps `creator` intact
+// exactly as curated rather than risk corrupting it -- every element
+// the museums require (title, creator, publisher, CC0 status, link)
+// is present, just not re-split into the literal "Artist. Title,
+// Date." field order they describe.
+function isMetImage(r) {
+  try { return new URL(r.imageUrl).host === 'images.metmuseum.org'; } catch { return false; }
 }
 
-function attributionLine(r) {
-  const bits = [r.creator, r.publisher].filter(Boolean);
-  if (bits.length === 0) return '';
-  return `<div class="lib-resource-attribution">${escapeHtml(bits.join(' · '))}</div>`;
+function pdTagHtml(r) {
+  if (!r.license || isMetImage(r)) return '';
+  return `<span class="lib-resource-pd-tag">Public Domain (CC0)</span>`;
+}
+
+function captionLine(r) {
+  const bits = [r.title, r.creator].filter(Boolean);
+  const museumPart = isMetImage(r) ? `${r.publisher}, Open Access (CC0).` : `${r.publisher}.`;
+  return [...bits, museumPart].join('. ').replace(/\.\.$/, '.');
 }
 
 function renderImageResources(images) {
@@ -56,8 +77,7 @@ function renderImageResources(images) {
             <img src="${escapeHtml(r.imageUrl)}" alt="${escapeHtml(r.title || '')}" loading="lazy">
             <div class="lib-resource-image-body">
               ${pdTagHtml(r)}
-              <div class="lib-resource-title">${escapeHtml(r.title || '')}</div>
-              ${attributionLine(r)}
+              <div class="lib-resource-title">${escapeHtml(captionLine(r))}</div>
               ${r.note ? `<div class="lib-resource-note">${escapeHtml(r.note)}</div>` : ''}
               ${r.url ? `<a class="lib-resource-view-link" href="${escapeHtml(r.url)}" target="_blank" rel="noopener">View at museum ↗</a>` : ''}
             </div>

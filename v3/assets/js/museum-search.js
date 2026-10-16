@@ -46,6 +46,11 @@ function hasBlockedKeyword(text, blockKeywords) {
 }
 
 function passesAic(item, filter) {
+  // The API call also filters on query[term][is_public_domain]=true, but
+  // checking the field on the returned item too (same as passesMet
+  // below) means this is never just trusting that query param silently --
+  // see v3/COMPLIANCE.md.
+  if (!item.is_public_domain) return false;
   if (!item.image_id) return false;
   if (!filter.allowDepartments.aic.includes(item.department_title)) return false;
   const classification = (item.classification_title || '').toLowerCase();

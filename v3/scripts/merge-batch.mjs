@@ -15,14 +15,21 @@
 // - stillHidden: informational only (documents why a topic is still
 //   hidden) -- this script does not need to touch those topics at all,
 //   since "still hidden" means "leave it exactly as it is."
+//
+// After writing, runs v3/scripts/check-compliance.mjs (see
+// v3/COMPLIANCE.md) and restores the pre-merge topics.json, refusing
+// the merge, if it fails -- legal compliance outranks everything else
+// a batch might otherwise add.
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
+import { spawnSync } from 'node:child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..', '..');
 const TOPICS_PATH = join(ROOT, 'v3', 'data', 'topics.json');
+const CHECK_COMPLIANCE_PATH = join(__dirname, 'check-compliance.mjs');
 
 const DEFAULT_TOPIC_FIELDS = {
   keyConcepts: [],
@@ -42,7 +49,8 @@ function main() {
   if (!batchPath) fail('usage: node v3/scripts/merge-batch.mjs <path-to-batch.json>');
 
   const batch = JSON.parse(readFileSync(resolve(batchPath), 'utf8'));
-  const topics = JSON.parse(readFileSync(TOPICS_PATH, 'utf8'));
+  const originalTopicsText = readFileSync(TOPICS_PATH, 'utf8');
+  const topics = JSON.parse(originalTopicsText);
   const byId = new Map(topics.map((t) => [t.id, t]));
 
   const newTopics = batch.newTopics || [];
@@ -85,6 +93,18 @@ function main() {
   }
 
   writeFileSync(TOPICS_PATH, JSON.stringify(topics, null, 2) + '\n');
+
+  // Legal compliance comes first (see v3/COMPLIANCE.md) -- a batch that
+  // would introduce a violation never gets to stay merged, no matter
+  // how good the rest of it is. Restore the pre-merge file and refuse.
+  const check = spawnSync(process.execPath, [CHECK_COMPLIANCE_PATH], { encoding: 'utf8' });
+  if (check.status !== 0) {
+    writeFileSync(TOPICS_PATH, originalTopicsText);
+    console.error(check.stdout);
+    console.error(check.stderr);
+    fail('compliance check failed -- topics.json restored to its pre-merge state. Fix the batch and try again.');
+  }
+  console.log(check.stdout.trim());
 
   console.log(`[merge-batch] Batch "${batch.batch}" merged into ${TOPICS_PATH}`);
   console.log(`  Added ${addedIds.length} new topic(s): ${addedIds.join(', ') || '(none)'}`);

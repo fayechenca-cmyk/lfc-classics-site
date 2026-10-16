@@ -1,0 +1,280 @@
+{
+  "batch": "materials-01",
+  "category": "Materials & Techniques",
+  "checked": "2026-10-16",
+  "newTopics": [
+    {
+      "id": "MAT-001",
+      "title": "Watercolor: Working with Water and Light",
+      "category": "Materials & Techniques",
+      "summary": "Watercolor is see-through paint. The white of the paper becomes your brightest light, so planning where NOT to paint matters as much as where you do.",
+      "keyConcepts": [
+        "Light to dark: save your whites",
+        "Wet-on-wet for soft edges",
+        "Wet-on-dry for crisp edges",
+        "Layering thin washes (glazing)",
+        "Letting water do some of the work"
+      ],
+      "tryIt": "Wet half a page with clean water. Drop in two colors and tilt the paper. Then paint the same two colors on the dry half. Compare the edges.",
+      "keywords": [
+        "watercolor",
+        "watercolour",
+        "wash",
+        "wet on wet",
+        "glazing",
+        "transparent",
+        "水彩",
+        "湿画法",
+        "渲染"
+      ],
+      "ageLabel": "8+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": {
+        "key": "",
+        "match": ""
+      },
+      "resources": [
+        {
+          "type": "image",
+          "title": "For to Be a Farmer's Boy",
+          "creator": "Winslow Homer, 1887",
+          "publisher": "The Art Institute of Chicago",
+          "url": "https://www.artic.edu/artworks/93433/for-to-be-a-farmer-s-boy",
+          "imageUrl": "https://www.artic.edu/iiif/2/0010bff3-4f51-8e35-46ee-0c46184354f6/full/843,/0/default.jpg",
+          "license": "Public Domain",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Homer scraped and blotted the paint to create light — look at the sky."
+        },
+        {
+          "type": "link",
+          "title": "Watercolour (Art Term)",
+          "creator": "",
+          "publisher": "Tate",
+          "url": "https://www.tate.org.uk/art/art-terms/w/watercolour",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "What makes watercolor different: transparent paint and the glow of white paper."
+        },
+        {
+          "type": "link",
+          "title": "Nineteenth-Century American Drawings",
+          "creator": "Kevin J. Avery",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/nineteenth-century-american-drawings",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "How Homer, Sargent and others turned watercolor into a bold, free medium. Best for ages 12+."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-026",
+        "LFC-029",
+        "LFC-091",
+        "DRAW-006"
+      ]
+    },
+    {
+      "id": "MAT-002",
+      "title": "Ink & Brush: The Art of the Single Stroke",
+      "category": "Materials & Techniques",
+      "summary": "In Chinese ink painting, one brushstroke can be a whole bamboo leaf. Pressure, speed and how much water is in the brush change everything.",
+      "keyConcepts": [
+        "Holding the brush upright",
+        "Pressing and lifting in one stroke",
+        "Dark, middle and pale ink",
+        "Leaving empty space",
+        "Practice through repetition"
+      ],
+      "tryIt": "Paint ten bamboo leaves with one stroke each: press down, then lift as you pull. Try fast strokes, then slow ones — which looks more alive?",
+      "keywords": [
+        "ink",
+        "ink painting",
+        "brush",
+        "chinese painting",
+        "bamboo",
+        "sumi-e",
+        "calligraphy brush",
+        "水墨",
+        "国画",
+        "毛笔",
+        "墨竹",
+        "笔墨"
+      ],
+      "ageLabel": "8+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": {
+        "key": "ink-painting",
+        "match": "related"
+      },
+      "resources": [
+        {
+          "type": "image",
+          "title": "Ink bamboo",
+          "creator": "Tang Yin, China, Ming dynasty, early 16th century (handscroll)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/45756",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP205421_CRD.jpg",
+          "license": "Public Domain",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Every leaf is a single confident stroke of ink."
+        },
+        {
+          "type": "link",
+          "title": "Learning to Paint in Premodern China (exhibition)",
+          "creator": "",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/en/exhibitions/learning-to-paint",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "How painters in China learned — from teachers, family and printed painting manuals."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-029",
+        "LFC-021"
+      ]
+    },
+    {
+      "id": "MAT-003",
+      "title": "Printmaking: Woodcut, Etching and Lithograph",
+      "category": "Materials & Techniques",
+      "summary": "A print is made by transferring ink from a carved, etched or drawn surface onto paper — so one design can become many pictures.",
+      "keyConcepts": [
+        "Relief: ink the raised parts (woodcut, linocut)",
+        "Intaglio: ink the grooves (etching, engraving)",
+        "Planographic: ink sticks to greasy drawing (lithograph)",
+        "Printing in reverse — the image flips!",
+        "Editions: many copies of one design"
+      ],
+      "tryIt": "Press a leaf or a coin under thin paper and rub over it with a crayon. Then carve a simple shape into a potato or foam tray and stamp it five times. That's relief printing.",
+      "keywords": [
+        "printmaking",
+        "print",
+        "woodcut",
+        "woodblock",
+        "linocut",
+        "etching",
+        "engraving",
+        "lithograph",
+        "relief print",
+        "hokusai",
+        "rembrandt",
+        "版画",
+        "木刻",
+        "铜版画",
+        "石版画"
+      ],
+      "ageLabel": "8+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": {
+        "key": "",
+        "match": ""
+      },
+      "resources": [
+        {
+          "type": "image",
+          "title": "South Wind, Clear Sky (Red Fuji)",
+          "creator": "Katsushika Hokusai, ca. 1830–32 (woodblock print)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/55736",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP141053.jpg",
+          "license": "Public Domain",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Each color was printed from its own carved woodblock."
+        },
+        {
+          "type": "image",
+          "title": "Self-Portrait Etching at a Window",
+          "creator": "Rembrandt, 1648 (etching, drypoint and burin)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/369807",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP135654.jpg",
+          "license": "Public Domain",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Fine lines scratched into a metal plate, then printed — look at the shading made of lines."
+        },
+        {
+          "type": "link",
+          "title": "Woodcut — Materials and Techniques",
+          "creator": "",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/en/perspectives/materials-and-techniques-printmaking-woodcut",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "How the oldest printing method works."
+        },
+        {
+          "type": "link",
+          "title": "Etching — Materials and Techniques",
+          "creator": "",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/en/perspectives/materials-and-techniques-printmaking-etching",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "How acid 'bites' lines into a metal plate."
+        },
+        {
+          "type": "link",
+          "title": "Lithograph — Materials and Techniques",
+          "creator": "",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/en/perspectives/materials-and-techniques-printmaking-lithograph",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Printing from a drawing made on stone."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-107",
+        "LFC-112",
+        "LFC-113",
+        "DESIGN-002"
+      ]
+    }
+  ],
+  "updateTopics": [
+    {
+      "id": "LFC-031",
+      "unhide": true,
+      "addResources": [
+        {
+          "type": "image",
+          "title": "The Feast of Sada, from the Shahnama (Book of Kings) of Shah Tahmasp",
+          "creator": "Iran, ca. 1525 (opaque watercolor, ink, silver and gold)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/452111",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/is/web-large/DP107689.jpg",
+          "license": "Public Domain",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Opaque watercolor — gouache's close cousin. Flat, jewel-bright colors sit side by side without mixing."
+        },
+        {
+          "type": "link",
+          "title": "Gouache (Art Term)",
+          "creator": "",
+          "publisher": "Tate",
+          "url": "https://www.tate.org.uk/art/art-terms/g/gouache",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Gouache is water-based like watercolor, but opaque — it covers what's underneath."
+        }
+      ]
+    }
+  ],
+  "stillHidden": []
+}

@@ -1,0 +1,273 @@
+{
+  "batch": "projects-01",
+  "category": "Creative Projects",
+  "checked": "2026-10-16",
+  "newTopics": [
+    {
+      "id": "PROJ-001",
+      "title": "Paper Cutting & Silhouettes",
+      "category": "Creative Projects",
+      "summary": "With only paper and scissors you can make portraits, patterns and whole scenes. A silhouette shows just the outline — so the shape has to say everything.",
+      "keyConcepts": [
+        "Positive and negative shapes",
+        "Fold and cut for symmetry",
+        "Outline tells the story",
+        "Layering paper for depth",
+        "Light and shadow through cut paper"
+      ],
+      "tryIt": "Fold a square of paper in half twice. Cut small shapes along the folds, then open it up. Shine a flashlight through it onto a wall.",
+      "keywords": [
+        "paper cutting",
+        "papercut",
+        "cut paper",
+        "silhouette",
+        "shadow box",
+        "kirigami",
+        "剪纸",
+        "剪影",
+        "纸艺"
+      ],
+      "ageLabel": "6+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": {
+        "key": "",
+        "match": ""
+      },
+      "resources": [
+        {
+          "type": "image",
+          "title": "Silhouette of Eliza McPherson",
+          "creator": "W. Bruff, 19th century (hollow cut paper)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/825946",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP887326.jpg",
+          "license": "Public Domain",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "A portrait made only from a cut-out outline — no drawing at all."
+        },
+        {
+          "type": "link",
+          "title": "Make a paper kaleidoscope",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/cut-paste/make-kaleidoscope",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Cut, fold and play with reflected color."
+        },
+        {
+          "type": "link",
+          "title": "Collage play",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/cut-paste/play-collage",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Cut-and-paste ideas for building pictures from paper scraps."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-108",
+        "LFC-106",
+        "DESIGN-003"
+      ]
+    },
+    {
+      "id": "PROJ-002",
+      "title": "Build It: Sculpture from Everyday Materials",
+      "category": "Creative Projects",
+      "summary": "Cardboard, paper, string and fabric can become sculpture. Artists build by folding, joining, stacking, hanging and even wrapping ordinary things.",
+      "keyConcepts": [
+        "Joining: tabs, slots and tape",
+        "Balance and stability",
+        "Hanging and moving parts",
+        "Changing an object by wrapping it",
+        "Planning with a quick sketch first"
+      ],
+      "tryIt": "Make a standing animal from one cereal box using only cuts and slots — no tape. Can it stand on its own?",
+      "keywords": [
+        "sculpture",
+        "3d",
+        "cardboard",
+        "paper sculpture",
+        "mobile",
+        "wrap",
+        "construction",
+        "recycled materials",
+        "make",
+        "雕塑",
+        "纸板",
+        "立体",
+        "手工"
+      ],
+      "ageLabel": "7+",
+      "level": "Beginner",
+      "state": "A",
+      "smartClass": {
+        "key": "cardboard",
+        "match": "direct"
+      },
+      "resources": [
+        {
+          "type": "link",
+          "title": "Wrap It Up",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/sculpture/wrap-it",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Wrap everyday objects in fabric and string to turn them into new shapes."
+        },
+        {
+          "type": "link",
+          "title": "Make a hanging mobile",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/sculpture/how-to-make-a-hanging-mobile-like-julio-le-parc",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "A light, moving sculpture that catches the light."
+        },
+        {
+          "type": "link",
+          "title": "Make a paper pumpkin sculpture",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/sculpture/how-to-make-a-yayoi-kusama-inspired-paper-pumpkin",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Fold and cut a paper pumpkin, then cover it in dots."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-110",
+        "LFC-090",
+        "LFC-116",
+        "LFC-115"
+      ]
+    },
+    {
+      "id": "PROJ-003",
+      "title": "Clay: Shaping by Hand",
+      "category": "Creative Projects",
+      "summary": "People have shaped clay for thousands of years — pinching, rolling coils and joining slabs. Simple forms can be full of character.",
+      "keyConcepts": [
+        "Pinch pots",
+        "Coils and slabs",
+        "Score and slip to join pieces",
+        "Keep it chunky — thin parts break",
+        "Texture with everyday tools"
+      ],
+      "tryIt": "Make a small head from one ball of clay. Push, pinch and poke to make the features — no adding extra pieces.",
+      "keywords": [
+        "clay",
+        "ceramics",
+        "pottery",
+        "modeling",
+        "air-dry clay",
+        "sculpture",
+        "haniwa",
+        "黏土",
+        "陶艺",
+        "泥塑"
+      ],
+      "ageLabel": "6+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": {
+        "key": "",
+        "match": ""
+      },
+      "resources": [
+        {
+          "type": "image",
+          "title": "Head of a Male Haniwa Figure with Hat",
+          "creator": "Japan, Kofun period, ca. 6th century (earthenware)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/45546",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/as/web-large/17_150_35.JPG",
+          "license": "Public Domain",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Simple holes for eyes and mouth — still full of personality, 1,500 years later."
+        },
+        {
+          "type": "video",
+          "title": "#MetKids—How Do We Make Art at The Met?",
+          "creator": "",
+          "publisher": "The Met (YouTube)",
+          "url": "https://www.youtube.com/watch?v=o1It5ZEmMlA",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/o1It5ZEmMlA",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Kids make tiles and clay sculptures inspired by the museum."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-109",
+        "LFC-034"
+      ]
+    },
+    {
+      "id": "PROJ-004",
+      "title": "Make Your Own Book or Zine",
+      "category": "Creative Projects",
+      "summary": "A zine is a small, home-made booklet. One sheet of paper can become an eight-page book full of drawings, collage and your own stories.",
+      "keyConcepts": [
+        "Folding one sheet into eight pages",
+        "Planning pages in order",
+        "Mixing words and pictures",
+        "Collage from magazines",
+        "Making copies to share"
+      ],
+      "tryIt": "Fold one sheet into a mini-zine about your favorite animal: cover, five facts, a drawing, and a back page.",
+      "keywords": [
+        "zine",
+        "book",
+        "booklet",
+        "illustration book",
+        "comic",
+        "storytelling",
+        "bookmaking",
+        "绘本",
+        "小册子",
+        "手工书"
+      ],
+      "ageLabel": "7+",
+      "level": "Beginner",
+      "state": "A",
+      "smartClass": {
+        "key": "illustration-book",
+        "match": "related"
+      },
+      "resources": [
+        {
+          "type": "link",
+          "title": "How to Make a Zine",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/cut-paste/how-to-make-a-zine",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Step-by-step film with an artist and students. You need one sheet of paper, scissors and glue."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-054",
+        "LFC-055",
+        "LFC-143"
+      ]
+    }
+  ],
+  "updateTopics": [],
+  "stillHidden": []
+}

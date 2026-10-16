@@ -9808,5 +9808,271 @@
     "hidden": false,
     "lastVerified": "2026-10-16",
     "core": true
+  },
+  {
+    "keyConcepts": [
+      "Art for the afterlife",
+      "Clear, simple shapes",
+      "Symbols from nature (the Nile, plants, animals)",
+      "Rules that lasted thousands of years",
+      "Faience: a glassy blue material"
+    ],
+    "tryIt": "Design a small animal 'helper' for a journey. Decorate it with symbols of where it lives, the way the hippo's body is covered with river plants.",
+    "keywords": [
+      "egypt",
+      "ancient egypt",
+      "egyptian art",
+      "hippo",
+      "hippopotamus",
+      "faience",
+      "pharaoh",
+      "afterlife",
+      "古埃及",
+      "埃及艺术",
+      "河马"
+    ],
+    "relatedTopics": [
+      "LFC-122"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "Hippopotamus (\"William\")",
+        "creator": "Egypt, Middle Kingdom, ca. 1961–1878 B.C. (faience)",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/544227",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/eg/web-large/DP248993.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Look closely: lotus flowers and river plants are painted on its body — it carries its home with it."
+      },
+      {
+        "type": "link",
+        "title": "How William the Hippo Got His Name",
+        "creator": "Isabel Stünkel and Kei Yamamoto",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://metmuseum.org/articles/how-william-hippo-got-his-name",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "The story of the museum's favorite hippo and how it got its nickname. Ages 10+."
+      }
+    ],
+    "id": "HIST-001",
+    "title": "Ancient Egypt: Art Made to Last Forever",
+    "category": "Art History & Theory",
+    "summary": "Egyptian artists made objects for the afterlife, so they used strong, simple shapes and lasting materials. Even a small blue hippo could carry big meaning.",
+    "ageLabel": "7+",
+    "level": "Beginner",
+    "state": "A",
+    "smartClass": {
+      "key": "art-theory",
+      "match": "direct"
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-16",
+    "core": true
+  },
+  {
+    "keyConcepts": [
+      "Linear perspective",
+      "Realistic light and shadow",
+      "Calm, balanced compositions",
+      "Studying real people and nature",
+      "Artists as thinkers and inventors"
+    ],
+    "tryIt": "Draw a figure in front of a window that shows a landscape. Make the faraway hills smaller and paler than the figure.",
+    "keywords": [
+      "renaissance",
+      "italian renaissance",
+      "florence",
+      "perspective",
+      "leonardo",
+      "raphael",
+      "botticelli",
+      "lippi",
+      "文艺复兴",
+      "意大利"
+    ],
+    "relatedTopics": [
+      "LFC-126",
+      "LFC-018",
+      "DRAW-002"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "Madonna and Child",
+        "creator": "Filippino Lippi, ca. 1483–84",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/436892",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243637.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Notice the open window and the deep landscape behind the figures — a Renaissance favorite."
+      },
+      {
+        "type": "video",
+        "title": "How one-point linear perspective works",
+        "creator": "Dr. Beth Harris and Dr. Steven Zucker",
+        "publisher": "Smarthistory (YouTube)",
+        "url": "https://www.youtube.com/watch?v=eOksHhQ8TLM",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/eOksHhQ8TLM",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "How Renaissance artists invented a system for painting deep space."
+      }
+    ],
+    "id": "HIST-002",
+    "title": "The Renaissance: A New Way of Seeing",
+    "category": "Art History & Theory",
+    "summary": "In 15th-century Italy, artists studied people, nature and space more closely than ever. Perspective and soft, believable light made paintings feel like windows.",
+    "ageLabel": "9+",
+    "level": "Beginner",
+    "state": "A",
+    "smartClass": {
+      "key": "art-theory",
+      "match": "direct"
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-16",
+    "core": true
+  },
+  {
+    "keyConcepts": [
+      "Painting outdoors",
+      "Light changes everything",
+      "Visible, quick brushstrokes",
+      "Colored shadows",
+      "Everyday modern life as subject"
+    ],
+    "tryIt": "Paint or draw the same object in the morning and in the evening. What happened to the colors?",
+    "keywords": [
+      "impressionism",
+      "impressionist",
+      "monet",
+      "water lilies",
+      "light",
+      "brushstroke",
+      "plein air",
+      "印象派",
+      "莫奈",
+      "睡莲"
+    ],
+    "relatedTopics": [
+      "LFC-130",
+      "COLOR-001",
+      "DRAW-006"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "Water Lilies",
+        "creator": "Claude Monet, 1906",
+        "publisher": "The Art Institute of Chicago",
+        "url": "https://www.artic.edu/artworks/16568/water-lilies",
+        "imageUrl": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "No horizon, no sky — just water, reflections and floating flowers."
+      },
+      {
+        "type": "link",
+        "title": "Impressionism: Art and Modernity",
+        "creator": "Margaret Samu",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/impressionism-art-and-modernity",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "How a group of painters broke the rules in 1874 and changed art. Ages 12+."
+      }
+    ],
+    "id": "HIST-003",
+    "title": "Impressionism: Painting Light and Moments",
+    "category": "Art History & Theory",
+    "summary": "The Impressionists painted quickly, often outdoors, to catch light as it changed. Loose brushstrokes and bright color showed a moment, not every detail.",
+    "ageLabel": "8+",
+    "level": "Beginner",
+    "state": "A",
+    "smartClass": {
+      "key": "art-theory",
+      "match": "direct"
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-16",
+    "core": true
+  },
+  {
+    "keyConcepts": [
+      "Shan shui: 'mountains and water'",
+      "Many viewpoints in one picture",
+      "Mist and empty space",
+      "Brush and ink as the main tools",
+      "Landscape as a mirror of the mind"
+    ],
+    "tryIt": "Draw a landscape in a long, narrow strip. Put tiny travelers on a path, and leave misty empty spaces between the mountains.",
+    "keywords": [
+      "chinese landscape",
+      "shan shui",
+      "landscape painting",
+      "guo xi",
+      "song dynasty",
+      "handscroll",
+      "ink landscape",
+      "山水",
+      "山水画",
+      "中国画",
+      "郭熙",
+      "宋代"
+    ],
+    "relatedTopics": [
+      "LFC-125",
+      "MAT-002",
+      "LFC-021"
+    ],
+    "resources": [
+      {
+        "type": "image",
+        "title": "Old Trees, Level Distance",
+        "creator": "Guo Xi, China, Northern Song dynasty, ca. 1080 (handscroll, ink and color on silk)",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/art/collection/search/39668",
+        "imageUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP167812_CRD.jpg",
+        "license": "Public Domain",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "Follow the river from right to left, the way a handscroll is unrolled."
+      },
+      {
+        "type": "link",
+        "title": "Landscape Painting in Chinese Art",
+        "creator": "Department of Asian Art",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/essays/landscape-painting-in-chinese-art",
+        "license": "",
+        "language": "en",
+        "lastChecked": "2026-10-16",
+        "note": "How landscape became the most important subject in Chinese painting. Ages 12+."
+      }
+    ],
+    "id": "HIST-004",
+    "title": "Chinese Landscape Painting: Mountains, Mist and Mind",
+    "category": "Art History & Theory",
+    "summary": "Chinese landscape painters didn't copy one view. They gathered memories of mountains, trees and water into a journey the viewer travels with their eyes.",
+    "ageLabel": "9+",
+    "level": "Beginner",
+    "state": "A",
+    "smartClass": {
+      "key": "art-theory",
+      "match": "direct"
+    },
+    "hidden": false,
+    "lastVerified": "2026-10-16",
+    "core": true
   }
 ]

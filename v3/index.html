@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FEI Art Learning Library</title>
+  <meta name="description" content="Discover art, explore creative ideas, and find your next learning journey.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/library.css">
+</head>
+<body>
+
+  <header class="lib-topbar">
+    <span class="lib-logo">FEI Art Learning Library</span>
+    <a class="lib-topbar-link" href="https://www.feiteamart.com/guided-practice-studio">Smart Class →</a>
+  </header>
+
+  <!-- A. Intro -->
+  <section class="lib-hero">
+    <h1 class="lib-hero-title">FEI Art Learning Library</h1>
+    <p class="lib-hero-sub">Discover art, explore creative ideas, and find your next learning journey.</p>
+    <p class="lib-hero-line">Explore curated art resources, educational videos, artists, techniques, and museum collections. Learn something new, then take your skills further with FEI Smart Class.</p>
+  </section>
+
+  <!-- B. Search -->
+  <section class="lib-search-section" aria-label="Search the Library">
+    <div class="lib-search-box">
+      <label class="lib-search-label" for="lib-search-input">Search the Library</label>
+      <div class="lib-search-input-wrap">
+        <input
+          id="lib-search-input"
+          class="lib-search-input"
+          type="search"
+          placeholder="Search art topics, artists, techniques, or creative ideas..."
+          autocomplete="off"
+        >
+      </div>
+
+      <div class="lib-chip-row">
+        <div class="lib-chip-group" id="lib-subject-chips" aria-label="Filter by subject"></div>
+      </div>
+      <div class="lib-chip-row">
+        <div class="lib-chip-group" aria-label="Filter by resource type">
+          <span class="lib-chip-group-label">Type</span>
+          <div id="lib-type-chips" style="display:contents;">
+            <button type="button" class="lib-chip" data-value="smartclass" aria-pressed="false">Smart Class</button>
+            <button type="button" class="lib-chip" data-value="image" aria-pressed="false">Image</button>
+            <button type="button" class="lib-chip" data-value="video" aria-pressed="false">Video</button>
+            <button type="button" class="lib-chip" data-value="link" aria-pressed="false">Link</button>
+          </div>
+        </div>
+      </div>
+      <div class="lib-chip-row">
+        <div class="lib-chip-group" aria-label="Filter by level">
+          <span class="lib-chip-group-label">Level</span>
+          <div id="lib-level-chips" style="display:contents;"></div>
+        </div>
+      </div>
+
+      <div class="lib-results">
+        <p class="lib-results-meta" id="lib-results-meta"></p>
+        <div id="lib-results"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- C. Browse by Subject -->
+  <section class="lib-section" aria-label="Browse by subject">
+    <div class="lib-section-heading">
+      <h2 class="lib-section-title">Browse by Subject</h2>
+      <p class="lib-section-sub">Eight ways into the collection — pick the one that matches what you're curious about.</p>
+    </div>
+    <div class="lib-grid lib-grid-3" id="lib-categories"></div>
+  </section>
+
+  <!-- D. Featured -->
+  <section class="lib-section" aria-label="Featured topics">
+    <div class="lib-section-heading">
+      <h2 class="lib-section-title">Featured</h2>
+      <p class="lib-section-sub">A few well-stocked topics to start with.</p>
+    </div>
+    <div class="lib-grid lib-grid-3" id="lib-featured"></div>
+  </section>
+
+  <!-- E. Continue in Smart Class -->
+  <section class="lib-cta-section" aria-label="Continue in Smart Class">
+    <div class="lib-cta-box">
+      <p class="lib-cta-text">Ready to put your ideas into practice? Explore structured, step-by-step lessons and interactive creative exercises in FEI Smart Class.</p>
+      <a class="lib-cta-btn" id="lib-smartclass-cta-btn" href="https://www.feiteamart.com/guided-practice-studio">Explore Smart Class →</a>
+    </div>
+  </section>
+
+  <footer class="lib-footer">
+    FEI TeamArt &middot; FEI Art Learning Library
+  </footer>
+
+  <script type="module" src="assets/js/home.js"></script>
+</body>
+</html>

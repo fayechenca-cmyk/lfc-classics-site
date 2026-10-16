@@ -1,0 +1,221 @@
+{
+  "batch": "animation-01",
+  "category": "Digital Art & Animation",
+  "checked": "2026-10-16",
+  "newTopics": [
+    {
+      "id": "ANIM-001",
+      "title": "How Animation Works: Frames and Motion",
+      "category": "Digital Art & Animation",
+      "summary": "Animation is a trick of the eye: many still pictures shown quickly look like movement. Even a few frames can make a ball bounce or a horse gallop.",
+      "keyConcepts": [
+        "Frames: one picture per moment",
+        "Small changes between frames",
+        "Timing: more frames = slower motion",
+        "Keyframes first, in-betweens later",
+        "Stop-motion: move it, photograph it, repeat"
+      ],
+      "tryIt": "Make a flipbook on a stack of sticky notes: draw a ball on the last page, then move it a little higher on each page above. Flip from the back!",
+      "keywords": [
+        "animation",
+        "frames",
+        "flipbook",
+        "stop motion",
+        "stop-motion",
+        "motion",
+        "muybridge",
+        "movement",
+        "动画",
+        "定格动画",
+        "逐帧"
+      ],
+      "ageLabel": "8+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": {
+        "key": "",
+        "match": ""
+      },
+      "resources": [
+        {
+          "type": "image",
+          "title": "Animal Locomotion, Volume IX: Horses",
+          "creator": "Eadweard Muybridge, 1887 (photogravures)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/266439",
+          "imageUrl": "https://images.metmuseum.org/CRDImages/ph/web-large/DP275111.jpg",
+          "license": "Public Domain",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Muybridge photographed movement frame by frame — an early step toward film and animation."
+        },
+        {
+          "type": "link",
+          "title": "Be an Animator",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/art-technology/be-animator",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Model a clay character, plan a storyboard and make a stop-motion film with a tablet or phone."
+        },
+        {
+          "type": "link",
+          "title": "Pixar in a Box",
+          "creator": "",
+          "publisher": "Khan Academy, with Pixar Animation Studios",
+          "url": "https://www.khanacademy.org/partner-content/pixar",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Free video lessons from Pixar artists, including storytelling and how animation works. Ages 10+."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-072",
+        "LFC-119",
+        "LFC-078"
+      ]
+    },
+    {
+      "id": "ANIM-002",
+      "title": "Storyboards: Planning a Story in Pictures",
+      "category": "Digital Art & Animation",
+      "summary": "Before a film or comic is made, artists sketch it as a row of small boxes. A storyboard shows what happens, where the 'camera' is, and how the story flows.",
+      "keyConcepts": [
+        "Beginning, middle and end",
+        "One key moment per box",
+        "Close-up, medium and wide shots",
+        "Arrows to show movement",
+        "Simple drawings — ideas first"
+      ],
+      "tryIt": "Draw a six-box storyboard of your morning, from waking up to leaving home. Use at least one close-up and one wide view.",
+      "keywords": [
+        "storyboard",
+        "storytelling",
+        "story",
+        "comic",
+        "shots",
+        "planning",
+        "narrative",
+        "故事板",
+        "分镜",
+        "讲故事"
+      ],
+      "ageLabel": "9+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": {
+        "key": "illustration-book",
+        "match": "related"
+      },
+      "resources": [
+        {
+          "type": "link",
+          "title": "Pixar in a Box",
+          "creator": "",
+          "publisher": "Khan Academy, with Pixar Animation Studios",
+          "url": "https://www.khanacademy.org/partner-content/pixar",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Free video lessons from Pixar artists, including storytelling and how animation works. Ages 10+."
+        },
+        {
+          "type": "link",
+          "title": "Be an Animator (storyboard step)",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/art-technology/be-animator",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Includes a storyboard sheet for planning your own short film."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-076",
+        "LFC-055",
+        "PROJ-004"
+      ]
+    },
+    {
+      "id": "ANIM-003",
+      "title": "Digital Drawing and Creative Technology",
+      "category": "Digital Art & Animation",
+      "summary": "Screens, code and sound can all be art tools. Digital artists experiment with GIFs, drawing machines and interactive pictures.",
+      "keyConcepts": [
+        "Layers and undo — try freely",
+        "Looping images (GIFs)",
+        "Art that reacts to sound",
+        "Machines that draw",
+        "Same design rules: shape, color, composition"
+      ],
+      "tryIt": "Draw the same doodle three times, changing one small thing each time. Flip between them quickly — you've made a three-frame loop.",
+      "keywords": [
+        "digital art",
+        "digital drawing",
+        "gif",
+        "technology",
+        "procreate",
+        "tablet",
+        "creative coding",
+        "new media",
+        "数字绘画",
+        "数字艺术",
+        "板绘"
+      ],
+      "ageLabel": "8+",
+      "level": "Beginner",
+      "state": "B",
+      "smartClass": {
+        "key": "",
+        "match": ""
+      },
+      "imageNote": "Most digital artworks are recent and protected by copyright, so this topic links to activities instead of showing pictures.",
+      "resources": [
+        {
+          "type": "link",
+          "title": "Make a Doodle GIF",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/art-technology/make-doodle-gif",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Turn a few drawings into a looping animation."
+        },
+        {
+          "type": "link",
+          "title": "Draw a Sound Creature",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/art-technology/draw-sound-creature",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Let sounds guide the shapes you draw."
+        },
+        {
+          "type": "link",
+          "title": "Make a Drawing Robot",
+          "creator": "",
+          "publisher": "Tate Kids",
+          "url": "https://www.tate.org.uk/kids/make/art-technology/make-drawing-robot",
+          "license": "",
+          "language": "en",
+          "lastChecked": "2026-10-16",
+          "note": "Build a simple wobbling machine that makes its own marks."
+        }
+      ],
+      "relatedTopics": [
+        "LFC-082",
+        "LFC-058",
+        "ANIM-001"
+      ]
+    }
+  ],
+  "updateTopics": [],
+  "stillHidden": []
+}

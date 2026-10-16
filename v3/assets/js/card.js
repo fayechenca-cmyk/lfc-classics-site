@@ -13,7 +13,7 @@ export function escapeHtml(str) {
 function statusMarkHtml(topic) {
   const count = (topic.resources || []).length;
   if (topic.state === 'A') {
-    return `<span class="lib-stamp stamp-mint">Smart Class</span>`;
+    return `<span class="lib-stamp stamp-mint">Art GPS</span>`;
   }
   if (count > 0) {
     return `<span class="lib-stamp stamp-violet">Free Resources</span>`;

@@ -196,12 +196,13 @@ function renderSmartClassBox(topic, smartclass) {
   const dest = (smartclass.destinations || {})[topic.smartClass.key];
   if (!dest) return '';
   const label = topic.smartClass.match === 'related'
-    ? `Related Smart Class course: ${escapeHtml(dest.title)} →`
-    : 'Learn this in Smart Class →';
+    ? `Related Art GPS course: ${escapeHtml(dest.title)} →`
+    : 'Learn this in Art GPS →';
   return `
-    <section class="lib-section lib-container" aria-label="Continue in Smart Class">
+    <section class="lib-section lib-container" aria-label="Continue in Art GPS">
       <div class="lib-smartclass-box">
         <a class="lib-smartclass-btn" href="${escapeHtml(smartclass.entry)}">${label}</a>
+        <div class="lib-smartclass-where">Art GPS · step-by-step lessons from experienced art teachers</div>
         <div class="lib-smartclass-where">After you sign in: ${escapeHtml(dest.where)}</div>
       </div>
     </section>

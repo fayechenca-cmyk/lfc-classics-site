@@ -25,7 +25,7 @@ const YOUTUBE_EMBED_RE = /^https:\/\/www\.youtube-nocookie\.com\/embed\/[^/?#]+$
 // catches Chinese (and most Japanese/Korean) text in visible fields.
 // Hidden `keywords` are exempt by design (see v3/COMPLIANCE.md): they
 // help Chinese-speaking families search, and are never displayed.
-const CJK_RE = /[　-鿿＀-￯]/;
+const CJK_RE = /[\u3000-\u9FFF\uFF00-\uFFEF]/;
 
 function loadJson(path) {
   return JSON.parse(readFileSync(path, 'utf8'));
@@ -196,10 +196,11 @@ for (const file of codeFiles) {
   }
 }
 
-// ── 3b. Every v3/**/*.html for CJK characters in rendered text ──
-// Strips <script>/<style> contents, HTML comments and all tags (so
-// attribute values like href/data-* never false-positive -- only
-// actual rendered text nodes count as "visible text").
+// ── 3b. Every v3/**/*.html for CJK characters and blocked brand names
+// in rendered text ── Strips <script>/<style> contents, HTML comments
+// and all tags (so attribute values like href/data-* never
+// false-positive -- only actual rendered text nodes count as "visible
+// text").
 function extractVisibleText(html) {
   return html
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
@@ -213,6 +214,12 @@ for (const file of codeFiles) {
   const text = extractVisibleText(readFileSync(file, 'utf8'));
   if (CJK_RE.test(text)) {
     fail('rendered page text contains CJK characters -- must be English-only', relPath(file));
+  }
+  const lowerText = text.toLowerCase();
+  for (const brand of blockedBrandNames) {
+    if (lowerText.includes(brand)) {
+      fail(`rendered page text contains blocked brand name "${brand}"`, relPath(file));
+    }
   }
 }
 

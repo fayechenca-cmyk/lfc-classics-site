@@ -1,0 +1,117 @@
+/* FEI Art Learning Library (v3) -- design tokens, matching the brand
+   palette on the live feiteamart.com homepage. No gradients anywhere.
+
+   Two values were darkened from the values given in the brief to pass
+   WCAG AA at the sizes they are actually used at (captions/meta and
+   small Smart Class marks are body-size text, which needs 4.5:1, not
+   the 3:1 large-text/UI minimum):
+     --muted     #7a8198 -> #666c80  (was 3.43:1 on --paper, now 4.63:1)
+     --mint-text #1f8a75 -> #1b7a68  (was 3.76:1 on --paper, now 4.62:1)
+   Every other token as given already passes AA at its intended use
+   (see the contrast check run before this file was written). */
+:root {
+  --font-display: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+
+  --ink: #17182f;
+  --ink-soft: #26284a;
+  --text: #4f5670;
+  --muted: #666c80;
+  --violet: #8f7be2;
+  --violet-text: #6450c4;
+  --mint: #48c9b0;
+  --mint-text: #1b7a68;
+  --paper: #f3f0f6;
+  --paper-card: #fbf9fc;
+  --line: rgba(23, 24, 47, 0.14);
+
+  /* Light tints for the shelf spines -- about 20-30% of each accent
+     mixed into --paper-card, computed once here rather than relying
+     on color-mix() (not yet universal) in the stylesheet that uses them. */
+  --violet-tint: #e4def7;
+  --mint-tint: #dcf3ee;
+
+  --radius-pill: 999px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+
+  --shadow-mat: 0 18px 40px rgba(23, 24, 47, 0.1);
+
+  --max-width: 1180px;
+  --page-pad: 20px;
+}
+
+/* The homepage's dot texture -- two layered radial-gradient dot
+   patterns, not a color wash. Allowed: the brief only bans gradients
+   used as a color transition/wash, not a repeating dot pattern. */
+.lib-dot-texture {
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle, rgba(23, 24, 47, 0.05) 1px, transparent 1px),
+    radial-gradient(circle, rgba(23, 24, 47, 0.035) 1px, transparent 1px);
+  background-size: 34px 34px, 22px 22px;
+  background-position: 0 0, 11px 11px;
+}
+
+/* ── Buttons ── */
+.lib-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: var(--ink);
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 14.5px;
+  border-radius: var(--radius-pill);
+  min-height: 50px;
+  padding: 0 26px;
+  border: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.lib-btn-primary:hover {
+  background: var(--ink-soft);
+  transform: translateY(-2px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .lib-btn-primary:hover { transform: none; }
+}
+
+.lib-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 13.5px;
+  border-radius: var(--radius-pill);
+  min-height: 42px;
+  padding: 0 20px;
+  border: 1px solid var(--line);
+  transition: border-color 0.15s ease;
+}
+.lib-btn-secondary:hover { border-color: var(--ink); }
+
+/* ── Eyebrow labels ── */
+.lib-eyebrow {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--violet-text);
+}
+
+/* ── Focus visibility (violet ring everywhere) ── */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--violet);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}

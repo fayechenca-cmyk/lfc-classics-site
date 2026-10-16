@@ -3,6 +3,7 @@ import { loadLibraryData, visibleTopics } from './data-loader.js';
 import { buildIndex, search } from './search.js';
 import { parseHash, serializeHash, hasActiveState } from './hash-state.js';
 import { topicCardHtml, escapeHtml } from './card.js';
+import { renderMuseumSection, debounce } from './museum-ui.js';
 
 const LEVEL_ORDER = ['Beginner', 'Beginner-Intermediate', 'Intermediate', 'All Levels'];
 
@@ -28,6 +29,12 @@ async function main() {
   const input = document.getElementById('lib-search-input');
   const resultsEl = document.getElementById('lib-results');
   const metaEl = document.getElementById('lib-results-meta');
+  const museumEl = document.getElementById('lib-museum-section');
+
+  // Real network calls (AIC: 60 req/min) -- debounced so typing does
+  // not fire a request per keystroke. Keyed on the typed query text
+  // only; filter chips alone give no sensible free-text search term.
+  const triggerMuseumSearch = debounce((q) => renderMuseumSection(museumEl, q), 600);
 
   function currentState() {
     return {
@@ -40,6 +47,7 @@ async function main() {
 
   function render() {
     const state = currentState();
+    triggerMuseumSearch(state.q);
     if (!hasActiveState(state)) {
       resultsEl.innerHTML = '';
       metaEl.textContent = '';
@@ -150,16 +158,26 @@ function renderLevelChips(levels) {
     .join('');
 }
 
+// The Shelves: brand-family-only spine colors, cycled rather than tied
+// to each category's own accentColor (categories.json's accentColor
+// field predates the Visual Refresh and is no longer used here).
+const SPINE_VARIANTS = ['spine-ink', 'spine-violet', 'spine-mint', 'spine-outline', 'spine-violet-tint', 'spine-mint-tint', 'spine-violet', 'spine-mint'];
+// Slightly different heights per spine so the shelf looks hand-arranged,
+// not machine-generated -- fixed, not random, so layout never shifts
+// between renders.
+const SPINE_HEIGHTS = [220, 248, 205, 260, 228, 210, 252, 232];
+
 function renderCategories(categories, topicsEl) {
   const el = document.getElementById('lib-categories');
   el.innerHTML = categories
-    .map((c) => {
+    .map((c, i) => {
       const count = topicsEl.filter((t) => t.category === c.title).length;
+      const variant = SPINE_VARIANTS[i % SPINE_VARIANTS.length];
+      const height = SPINE_HEIGHTS[i % SPINE_HEIGHTS.length];
       return `
-        <a class="lib-category-card" style="--cat-color:${escapeHtml(c.accentColor)}" href="index.html#subject=${encodeURIComponent(c.id)}">
-          <span class="lib-category-title">${escapeHtml(c.title)}</span>
-          <span class="lib-category-desc">${escapeHtml(c.description)}</span>
-          <span class="lib-category-count">${count} topic${count === 1 ? '' : 's'}</span>
+        <a class="lib-spine ${variant}" style="height:${height}px;" href="index.html#subject=${encodeURIComponent(c.id)}" title="${escapeHtml(c.description)}">
+          <span class="lib-spine-title">${escapeHtml(c.title)}</span>
+          <span class="lib-spine-count">${count}</span>
         </a>
       `;
     })

@@ -8,9 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/tokens.css">
   <link rel="stylesheet" href="assets/css/library.css">
 </head>
-<body>
+<body class="lib-dot-texture">
 
   <header class="lib-topbar">
     <span class="lib-logo">FEI Art Learning Library</span>
@@ -19,7 +20,9 @@
 
   <!-- A. Intro -->
   <section class="lib-hero">
+    <div class="lib-eyebrow lib-hero-eyebrow">FEI TeamArt · Reading Room</div>
     <h1 class="lib-hero-title">FEI Art Learning Library</h1>
+    <div class="lib-hero-rule" aria-hidden="true"><span></span><span></span></div>
     <p class="lib-hero-sub">Discover art, explore creative ideas, and find your next learning journey.</p>
     <p class="lib-hero-line">Explore curated art resources, educational videos, artists, techniques, and museum collections. Learn something new, then take your skills further with FEI Smart Class.</p>
   </section>
@@ -27,7 +30,7 @@
   <!-- B. Search -->
   <section class="lib-search-section" aria-label="Search the Library">
     <div class="lib-search-box">
-      <label class="lib-search-label" for="lib-search-input">Search the Library</label>
+      <label class="lib-search-label lib-visually-hidden" for="lib-search-input">Search the Library</label>
       <div class="lib-search-input-wrap">
         <input
           id="lib-search-input"
@@ -37,6 +40,7 @@
           autocomplete="off"
         >
       </div>
+      <p class="lib-search-hint">Try: watercolor · perspective · Van Gogh · 色彩</p>
 
       <div class="lib-chip-row">
         <div class="lib-chip-group" id="lib-subject-chips" aria-label="Filter by subject"></div>
@@ -63,16 +67,24 @@
         <p class="lib-results-meta" id="lib-results-meta"></p>
         <div id="lib-results"></div>
       </div>
+
+      <section id="lib-museum-section" aria-label="From Museum Collections" style="display:none; margin-top:30px;">
+        <!-- populated by assets/js/museum-ui.js -->
+      </section>
     </div>
   </section>
 
-  <!-- C. Browse by Subject -->
+  <!-- C. Browse by Subject -> The Shelves -->
   <section class="lib-section" aria-label="Browse by subject">
     <div class="lib-section-heading">
-      <h2 class="lib-section-title">Browse by Subject</h2>
+      <h2 class="lib-section-title">The Shelves</h2>
       <p class="lib-section-sub">Eight ways into the collection — pick the one that matches what you're curious about.</p>
     </div>
-    <div class="lib-grid lib-grid-3" id="lib-categories"></div>
+    <div class="lib-container">
+      <div class="lib-shelf-row" id="lib-categories"></div>
+      <div class="lib-shelf-line" aria-hidden="true"></div>
+      <p class="lib-shelf-scroll-hint">Scroll to see more shelves →</p>
+    </div>
   </section>
 
   <!-- D. Featured -->
@@ -93,7 +105,7 @@
   </section>
 
   <footer class="lib-footer">
-    FEI TeamArt &middot; FEI Art Learning Library
+    FEI Art Learning Library &middot; Open every day &middot; Resources link to their original museums and publishers.
   </footer>
 
   <script type="module" src="assets/js/home.js"></script>

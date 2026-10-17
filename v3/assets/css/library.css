@@ -774,6 +774,33 @@ h1, h2, h3, .font-display {
   margin-top: 10px;
 }
 
+/* Direct-match box (Section 1 "Learn this in Art GPS"): adds the
+   course name + a one-line blurb above the existing button/where
+   lines. Related-match keeps the plain box -- just the CTA line, no
+   extra padding bump -- so it reads as the smaller card the spec
+   calls for. */
+.lib-smartclass-box-direct { padding: 26px 24px; }
+.lib-smartclass-course {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.lib-smartclass-blurb {
+  font-size: 13.5px;
+  color: var(--text);
+  line-height: 1.55;
+  margin-bottom: 4px;
+}
+.lib-smartclass-box-related { padding: 16px 18px; }
+.lib-smartclass-box-related .lib-smartclass-btn { margin-top: 0; }
+
+/* Resources sub-sections (Learn from the Masters / Watch / Read / Try
+   It Yourself) stacked under one "Resources" heading. */
+.lib-resource-subsection { margin-bottom: 28px; }
+.lib-resource-subsection:last-child { margin-bottom: 0; }
+
 /* Date stamp -- a quiet "CHECKED <MONTH YEAR>" mark near the bottom
    of the topic page, like a librarian's due-date stamp. */
 .lib-date-stamp {

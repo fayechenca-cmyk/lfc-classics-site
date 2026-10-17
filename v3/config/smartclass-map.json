@@ -4,37 +4,44 @@
     "foundation-of-sketch": {
       "title": "Foundation of Sketch",
       "path": "(Skills > Drawing screen)",
-      "where": "Skills → Drawing → Foundation of Sketch"
+      "where": "Skills → Drawing → Foundation of Sketch",
+      "blurb": "A step-by-step classical drawing program: Form & Structure, Still Life & Texture, Light & Shadow, and Portrait & Facial Structure."
     },
     "scene-drawing": {
       "title": "Scene Drawing Foundation",
       "path": "lessons/scene-drawing-foundation/",
-      "where": "Skills → Drawing → Scene Drawing Foundation"
+      "where": "Skills → Drawing → Scene Drawing Foundation",
+      "blurb": "Learn shot composition and scene drawing, from simple framing to full illustrated scenes."
     },
     "color-practice": {
       "title": "Color Practice",
       "path": "color-lab/",
-      "where": "Skills → Color Practice"
+      "where": "Skills → Color Practice",
+      "blurb": "Hands-on color exercises: warm and cool, complementary pairs, and how color creates mood."
     },
     "fashion-design": {
       "title": "Fashion Design",
       "path": "fashion-design/",
-      "where": "Skills → Fashion Design"
+      "where": "Skills → Fashion Design",
+      "blurb": "Build a figure, explore clothing ideas, and design your own fashion look."
     },
     "art-theory": {
       "title": "Art Theory (Western & Chinese Art History)",
       "path": "art-theory/",
-      "where": "Skills → Art Theory"
+      "where": "Skills → Art Theory",
+      "blurb": "A guided journey through art history and major movements, from ancient to modern."
     },
     "cardboard": {
       "title": "RE:MAKE 01 — Cardboard",
       "path": "material-art/cardboard/",
-      "where": "Skills → Material Arts"
+      "where": "Skills → Material Arts",
+      "blurb": "A hands-on project course: build a Gothic-inspired structure from recycled cardboard."
     },
     "leather-craft": {
       "title": "Leather Craft for Beginners",
       "path": "(Skills > Material Arts screen)",
-      "where": "Skills → Material Arts"
+      "where": "Skills → Material Arts",
+      "blurb": "Hands-on leather craft basics for beginners, step by step."
     },
     "ink-painting": {
       "title": "Ink Painting (Ink Animal Studio, Zodiac Brush Technique)",
@@ -44,7 +51,8 @@
     "lfc054": {
       "title": "Illustration Through Surrealism",
       "path": "lessons/lfc054-illustration-surrealism/",
-      "where": "Creation"
+      "where": "Creation",
+      "blurb": "An illustration course inspired by Surrealism and dreamlike imagery."
     },
     "illustration-book": {
       "title": "Make My First Illustration Book",

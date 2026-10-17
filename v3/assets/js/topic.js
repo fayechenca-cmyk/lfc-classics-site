@@ -35,17 +35,16 @@ function renderKeyConcepts(keyConcepts) {
 
 // Optional field (see v3/COMPLIANCE.md's data model note): one quiet
 // line explaining why a topic has no images, shown right above the
-// resource sections. The "icon" is a plain bordered circle with a
-// literal "i" character, not an SVG or icon-library glyph, consistent
-// with "no icon library" -- no license to track, nothing to fetch.
+// resource sub-sections inside Resources (see renderResourcesSection
+// below). The "icon" is a plain bordered circle with a literal "i"
+// character, not an SVG or icon-library glyph, consistent with "no
+// icon library" -- no license to track, nothing to fetch.
 function renderImageNote(topic) {
   if (!topic.imageNote) return '';
   return `
-    <div class="lib-container" style="padding:0 20px 14px;">
-      <div class="lib-image-note">
-        <span class="lib-image-note-icon" aria-hidden="true">i</span>
-        ${escapeHtml(topic.imageNote)}
-      </div>
+    <div class="lib-image-note" style="margin-bottom:18px;">
+      <span class="lib-image-note-icon" aria-hidden="true">i</span>
+      ${escapeHtml(topic.imageNote)}
     </div>
   `;
 }
@@ -81,29 +80,26 @@ function captionLine(r) {
   return [...bits, museumPart].join('. ').replace(/\.\.$/, '.');
 }
 
-function renderImageResources(images) {
+function renderImageResourcesBody(images) {
   if (images.length === 0) return '';
   return `
-    <section class="lib-section lib-container" aria-label="From the collection">
-      <div class="lib-eyebrow" style="margin-bottom:14px;">From the Collection</div>
-      <div class="lib-resource-image-grid">
-        ${images
-          .map(
-            (r) => `
-          <figure class="lib-resource-image-card">
-            <img src="${escapeHtml(r.imageUrl)}" alt="${escapeHtml(r.title || '')}" loading="lazy">
-            <div class="lib-resource-image-body">
-              ${pdTagHtml(r)}
-              <div class="lib-resource-title">${escapeHtml(captionLine(r))}</div>
-              ${r.note ? `<div class="lib-resource-note">${escapeHtml(r.note)}</div>` : ''}
-              ${r.url ? `<a class="lib-resource-view-link" href="${escapeHtml(r.url)}" target="_blank" rel="noopener">View at museum ↗</a>` : ''}
-            </div>
-          </figure>
-        `
-          )
-          .join('')}
-      </div>
-    </section>
+    <div class="lib-resource-image-grid">
+      ${images
+        .map(
+          (r) => `
+        <figure class="lib-resource-image-card">
+          <img src="${escapeHtml(r.imageUrl)}" alt="${escapeHtml(r.title || '')}" loading="lazy">
+          <div class="lib-resource-image-body">
+            ${pdTagHtml(r)}
+            <div class="lib-resource-title">${escapeHtml(captionLine(r))}</div>
+            ${r.note ? `<div class="lib-resource-note">${escapeHtml(r.note)}</div>` : ''}
+            ${r.url ? `<a class="lib-resource-view-link" href="${escapeHtml(r.url)}" target="_blank" rel="noopener">View at museum ↗</a>` : ''}
+          </div>
+        </figure>
+      `
+        )
+        .join('')}
+    </div>
   `;
 }
 
@@ -158,65 +154,133 @@ function renderLinkCard(r) {
   `;
 }
 
-function renderWatchSection(videos) {
+function renderWatchBody(videos) {
   if (videos.length === 0) return '';
-  const body = videos.length >= 2
+  return videos.length >= 2
     ? `<div class="lib-video-grid">${videos.map((r) => renderVideoCard(r, true)).join('')}</div>`
     : videos.map((r) => renderVideoCard(r, false)).join('');
-  return `
-    <section class="lib-section lib-container" aria-label="Watch">
-      <div class="lib-eyebrow" style="margin-bottom:14px;">Watch</div>
-      ${body}
-    </section>
-  `;
 }
 
-function renderReadSection(links) {
+function renderReadBody(links) {
   if (links.length === 0) return '';
-  return `
-    <section class="lib-section lib-container" aria-label="Read">
-      <div class="lib-eyebrow" style="margin-bottom:14px;">Read</div>
-      <div class="lib-resource-list">${links.map(renderLinkCard).join('')}</div>
-    </section>
-  `;
+  return `<div class="lib-resource-list">${links.map(renderLinkCard).join('')}</div>`;
 }
 
-function renderTryIt(tryIt) {
+function renderTryItBody(tryIt) {
   if (!tryIt) return '';
+  return `<div class="lib-try-it">${escapeHtml(tryIt)}</div>`;
+}
+
+// Generic wrapper for one Resources sub-section: an eyebrow label, an
+// optional muted subtitle line, then the body. Returns '' (and is
+// filtered out by renderResourcesSection below) when the body is
+// empty, so a topic with e.g. no videos never shows a bare "Watch"
+// heading with nothing under it.
+function renderResourceSubsection(label, subtitle, bodyHtml) {
+  if (!bodyHtml) return '';
   return `
-    <section class="lib-section lib-container" aria-label="Try it yourself">
-      <div class="lib-eyebrow" style="margin-bottom:12px;">Try It Yourself</div>
-      <div class="lib-try-it">${escapeHtml(tryIt)}</div>
+    <div class="lib-resource-subsection">
+      <div class="lib-eyebrow" style="margin-bottom:${subtitle ? '4px' : '14px'};">${label}</div>
+      ${subtitle ? `<div class="lib-section-sub" style="margin-bottom:14px;">${subtitle}</div>` : ''}
+      ${bodyHtml}
+    </div>
+  `;
+}
+
+// Section 3: one "Resources" heading, then (in order, skipping any
+// that are empty) Learn from the Masters (images), Read (links),
+// Watch (videos), Try It Yourself. Watch is deliberately
+// second-to-last, not second -- videos stay low-key within Resources
+// rather than competing for attention near the top of the page (the
+// original "external videos near the top" complaint this whole
+// restructure exists to fix). The optional "why no images" note
+// (v3/COMPLIANCE.md) sits right above the first sub-section.
+function renderResourcesSection(topic, images, videos, links) {
+  const subsections = [
+    renderResourceSubsection('Learn from the Masters', "Find the masters' artworks as resources.", renderImageResourcesBody(images)),
+    renderResourceSubsection('Read', '', renderReadBody(links)),
+    renderResourceSubsection('Watch', '', renderWatchBody(videos)),
+    renderResourceSubsection('Try It Yourself', '', renderTryItBody(topic.tryIt)),
+  ].filter(Boolean);
+  if (subsections.length === 0) return '';
+  return `
+    <section class="lib-section lib-container" aria-label="Resources">
+      <h2 class="lib-section-title" style="font-size:18px; margin-bottom:18px;">Resources</h2>
+      ${renderImageNote(topic)}
+      ${subsections.join('')}
     </section>
   `;
 }
 
-function renderSmartClassBox(topic, smartclass) {
+// Section 1: the page's main recommendation, shown only when the
+// topic has an Art GPS course (topic.smartClass.key) -- a direct
+// match gets a large card (heading, course name, one-line blurb, the
+// CTA button, and the "After you sign in" line); a related match gets
+// a smaller card, just the one CTA line, same position on the page.
+function renderArtGpsSection(topic, smartclass) {
   if (!topic.smartClass || !topic.smartClass.key) return '';
   const dest = (smartclass.destinations || {})[topic.smartClass.key];
   if (!dest) return '';
-  const label = topic.smartClass.match === 'related'
-    ? `Related Art GPS course: ${escapeHtml(dest.title)} →`
-    : 'Learn this in Art GPS →';
+
+  if (topic.smartClass.match === 'related') {
+    return `
+      <section class="lib-section lib-container" aria-label="Related Art GPS course">
+        <div class="lib-smartclass-box lib-smartclass-box-related">
+          <a class="lib-smartclass-btn" href="${escapeHtml(smartclass.entry)}">Related Art GPS course: ${escapeHtml(dest.title)} →</a>
+        </div>
+      </section>
+    `;
+  }
+
   return `
-    <section class="lib-section lib-container" aria-label="Continue in Art GPS">
-      <div class="lib-smartclass-box">
-        <a class="lib-smartclass-btn" href="${escapeHtml(smartclass.entry)}">${label}</a>
-        <div class="lib-smartclass-where">Art GPS · step-by-step lessons from experienced art teachers</div>
+    <section class="lib-section lib-container" aria-label="Learn this in Art GPS">
+      <h2 class="lib-section-title" style="font-size:18px; margin-bottom:14px;">Learn this in Art GPS</h2>
+      <div class="lib-smartclass-box lib-smartclass-box-direct">
+        <div class="lib-smartclass-course">${escapeHtml(dest.title)}</div>
+        ${dest.blurb ? `<p class="lib-smartclass-blurb">${escapeHtml(dest.blurb)}</p>` : ''}
+        <a class="lib-smartclass-btn" href="${escapeHtml(smartclass.entry)}">Learn this in Art GPS →</a>
         <div class="lib-smartclass-where">After you sign in: ${escapeHtml(dest.where)}</div>
       </div>
     </section>
   `;
 }
 
-function renderRelatedTopics(topic, allTopics, fromHash) {
-  const related = allTopics
-    .filter((t) => !t.hidden && t.id !== topic.id && t.category === topic.category)
-    .slice(0, 4);
+// Resolves topic.relatedTopics (an array of ids) to the actual topic
+// objects, in the curated order, dropping anything hidden or missing.
+function resolveRelatedTopics(topic, allTopics) {
+  const byId = new Map(allTopics.map((t) => [t.id, t]));
+  return (topic.relatedTopics || [])
+    .map((id) => byId.get(id))
+    .filter((t) => t && !t.hidden);
+}
+
+// Section 2: the topic's curated relatedTopics that are FEI TeamArt
+// originals (id starts with "LFC-") -- free, open to everyone, no
+// Art GPS account needed. Topics NOT from this set (DRAW-*, COLOR-*,
+// etc.) show later, in "More to Explore" near the bottom of the page.
+function renderFeiTeamArtSection(topic, allTopics, fromHash) {
+  const related = resolveRelatedTopics(topic, allTopics).filter((t) => t.id.startsWith('LFC-'));
   if (related.length === 0) return '';
   return `
-    <section class="lib-section lib-container" aria-label="Related topics">
-      <h2 class="lib-section-title" style="font-size:16px; margin-bottom:14px;">Related Topics</h2>
+    <section class="lib-section lib-container" aria-label="From FEI TeamArt">
+      <h2 class="lib-section-title" style="font-size:18px; margin-bottom:4px;">From FEI TeamArt</h2>
+      <div class="lib-section-sub" style="margin-bottom:16px;">Free lessons and topics created by our teachers, open to everyone.</div>
+      <div class="lib-grid lib-grid-2">
+        ${related.map((t) => topicCardHtml(t, fromHash)).join('')}
+      </div>
+    </section>
+  `;
+}
+
+// Bottom of page: whatever's left of the topic's curated relatedTopics
+// once the FEI TeamArt originals above have been split out (e.g.
+// DRAW-*, COLOR-* topics).
+function renderMoreToExploreSection(topic, allTopics, fromHash) {
+  const related = resolveRelatedTopics(topic, allTopics).filter((t) => !t.id.startsWith('LFC-'));
+  if (related.length === 0) return '';
+  return `
+    <section class="lib-section lib-container" aria-label="More to explore">
+      <h2 class="lib-section-title" style="font-size:18px; margin-bottom:14px;">More to Explore</h2>
       <div class="lib-grid lib-grid-2">
         ${related.map((t) => topicCardHtml(t, fromHash)).join('')}
       </div>
@@ -262,14 +326,11 @@ async function main() {
       <p class="lib-topic-summary">${escapeHtml(topic.summary)}</p>
     </div>
     ${renderKeyConcepts(topic.keyConcepts)}
-    ${renderImageNote(topic)}
-    ${renderImageResources(images)}
-    ${renderWatchSection(videos)}
-    ${renderReadSection(links)}
-    ${renderTryIt(topic.tryIt)}
-    ${renderSmartClassBox(topic, smartclass)}
-    ${renderRelatedTopics(topic, topics, fromHash)}
+    ${renderArtGpsSection(topic, smartclass)}
+    ${renderFeiTeamArtSection(topic, topics, fromHash)}
+    ${renderResourcesSection(topic, images, videos, links)}
     <section class="lib-section lib-container" id="lib-museum-section" aria-label="From Museum Collections" style="display:none;"></section>
+    ${renderMoreToExploreSection(topic, topics, fromHash)}
     ${dateStampHtml(topic.lastVerified)}
     <div class="lib-container" style="padding:14px 20px 30px;">
       <a class="lib-back-link" href="index.html${fromHash ? '#' + fromHash : ''}">← Back to results</a>

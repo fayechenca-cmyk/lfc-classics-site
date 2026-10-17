@@ -82,6 +82,15 @@ function scoreEntry(entry, queryWords, synonymMap) {
   // hand-curated topic with real verified resources outranks an
   // original courses.json-derived topic on ties/near-ties.
   if (entry.topic.core) total += WEIGHT.title;
+  // Editorially pinned topics (topics.json's `pinned: true`, hand-set
+  // per topic -- not auto-derived like `core` above) get the same
+  // boost, so a topic we've deliberately promoted (e.g. LFC-136,
+  // "Foundation of Sketch") reliably outranks an unrelated topic that
+  // only happens to share a query word, even one that already has its
+  // own core boost. Only ever applies once every query word has
+  // already matched something above, so it never pulls an irrelevant
+  // topic into results it shouldn't be in.
+  if (entry.topic.pinned) total += WEIGHT.title;
   return total;
 }
 
@@ -125,6 +134,13 @@ export function search(index, { query, subject, types, level }, synonyms) {
 
   scored.sort((a, b) => {
     if (b.score !== a.score) return b.score - a.score;
+    // Pinned wins exact ties deterministically (see the pinned boost in
+    // scoreEntry() above) -- checked before state/resource-count so it
+    // doesn't depend on a pinned topic also happening to be state A or
+    // having more resources than its tied competitor.
+    const aPinned = a.topic.pinned ? 1 : 0;
+    const bPinned = b.topic.pinned ? 1 : 0;
+    if (aPinned !== bPinned) return bPinned - aPinned;
     const aState = a.topic.state === 'A' ? 1 : 0;
     const bState = b.topic.state === 'A' ? 1 : 0;
     if (aState !== bState) return bState - aState;

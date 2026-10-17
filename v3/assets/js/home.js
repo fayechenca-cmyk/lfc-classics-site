@@ -186,8 +186,16 @@ function renderCategories(categories, topicsEl) {
 
 function renderFeatured(topicsEl) {
   const el = document.getElementById('lib-featured');
+  // Editorially pinned topics (topics.json's `pinned: true`) always
+  // lead Featured, same priority this field gets in search.js's
+  // ranking -- then the existing most-resources-first order.
   const featured = [...topicsEl]
-    .sort((a, b) => (b.resources || []).length - (a.resources || []).length)
+    .sort((a, b) => {
+      const aPinned = a.pinned ? 1 : 0;
+      const bPinned = b.pinned ? 1 : 0;
+      if (aPinned !== bPinned) return bPinned - aPinned;
+      return (b.resources || []).length - (a.resources || []).length;
+    })
     .slice(0, 6);
   el.innerHTML = featured.map((t) => topicCardHtml(t)).join('');
 }

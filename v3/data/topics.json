@@ -7514,12 +7514,21 @@
   },
   {
     "id": "LFC-136",
-    "title": "Foundation ABCD: Zero to Hero",
+    "title": "Foundation of Sketch",
     "category": "Drawing & Painting",
-    "summary": "Train confident, economical lines: (1) pressure ladder + ghost-then-commit straight/arc lines; (2) one-line contour of a simple object (2 tries); (3) add weight only to load-bearing edges (overlaps, shadow side); (4) annotate a 3-step process strip.",
-    "keyConcepts": [],
-    "tryIt": "",
+    "summary": "A step-by-step classical drawing program that builds strong foundations: from basic forms to still life, light and shadow, and portraits. Beginner friendly.",
+    "keyConcepts": [
+      "Form & Structure",
+      "Still Life & Texture",
+      "Light & Shadow",
+      "Portrait & Facial Structure"
+    ],
+    "tryIt": "Set a cup, a box and a ball under one lamp. Draw their simple shapes first, then shade only three values: light, middle and dark.",
     "keywords": [
+      "sketch basics",
+      "classical drawing",
+      "foundation of drawing",
+      "foundation of sketch",
       "line control",
       "contour",
       "gesture",
@@ -7657,9 +7666,14 @@
         "note": "Basic shapes, negative space, one-line drawing and quick portraits. For all ages."
       }
     ],
-    "relatedTopics": [],
+    "relatedTopics": [
+      "LFC-002",
+      "LFC-003",
+      "LFC-005"
+    ],
     "hidden": false,
-    "lastVerified": "2026-10-15"
+    "lastVerified": "2026-10-15",
+    "pinned": true
   },
   {
     "id": "LFC-137",
@@ -7719,8 +7733,9 @@
     },
     "resources": [],
     "relatedTopics": [],
-    "hidden": false,
-    "lastVerified": "2026-10-15"
+    "hidden": true,
+    "lastVerified": "2026-10-15",
+    "hiddenReason": "Superseded by LFC-136 (Foundation of Sketch) -- this stub had no resources or content."
   },
   {
     "id": "LFC-139",
